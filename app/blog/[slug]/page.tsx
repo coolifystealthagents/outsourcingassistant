@@ -1,9 +1,19 @@
-import { Header, Footer, CTA } from '../../components';
-import { blogPosts, site } from '../../data';
+import { Header, Footer, CTA, JsonLd } from '../../components';
+import { blogPosts, site, sourceNotes } from '../../data';
+
 export function generateStaticParams() { return blogPosts.map((p)=>({ slug: p.slug })); }
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) { const { slug } = await params; const post = blogPosts.find((p)=>p.slug===slug); return { title: post?.title || 'Guide', description: post?.excerpt }; }
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const post = blogPosts.find((p)=>p.slug===slug);
+  return { title: post?.title || 'Guide', description: post?.excerpt, alternates: { canonical: `${site.url}/blog/${slug}` } };
+}
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
  const { slug } = await params;
  const post = blogPosts.find((p)=>p.slug===slug) || blogPosts[0];
- return <><Header/><main className="section"><article className="container" style={{maxWidth:860}}><p className="eyebrow">{site.brand} guide</p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p><div className="card"><h2>The short answer</h2><p>Most teams should start with one clear assistant role, 5 to 10 recurring tasks, and a weekly review scorecard. Do not hand over everything at once.</p><h2>What to prepare first</h2><ul className="list"><li>Task examples and sample replies</li><li>Tool list, logins, and permission levels</li><li>Daily or weekly success metric</li><li>Escalation rules for anything sensitive</li><li>First-week training calls and QA checks</li></ul><h2>Common price ranges</h2><p>Overseas virtual assistants often range from $6 to $18 per hour depending on skill level, country, English fluency, schedule, and management support. Local assistants usually cost more but may fit better for in-person work.</p><h2>Questions to ask a provider</h2><ul className="list"><li>Who screens the assistant?</li><li>Who replaces the assistant if fit is poor?</li><li>How is quality checked each week?</li><li>What happens with passwords and customer data?</li><li>Can we start with a small pilot?</li></ul></div></article><CTA/></main><Footer/></>;
+ const schema = [
+  { '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${site.url}/blog/${post.slug}#article`, headline: post.title, description: post.excerpt, url: `${site.url}/blog/${post.slug}`, publisher: { '@id': `${site.url}/#organization` }, mainEntityOfPage: `${site.url}/blog/${post.slug}`, citation: sourceNotes.map((s)=>s.url), hasPart: post.sections.map((s, i)=>({ '@type': 'WebPageElement', position: i+1, name: s.heading })) },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: post.faqs.map((f)=>({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: site.url }, { '@type': 'ListItem', position: 2, name: 'Blog', item: `${site.url}/blog` }, { '@type': 'ListItem', position: 3, name: post.title, item: `${site.url}/blog/${post.slug}` }] }
+ ];
+ return <><Header/><main className="section"><JsonLd data={schema}/><article className="container article"><p className="eyebrow">{site.brand} guide</p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p><div className="takeaway"><b>Key takeaway:</b> {post.takeaway}</div>{post.sections.map((section)=><section className="card article-block" key={section.heading}><h2>{section.heading}</h2><p>{section.body}</p>{section.bullets ? <ul className="list">{section.bullets.map((b)=><li key={b}>{b}</li>)}</ul> : null}</section>)}<section className="card"><h2>Questions people ask</h2>{post.faqs.map((f)=><div key={f.q} className="faq"><h3>{f.q}</h3><p>{f.a}</p></div>)}</section><section className="card"><h2>Source placeholders</h2><p>Use these as citation starting points before paid traffic or outreach. Do not treat them as custom legal, tax, hiring, or cybersecurity advice.</p><ul className="list">{sourceNotes.map((s)=><li key={s.url}><a href={s.url}>{s.name}</a>: {s.note}</li>)}</ul></section></article><CTA/></main><Footer/></>;
 }

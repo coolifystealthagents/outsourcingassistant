@@ -27,7 +27,18 @@ p { margin:0 0 16px; }
 .stat { border-left:4px solid var(--brand); padding-left:14px; }
 .callout { background:linear-gradient(135deg,var(--brand),var(--accent)); color:white; border-radius:28px; padding:34px; }
 .footer { padding:40px 0; border-top:1px solid var(--line); color:var(--muted); }
+.footer-grid { display:grid; grid-template-columns: 2fr 1fr 1fr; gap:22px; }
+.footer a { display:block; margin:8px 0; color:#344255; font-weight:700; }
 .quote { font-size:20px; font-weight:800; color:#233044; }
 .table { display:grid; gap:10px; }
 .row { display:grid; grid-template-columns: 1fr 1fr 1fr; gap:10px; padding:14px; border:1px solid var(--line); border-radius:16px; background:#fff; }
-@media (max-width: 800px) { .grid,.two,.cards { grid-template-columns:1fr; } .links { display:none; } .row { grid-template-columns:1fr; } }
+.article { max-width:860px; }
+.article-block { margin:18px 0; }
+.takeaway { background:#fff7ed; border:1px solid #fed7aa; border-radius:18px; padding:18px; margin:22px 0; }
+.faq { border-top:1px solid var(--line); padding-top:14px; margin-top:14px; }
+.checklist { display:grid; gap:12px; margin:18px 0; }
+.checklist div { display:grid; grid-template-columns:38px 1fr; gap:12px; align-items:start; background:#fff; border:1px solid var(--line); border-radius:16px; padding:14px; }
+.checklist b { display:grid; place-items:center; width:28px; height:28px; border-radius:999px; background:var(--brand); color:white; }
+.source-note { color:var(--muted); font-size:14px; margin-top:18px; }
+input, textarea, select { width:100%; padding:12px; margin:6px 0 14px; border:1px solid var(--line); border-radius:12px; font:inherit; background:#fff; }
+@media (max-width: 800px) { .grid,.two,.cards,.footer-grid { grid-template-columns:1fr; } .links { display:none; } .row { grid-template-columns:1fr; } }
