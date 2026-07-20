@@ -4,7 +4,7 @@ SEO lead generation site for `outsourcingassistant.com`. Built with Next.js, Doc
 
 ## Placeholder swaps
 
-- Connect `/contact` to CRM/Formspree/Stealth Agents intake.
+- Connect `/contact` to CRM/Formspree/Staffing intake.
 - Add analytics ID.
 - Add real testimonials only after approval.
 - Add legal/privacy pages before paid traffic.
