@@ -1,29 +1,59 @@
-import { Header, Footer, CTA, JsonLd } from './components';
-import { site, roles, industries, stats, blogPosts, checklistSteps, sourceNotes, staffingOffer, leadQuestions, staffingProcess, staffingFitNote, savingsPlan } from './data';
+import * as data from './data';
+import { Header, Footer, JsonLd } from './components';
 
-export default function Home() {
-  const schema = {
-    '@context': 'https://schema.org', '@type': 'WebPage', '@id': `${site.url}/#webpage`, url: site.url, name: 'Outsourcing Assistant hiring guides',
-    description: 'Plan assistant outsourcing with staffing details, SOPs, onboarding, handoffs, and risk controls.',
-    isPartOf: { '@id': `${site.url}/#website` }, publisher: { '@id': `${site.url}/#organization` },
-    mainEntity: { '@type': 'ItemList', itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Staffing details guide', url: `${site.url}/blog/virtual-assistant-planning` },
-      { '@type': 'ListItem', position: 2, name: 'Assistant SOP handoff checklist', url: `${site.url}/resources/assistant-sop-handoff-checklist` },
-      { '@type': 'ListItem', position: 3, name: 'Assistant onboarding checklist', url: `${site.url}/blog/assistant-onboarding-checklist` }
-    ]}
-  };
-  return <><Header/><main><JsonLd data={schema}/>
-    <section className="hero"><div className="container grid"><div><p className="eyebrow">outsourcing assistant</p><h1>Find the right assistant without guessing.</h1><p className="lead">Outsourcing Assistant helps founders and operators plan admin, customer support, sales support, and back-office help in plain English.</p><p>Use this site to compare tasks, staffing choices, risks, SOPs, and first-week handoffs before you speak with a provider.</p><div style={{display:'flex', gap:12, flexWrap:'wrap', marginTop:22}}><a className="btn" href="/contact">Build my assistant plan</a><a className="btn secondary" href="/resources/assistant-sop-handoff-checklist">Get the SOP checklist</a></div></div><div className="hero-visual card"><img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80" alt="Operations team reviewing an assistant handoff plan on laptops"/><div className="visual-panel"><h3>Best first assistant tasks</h3><ul className="list"><li>Inbox sorting and calendar cleanup</li><li>Lead follow-up and CRM updates</li><li>Call answering and appointment setting</li><li>Customer support drafts</li><li>Simple reports, research, and admin</li></ul><p className="quote">“Start small, measure weekly, then add more work.”</p></div></div></div></section>
-    <section className="section" id="services"><div className="container"><p className="eyebrow">Roles</p><h2>Assistant roles people compare most</h2><div className="cards">{roles.map((r)=><div className="card" key={r.name}><h3>{r.name}</h3><p><b>Good tasks:</b> {r.tasks}.</p><p><b>Watch out:</b> {r.risk}.</p><span className="pill">SOP ready</span><span className="pill">Remote friendly</span></div>)}</div></div></section>
-    <section className="section"><div className="container two"><div><p className="eyebrow">SOPs and handoffs</p><h2>Start with a small role the assistant can learn fast.</h2><p>A safe handoff has examples, access limits, review rules, and a short list of work. Do not hand over a messy inbox, full admin access, and vague goals on day one.</p><div className="checklist">{checklistSteps.map((s, i)=><div key={s}><b>{i+1}</b><span>{s}</span></div>)}</div></div><div className="card"><h3>Industry examples</h3>{industries.map((i)=><span className="pill" key={i}>{i}</span>)}<p style={{marginTop:16}}>Every industry still needs the same basics: clear tasks, safe access, customer rules, and owner review for risky decisions.</p></div></div></section>
-    <section className="section"><div className="container"><div className="ops-board"><div><p className="eyebrow">Handoff board</p><h2>Give the assistant a small board, not a giant job description.</h2><p>Most first hires fail because the work is too broad. This board keeps the first week simple: one owner, one task lane, one review time, and one clear stop rule.</p><div className="mini-grid"><div><b>Task lane</b><span>Inbox labels and draft replies</span></div><div><b>Review time</b><span>15 minutes at 3 p.m. daily</span></div><div><b>Stop rule</b><span>Ask before refunds, passwords, or promises</span></div><div><b>Proof</b><span>Updated CRM note plus link to the reply draft</span></div></div><p><a className="btn" href="/resources/assistant-sop-handoff-checklist">Copy the checklist</a></p></div><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1000&q=80" alt="Remote team planning assistant tasks with laptops and checklists"/></div></div></section>
-        <section className="section"><div className="container"><p className="eyebrow">Comparison</p><h2>Three ways to hire assistant support</h2><div className="table"><div className="row"><b>Option</b><b>Best for</b><b>Watch out for</b></div><div className="row"><span>Local employee</span><span>In-person work and sensitive decisions</span><span>Higher plan and slower hiring</span></div><div className="row"><span>Freelance VA</span><span>Small task lists and flexible work</span><span>Training, backup, and QA are on you</span></div><div className="row"><span>Managed VA service</span><span>Recurring support with screening and replacement help</span><span>Ask exactly who manages quality</span></div></div><p style={{marginTop:18}}><a className="btn secondary" href="/blog/virtual-assistant-planning">Read the full staffing details guide</a></p></div></section>
-    <section className="section"><div className="container savings-lab"><div><p className="eyebrow">Cost control</p><h2>Use savings math only after the handoff is clear.</h2><p className="lead">A lower monthly rate does not help if the owner spends every afternoon fixing unclear work. This planning card keeps the math tied to tasks, review time, and risk.</p><div className="savings-steps">{savingsPlan.steps.map((step, i)=><div key={step.title}><b>{i+1}</b><span><strong>{step.title}</strong>{step.copy}</span></div>)}</div><p className="source-line">Sources: {savingsPlan.sources.map((s, i)=><a href={s.url} key={s.name}>{s.name}{i < savingsPlan.sources.length - 1 ? ', ' : ''}</a>)}</p></div><div className="savings-card"><img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1000&q=80" alt="Operator comparing assistant cost, review time, and task handoff notes"/><div className="calc-strip"><span>Monthly role plan</span><b>Tasks + hours + review</b></div><div className="calc-grid">{savingsPlan.metrics.map((m)=><div key={m.label}><span>{m.label}</span><b>{m.value}</b><small>{m.note}</small></div>)}</div><a className="btn" href="/contact">Price my assistant plan</a></div></div></section>
-    <section className="section"><div className="container"><p className="eyebrow">Guides</p><h2>Start with these hiring guides</h2><div className="cards">{blogPosts.slice(0,3).map((p)=><a className="card" href={`/blog/${p.slug}`} key={p.slug}><h3>{p.title}</h3><p>{p.excerpt}</p><span className="pill">{p.minutes} min read</span></a>)}</div></div></section>
+const dataAny = data as any;
+const site = dataAny.site || {};
+const services = (dataAny.services || dataAny.roles || dataAny.industries || []).slice(0, 6);
+const posts = (dataAny.blogPosts || []).slice(0, 4);
+const stats = (dataAny.stats || []).slice(0, 3);
+const process = (dataAny.staffingProcess || dataAny.checklistSteps || []).slice(0, 5);
+const questions = (dataAny.leadQuestions || dataAny.faqs || []).slice(0, 5);
+const compare = (dataAny.compareRows || dataAny.proofCards || dataAny.sourcePlaceholders || []).slice(0, 4);
+const offer = dataAny.staffingOffer || {};
+const getTitle = (item: any, fallback = 'Service') => typeof item === 'string' ? item : (item.title || item.name || item.label || item.question || fallback);
+const getText = (item: any, fallback = 'Clear scope, simple handoff, and a practical staffing plan built around the work.') => typeof item === 'string' ? item : (item.desc || item.body || item.excerpt || item.note || item.answer || fallback);
 
-    <section className="section staffing-offer" id="process"><div className="container two"><div><p className="eyebrow">Managed staffing offer</p><h2>Built to turn this search into a real staffing plan.</h2><p className="lead">{staffingOffer.promise}</p><p>This site is more than a thin directory. It helps you decide what to delegate, what to keep in-house, and how our staffing team can help you build a managed offshore staffing setup with clear roles and quality checks.</p><div className="quote">"Bring the task list. We help shape it into the right remote role before you hire."</div></div><div className="card"><h3>What the lead call should cover</h3><ul className="list">{leadQuestions.map((q)=><li key={q}>{q}</li>)}</ul><a className="btn" href="/contact">Request a staffing plan</a></div></div></section>
-    <section className="section"><div className="container"><p className="eyebrow">What you get help with</p><h2>More than a name on a spreadsheet.</h2><p className="lead">A good offshore staffing offer should help with the role, the person, and the management rhythm after launch.</p><div className="cards">{staffingOffer.included.map((item)=><div className="card" key={item}><h3>{item}</h3><p>Use this as a check before you hire. The goal is simple: remove work from your team without creating a new management mess.</p></div>)}</div></div></section>
-    <section className="section" id="compare"><div className="container"><p className="eyebrow">Staffing workflow</p><h2>A clear path from task list to trained support.</h2><div className="cards">{staffingProcess.map((step)=><div className="card stat" key={step.step}><h3>{step.step}</h3><b>{step.title}</b><p>{step.body}</p></div>)}</div><div className="callout"><b>Custom staffing fit:</b> {staffingFitNote}</div></div></section>
-    <CTA />
+export default function Home(){
+  const schema = { '@context':'https://schema.org', '@type':'WebSite', name: site.brand, url: `https://${site.domain}` };
+  return <><Header/><main>
+    <JsonLd data={schema}/>
+    <section className="hero-shell">
+      <div className="hero-kicker"><span>{site.badge || 'Staffing guide'}</span><span>{site.domain}</span></div>
+      <div className="hero-grid">
+        <div className="hero-copy">
+          <p className="eyebrow">Assistant workflow studio</p>
+          <h1>Outsourcing Assistant built as a delegation studio.</h1>
+          <p className="lead">A redesigned outsourcing assistant guide for founders and operators outsourcing admin, customer support, sales support, and back-office work. The page now uses a distinct friendly illustrated brand layout, industry-specific planning sections, and a conversion path that feels made for this niche.</p>
+          <div className="hero-actions"><a className="btn primary" href="/contact">Request staffing plan</a><a className="btn secondary" href="#services">Explore the plan</a></div>
+        </div>
+        <figure className="hero-media"><img src={site.heroImage || site.serviceImage} alt={site.alt || `${site.brand} planning visual`}/><figcaption>soft blobs and workflow cards</figcaption></figure>
+      </div>
+    </section>
+
+    <section className="selector-board"><div><p className="eyebrow">Start here</p><h2>Pick the workstream before picking the person.</h2></div>{services.slice(0,4).map((item:any, idx:number)=><button key={idx}><span>{String(idx+1).padStart(2,'0')}</span>{getTitle(item)}</button>)}</section>
+    <section className="image-break"><img src={site.serviceImage || site.heroImage} alt={site.alt || ''}/><div><h2>Built around the daily handoff.</h2><p>{site.angle || 'The site is organized around scopes, tools, review habits, and launch decisions.'}</p></div></section>
+    <section className="proof-stack">{stats.map((s:any, idx:number)=><article key={idx}><strong>{s.value || 'Plan'}</strong><span>{s.label || 'Planning signal'}</span><p>{s.note || 'Confirm this during role scoping.'}</p></article>)}</section>
+
+    <section className="service-index" id="services">
+      <div className="section-label"><span>Service index</span><b>{String(services.length).padStart(2,'0')}</b></div>
+      <div className="index-list">{services.map((item:any, idx:number)=><a className="index-row" href={`/services/${item.slug || String(getTitle(item)).toLowerCase().replace(/[^a-z0-9]+/g,'-')}`} key={idx}><span>{String(idx+1).padStart(2,'0')}</span><strong>{getTitle(item)}</strong><em>{getText(item)}</em></a>)}</div>
+    </section>
+
+    <section className="process-ribbon" id="process">
+      <div><p className="eyebrow">Operating rhythm</p><h2>Turn the scope into a managed handoff.</h2></div>
+      <div className="timeline">{process.map((item:any, idx:number)=><article key={idx}><span>{String(idx+1).padStart(2,'0')}</span><h3>{getTitle(item, `Step ${idx+1}`)}</h3><p>{getText(item)}</p></article>)}</div>
+    </section>
+
+    <section className="question-block">
+      <div className="question-intro"><p className="eyebrow">Before you request help</p><h2>Answer these before the first match.</h2><p>{dataAny.staffingFitNote || 'The best plan depends on scope, tools, schedule, skills, and the way quality will be checked.'}</p></div>
+      <ul>{questions.map((q:any, idx:number)=><li key={idx}><span>{idx+1}</span>{getTitle(q, String(q))}</li>)}</ul>
+    </section>
+
+    <section className="resource-strip">
+      <div><p className="eyebrow">Resource library</p><h2>Read the guides before you scale.</h2></div>
+      <div className="resource-grid">{posts.map((post:any, idx:number)=><a href={`/blog/${post.slug || '#'}`} key={idx}><span>{post.minutes || 7} min</span><strong>{getTitle(post)}</strong><p>{getText(post)}</p></a>)}</div>
+    </section>
+
+    <section className="final-cta"><p className="eyebrow">Next step</p><h2>Send the role details and get the plan.</h2><p>{offer.promise || 'Share the work you want off your plate and get a practical staffing plan.'}</p><a className="btn primary" href="/contact">Request staffing plan</a></section>
   </main><Footer/></>;
 }
