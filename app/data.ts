@@ -130,7 +130,7 @@ export const blogPosts: BlogPost[] = [
 
 export const navPages = [
   { href: '/', label: 'Home' },
-  { href: '/staffing details', label: 'Staffing details' },
+  { href: '/blog/virtual-assistant-planning', label: 'Staffing details' },
   { href: '/resources/assistant-sop-handoff-checklist', label: 'SOP checklist' },
   { href: '/blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' }
@@ -174,3 +174,21 @@ export const staffingProcess = [
 ] as const;
 
 export const staffingFitNote = 'Every staffing plan depends on role scope, schedule, skills, tools, and management needs. Send the role details and Stealth Agents can guide the best fit.';
+
+export const savingsPlan = {
+  steps: [
+    { title: 'Write the work first. ', copy: 'List the tasks, tools, hours, and owner review time before you compare quotes.' },
+    { title: 'Price the management load. ', copy: 'A cheap assistant can still be expensive if the owner spends hours fixing work.' },
+    { title: 'Keep a safety lane. ', copy: 'Passwords, refunds, payments, legal wording, and medical details need approval rules.' },
+  ],
+  metrics: [
+    { label: 'Pilot scope', value: '5-10 tasks', note: 'enough work to test fit without flooding the assistant' },
+    { label: 'Review block', value: '15 min/day', note: 'simple daily check during the first week' },
+    { label: 'Ramp window', value: '7-21 days', note: 'when SOPs and tool access are ready' },
+  ],
+  sources: [
+    { name: 'BLS admin support', url: 'https://www.bls.gov/ooh/office-and-administrative-support/home.htm' },
+    { name: 'NIST access control', url: 'https://www.nist.gov/cyberframework' },
+    { name: 'SBA hiring guide', url: 'https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees' },
+  ],
+} as const;
