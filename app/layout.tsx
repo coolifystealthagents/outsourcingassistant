@@ -5,7 +5,7 @@ import { site } from './data';
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: 'Outsourcing Assistant | Simple virtual assistant hiring guides', template: '%s | Outsourcing Assistant' },
-  description: 'Simple, practical guides for pricing, SOPs, handoffs, onboarding, risk controls, and managing outsourcing assistant support.',
+  description: 'Simple, practical guides for staffing details, SOPs, handoffs, onboarding, risk controls, and managing outsourcing assistant support.',
   alternates: { canonical: site.url },
   openGraph: { title: 'Outsourcing Assistant', description: 'Practical virtual assistant hiring guides for busy teams.', url: site.url, siteName: 'Outsourcing Assistant', type: 'website' },
 };
