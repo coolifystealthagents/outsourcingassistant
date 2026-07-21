@@ -1,30 +1,187 @@
-import * as data from './data';
-import { Header, Footer, JsonLd } from './components';
-const d=data as any;
-const site=d.site||{};
-const services=(d.services||d.roles||d.industries||[]).slice(0,4);
-const posts=(d.blogPosts||[]).slice(0,3);
-const stats=(d.stats||[]).slice(0,3);
-const offer=d.staffingOffer||{};
-const pretty=(v:any)=>String(v||'virtual assistant support').replace(/\b\w/g,(m)=>m.toUpperCase());
-const title=(x:any)=>typeof x==='string'?x:(x.title||x.name||x.label||x.question||'Assistant role');
-const text=(x:any)=>typeof x==='string'?x:(x.desc||x.excerpt||x.note||x.body||(x.bestFor?`Best for ${x.bestFor.join(', ')}`:'Clear tasks, safe access, and review rules.'));
-const slug=(x:any)=>(x.slug||title(x).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''));
-const primary=site.primary||site.brand||'virtual assistant support';
-const rolePhrase=String(primary).toLowerCase()
-  .replace(/^best\s+/,'')
-  .replace(/(company|companies|services|service|provider|providers)/g,'')
-  .replace(/(outsource|outsourced|outsourcing|offshore|overseas)/g,'')
-  .replace(/\s+/g,' ')
-  .trim() || 'business support';
-const roleLabel=pretty(rolePhrase.includes('assistant')?rolePhrase:`${rolePhrase} support`).replace(/\bVa\b/g,'VA');
-const domain=site.domain||site.brand||'Staffing Guide';
-const heroImage=site.heroImage||site.serviceImage||'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80';
-const tagline=site.angle||site.audience||'managed hiring support with clear scope, safe access, onboarding, and quality checks';
-export default function Home(){const schema={'@context':'https://schema.org','@type':'WebSite',name:site.brand,url:`https://${domain}`};return <><Header/><main className="belay"><JsonLd data={schema}/>
-<section className="hero"><div className="container hero-grid"><div className="copy"><p className="eyebrow">Premium staffing match</p><h1>Hire managed {roleLabel} without screening alone.</h1><p className="lead">Get clear communicators, business-hour coverage, and a managed launch plan for {tagline}.</p><div className="actions"><a className="btn primary" href="/contact">Request staffing plan</a><a className="btn secondary" href="#tasks">Get task ideas</a></div><p className="risk">No public rate card. Share the role first, then get a practical scope.</p></div><div className="match-card"><div className="portrait-wrap"><img src={heroImage} alt={site.alt||`${site.brand||roleLabel} managed staffing visual`}/><span className="badge">Top-fit match</span></div><div className="task-note note-a"><b>Daily handoff</b><span>clear owner brief</span></div><div className="task-note note-b"><b>Quality checks</b><span>work reviewed weekly</span></div><div className="task-note note-c"><b>21-day launch</b><span>scope → shadow → live QA</span></div></div></div><div className="container proof-bar"><span>Right role before right hire</span>{stats.length?stats.map((s:any,i:number)=><b key={i}>{s.value||s.label}</b>):['Scope first','7-21 days','5-10 tasks'].map((x,i)=><b key={i}>{x}</b>)}</div></section>
-<section className="container section" id="tasks"><div className="split-head"><div><p className="eyebrow">Task ideas</p><h2>Start with work that repeats every week.</h2></div><p>Inspired by premium VA and outsourcing competitors: make the hire feel human, specific, and low risk before the contact form.</p></div><div className="task-grid">{services.map((s:any,i:number)=><a key={i} href={`/services/${slug(s)}`}><span>{String(i+1).padStart(2,'0')}</span><h3>{title(s)}</h3><p>{text(s)}</p><b>See handoff →</b></a>)}</div></section>
-<section className="relationship"><div className="container rel-grid"><div><p className="eyebrow">Managed, not marketplace</p><h2>Your staffing plan should come with backup, onboarding, and quality checks.</h2></div><div className="rel-list">{(offer.included||['role planning call','candidate matching','onboarding guidance','managed support']).slice(0,4).map((x:string,i:number)=><article key={i}><span>✓</span><p>{x}</p></article>)}</div></div></section>
-<section className="container section guide-row"><div><p className="eyebrow">Before you hire</p><h2>Short guides for safer staffing decisions.</h2></div>{posts.map((p:any,i:number)=><a href={`/blog/${p.slug}`} key={i}><span>{p.minutes||7} min</span><strong>{title(p)}</strong><p>{text(p)}</p></a>)}</section>
-<section className="container final"><h2>Request the staffing plan before you interview.</h2><a className="btn primary" href="/contact">Request staffing plan</a></section>
-</main><Footer/></>}
+import { blogPosts, roles, site, staffingOffer, staffingProcess } from './data';
+import { Footer, Header, JsonLd } from './components';
+
+const roleIcons = ['↗', '⌁', '◎', '▦', '≋', '◇'];
+
+const slugify = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+
+export default function Home() {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${site.url}/#webpage`,
+    name: 'Outsourcing assistant staffing and handoff planning',
+    description: 'Plan a clear assistant role, safe handoff, access rules, and first-week review before you hire.',
+    url: site.url,
+    isPartOf: { '@id': `${site.url}/#website` },
+    about: { '@id': `${site.url}/#organization` },
+  };
+
+  return (
+    <>
+      <Header />
+      <main className="oa-home" data-design="delegation-desk-2026">
+        <JsonLd data={schema} />
+
+        <section className="oa-hero">
+          <div className="oa-orbit oa-orbit-one" />
+          <div className="oa-orbit oa-orbit-two" />
+          <div className="container oa-hero-grid">
+            <div className="oa-hero-copy">
+              <p className="oa-kicker"><span /> Outsourcing, with an owner&apos;s eye</p>
+              <h1>Get the work off your plate. Keep control of the outcome.</h1>
+              <p className="oa-hero-lead">Tell us what keeps landing back on your desk. We&apos;ll help shape it into a clear assistant role, then map the handoff, access rules, and first weeks of review.</p>
+              <div className="oa-actions">
+                <a className="oa-button oa-button-coral" href="/contact">Request staffing plan <span>↗</span></a>
+                <a className="oa-text-link" href="#role-board">See what to delegate <span>↓</span></a>
+              </div>
+              <div className="oa-hero-notes" aria-label="Staffing approach">
+                <div><strong>Scope before search</strong><span>Start with the work, not a generic job title.</span></div>
+                <div><strong>Guardrails from day one</strong><span>Decide who can approve, send, refund, or change access.</span></div>
+              </div>
+            </div>
+
+            <div className="oa-visual" aria-label="Assistant handoff planning example">
+              <div className="oa-image-frame">
+                <img src="/assistant-collaboration.jpg" alt="A small business team reviewing work together at a table" />
+                <span className="oa-image-label">A role built around your week</span>
+              </div>
+              <div className="oa-desk-card">
+                <div className="oa-desk-head">
+                  <div><span className="oa-status-dot" /> Handoff board</div>
+                  <b>Week 01</b>
+                </div>
+                <div className="oa-desk-row"><span className="oa-check">✓</span><p><b>Inbox triage</b><small>Draft first. Owner sends.</small></p><em>Daily</em></div>
+                <div className="oa-desk-row"><span className="oa-check">✓</span><p><b>CRM follow-up</b><small>Use approved notes and fields.</small></p><em>3× wk</em></div>
+                <div className="oa-desk-row"><span className="oa-lock">⌁</span><p><b>Refund requests</b><small>Prepare details. Manager approves.</small></p><em>Review</em></div>
+                <div className="oa-desk-foot"><span>5 tasks scoped</span><span>15 min review block</span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="oa-signal-strip" aria-label="Planning guidance">
+          <div className="container oa-signal-grid">
+            <p><span>Planning guidance</span> A sensible first handoff is small enough to review.</p>
+            <div><strong>5–10</strong><span>recurring tasks</span></div>
+            <div><strong>7–21</strong><span>days to ramp*</span></div>
+            <div><strong>1</strong><span>named reviewer</span></div>
+          </div>
+          <p className="oa-guidance-note container">*A planning range, not a promised result. Timing depends on scope, tools, access, and how ready the examples are.</p>
+        </section>
+
+        <section className="container oa-section" id="role-board">
+          <div className="oa-section-intro">
+            <p className="oa-kicker oa-kicker-dark"><span /> The role board</p>
+            <h2>The work is real. The role should be too.</h2>
+            <p>"Help with admin" is where messy hires begin. Name the queue, the tools, and the decisions that stay with you.</p>
+          </div>
+          <div className="oa-role-grid">
+            {roles.map((role, index) => (
+              <a className="oa-role-card" href={`/contact?role=${slugify(role.name)}`} key={role.name}>
+                <span className="oa-role-icon">{roleIcons[index]}</span>
+                <span className="oa-role-num">0{index + 1}</span>
+                <h3>{role.name}</h3>
+                <p>{role.tasks}.</p>
+                <div><small>Keep an eye on</small><strong>{role.risk}</strong></div>
+                <b className="oa-card-link">Open role guide ↗</b>
+              </a>
+            ))}
+          </div>
+        </section>
+
+        <section className="oa-control-section">
+          <div className="container oa-control-grid">
+            <div className="oa-control-copy">
+              <p className="oa-kicker"><span /> The delegation desk</p>
+              <h2>A handoff you can check at a glance.</h2>
+              <p>Good delegation is pleasantly boring. The task has an owner, the assistant knows the limit, and someone reviews the first attempts before the work runs on its own.</p>
+              <a className="oa-button oa-button-lime" href="/resources/assistant-sop-handoff-checklist">Use the handoff checklist <span>↗</span></a>
+            </div>
+            <div className="oa-control-board">
+              <div className="oa-control-top"><b>Operations / assistant lane</b><span>Owner review: Fridays</span></div>
+              <div className="oa-lane-labels"><span>Work queue</span><span>Access</span><span>Done when</span></div>
+              <div className="oa-control-row"><p><b>Customer replies</b><small>Use saved answers for common questions</small></p><span className="oa-pill">Draft only</span><em>Inbox at zero</em></div>
+              <div className="oa-control-row"><p><b>Lead follow-up</b><small>Update status after each approved message</small></p><span className="oa-pill oa-pill-green">CRM edit</span><em>Next step set</em></div>
+              <div className="oa-control-row"><p><b>Weekly report</b><small>Flag missing numbers instead of filling gaps</small></p><span className="oa-pill">View only</span><em>Sources linked</em></div>
+              <div className="oa-control-bottom"><span><i /> Clear to run</span><span><i /> Needs approval</span><span><i /> Owner only</span></div>
+            </div>
+          </div>
+        </section>
+
+        <section className="container oa-section oa-process-section">
+          <div className="oa-section-intro oa-process-intro">
+            <p className="oa-kicker oa-kicker-dark"><span /> How the plan comes together</p>
+            <h2>Start narrow. Learn fast. Add the next queue.</h2>
+          </div>
+          <div className="oa-process-grid">
+            {staffingProcess.map((item, index) => (
+              <article key={item.step}>
+                <div><span>{item.step.padStart(2, '0')}</span>{index < staffingProcess.length - 1 && <i />}</div>
+                <h3>{item.title}</h3>
+                <p>{item.body.replace(/^our staffing team/, 'The staffing team')}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="oa-fit-section">
+          <div className="container oa-fit-grid">
+            <div className="oa-fit-title">
+              <p className="oa-kicker"><span /> A quick fit check</p>
+              <h2>Managed support makes sense when the work repeats, but management time is tight.</h2>
+            </div>
+            <div className="oa-fit-cards">
+              <article className="oa-fit-card oa-fit-yes">
+                <span>Likely a fit</span>
+                <ul>
+                  {staffingOffer.fit.slice(0, 3).map((item) => <li key={item}>{item}</li>)}
+                </ul>
+              </article>
+              <article className="oa-fit-card oa-fit-wait">
+                <span>Keep it with your team for now</span>
+                <ul>
+                  <li>The work changes every hour and nobody can explain the decision rules.</li>
+                  <li>The role owns payments, legal advice, medical decisions, or final customer promises.</li>
+                  <li>You need a local employee, team leader, or in-person operator.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section className="container oa-section oa-guides">
+          <div className="oa-guides-head">
+            <div>
+              <p className="oa-kicker oa-kicker-dark"><span /> Field notes</p>
+              <h2>Read these before you hand over a login.</h2>
+            </div>
+            <a href="/blog">Browse all guides ↗</a>
+          </div>
+          <div className="oa-guide-grid">
+            {blogPosts.slice(0, 3).map((post, index) => (
+              <a href={`/blog/${post.slug}`} key={post.slug}>
+                <span>{String(index + 1).padStart(2, '0')} / {post.minutes} min</span>
+                <h3>{post.title}</h3>
+                <p>{post.excerpt}</p>
+                <b>Read guide ↗</b>
+              </a>
+            ))}
+          </div>
+        </section>
+
+        <section className="container oa-closing">
+          <div>
+            <p className="oa-kicker"><span /> Your next move</p>
+            <h2>Bring the messy task list. Leave with a role someone can actually own.</h2>
+          </div>
+          <div>
+            <p>Share the work, schedule, tools, and sticking points. The staffing team will turn it into a practical scope for review.</p>
+            <a className="oa-button oa-button-coral" href="/contact">Request a staffing plan <span>↗</span></a>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
+}
