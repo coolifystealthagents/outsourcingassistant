@@ -4,8 +4,8 @@ export const site = {
   slug: 'outsourcingassistant',
   brand: 'Outsourcing Assistant',
   primary: 'outsourcing assistant',
-  audience: 'founders and operators outsourcing admin, customer support, sales support, and back-office work',
-  angle: 'how to safely outsource assistant work with SOPs, handoffs, and owner review',
+  audience: 'founders and operators hiring Filipino talent for admin, customer support, sales support, and back-office work',
+  angle: 'how to hand off assistant work to Filipino talent with clear SOPs, access limits, and owner review',
   color: '#ea580c',
   accent: '#155e75'
 } as const;
@@ -24,7 +24,7 @@ export const industries = ['real estate', 'healthcare offices', 'legal teams', '
 export const stats = [
   { label: 'Role clarity', value: 'Scope first', note: 'the right plan depends on tasks, schedule, skill, tools, and management needs' },
   { label: 'Common ramp time', value: '7-21 days', note: 'Small roles can start faster when examples, tool access, and review rules are ready before day one.' },
-  { label: 'Best first handoff', value: '5-10 tasks', note: 'A focused recurring task list is easier to train and measure than a vague “do everything” assistant role.' },
+  { label: 'Best first handoff', value: '5-10 tasks', note: 'A focused recurring task list is easier to train and measure than a vague "do everything" assistant role.' },
 ];
 
 export const sourceNotes = [
@@ -56,19 +56,19 @@ export type BlogPost = {
 export const blogPosts: BlogPost[] = [
   {
     slug: 'virtual-assistant-planning',
-    title: 'How much does a virtual assistant plan?',
-    excerpt: 'A plain guide to role scope, staffing models, and launch planning.',
+    title: 'How should you plan a virtual assistant role?',
+    excerpt: 'A plain guide to scoping a role for Filipino talent and preparing the handoff.',
     minutes: 7,
-    takeaway: 'Plan the role before you compare staffing choices. A cheap assistant with no checklist can create more work than a higher-rate assistant with clear work and review rules.',
+    takeaway: 'Plan the role before you compare staffing choices. An assistant without a clear checklist can create more work, even when the task list looks simple.',
     sections: [
-      { heading: 'The short answer', body: 'Many overseas virtual assistants are pland around custom role planfor the role. Local assistants often create more work. Managed services may add a fee because they help with screening, backup, and quality checks. The best number depends on the work, schedule, tools, and risk.' },
-      { heading: 'What changes the plan', body: 'Simple admin work usually planning less than customer support, sales support, bookkeeping prep, or bilingual coverage. A role that needs night coverage, strong writing, or special software will usually create more work.', bullets: ['Skill level and English writing needs', 'Time zone and weekend coverage', 'Whether a manager reviews the work', 'Tool training and security limits', 'Full-time hours versus a small part-time block'] },
-      { heading: 'A safer way to budget', body: 'Start with the number of hours you can truly review. If you only have time to review five tasks a day, do not buy forty hours of open-ended help. Start smaller, prove the handoff, then add more hours.' },
-      { heading: 'Questions to ask before you accept a quote', body: 'Ask what is included in the rate. Some quotes include recruiting and backup help. Others only give you the worker. Ask who trains the assistant, who checks quality, how replacement works, and what happens if the task list changes.' }
+      { heading: 'Start with the work', body: 'A useful staffing plan names the tasks, schedule, tools, and decisions that stay with the owner. Filipino talent can support many kinds of desk-based work, but a narrow role is easier to teach and review than a catch-all job description.' },
+      { heading: 'What changes the plan', body: 'Simple admin work needs a different handoff from customer support, sales support, or bookkeeping prep. Writing standards, schedule coverage, software, and manager availability all shape the role.', bullets: ['Required skills and writing standards', 'Schedule and weekend coverage', 'Who reviews early work', 'Tool training and access limits', 'A full schedule or a smaller block of recurring work'] },
+      { heading: 'Match scope to review time', body: 'Start with the amount of work you can honestly review. If you can check five tasks a day, do not hand over a sprawling queue on day one. Prove the handoff first, then add more.' },
+      { heading: 'Questions for a staffing partner', body: 'Ask who screens the Filipino talent, who helps with onboarding, and how quality concerns are handled. You should also know what happens if the task list changes or the first match does not work out.' }
     ],
     faqs: [
-      { q: 'Is a virtual assistant cheaper than an employee?', a: 'Often yes for remote admin support, but plan is not the only issue. You still need training, review, and data controls.' },
-      { q: 'Should I pay public or monthly?', a: 'Hourly is good for testing. Monthly is better when the task list and schedule are stable.' },
+      { q: 'Is a virtual assistant the same as an employee?', a: 'No. The working arrangement, responsibilities, and management model can differ. Ask the staffing partner to explain the setup before you proceed.' },
+      { q: 'Should the role start small?', a: 'Usually. A short list of recurring tasks gives you time to test the handoff, access rules, and review process.' },
       { q: 'What should I not outsource first?', a: 'Do not start with refunds, payments, legal advice, medical decisions, or anything that needs owner judgment.' }
     ]
   },
@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
     takeaway: 'Use a virtual assistant for clear remote support. Hire an employee when the job needs local presence, deeper judgment, or long-term internal ownership.',
     sections: [
       { heading: 'When a virtual assistant fits', body: 'A VA is useful when the work can be done online, taught with examples, and checked with a weekly scorecard. Admin, support drafts, scheduling, CRM updates, and research often fit well.' },
-      { heading: 'When an employee fits better', body: 'An employee may be better for in-person work, confidential decisions, leadership, deep customer relationships, or work that changes every hour. If the person must own outcomes without close review, do not force it into a low-plan VA role.' },
+      { heading: 'When an employee fits better', body: 'An employee may be better for in-person work, confidential decisions, leadership, deep customer relationships, or work that changes every hour. If the person must own outcomes without close review, do not squeeze the job into a narrow assistant role.' },
       { heading: 'Managed service versus direct freelancer', body: 'A freelancer can be flexible and affordable. A managed service can help with screening, backup, and replacement. The right choice depends on how much time you have to train and manage.' },
       { heading: 'Simple decision test', body: 'If the task can be explained in a checklist and reviewed in five minutes, test a VA. If the task needs judgment, money approval, or hard customer calls, keep it with an employee or manager.' }
     ],
@@ -137,10 +137,10 @@ export const navPages = [
 ] as const;
 
 export const staffingOffer = {
-  partner: 'our staffing team',
-  promise: 'Get a managed offshore staffing plan built around the work you need removed from your plate.',
+  partner: 'a Philippines-focused staffing partner',
+  promise: 'Get a managed staffing plan for Filipino talent, built around the work you need removed from your plate.',
   fit: [
-    'business owners who need reliable remote staff but do not want to screen alone',
+    'business owners who want Filipino talent but do not want to screen alone',
     'teams that want trained support, backup coverage, and a clear manager path',
     'companies that need help with admin, operations, customer support, calls, bookkeeping, development, or marketing work',
   ],
@@ -167,28 +167,10 @@ export const leadQuestions = [
 ] as const;
 
 export const staffingProcess = [
-  { step: '1', title: 'Map the role', body: 'We turn messy tasks into one clear role with outcomes, tools, limits, and a first-week checklist.' },
-  { step: '2', title: 'Match the staff', body: 'our staffing team can help match remote staff to the work, schedule, communication style, and skill level you need.' },
+  { step: '1', title: 'Map the role', body: 'Your inquiry starts with one clear role: outcomes, tools, limits, and a first-week checklist.' },
+  { step: '2', title: 'Match the staff', body: 'A Philippines-focused staffing partner can match Filipino talent to the work, schedule, communication style, and skill level you need.' },
   { step: '3', title: 'Launch with control', body: 'Start with SOPs, sample work, limited access, daily review, and a simple scorecard so quality is easy to see.' },
   { step: '4', title: 'Scale what works', body: 'Once the first tasks are stable, add more work, better reporting, and stronger delegation without guessing.' },
 ] as const;
 
-export const staffingFitNote = 'Every staffing plan depends on role scope, schedule, skills, tools, and management needs. Send the role details and our staffing team can guide the best fit.';
-
-export const savingsPlan = {
-  steps: [
-    { title: 'Write the work first. ', copy: 'List the tasks, tools, hours, and owner review time before you compare quotes.' },
-    { title: 'Price the management load. ', copy: 'A cheap assistant can still be expensive if the owner spends hours fixing work.' },
-    { title: 'Keep a safety lane. ', copy: 'Passwords, refunds, payments, legal wording, and medical details need approval rules.' },
-  ],
-  metrics: [
-    { label: 'Pilot scope', value: '5-10 tasks', note: 'enough work to test fit without flooding the assistant' },
-    { label: 'Review block', value: '15 min/day', note: 'simple daily check during the first week' },
-    { label: 'Ramp window', value: '7-21 days', note: 'when SOPs and tool access are ready' },
-  ],
-  sources: [
-    { name: 'BLS admin support', url: 'https://www.bls.gov/ooh/office-and-administrative-support/home.htm' },
-    { name: 'NIST access control', url: 'https://www.nist.gov/cyberframework' },
-    { name: 'SBA hiring guide', url: 'https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees' },
-  ],
-} as const;
+export const staffingFitNote = 'Every staffing plan depends on role scope, schedule, skills, tools, and management needs. Send the details and a Philippines-focused staffing partner can review the fit.';

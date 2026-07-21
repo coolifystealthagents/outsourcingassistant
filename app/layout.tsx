@@ -4,10 +4,10 @@ import { site } from './data';
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: 'Outsourcing Assistant | Simple virtual assistant hiring guides', template: '%s | Outsourcing Assistant' },
-  description: 'Simple, practical guides for staffing details, SOPs, handoffs, onboarding, risk controls, and managing outsourcing assistant support.',
+  title: { default: 'Outsourcing Assistant | Hire Filipino talent with a clear plan', template: '%s | Outsourcing Assistant' },
+  description: 'Plan a well-scoped role for Filipino talent, with clear SOPs, access limits, onboarding steps, and owner review.',
   alternates: { canonical: site.url },
-  openGraph: { title: 'Outsourcing Assistant', description: 'Practical virtual assistant hiring guides for busy teams.', url: site.url, siteName: 'Outsourcing Assistant', type: 'website' },
+  openGraph: { title: 'Outsourcing Assistant', description: 'Practical role and handoff planning for teams hiring Filipino talent.', url: site.url, siteName: 'Outsourcing Assistant', type: 'website' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
