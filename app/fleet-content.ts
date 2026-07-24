@@ -2,22 +2,24 @@ export const fleetServices = [
   {
     "slug": "executive-calendar-management",
     "title": "Executive Calendar Management",
-    "summary": "Executive Calendar Management delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
+    "summary": "A Filipino executive assistant can prepare calendar updates, protect focus blocks, and flag conflicts before anything changes. The executive or a named manager keeps final control of priorities, sensitive meetings, and declined requests.",
+    "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
+    "imageAlt": "A bright meeting room with a table prepared for an executive planning session",
     "tasks": [
-      "executive calendar management queue preparation",
-      "source-record checks and updates",
-      "exception logging for manager review",
-      "daily handoff notes and follow-up"
+      "Review new meeting requests against working hours, focus blocks, and travel time",
+      "Draft calendar updates with the right title, guests, links, notes, and time zone",
+      "Prepare a short conflict list for the executive or manager to decide",
+      "Send approved reminders and keep a daily note of open scheduling questions"
     ],
     "controls": [
-      "Named owner for approvals and exceptions",
-      "Role-based access to required tools",
-      "Sample review before the work lane expands"
+      "Use delegated calendar access instead of sharing the executive's password",
+      "Keep board, legal, medical, investor, and personal meetings private unless access is approved",
+      "Require owner approval before declining requests, moving priority meetings, or promising availability"
     ],
     "launch": [
-      "Share current examples and source records",
-      "Document the finish line and escalation rule",
-      "Review the first work batch together"
+      "Share the current calendar, preferred meeting hours, focus blocks, and three examples of a good invite",
+      "Have the assistant prepare changes in a review list without moving or declining meetings",
+      "Review conflicts together, approve the safe changes, and write down every new exception rule"
     ]
   },
   {
