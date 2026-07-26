@@ -42,7 +42,22 @@ export const checklistSteps = [
   'Keep owner approval for anything risky until trust is proven.'
 ] as const;
 
-export type BlogSection = { heading: string; body: string; bullets?: string[] };
+export type BlogSection = { heading: string; body: string; paragraphs?: string[]; bullets?: string[] };
+export type ArticleSource = { name: string; url: string; note: string };
+export type ArticleBanner = { eyebrow: string; title: string; body: string; href: string; label: string };
+export type RichArticle = {
+  published: string;
+  updated: string;
+  marker: string;
+  stats: { value: string; label: string; detail: string; sourceUrl: string }[];
+  table: { caption: string; headers: string[]; rows: string[][] };
+  quote: { text: string; person: string; title: string; sourceUrl: string };
+  chart: { title: string; description: string; method: string; rows: { label: string; value: number; display: string }[] };
+  graphic: { title: string; description: string; steps: { label: string; detail: string }[] };
+  internalLinks: { href: string; label: string; note: string }[];
+  banners: ArticleBanner[];
+  sources: ArticleSource[];
+};
 export type BlogPost = {
   slug: string;
   title: string;
@@ -51,9 +66,154 @@ export type BlogPost = {
   takeaway: string;
   sections: BlogSection[];
   faqs: { q: string; a: string }[];
+  rich?: RichArticle;
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'secure-onboarding-filipino-virtual-assistant',
+    title: 'Secure onboarding for a Filipino virtual assistant',
+    excerpt: 'A practical plan for giving a Filipino virtual assistant the access needed to work without handing over every account on day one. It covers task scope, login rules, approval lines, review, and a clean exit plan.',
+    minutes: 13,
+    takeaway: 'A secure handoff is not a pile of passwords. Give the assistant a narrow work lane, a separate account, clear approval rules, and a short review cycle before you expand access.',
+    sections: [
+      {
+        heading: 'Start before the first login',
+        body: 'Secure onboarding starts with the job, not the software.',
+        paragraphs: [
+          'Write down what the Filipino virtual assistant will do during the first ten business days. Name the inboxes, calendars, folders, customer records, and reports involved, then mark which actions need approval. This stops a common mistake: giving broad access because the task list is still vague.',
+          'The location of the assistant does not change the owner\'s duty to control business data. A Philippines-based assistant may work while the owner sleeps, so the handoff must say who can answer an urgent question and what must wait. If nobody is available, the safe default is to save a draft and leave a note for review.'
+        ]
+      },
+      {
+        heading: 'Map the work and the data',
+        body: 'A task map shows what the assistant needs to see and what should stay hidden.',
+        paragraphs: [
+          'Take one recurring task, such as inbox triage, and trace it from start to finish. The assistant may need to read new messages, apply labels, draft routine replies, and list items that need the owner. That does not mean the assistant needs access to private legal threads, banking notices, password resets, or every old message in the account.',
+          'Use four labels for each step: view, draft, send, and approve. Most new assistant work should begin in the first two labels. The owner or a named manager keeps the last two for refunds, contract language, changes to account ownership, money movement, and promises that could bind the business.'
+        ]
+      },
+      {
+        heading: 'Use a simple access ladder',
+        body: 'Access should grow after clean work, not before it.',
+        paragraphs: [
+          'Create a separate user account whenever the tool allows it. Turn on multi-factor authentication, keep recovery methods with the business, and grant only the folder, queue, or calendar the assistant needs. Shared owner passwords make it hard to see who changed a record and hard to remove access later.',
+          'Start with read-only or draft access, then review a real sample. Expand one permission at a time after the assistant follows the checklist and asks about exceptions instead of guessing. Record every change in a small access log with the tool, permission, approver, date granted, and date to review.'
+        ]
+      },
+      {
+        heading: 'Protect inbox and message work',
+        body: 'Email work deserves extra care because a normal-looking message can carry a bad request.',
+        paragraphs: [
+          'The FBI\'s 2024 Internet Crime Report recorded 193,407 phishing or spoofing complaints. It also recorded 21,442 business email compromise complaints and $2,770,151,146 in reported losses tied to that crime type. These are complaint figures, not a prediction of what will happen to one business, but they show why an assistant needs a written rule for payment changes and urgent requests.',
+          'Tell the assistant to verify any request that changes bank details, login methods, account owners, or delivery instructions through a second channel already on file. A reply to the same email thread is not a second check. The assistant should pause the task, capture the request, and contact the named owner through the approved chat, phone number, or ticket queue.'
+        ]
+      },
+      {
+        heading: 'Write rules for a Philippines-based schedule',
+        body: 'A time-zone handoff needs an answer for the hours when the owner is offline.',
+        paragraphs: [
+          'Set a clear work window in Philippine Time and write the matching owner-review window beside it. Do not make the assistant guess whether a late-night message is urgent. Define urgency with examples, such as a locked customer account or a same-day calendar conflict, and give one escalation route for those cases.',
+          'Keep normal work in a queue that the next person can read. A short end-of-shift note should list completed items, drafts waiting for approval, blocked work, and unusual requests. This gives the owner a useful morning review and gives the assistant a clean place to continue during the next Philippine shift.'
+        ]
+      },
+      {
+        heading: 'Run a ten-day launch',
+        body: 'The first ten business days should test the handoff before the role gets wider.',
+        paragraphs: [
+          'On days one and two, show the assistant the task and let the assistant watch a real example. On days three through five, the assistant completes a small batch in draft mode while the manager checks each result. Fix the checklist when the same question appears twice, because the missing detail belongs in the process rather than in somebody\'s memory.',
+          'During the second week, sample the work instead of checking every simple item. Keep full review for exceptions, sensitive messages, new contacts, and account changes. At the end of day ten, decide which permission can stay, which can grow, and which should be removed because the task never needed it.'
+        ]
+      },
+      {
+        heading: 'Review the lane, not just the person',
+        body: 'A good review checks the handoff as well as the assistant\'s output.',
+        paragraphs: [
+          'Track a few facts that the manager can verify: work completed, items returned for correction, exceptions raised, and approvals requested before action. A mistake may point to weak training, a missing example, or access that is too broad. Fix the source of the problem before blaming speed or effort.',
+          'NIST released Cybersecurity Framework 2.0 on February 26, 2024, with a new focus on governance for organizations of every size. That fits a small assistant lane well: the owner names the rules, the assistant follows them, and both sides know how a concern gets reported. The framework does not replace legal advice, but it gives a useful structure for deciding who owns each risk.'
+        ]
+      },
+      {
+        heading: 'Plan the exit on day one',
+        body: 'A clean offboarding plan is part of onboarding.',
+        paragraphs: [
+          'Keep a list of every account, shared folder, forwarding rule, API token, device, and group the assistant can use. When the role ends or changes, disable the separate account, revoke active sessions, rotate any secret that had to be shared, and transfer open work to the named manager. Do this promptly rather than waiting for the next monthly review.',
+          'Check mailbox rules, recovery contacts, shared links, and calendar delegates after access is removed. Save the final handoff note with unfinished work and the owner for each item. A calm exit is easier when the access log and task queue were kept current from the first week.'
+        ]
+      }
+    ],
+    faqs: [
+      { q: 'Should a Filipino virtual assistant use the owner password?', a: 'No. Create a separate user or delegated account when the tool supports it. The business should keep recovery methods and owner-level settings.' },
+      { q: 'What access should the assistant get first?', a: 'Begin with the smallest view or draft permission that supports one real task. Expand access only after the first work sample passes review.' },
+      { q: 'Can the assistant send email on day one?', a: 'Start with drafts for routine replies and a clear exception list. Direct sending can come later for approved message types after the manager has checked the work.' },
+      { q: 'How should the team handle time-zone gaps?', a: 'Use one written escalation route and an end-of-shift note. Anything outside the urgent examples should wait in the approval queue.' },
+      { q: 'What should happen when the role ends?', a: 'Disable the separate account, revoke sessions, check forwarding and recovery settings, rotate shared secrets, and transfer open tasks to a named owner. Record each action in the access log.' }
+    ],
+    rich: {
+      published: '2026-07-25',
+      updated: '2026-07-25',
+      marker: 'OA-SECURE-ONBOARDING-2026',
+      stats: [
+        { value: '193,407', label: 'phishing or spoofing complaints', detail: 'Reported to FBI IC3 in 2024.', sourceUrl: 'https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf' },
+        { value: '21,442', label: 'business email compromise complaints', detail: 'Reported to FBI IC3 in 2024.', sourceUrl: 'https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf' },
+        { value: '$2.77B', label: 'reported business email compromise losses', detail: 'FBI IC3 total for 2024; rounded here from $2,770,151,146.', sourceUrl: 'https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf' }
+      ],
+      table: {
+        caption: 'First-access map for a new Filipino virtual assistant',
+        headers: ['Work area', 'Good starting access', 'Owner keeps', 'Proof to review'],
+        rows: [
+          ['Inbox', 'Labels and reply drafts', 'Sensitive threads, final sends, forwarding rules', 'Draft sample and exception log'],
+          ['Calendar', 'View and draft invites', 'Priority moves and private events', 'Conflict list before changes'],
+          ['CRM', 'Assigned records and notes', 'Exports, deletions, field rules', 'Changed-record report'],
+          ['Cloud files', 'One work folder', 'Billing, legal, payroll, and master folders', 'Shared-link and activity check'],
+          ['Support desk', 'Routine draft queue', 'Refunds, credits, and policy exceptions', 'Ticket sample with manager notes']
+        ]
+      },
+      quote: {
+        text: 'The CSF has been a vital tool for many organizations, helping them anticipate and deal with cybersecurity threats.',
+        person: 'Laurie E. Locascio',
+        title: 'Under Secretary of Commerce for Standards and Technology and NIST Director',
+        sourceUrl: 'https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework'
+      },
+      chart: {
+        title: 'Two email-linked complaint categories in the 2024 IC3 report',
+        description: 'Horizontal bars compare complaint counts for phishing or spoofing and business email compromise.',
+        method: 'Units are complaints received by FBI IC3 in 2024. The bars use the larger category as 100%; these are reported crime categories, not a risk forecast for one company.',
+        rows: [
+          { label: 'Phishing / spoofing', value: 193407, display: '193,407 complaints' },
+          { label: 'Business email compromise', value: 21442, display: '21,442 complaints' }
+        ]
+      },
+      graphic: {
+        title: 'The four-step access ladder',
+        description: 'A separate process graphic showing how a manager can expand access after review.',
+        steps: [
+          { label: '1. View', detail: 'See only the records needed for one task.' },
+          { label: '2. Draft', detail: 'Prepare work without sending or changing ownership.' },
+          { label: '3. Act', detail: 'Complete approved routine actions after review.' },
+          { label: '4. Review', detail: 'Keep, narrow, or remove access using real work evidence.' }
+        ]
+      },
+      internalLinks: [
+        { href: '/resources/assistant-sop-handoff-checklist', label: 'Assistant SOP handoff checklist', note: 'Turn the task into a short training and review sheet.' },
+        { href: '/blog/assistant-onboarding-checklist', label: 'Assistant onboarding checklist', note: 'Plan the first week, scorecard, and access checks.' },
+        { href: '/services/inbox-triage', label: 'Inbox triage support', note: 'See the owner-control line for message work.' },
+        { href: '/contact', label: 'Plan a Philippines staffing request', note: 'Share the role, tools, schedule, and approval needs.' }
+      ],
+      banners: [
+        { eyebrow: 'Build the handoff', title: 'Put the task on one page', body: 'Use the SOP checklist to name the input, finish line, exception rule, and reviewer. It gives the Filipino assistant one clear place to start.', href: '/resources/assistant-sop-handoff-checklist', label: 'Open the SOP checklist' },
+        { eyebrow: 'Check the work lane', title: 'Set inbox limits before access', body: 'Decide which messages can be labeled, drafted, sent, or escalated. The inbox service page shows a simple owner-control model.', href: '/services/inbox-triage', label: 'Review inbox triage' },
+        { eyebrow: 'Plan the role', title: 'Bring the task list and tool list', body: 'A useful staffing request starts with the work and the approval line. Share those details for a Philippines-focused role review.', href: '/contact', label: 'Start the role request' }
+      ],
+      sources: [
+        { name: 'FBI Internet Crime Complaint Center, 2024 IC3 Annual Report', url: 'https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf', note: 'Complaint counts and reported loss figures used in the data cards and chart.' },
+        { name: 'NIST, Cybersecurity Framework 2.0 release, February 26, 2024', url: 'https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework', note: 'Governance context and the exact Laurie E. Locascio quote.' },
+        { name: 'NIST SP 800-53 Revision 5, Update 1', url: 'https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final', note: 'Primary guidance for access control, account management, and security review.' },
+        { name: 'CISA Secure Our World: Use Strong Passwords', url: 'https://www.cisa.gov/secure-our-world/use-strong-passwords', note: 'Plain guidance for unique passwords, password managers, and safer account setup.' },
+        { name: 'IT and Business Process Association of the Philippines', url: 'https://ibpap.org/', note: 'Philippine IT-BPM industry context; the site reports a 1.9 million talent workforce and $40 billion in revenue.' }
+      ]
+    }
+  },
   {
     slug: 'virtual-assistant-planning',
     title: 'How should you plan a virtual assistant role?',
