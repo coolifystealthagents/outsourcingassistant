@@ -52,8 +52,8 @@ export type RichArticle = {
   stats: { value: string; label: string; detail: string; sourceUrl: string }[];
   table: { caption: string; headers: string[]; rows: string[][] };
   quote: { text: string; person: string; title: string; sourceUrl: string };
-  chart: { title: string; description: string; method: string; rows: { label: string; value: number; display: string }[] };
-  graphic: { title: string; description: string; steps: { label: string; detail: string }[] };
+  chart: { title: string; description: string; method: string; headline?: string; unit?: string; visualId?: string; rows: { label: string; value: number; display: string }[] };
+  graphic: { title: string; description: string; headline?: string; footerNote?: string; visualId?: string; steps: { label: string; detail: string }[] };
   internalLinks: { href: string; label: string; note: string }[];
   banners: ArticleBanner[];
   sources: ArticleSource[];
@@ -213,7 +213,158 @@ export const blogPosts: BlogPost[] = [
         { name: 'IT and Business Process Association of the Philippines', url: 'https://ibpap.org/', note: 'Philippine IT-BPM industry context; the site reports a 1.9 million talent workforce and $40 billion in revenue.' }
       ]
     }
-  },];
+  },
+  {
+    slug: 'fraud-report-triage-filipino-customer-support-assistant',
+    title: 'Fraud report triage for a Filipino customer support assistant',
+    excerpt: 'A Filipino customer support assistant can capture a fraud report, protect the record, and send it to the right manager without trying to solve the case. This guide gives the assistant a narrow intake lane and keeps account, refund, and legal decisions with approved staff.',
+    minutes: 14,
+    takeaway: 'The assistant should collect the customer\'s own account of what happened, save only the needed facts, and move the case to a named manager. The assistant should not promise recovery, move money, change account ownership, or investigate a person.',
+    sections: [
+      {
+        heading: 'Give the assistant one clear job',
+        body: 'Fraud intake is safer when the role is small and easy to explain.',
+        paragraphs: [
+          'A Filipino customer support assistant can receive a report, record the customer\'s words, protect the ticket, and alert a named manager. That is useful work, but it is not an investigation and it does not give the assistant authority to decide whether fraud occurred.',
+          'Write the finish line before the first ticket arrives: a complete intake note, the right risk label, and a manager alert through an approved channel. Refunds, account ownership changes, evidence requests, legal notices, and contact with banks or police stay with the owner or another approved specialist.'
+        ]
+      },
+      {
+        heading: 'Define what belongs in the queue',
+        body: 'The assistant needs examples that separate a normal support problem from a report that needs quick review.',
+        paragraphs: [
+          'Useful triggers include an order the customer did not place, a login the customer does not know, a message asking for a new payment destination, or a caller pretending to be company staff. A customer who says an invoice is wrong may have a normal billing question, but a customer who says somebody changed bank details needs the fraud path.',
+          'Give the Filipino assistant a short list of labels such as suspicious message, unknown account activity, identity claim, and payment-change request. Labels help route the work, but they must not read like a verdict. The ticket should say "customer reports" rather than stating that a named person committed a crime.'
+        ]
+      },
+      {
+        heading: 'Capture facts without collecting everything',
+        body: 'A good intake note is short enough for a manager to scan and complete enough for the manager to act.',
+        paragraphs: [
+          'Record the customer\'s name, safe contact method, account or order reference, time noticed, channel used, and a plain description of the event. Ask what the customer already did, such as changing a password or contacting a card issuer, but do not ask the customer to send a full card number, password, government ID, or secret code in a normal ticket.',
+          'Keep the original message or screenshot only in the approved support system, and follow the company\'s retention rule. The FTC tells businesses to keep only personal information they need and to protect what they keep. That is a practical reason to avoid copying sensitive details into chat, email, and several task boards.'
+        ]
+      },
+      {
+        heading: 'Stop account and money actions',
+        body: 'The assistant needs a hard stop when a report could change access or move funds.',
+        paragraphs: [
+          'Do not let a new report become a reason to reset every login, change an account owner, send money, approve a refund, or edit bank details. A scammer may use the support queue itself to create urgency. The Filipino assistant should lock the ticket from routine handling and ask the named manager to decide the next action.',
+          'The FTC said on March 10, 2025 that consumers reported more than $12.5 billion in fraud loss during 2024. The same release said 38% of people who reported fraud said they lost money, up from 27% in 2023. Those figures describe reports received by the FTC, not the expected result for one company or customer.'
+        ]
+      },
+      {
+        heading: 'Verify the channel, not the customer story',
+        body: 'The assistant can check whether the report came through a known path without deciding whether every claim is true.',
+        paragraphs: [
+          'Use a contact method already stored on the account when the manager asks for a second check. Do not use a phone number, link, or email address supplied inside the suspicious message. If no safe contact method exists, the assistant should mark that gap and wait for the manager rather than inventing a workaround.',
+          'CISA tells people to resist pressure to act immediately and to use a known address or number when checking a suspicious message. In a support lane, that means the assistant pauses, preserves the request, and switches to the company\'s trusted contact record. The assistant does not call a supposed bank, vendor, or family member found through the message.'
+        ]
+      },
+      {
+        heading: 'Plan the Philippine shift handoff',
+        body: 'A Philippines-based support shift may receive a serious report while the business owner is offline.',
+        paragraphs: [
+          'Set one urgent route that works during Philippine Time, such as an on-call manager queue with a backup contact. Give examples of urgent events: active account takeover, a payment-change request due the same day, exposed customer records, or a threat that appears credible. Normal disputes and incomplete reports can wait in the review queue.',
+          'The end-of-shift note should list the ticket number, risk label, time received, safe contact status, evidence location, and manager notified. It should not repeat full personal details in a general team chat. The next Filipino assistant can see that the case is already owned without reopening the story or asking the customer to send the same material again.'
+        ]
+      },
+      {
+        heading: 'Give the manager a usable record',
+        body: 'The manager needs a clean timeline and a clear list of actions already taken.',
+        paragraphs: [
+          'Put each event in order with a time zone: customer report received, account note checked, safe contact attempted, ticket restricted, and manager alerted. Separate the customer\'s statement from facts visible in company systems. This keeps the note honest and helps the manager see what still needs proof.',
+          'NIST published Incident Response Recommendations and Considerations for Cybersecurity Risk Management in April 2025. The guide treats incident response as part of wider risk management, which fits a small support lane: prepare the route, detect a concern, respond through named owners, and learn from the record. A customer support assistant can support those steps without becoming the incident lead.'
+        ]
+      },
+      {
+        heading: 'Train with samples and review the lane',
+        body: 'Short practice tickets show whether the rules work before a real customer is upset.',
+        paragraphs: [
+          'Run three samples with the Filipino assistant: an unknown order, a fake payment-change email, and a normal billing correction. Ask the assistant to label each case, write the intake note, choose the safe contact path, and name the manager. Correct the checklist when the assistant has to guess, because that is a process gap.',
+          'Review the lane each month using a small sample of closed tickets. Check whether sensitive data was copied, urgent cases reached the right person, ordinary support work was not over-escalated, and managers left a final note. Keep the rule that the assistant reports and routes the concern while approved staff decide what the business does next.'
+        ]
+      }
+    ],
+    faqs: [
+      { q: 'Can a Filipino customer support assistant decide that fraud occurred?', a: 'No. The assistant records what the customer reported and routes the case under the company\'s labels. A named manager or specialist decides how the business classifies and handles it.' },
+      { q: 'What information should the assistant collect first?', a: 'Collect a safe contact method, account or order reference, time noticed, channel, and the customer\'s plain description. Do not request passwords, secret codes, or full card details in an ordinary ticket.' },
+      { q: 'Should the assistant promise a refund or recovery?', a: 'No. The assistant can explain that a manager will review the report and give the next approved step. Money decisions and recovery promises stay with approved staff.' },
+      { q: 'How should the assistant handle a suspicious link?', a: 'Do not open it from the support message. Preserve the message in the approved system, use a known contact path if instructed, and alert the manager.' },
+      { q: 'What belongs in the shift handoff?', a: 'Include the ticket number, risk label, time received, safe contact status, evidence location, and manager notified. Keep full personal details inside the approved support system.' }
+    ],
+    rich: {
+      published: '2026-07-27',
+      updated: '2026-07-27',
+      marker: 'OA-FRAUD-TRIAGE-2026',
+      stats: [
+        { value: '$12.5B', label: 'consumer-reported fraud loss', detail: 'FTC total for 2024, released March 10, 2025.', sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024' },
+        { value: '38%', label: 'of fraud reporters said they lost money', detail: 'FTC figure for 2024, compared with 27% in 2023.', sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024' },
+        { value: '2.6M', label: 'consumer fraud reports', detail: 'Received by the FTC in 2024.', sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024' }
+      ],
+      table: {
+        caption: 'Fraud report intake map for a Filipino customer support assistant',
+        headers: ['Report signal', 'Assistant records', 'Assistant avoids', 'Manager receives'],
+        rows: [
+          ['Unknown order', 'Order reference, time noticed, safe contact', 'Refund promise or card details', 'Ticket and account timeline'],
+          ['Suspicious message', 'Sender shown, channel, customer statement', 'Opening links or calling numbers in the message', 'Original message in the approved system'],
+          ['Account change', 'Change noticed, last known safe access', 'Resetting ownership without approval', 'Restricted ticket and urgent alert'],
+          ['Payment change', 'Request text, time, known vendor record', 'Editing bank details or sending funds', 'Second-channel check request'],
+          ['Identity claim', 'Claim in the customer\'s own words', 'Requesting excess identity documents', 'Privacy-safe note and named owner']
+        ]
+      },
+      quote: {
+        text: 'The FTC is monitoring those trends closely and working hard to protect the American people from fraud.',
+        person: 'Christopher Mufarrige',
+        title: 'Director of the FTC’s Bureau of Consumer Protection',
+        sourceUrl: 'https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024'
+      },
+      chart: {
+        title: 'Share of FTC fraud reporters who said they lost money',
+        description: 'Horizontal bars compare the percentage of FTC fraud reporters who said they lost money in 2023 and 2024.',
+        headline: 'Reported loss share rose in 2024',
+        unit: 'Unit: percent of people who reported fraud to the FTC',
+        visualId: 'fraud-loss-share-chart',
+        method: 'Units are percentages of people who reported fraud to the FTC. The FTC published both figures on March 10, 2025; the bars describe submitted reports and do not predict one customer outcome.',
+        rows: [
+          { label: '2023', value: 27, display: '27% of reporters' },
+          { label: '2024', value: 38, display: '38% of reporters' }
+        ]
+      },
+      graphic: {
+        title: 'The four-step fraud report route',
+        description: 'A separate process graphic showing how a Filipino customer support assistant can move a report to a manager without taking over the decision.',
+        headline: 'A narrow support-to-manager path',
+        footerNote: 'Manager rule: support records and routes; approved staff decide and act.',
+        visualId: 'fraud-report-route',
+        steps: [
+          { label: '1. Receive', detail: 'Listen, use the customer\'s words, and open one restricted ticket.' },
+          { label: '2. Record', detail: 'Save the needed facts and keep sensitive data in the approved system.' },
+          { label: '3. Route', detail: 'Apply the risk label and alert the named manager through a trusted channel.' },
+          { label: '4. Close the loop', detail: 'Add the manager\'s next step and leave a clean note for the next shift.' }
+        ]
+      },
+      internalLinks: [
+        { href: '/resources/assistant-sop-handoff-checklist', label: 'Assistant SOP handoff checklist', note: 'Write the intake fields, hard stops, and manager route on one page.' },
+        { href: '/services/inbox-triage', label: 'Inbox triage support', note: 'Set the message labels, draft rules, and owner controls.' },
+        { href: '/blog/secure-onboarding-filipino-virtual-assistant', label: 'Secure assistant onboarding', note: 'Set separate access and review rules before the first customer report.' },
+        { href: '/contact', label: 'Plan a Filipino support role', note: 'Share the queue, schedule, systems, and approval needs.' }
+      ],
+      banners: [
+        { eyebrow: 'Write the intake lane', title: 'Put the report route on one page', body: 'Use the SOP checklist to name the facts, hard stops, risk labels, and manager. A Filipino assistant can then follow the same path on every shift.', href: '/resources/assistant-sop-handoff-checklist', label: 'Open the SOP checklist' },
+        { eyebrow: 'Control the message queue', title: 'Separate routine support from risk reports', body: 'Set labels for suspicious messages and unknown account activity. Keep refunds, ownership changes, and payment actions with approved staff.', href: '/services/inbox-triage', label: 'Review inbox triage' },
+        { eyebrow: 'Plan the support role', title: 'Bring the queue and approval map', body: 'A useful role request starts with ticket types, systems, hours, and the manager path. Share those details for a Philippines-focused staffing review.', href: '/contact', label: 'Start the role request' }
+      ],
+      sources: [
+        { name: 'Federal Trade Commission, 2024 fraud data release, March 10, 2025', url: 'https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024', note: 'The three dated figures, year comparison, and exact Christopher Mufarrige quote.' },
+        { name: 'Federal Trade Commission, Protecting Personal Information: A Guide for Business', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary business guidance for collecting only needed information and protecting retained records.' },
+        { name: 'CISA, Recognize and Report Phishing', url: 'https://www.cisa.gov/secure-our-world/recognize-and-report-phishing', note: 'Primary guidance for resisting urgency, checking through known contact details, and reporting suspicious messages.' },
+        { name: 'NIST SP 800-61 Revision 3, April 2025', url: 'https://csrc.nist.gov/pubs/sp/800/61/r3/final', note: 'Primary incident response guidance used for the prepare, detect, respond, and learn structure.' },
+        { name: 'NIST Cybersecurity Framework 2.0, February 26, 2024', url: 'https://www.nist.gov/cyberframework', note: 'Primary risk management context for named owners, governance, and documented response work.' }
+      ]
+    }
+  },
+];
 
 export const navPages = [
   { href: '/', label: 'Home' },

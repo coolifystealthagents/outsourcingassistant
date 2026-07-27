@@ -40,11 +40,11 @@ function ArticleBanner({ banner, position }: { banner: NonNullable<BlogPost['ric
 
 function ComplaintChart({ chart }: { chart: NonNullable<BlogPost['rich']>['chart'] }) {
   const max = Math.max(...chart.rows.map((row) => row.value));
-  return <figure className="article-visual article-chart" data-visual="complaint-chart">
+  return <figure className="article-visual article-chart" data-visual={chart.visualId ?? 'complaint-chart'}>
     <svg viewBox="0 0 820 300" role="img" aria-labelledby="complaint-chart-title complaint-chart-desc">
       <title id="complaint-chart-title">{chart.title}</title>
       <desc id="complaint-chart-desc">{chart.description}</desc>
-      <text x="30" y="38" className="svg-title">2024 FBI IC3 complaint counts</text>
+      <text x="30" y="38" className="svg-title">{chart.headline ?? '2024 FBI IC3 complaint counts'}</text>
       {chart.rows.map((row, index) => {
         const y = 82 + index * 92;
         const width = Math.round((row.value / max) * 560);
@@ -55,18 +55,18 @@ function ComplaintChart({ chart }: { chart: NonNullable<BlogPost['rich']>['chart
           <text x="610" y={y + 37} className="svg-value">{row.display}</text>
         </Fragment>;
       })}
-      <text x="30" y="275" className="svg-unit">Unit: complaints received by FBI IC3</text>
+      <text x="30" y="275" className="svg-unit">{chart.unit ?? 'Unit: complaints received by FBI IC3'}</text>
     </svg>
     <figcaption><strong>{chart.title}.</strong> {chart.method}</figcaption>
   </figure>;
 }
 
 function AccessGraphic({ graphic }: { graphic: NonNullable<BlogPost['rich']>['graphic'] }) {
-  return <figure className="article-visual access-graphic" data-visual="access-ladder">
+  return <figure className="article-visual access-graphic" data-visual={graphic.visualId ?? 'access-ladder'}>
     <svg viewBox="0 0 820 420" role="img" aria-labelledby="access-ladder-title access-ladder-desc">
       <title id="access-ladder-title">{graphic.title}</title>
       <desc id="access-ladder-desc">{graphic.description}</desc>
-      <text x="30" y="40" className="svg-title">A controlled access path</text>
+      <text x="30" y="40" className="svg-title">{graphic.headline ?? 'A controlled access path'}</text>
       {graphic.steps.map((step, index) => {
         const x = 30 + (index % 2) * 390;
         const y = 72 + Math.floor(index / 2) * 145;
@@ -79,7 +79,7 @@ function AccessGraphic({ graphic }: { graphic: NonNullable<BlogPost['rich']>['gr
 
         </g>;
       })}
-      <text x="30" y="385" className="svg-unit">Manager rule: expand one permission only after a reviewed work sample.</text>
+      <text x="30" y="385" className="svg-unit">{graphic.footerNote ?? 'Manager rule: expand one permission only after a reviewed work sample.'}</text>
     </svg>
     <figcaption><strong>{graphic.title}.</strong> {graphic.description}</figcaption>
   </figure>;
@@ -88,8 +88,8 @@ function AccessGraphic({ graphic }: { graphic: NonNullable<BlogPost['rich']>['gr
 function RichPost({ post }: { post: BlogPost & { rich: NonNullable<BlogPost['rich']> } }) {
   const rich = post.rich;
   return <>
-    <div className="article-meta"><time dateTime={rich.published}>Published July 25, 2026</time><span>{post.minutes} minute read</span></div>
-    <div className="article-stats" aria-label="2024 FBI IC3 evidence">
+    <div className="article-meta"><time dateTime={rich.published}>Published {new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', month: 'long', day: 'numeric', year: 'numeric' }).format(new Date(`${rich.published}T00:00:00Z`))}</time><span>{post.minutes} minute read</span></div>
+    <div className="article-stats" aria-label={rich.chart.title}>
       {rich.stats.map((stat) => <a href={stat.sourceUrl} className="article-stat" key={stat.label}>
         <strong>{stat.value}</strong><span>{stat.label}</span><small>{stat.detail}</small>
       </a>)}
@@ -107,7 +107,7 @@ function RichPost({ post }: { post: BlogPost & { rich: NonNullable<BlogPost['ric
     <ComplaintChart chart={rich.chart} />
     <blockquote className="expert-quote">
       <p>{rich.quote.text}</p>
-      <cite>{rich.quote.person}, {rich.quote.title}. <a href={rich.quote.sourceUrl}>Read the NIST source.</a></cite>
+      <cite>{rich.quote.person}, {rich.quote.title}. <a href={rich.quote.sourceUrl}>Read the source.</a></cite>
     </blockquote>
     <ArticleBanner banner={rich.banners[1]} position={2} />
     <ArticleSections post={post} start={4} end={6} />

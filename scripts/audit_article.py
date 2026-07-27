@@ -22,6 +22,7 @@ class AuditParser(HTMLParser):
         self.visuals = set()
         self.source_items = 0
         self.in_sources = False
+        self.blockquote_depth = 0
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -38,7 +39,7 @@ class AuditParser(HTMLParser):
         if tag == 'h1':
             self.in_h1 = True
         if tag == 'p':
-            exempt = bool(classes & {'eyebrow'})
+            exempt = bool(classes & {'eyebrow'}) or self.blockquote_depth > 0
             self.p_stack.append({'text': [], 'exempt': exempt})
         if tag == 'table':
             self.counts['table'] += 1
@@ -46,6 +47,7 @@ class AuditParser(HTMLParser):
             self.counts['svg'] += 1
         if tag == 'blockquote':
             self.counts['blockquote'] += 1
+            self.blockquote_depth += 1
         if 'article-banner' in classes:
             self.counts['banner'] += 1
         if 'final-cta' in classes:
@@ -71,8 +73,10 @@ class AuditParser(HTMLParser):
         if tag == 'p' and self.in_article and self.p_stack:
             item = self.p_stack.pop()
             text = ' '.join(''.join(item['text']).split())
-            if text and not item['exempt'] and not text.startswith('The CSF has been'):
+            if text and not item['exempt']:
                 self.paragraphs.append(text)
+        if tag == 'blockquote' and self.blockquote_depth:
+            self.blockquote_depth -= 1
         if tag == 'section' and self.in_sources:
             self.in_sources = False
         if tag == 'article':
@@ -94,7 +98,25 @@ def sentence_count(text):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('html')
+    parser.add_argument('slug')
     args = parser.parse_args()
+    expectations = {
+        'secure-onboarding-filipino-virtual-assistant': {
+            'h1': 'Secure onboarding for a Filipino virtual assistant',
+            'marker': 'OA-SECURE-ONBOARDING-2026',
+            'markers': ['193,407', '21,442', '$2,770,151,146', 'Laurie E. Locascio'],
+            'visuals': ['access-ladder', 'complaint-chart'],
+        },
+        'fraud-report-triage-filipino-customer-support-assistant': {
+            'h1': 'Fraud report triage for a Filipino customer support assistant',
+            'marker': 'OA-FRAUD-TRIAGE-2026',
+            'markers': ['$12.5B', '38%', '2.6M', 'Christopher Mufarrige'],
+            'visuals': ['fraud-loss-share-chart', 'fraud-report-route'],
+        },
+    }
+    expected = expectations.get(args.slug)
+    if not expected:
+        raise SystemExit(f'No deterministic expectation configured for {args.slug}')
     path = Path(args.html)
     raw = path.read_text(encoding='utf-8', errors='ignore')
     audit = AuditParser()
@@ -118,16 +140,16 @@ def main():
         'bad_paragraphs': bad_paragraphs,
         'forbidden_words': forbidden_words,
         'forbidden_hrefs': forbidden_hrefs,
-        'required_markers': {marker: marker in raw for marker in ['OA-SECURE-ONBOARDING-2026', '193,407', '21,442', '$2,770,151,146', 'Laurie E. Locascio', 'BlogPosting', 'FAQPage', 'BreadcrumbList']}
+        'required_markers': {marker: marker in raw for marker in [expected['marker'], *expected['markers'], 'BlogPosting', 'FAQPage', 'BreadcrumbList']}
     }
-    expected_url = 'https://outsourcingassistant.com/blog/secure-onboarding-filipino-virtual-assistant'
+    expected_url = f'https://outsourcingassistant.com/blog/{args.slug}'
     failures = []
     if not 1500 <= result['word_count'] <= 2000: failures.append('word_count')
-    if result['h1'] != 'Secure onboarding for a Filipino virtual assistant': failures.append('h1')
-    if not result['title'] or 'Secure onboarding for a Filipino virtual assistant' not in result['title']: failures.append('title')
+    if result['h1'] != expected['h1']: failures.append('h1')
+    if not result['title'] or expected['h1'] not in result['title']: failures.append('title')
     if result['canonical'] != expected_url: failures.append('canonical')
     if result['counts'] != {'table': 1, 'svg': 2, 'blockquote': 1, 'banner': 3, 'final_cta': 0}: failures.append('module_counts')
-    if result['visuals'] != ['access-ladder', 'complaint-chart']: failures.append('visual_identity')
+    if result['visuals'] != sorted(expected['visuals']): failures.append('visual_identity')
     if result['source_items'] < 5: failures.append('numbered_sources')
     if len(result['internal_links']) < 3: failures.append('internal_links')
     if len(result['external_links']) < 4: failures.append('external_links')
