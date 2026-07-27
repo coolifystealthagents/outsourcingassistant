@@ -196,7 +196,7 @@ export const blogPosts: BlogPost[] = [
       },
       internalLinks: [
         { href: '/resources/assistant-sop-handoff-checklist', label: 'Assistant SOP handoff checklist', note: 'Turn the task into a short training and review sheet.' },
-        { href: '/blog/assistant-onboarding-checklist', label: 'Assistant onboarding checklist', note: 'Plan the first week, scorecard, and access checks.' },
+        { href: '/blog', label: 'Assistant onboarding checklist', note: 'Plan the first week, scorecard, and access checks.' },
         { href: '/services/inbox-triage', label: 'Inbox triage support', note: 'See the owner-control line for message work.' },
         { href: '/contact', label: 'Plan a Philippines staffing request', note: 'Share the role, tools, schedule, and approval needs.' }
       ],
@@ -213,84 +213,11 @@ export const blogPosts: BlogPost[] = [
         { name: 'IT and Business Process Association of the Philippines', url: 'https://ibpap.org/', note: 'Philippine IT-BPM industry context; the site reports a 1.9 million talent workforce and $40 billion in revenue.' }
       ]
     }
-  },
-  {
-    slug: 'virtual-assistant-planning',
-    title: 'How should you plan a virtual assistant role?',
-    excerpt: 'A plain guide to scoping a role for Filipino talent and preparing the handoff.',
-    minutes: 7,
-    takeaway: 'Plan the role before you compare staffing choices. An assistant without a clear checklist can create more work, even when the task list looks simple.',
-    sections: [
-      { heading: 'Start with the work', body: 'A useful staffing plan names the tasks, schedule, tools, and decisions that stay with the owner. Filipino talent can support many kinds of desk-based work, but a narrow role is easier to teach and review than a catch-all job description.' },
-      { heading: 'What changes the plan', body: 'Simple admin work needs a different handoff from customer support, sales support, or bookkeeping prep. Writing standards, schedule coverage, software, and manager availability all shape the role.', bullets: ['Required skills and writing standards', 'Schedule and weekend coverage', 'Who reviews early work', 'Tool training and access limits', 'A full schedule or a smaller block of recurring work'] },
-      { heading: 'Match scope to review time', body: 'Start with the amount of work you can honestly review. If you can check five tasks a day, do not hand over a sprawling queue on day one. Prove the handoff first, then add more.' },
-      { heading: 'Questions for a staffing partner', body: 'Ask who screens the Filipino talent, who helps with onboarding, and how quality concerns are handled. You should also know what happens if the task list changes or the first match does not work out.' }
-    ],
-    faqs: [
-      { q: 'Is a virtual assistant the same as an employee?', a: 'No. The working arrangement, responsibilities, and management model can differ. Ask the staffing partner to explain the setup before you proceed.' },
-      { q: 'Should the role start small?', a: 'Usually. A short list of recurring tasks gives you time to test the handoff, access rules, and review process.' },
-      { q: 'What should I not outsource first?', a: 'Do not start with refunds, payments, legal advice, medical decisions, or anything that needs owner judgment.' }
-    ]
-  },
-  {
-    slug: 'tasks-to-delegate-first',
-    title: 'What tasks should you delegate first?',
-    excerpt: 'Start with repeatable admin, follow-up, inbox, CRM, and scheduling work.',
-    minutes: 6,
-    takeaway: 'The best first tasks are boring, repeatable, and easy to check. Save judgment-heavy work for later.',
-    sections: [
-      { heading: 'Start with repeat work', body: 'Good first tasks happen every day or every week. The assistant can learn them from examples. You can spot mistakes quickly. That makes training faster and less risky.' },
-      { heading: 'Good first assistant tasks', body: 'These tasks are common because they have clear steps and clear proof of completion.', bullets: ['Inbox labels and simple reply drafts', 'Calendar cleanup and appointment reminders', 'CRM updates after calls', 'Lead follow-up using approved scripts', 'Customer support drafts for common questions', 'Research lists with source links'] },
-      { heading: 'Tasks to hold back', body: 'Keep sensitive decisions with the owner until the assistant is trained and tested. That includes final refunds, payroll, legal wording, medical details, account permissions, and promises to customers.' },
-      { heading: 'Use a one-week pilot', body: 'Pick five to ten tasks. Give examples. Review daily for three days. Then ask what confused the assistant. Fix the SOP before adding more work.' }
-    ],
-    faqs: [
-      { q: 'How many tasks should I delegate first?', a: 'Five to ten recurring tasks is enough for a first pilot.' },
-      { q: 'Can a VA handle customer emails?', a: 'Yes, but start with drafts and approved answer examples before letting them send directly.' },
-      { q: 'What if I do not have SOPs?', a: 'Record a short screen walk-through and turn it into a checklist after the first review.' }
-    ]
-  },
-  {
-    slug: 'virtual-assistant-vs-employee',
-    title: 'Virtual assistant vs employee: which is better?',
-    excerpt: 'When to hire in-house and when a managed assistant is the safer first step.',
-    minutes: 8,
-    takeaway: 'Use a virtual assistant for clear remote support. Hire an employee when the job needs local presence, deeper judgment, or long-term internal ownership.',
-    sections: [
-      { heading: 'When a virtual assistant fits', body: 'A VA is useful when the work can be done online, taught with examples, and checked with a weekly scorecard. Admin, support drafts, scheduling, CRM updates, and research often fit well.' },
-      { heading: 'When an employee fits better', body: 'An employee may be better for in-person work, confidential decisions, leadership, deep customer relationships, or work that changes every hour. If the person must own outcomes without close review, do not squeeze the job into a narrow assistant role.' },
-      { heading: 'Managed service versus direct freelancer', body: 'A freelancer can be flexible and affordable. A managed service can help with screening, backup, and replacement. The right choice depends on how much time you have to train and manage.' },
-      { heading: 'Simple decision test', body: 'If the task can be explained in a checklist and reviewed in five minutes, test a VA. If the task needs judgment, money approval, or hard customer calls, keep it with an employee or manager.' }
-    ],
-    faqs: [
-      { q: 'Can a VA replace an employee?', a: 'Sometimes for a narrow support role. For broad ownership, a VA usually supports the team rather than replacing it.' },
-      { q: 'Is direct hiring risky?', a: 'It can be if you lack screening, training, backup, and security rules.' },
-      { q: 'What is the safest first step?', a: 'Run a small pilot with low-risk tasks and a weekly review scorecard.' }
-    ]
-  },
-  {
-    slug: 'assistant-onboarding-checklist',
-    title: 'Assistant onboarding checklist',
-    excerpt: 'A simple first-week checklist for logins, SOPs, calls, QA, and scorecards.',
-    minutes: 9,
-    takeaway: 'Good onboarding protects both sides. The assistant needs clear examples, safe access, and fast feedback.',
-    sections: [
-      { heading: 'Before day one', body: 'Prepare a task list, tool list, sample work, and access rules before the assistant starts. Do not wait until the first call to decide what they will do.' },
-      { heading: 'First-week plan', body: 'Keep the first week small. Teach the task, watch the first attempt, review the result, then update the checklist.', bullets: checklistSteps as unknown as string[] },
-      { heading: 'Security basics', body: 'Use separate accounts where possible. Share only the access needed for the task. Turn on two-factor login. Keep refunds, payments, and account-owner settings away from the assistant unless there is a formal approval process.' },
-      { heading: 'Weekly scorecard', body: 'Track speed, accuracy, communication, questions asked, and missed steps. A simple 1 to 5 score is enough. The goal is to fix the handoff, not blame the assistant.' }
-    ],
-    faqs: [
-      { q: 'How long should onboarding take?', a: 'Many simple assistant roles can start in 7 to 21 days if examples and access are ready.' },
-      { q: 'Should I give full tool access?', a: 'No. Start with the least access needed and expand only after review.' },
-      { q: 'How often should I review work?', a: 'Daily for the first few days, then weekly once the task is stable.' }
-    ]
-  }
-];
+  },];
 
 export const navPages = [
   { href: '/', label: 'Home' },
-  { href: '/blog/virtual-assistant-planning', label: 'Staffing details' },
+  { href: '/blog', label: 'Staffing details' },
   { href: '/resources/assistant-sop-handoff-checklist', label: 'SOP checklist' },
   { href: '/blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' }
