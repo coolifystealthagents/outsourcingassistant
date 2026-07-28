@@ -364,6 +364,157 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   },
+  {
+    slug: 'invoice-change-verification-filipino-bookkeeping-assistant',
+    title: 'Invoice change verification for a Filipino bookkeeping assistant',
+    excerpt: 'A Filipino bookkeeping support assistant can check invoice changes, collect proof, and send a clean review packet to the right manager. This guide keeps vendor approval and every payment decision with authorized staff.',
+    minutes: 15,
+    takeaway: 'Treat every new bank detail as an unverified request, even when the message looks familiar. The Filipino assistant checks the request through a trusted contact, records the evidence, and waits for an authorized manager to approve or reject the change.',
+    sections: [
+      {
+        heading: 'Give the assistant a narrow finish line',
+        body: 'The job is to prepare a safe review, not approve the change.',
+        paragraphs: [
+          'A Filipino bookkeeping support assistant can receive an invoice, compare it with the vendor record, flag a change, and prepare a review note. The assistant should not decide that new bank details are genuine or release a payment because an email looks normal.',
+          'Write the finish line in one sentence: the request is verified through a contact already on file, the evidence is saved, and an authorized manager has a clear approve-or-reject choice. If any part is missing, the item stays on hold instead of moving quietly into the next payment batch.'
+        ]
+      },
+      {
+        heading: 'Spot changes before checking totals',
+        body: 'A changed instruction matters more than a familiar logo.',
+        paragraphs: [
+          'Ask the Filipino assistant to compare the new invoice with the last approved vendor record before checking the amount or due date. Look for a different bank name, account number, routing detail, remittance email, legal name, mailing address, contact person, or payment instruction.',
+          'A clean-looking PDF does not prove who sent it. The FBI describes business email compromise as a scam that can use compromised business accounts and requests to change payment details, so a familiar sender name should never replace an independent check.'
+        ]
+      },
+      {
+        heading: 'Keep one approved vendor record',
+        body: 'The assistant needs a trusted starting point that does not come from the new request.',
+        paragraphs: [
+          'Store the approved vendor name, normal contact, known phone number, usual email domain, and current payment instructions in a restricted vendor record. Give the Filipino assistant view access and a way to suggest a correction, but keep final edits with the manager who owns vendor setup.',
+          'Do not copy new contact details into that record before verification. If the request says the old contact has left, the assistant should use a company website, prior contract, or earlier approved statement to find an independent route and then ask the manager how to proceed.'
+        ]
+      },
+      {
+        heading: 'Verify through a second channel',
+        body: 'The safest check leaves the email thread.',
+        paragraphs: [
+          'The FBI tells businesses to use secondary channels or two-factor authentication when checking requests to change account information. For a small team, that can mean calling the known vendor number, opening a fresh message to the approved address, or using the vendor portal already saved by the business.',
+          'The Filipino assistant should not call a number printed only on the changed invoice or use a reply address supplied in the request. During the check, the assistant can ask the known contact to confirm the exact field that changed and the date the change should begin, then record who answered and how the identity was checked.'
+        ]
+      },
+      {
+        heading: 'Build a short evidence packet',
+        body: 'The manager should be able to review the change without searching through several systems.',
+        paragraphs: [
+          'Use one ticket or review note with the vendor name, invoice reference, old instruction, requested instruction, time received, sender, independent contact method, person reached, and result. Attach the original request in the approved system, but keep passwords, full card data, and unrelated personal information out of the packet.',
+          'Write facts in plain language and separate them from conclusions. A useful note says, "Known vendor contact confirmed the new remittance account by phone at 10:20 a.m. ET," while an unsafe note says, "The invoice seems fine" without showing who checked it.'
+        ]
+      },
+      {
+        heading: 'Plan the Philippine shift handoff',
+        body: 'A request may arrive while the business owner is offline.',
+        paragraphs: [
+          'Set one queue for changed invoices and one urgent route for requests tied to a same-day deadline or suspected account takeover. The Filipino assistant should know the working hours in Philippine Time, the matching manager review window, and the backup person who can place an item on hold.',
+          'An end-of-shift note should list the invoice reference, change found, verification status, evidence location, and named manager. It should not repeat bank details in a general chat, and it should never turn an overnight deadline into permission to skip the check.'
+        ]
+      },
+      {
+        heading: 'Keep approval and payment separate',
+        body: 'Verification gives the manager evidence, not a completed decision.',
+        paragraphs: [
+          'After the assistant finishes the check, an authorized manager reviews the evidence and decides whether the vendor record may change. A second authorized person should review any payment that uses the new instruction when the company policy calls for separate approval.',
+          'The Filipino assistant can prepare the record, enter a proposed update, and mark the item ready for review. The assistant should not release funds, add a new payee, change account ownership, or approve the same work the assistant prepared unless the business has a documented control and authorized role for that action.'
+        ]
+      },
+      {
+        heading: 'Practice the rule and sample the work',
+        body: 'A short drill shows whether the handoff works before a real request creates pressure.',
+        paragraphs: [
+          'Give the Filipino assistant three sample requests: a normal invoice with no change, a valid change confirmed through the known contact, and a rushed message that supplies a new callback number. Ask the assistant to identify the change, choose the safe contact route, write the evidence note, and name the manager who decides.',
+          'Each month, review a small sample of changed invoices and check whether the second channel came from a trusted record, the evidence was complete, and approval stayed with authorized staff. Fix the checklist when the same question appears twice, because repeated guessing usually points to a weak handoff rather than a careless person.'
+        ]
+      }
+    ],
+    faqs: [
+      { q: 'Can a Filipino bookkeeping assistant approve new bank details?', a: 'The assistant can collect and verify evidence, but an authorized manager should approve the vendor-record change. Keep the approval rule in the company checklist and access settings.' },
+      { q: 'What should happen when an invoice shows different payment instructions?', a: 'Place the invoice on hold and compare it with the approved vendor record. Verify the change through a contact route that existed before the new request arrived.' },
+      { q: 'Can the assistant use the phone number on the changed invoice?', a: 'Not as the only check. Use a known number from the approved vendor record, an earlier statement, a contract, or the vendor company website.' },
+      { q: 'What belongs in the review note?', a: 'Record the vendor, invoice, field changed, time received, original sender, trusted contact route, person reached, result, and manager. Keep sensitive details inside the approved accounting or ticket system.' },
+      { q: 'What if the owner is offline during the Philippine shift?', a: 'The assistant should place the item in the changed-invoice queue and use the named urgent route when the written examples apply. A deadline does not give the assistant permission to release a payment or skip verification.' }
+    ],
+    rich: {
+      published: '2026-07-28',
+      updated: '2026-07-28',
+      marker: 'OA-INVOICE-VERIFY-2026',
+      stats: [
+        { value: '305,033', label: 'reported BEC incidents', detail: 'FBI total for October 2013 through December 2023, published September 11, 2024.', sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240911' },
+        { value: '$55.5B', label: 'exposed loss reported to the FBI', detail: 'FBI total for October 2013 through December 2023; rounded from $55,499,915,582.', sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240911' },
+        { value: '9%', label: 'increase in identified exposed loss', detail: 'FBI comparison from December 2022 to December 2023, published September 11, 2024.', sourceUrl: 'https://www.ic3.gov/PSA/2024/PSA240911' }
+      ],
+      table: {
+        caption: 'Invoice change review map for a Filipino bookkeeping support assistant',
+        headers: ['Signal', 'Assistant checks', 'Assistant records', 'Manager keeps'],
+        rows: [
+          ['New bank detail', 'Known vendor contact through a trusted channel', 'Old and requested instructions plus confirmation', 'Vendor-record approval and payment decision'],
+          ['New remittance email', 'Approved domain and earlier contact record', 'Sender, reply address, and independent response', 'Contact-record change'],
+          ['Urgent deadline', 'Normal approval path and named urgent route', 'Time received and hold status', 'Exception decision'],
+          ['New legal name', 'Contract, company site, and known contact', 'Supporting record and person reached', 'Vendor identity update'],
+          ['Unexpected attachment', 'Approved storage and safe review route', 'Original message and ticket location', 'Security response if needed']
+        ]
+      },
+      quote: {
+        text: 'As important as it is to take a technological belt-and-suspenders approach, your company’s cybersecurity is only as strong as your least vigilant employee.',
+        person: 'Andrew Smith',
+        title: 'Director, FTC Bureau of Consumer Protection',
+        sourceUrl: 'https://www.ftc.gov/business-guidance/blog/2018/12/cybersecurity-small-business-business-email-imposters'
+      },
+      chart: {
+        title: 'Funds addressed by the FBI Financial Fraud Kill Chain in 2024',
+        description: 'Horizontal bars compare attempted theft reported through the Financial Fraud Kill Chain with domestic and international funds frozen during 2024.',
+        headline: 'Reported attempted theft and frozen funds',
+        unit: 'Unit: millions of U.S. dollars',
+        visualId: 'invoice-change-fraud-funds-chart',
+        method: 'Values come from the FBI 2024 IC3 Annual Report. The frozen total adds $469.1 million in domestic transactions and $92.5 million in international transactions; these complaint-response figures do not predict one company result.',
+        rows: [
+          { label: 'Attempted theft reported', value: 848.4, display: '$848.4 million' },
+          { label: 'Funds frozen', value: 561.6, display: '$561.6 million' }
+        ]
+      },
+      graphic: {
+        title: 'The four-stop invoice change route',
+        description: 'A separate process graphic showing how a Filipino bookkeeping assistant can prepare a changed invoice for manager review.',
+        headline: 'Stop the change until the proof is complete',
+        footerNote: 'Control rule: the assistant verifies and records; authorized staff approve and release.',
+        visualId: 'invoice-change-review-route',
+        steps: [
+          { label: '1. Compare and hold', detail: 'Check the approved vendor record and pause any changed item.' },
+          { label: '2. Verify', detail: 'Use a known phone number, address, portal, or company site.' },
+          { label: '3. Record', detail: 'Save the old detail, requested detail, contact, and result.' },
+          { label: '4. Escalate', detail: 'Send the evidence to the authorized manager for a decision.' }
+        ]
+      },
+      internalLinks: [
+        { href: '/resources/assistant-sop-handoff-checklist', label: 'Assistant SOP handoff checklist', note: 'Write the comparison fields, hard stops, and manager route on one page.' },
+        { href: '/services', label: 'Filipino assistant services', note: 'Review the available support lanes and keep owner controls clear for each role.' },
+        { href: '/blog/secure-onboarding-filipino-virtual-assistant', label: 'Secure assistant onboarding', note: 'Create separate access and review rules before invoice work starts.' },
+        { href: '/contact', label: 'Plan a Filipino bookkeeping support role', note: 'Share the invoice flow, systems, Philippine schedule, and approval needs.' }
+      ],
+      banners: [
+        { eyebrow: 'Write the review lane', title: 'Put the change check on one page', body: 'Use the SOP checklist to name the trusted vendor record, second channel, evidence fields, and manager. A Filipino assistant can then follow the same safe path for every changed invoice.', href: '/resources/assistant-sop-handoff-checklist', label: 'Open the SOP checklist' },
+        { eyebrow: 'Set the role boundary', title: 'Separate bookkeeping prep from approval', body: 'Give the assistant a clear place to compare invoices and prepare evidence. Keep vendor changes and every payment decision with authorized staff.', href: '/services', label: 'Review Filipino assistant services' },
+        { eyebrow: 'Plan the role', title: 'Bring the invoice flow and approval map', body: 'A useful role request starts with the systems, vendor records, Philippine work window, and named manager. Share those details for a Philippines-focused staffing review.', href: '/contact', label: 'Start the role request' }
+      ],
+      sources: [
+        { name: 'FBI IC3, Business Email Compromise: The $55 Billion Scam, September 11, 2024', url: 'https://www.ic3.gov/PSA/2024/PSA240911', note: 'The three dated figures and the FBI recommendation to verify account-information changes through a second channel.' },
+        { name: 'FBI IC3, 2024 Internet Crime Report', url: 'https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf', note: 'Financial Fraud Kill Chain figures used in the labeled chart and its method note.' },
+        { name: 'Federal Trade Commission, Cybersecurity for small business: Business email imposters, December 7, 2018', url: 'https://www.ftc.gov/business-guidance/blog/2018/12/cybersecurity-small-business-business-email-imposters', note: 'The exact Andrew Smith quote and staff-training context.' },
+        { name: 'Federal Trade Commission, Scams and Your Small Business: A Guide for Business', url: 'https://www.ftc.gov/business-guidance/resources/scams-your-small-business-guide-business', note: 'Primary guidance for checking invoices and making approval procedures clear.' },
+        { name: 'NIST, Phishing guidance for small businesses', url: 'https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/phishing', note: 'Primary guidance for checking urgent vendor messages through a known contact route.' },
+        { name: 'CISA, Avoiding Social Engineering and Phishing Attacks, February 1, 2021', url: 'https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks', note: 'Supplementary government guidance for independent contact using details from prior records.' }
+      ]
+    }
+  },
 ];
 
 export const navPages = [

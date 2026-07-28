@@ -113,6 +113,12 @@ def main():
             'markers': ['$12.5B', '38%', '2.6M', 'Christopher Mufarrige'],
             'visuals': ['fraud-loss-share-chart', 'fraud-report-route'],
         },
+        'invoice-change-verification-filipino-bookkeeping-assistant': {
+            'h1': 'Invoice change verification for a Filipino bookkeeping assistant',
+            'marker': 'OA-INVOICE-VERIFY-2026',
+            'markers': ['305,033', '$55.5B', '9%', 'Andrew Smith'],
+            'visuals': ['invoice-change-fraud-funds-chart', 'invoice-change-review-route'],
+        },
     }
     expected = expectations.get(args.slug)
     if not expected:
