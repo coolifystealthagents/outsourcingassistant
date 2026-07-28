@@ -56,3 +56,9 @@ a:focus-visible{outline:3px solid var(--lime);outline-offset:4px;border-radius:6
 @media(max-width:900px){.sa-booking-grid{grid-template-columns:1fr}.sa-booking-calendar{order:2}.sa-booking-left{max-width:680px;margin:0 auto}.sa-oncehub-frame{height:850px}}
 @media(max-width:640px){.sa-booking-page{padding:2rem 0}.sa-booking-grid{gap:2.5rem}.sa-booking-left h1{font-size:2.65rem}.sa-booking-image{border-radius:12px}.sa-oncehub-frame{border-radius:10px;height:850px}.sa-testimonial-viewport{height:174px}}
 @media(prefers-reduced-motion:reduce){.sa-testimonial-track{animation:none}.sa-testimonial-viewport{height:auto;max-height:none;mask-image:none;-webkit-mask-image:none}.sa-testimonial-track>.sa-testimonial-card:nth-child(n+4){display:none}}
+
+/* Licensed GetIllustrations homepage rollout */
+.oa-image-frame img{object-fit:contain;object-position:center;background:#e9f1ff;padding:18px;filter:none}
+.oa-role-icon img{width:35px;height:35px;object-fit:contain}
+.oa-support-illustration{width:100%;height:235px;object-fit:contain;padding:18px 24px;background:#fff7ed;border-bottom:1px solid #ded6cd}
+@media(max-width:700px){.oa-image-frame img{padding:10px}.oa-support-illustration{height:190px;padding:12px 18px}}

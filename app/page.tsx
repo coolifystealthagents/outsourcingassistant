@@ -1,7 +1,14 @@
 import { blogPosts, roles, site, staffingOffer, staffingProcess } from './data';
 import { Footer, Header, JsonLd } from './components';
 
-const roleIcons = ['↗', '⌁', '◎', '▦', '≋', '◇'];
+const roleIcons = [
+  '/icons/getillustrations/sharpie-office/admin-checklist.svg',
+  '/icons/getillustrations/sharpie-office/file-organization.svg',
+  '/icons/getillustrations/sharpie-office/calendar-scheduling.svg',
+  '/icons/getillustrations/sharpie-office/remote-laptop.svg',
+  '/icons/getillustrations/sharpie-office/document-writing.svg',
+  '/icons/getillustrations/sharpie-office/quality-target.svg',
+];
 
 const slugify = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
@@ -20,7 +27,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="oa-home" data-design="delegation-desk-2026">
+      <main className="oa-home" data-design="delegation-desk-2026" data-gi-rollout="two-illustration-packs-one-icon-pack">
         <JsonLd data={schema} />
 
         <section className="oa-hero">
@@ -44,7 +51,7 @@ export default function Home() {
 
             <div className="oa-visual" aria-label="Assistant handoff planning example">
               <div className="oa-image-frame">
-                <img src="/assistant-collaboration.jpg" alt="A small business team reviewing work together at a table" />
+                <img src="/illustrations/getillustrations/goodle-team/assistant-handoff-collaboration.svg" alt="Illustration of an owner and Filipino assistant collaborating on a laptop handoff" />
                 <span className="oa-image-label">A role built around your week</span>
               </div>
               <div className="oa-desk-card">
@@ -80,7 +87,7 @@ export default function Home() {
           <div className="oa-role-grid">
             {roles.map((role, index) => (
               <a className="oa-role-card" href={`/contact?role=${slugify(role.name)}`} key={role.name}>
-                <span className="oa-role-icon">{roleIcons[index]}</span>
+                <span className="oa-role-icon"><img src={roleIcons[index]} alt="" aria-hidden="true" /></span>
                 <span className="oa-role-num">0{index + 1}</span>
                 <h3>{role.name}</h3>
                 <p>{role.tasks}.</p>
@@ -100,6 +107,7 @@ export default function Home() {
               <a className="oa-button oa-button-lime" href="/resources/assistant-sop-handoff-checklist">Use the handoff checklist <span>↗</span></a>
             </div>
             <div className="oa-control-board">
+              <img className="oa-support-illustration" src="/illustrations/getillustrations/grain-teamwork/delegation-team-planning.webp" alt="Illustration of a team planning responsibilities and solving a work handoff" />
               <div className="oa-control-top"><b>Operations / assistant lane</b><span>Owner review: Fridays</span></div>
               <div className="oa-lane-labels"><span>Work queue</span><span>Access</span><span>Done when</span></div>
               <div className="oa-control-row"><p><b>Customer replies</b><small>Use saved answers for common questions</small></p><span className="oa-pill">Draft only</span><em>Inbox at zero</em></div>
