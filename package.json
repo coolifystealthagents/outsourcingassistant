@@ -3,7 +3,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -H 0.0.0.0 -p 3000",
-    "lint": "next lint"
+    "lint": "next lint",
+    "audit:content": "node scripts/gsc-content-audit.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",

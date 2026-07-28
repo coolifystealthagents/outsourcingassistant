@@ -1,0 +1,24 @@
+{
+  "rows": [
+    {
+      "page": "https://outsourcingassistant.com/blog/example-article",
+      "query": "example delegation query",
+      "period": "current",
+      "clicks": 12,
+      "impressions": 240,
+      "position": 8.4,
+      "backlinks": 2,
+      "conversions": 1
+    },
+    {
+      "page": "https://outsourcingassistant.com/blog/example-article",
+      "query": "example delegation query",
+      "period": "previous",
+      "clicks": 9,
+      "impressions": 210,
+      "position": 9.1,
+      "backlinks": 2,
+      "conversions": 0
+    }
+  ]
+}
