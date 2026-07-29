@@ -25,7 +25,7 @@ export function TestimonialsRail({ contact = false }: { contact?: boolean }) {
             <article className="sa-testimonial-card" key={`${review.name}-${index}`} aria-hidden={index >= testimonials.length ? true : undefined}>
               <div className="sa-testimonial-stars"><span aria-hidden="true">★★★★★</span><span className="sa-sr-only">5 out of 5 stars</span></div>
               <blockquote>“{review.quote}”</blockquote>
-              <p>— {review.name}</p>
+              <p>- {review.name}</p>
             </article>
           ))}
         </div>
