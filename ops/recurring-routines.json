@@ -1,0 +1,65 @@
+{
+  "version": "2.4",
+  "site": "OutsourcingAssistant.com",
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "timezone": "UTC",
+  "completionBoundary": "github_push",
+  "coolifyDeploymentInRoutine": false,
+  "googleSearchConsoleInRoutine": false,
+  "routines": [
+    {
+      "title": "Daily Blog Publishing",
+      "cron": "0 9 * * 1-5",
+      "timezone": "UTC",
+      "concurrency": "skip_if_active",
+      "catchUp": "skip_missed",
+      "priority": "medium",
+      "contentDirectory": "app/data.ts",
+      "target": { "min": 20, "max": 25 },
+      "roles": ["Content Lead"],
+      "pipeline": [
+        "topic_selection",
+        "duplicate_check",
+        "research_and_sources",
+        "brief_and_draft",
+        "standard_validation",
+        "blader_humanizer",
+        "post_humanizer_validation",
+        "thumbnail_generation",
+        "content_write",
+        "supporting_index_update",
+        "build_validation",
+        "commit_and_push",
+        "record_push_evidence"
+      ]
+    },
+    {
+      "title": "Daily Research Publishing",
+      "cron": "0 6 * * *",
+      "timezone": "UTC",
+      "concurrency": "always_enqueue",
+      "catchUp": "skip_missed",
+      "priority": "high",
+      "contentDirectory": "app/fleet-content.ts",
+      "target": { "min": 10, "max": 15 },
+      "roles": ["CEO/orchestrator", "Content Lead"],
+      "pipeline": [
+        "topic_selection",
+        "cluster_and_duplicate_check",
+        "headline_stat_selection",
+        "research_and_sources",
+        "brief_and_draft",
+        "standard_validation",
+        "blader_humanizer",
+        "post_humanizer_validation",
+        "thumbnail_generation",
+        "content_write",
+        "sitemap_input_update",
+        "build_validation",
+        "commit_and_push",
+        "record_push_evidence"
+      ]
+    }
+  ]
+}
