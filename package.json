@@ -8,7 +8,8 @@
     "report:gsc-weekly": "node scripts/gsc-weekly-report.mjs",
     "refresh:wayback": "node seo/wayback/spn_push.mjs",
     "check:sitemap": "python seo/sitemap/health_check.py",
-    "validate:routines": "node scripts/validate-content-routines.mjs"
+    "validate:routines": "node scripts/validate-content-routines.mjs",
+    "deploy:batched": "node scripts/batched-coolify-deploy.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",

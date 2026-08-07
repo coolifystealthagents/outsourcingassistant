@@ -8,9 +8,9 @@ const base = 'https://outsourcingassistant.com';
 const staticLastModified: Record<string, string> = {
   '': '2026-07-29',
   '/services': '2026-07-27',
-  '/blog': '2026-07-29',
+  '/blog': '2026-08-07',
   '/blog/top-30-virtual-assistant-outsourcing-companies': '2026-07-29',
-  '/research': '2026-07-27',
+  '/research': '2026-08-07',
   '/alternatives': '2026-07-29',
   '/contact': '2026-07-27',
   '/privacy': '2026-07-27',

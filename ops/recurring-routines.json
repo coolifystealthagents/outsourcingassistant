@@ -60,6 +60,50 @@
         "commit_and_push",
         "record_push_evidence"
       ]
+    },
+    {
+      "id": "batched-coolify-deployment",
+      "title": "Batched Coolify Deployment",
+      "active": true,
+      "assignedTo": ["Chief of Staff"],
+      "cron": "0 3,9,15,21 * * *",
+      "timezone": "UTC",
+      "concurrency": "skip_if_active",
+      "catchUp": "skip_missed",
+      "priority": "high",
+      "handoff": "daily_blog_batch_manifest",
+      "mapping": {
+        "domain": "outsourcingassistant.com",
+        "paperclipProject": "Onboarding",
+        "repository": "coolifystealthagents/outsourcingassistant",
+        "productionBranch": "main",
+        "applicationUuidFrom": "COOLIFY_APPLICATION_UUID"
+      },
+      "pipeline": [
+        "require_all_daily_blog_items_complete_and_validated",
+        "validate_batch_and_build",
+        "commit_all_batch_changes_once",
+        "push_production_branch_once",
+        "reconcile_persisted_sha_and_deployment",
+        "inspect_global_coolify_queue",
+        "trigger_one_exact_application_deployment",
+        "persist_non_secret_deployment_evidence",
+        "verify_successful_deployment_and_live_blog_pages"
+      ],
+      "allowedOutcomes": [
+        "SKIPPED_INCOMPLETE",
+        "SKIPPED_COOLIFY_QUEUE",
+        "NO_NEW_CHANGES",
+        "DEPLOYMENT_ALREADY_PENDING",
+        "DEPLOYMENT_IN_PROGRESS",
+        "DEPLOYMENT_SUBMITTED",
+        "DEPLOYMENT_FAILED",
+        "LIVE_VERIFIED"
+      ],
+      "configuration": {
+        "protected": ["COOLIFY_API_URL", "COOLIFY_API_TOKEN", "COOLIFY_APPLICATION_UUID"],
+        "neverPersist": ["COOLIFY_API_TOKEN"]
+      }
     }
   ]
 }

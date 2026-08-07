@@ -38,7 +38,7 @@ assert(manifest.timezone === 'UTC', 'timezone must be UTC');
 assert(manifest.completionBoundary === 'github_push', 'completion must require a GitHub push');
 assert(manifest.coolifyDeploymentInRoutine === false, 'Coolify deployment must stay outside these routines');
 assert(manifest.googleSearchConsoleInRoutine === false, 'Google Search Console must stay outside these routines');
-assert(Array.isArray(manifest.routines) && manifest.routines.length === expected.length, 'exactly two routines are required');
+assert(Array.isArray(manifest.routines) && manifest.routines.length === expected.length + 1, 'exactly two content routines plus one Coolify routine are required');
 
 for (const [index, rule] of expected.entries()) {
   const routine = manifest.routines[index];
@@ -54,5 +54,18 @@ for (const [index, rule] of expected.entries()) {
   assert(!routine.pipeline.includes('coolify_deploy'), `${rule.title}: Coolify deployment is prohibited`);
   assert(!routine.pipeline.includes('google_search_console'), `${rule.title}: GSC is prohibited`);
 }
+
+const coolify = manifest.routines[2];
+assert(coolify.id === 'batched-coolify-deployment' && coolify.title === 'Batched Coolify Deployment', 'Coolify routine identity mismatch');
+assert(coolify.active === true, 'Coolify routine must be active');
+assert(coolify.assignedTo?.length === 1 && coolify.assignedTo[0] === 'Chief of Staff', 'Coolify routine must be assigned to Chief of Staff');
+assert(coolify.cron === '0 3,9,15,21 * * *' && coolify.timezone === 'UTC', 'Coolify schedule mismatch');
+assert(coolify.concurrency === 'skip_if_active' && coolify.catchUp === 'skip_missed' && coolify.priority === 'high', 'Coolify execution policy mismatch');
+assert(coolify.mapping?.domain === 'outsourcingassistant.com' && coolify.mapping?.paperclipProject === 'Onboarding', 'Coolify domain/project mapping mismatch');
+assert(coolify.mapping?.repository === 'coolifystealthagents/outsourcingassistant' && coolify.mapping?.productionBranch === 'main', 'Coolify repository/branch mapping mismatch');
+assert(coolify.mapping?.applicationUuidFrom === 'COOLIFY_APPLICATION_UUID', 'Coolify application UUID must come from protected configuration');
+assert(JSON.stringify(coolify.configuration?.protected) === JSON.stringify(['COOLIFY_API_URL', 'COOLIFY_API_TOKEN', 'COOLIFY_APPLICATION_UUID']), 'Coolify protected configuration mismatch');
+assert(coolify.configuration?.neverPersist?.includes('COOLIFY_API_TOKEN'), 'Coolify token persistence guard missing');
+assert(coolify.allowedOutcomes?.includes('SKIPPED_COOLIFY_QUEUE') && coolify.allowedOutcomes?.includes('LIVE_VERIFIED'), 'Coolify allowed outcomes incomplete');
 
 console.log(`Validated ${manifest.routines.length} v2.4 routines for ${manifest.site}.`);

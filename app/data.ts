@@ -66,6 +66,11 @@ export type BlogPost = {
   takeaway: string;
   sections: BlogSection[];
   faqs: { q: string; a: string }[];
+  published?: string;
+  image?: { url: string; alt: string };
+  citations?: ArticleSource[];
+  internalLinks?: { href: string; label: string }[];
+  cta?: { href: string; label: string };
   rich?: RichArticle;
 };
 
@@ -566,3 +571,6 @@ export const staffingProcess = [
 ] as const;
 
 export const staffingFitNote = 'Every staffing plan depends on role scope, schedule, skills, tools, and management needs. Send the details and a Philippines-focused staffing partner can review the fit.';
+
+import { dailyBlogPosts } from './daily-content';
+blogPosts.push(...dailyBlogPosts);

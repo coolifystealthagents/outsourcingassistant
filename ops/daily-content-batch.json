@@ -1,0 +1,15 @@
+{
+  "batchId": "2026-08-07-outsourcingassistant-daily-content",
+  "site": "outsourcingassistant.com",
+  "published": "2026-08-07",
+  "status": "completed",
+  "validated": true,
+  "buildPassed": true,
+  "blogs": [
+    "2026-08-07-daily-inbox-triage", "2026-08-07-calendar-handoff", "2026-08-07-customer-support-queue", "2026-08-07-lead-follow-up", "2026-08-07-vendor-follow-up", "2026-08-07-meeting-notes", "2026-08-07-crm-cleanup", "2026-08-07-travel-planning", "2026-08-07-sop-handoff", "2026-08-07-weekly-scorecard", "2026-08-07-file-organization", "2026-08-07-research-briefing", "2026-08-07-invoice-preparation", "2026-08-07-content-calendar", "2026-08-07-quality-review", "2026-08-07-access-review", "2026-08-07-handoff-notes", "2026-08-07-escalation-rules", "2026-08-07-remote-schedule", "2026-08-07-first-week-plan"
+  ],
+  "research": [
+    "2026-08-07-remote-assistant-onboarding", "2026-08-07-outsourced-operations-scorecards", "2026-08-07-delegated-inbox-controls", "2026-08-07-filipino-staffing-schedules", "2026-08-07-research-brief-quality", "2026-08-07-crm-data-hygiene", "2026-08-07-content-production-routines", "2026-08-07-vendor-verification", "2026-08-07-assistant-access-reviews", "2026-08-07-handoff-documentation"
+  ],
+  "files": [".gitignore", "app/daily-content.ts", "app/data.ts", "app/fleet-content.ts", "app/blog/[slug]/page.tsx", "app/research/[slug]/page.tsx", "app/sitemap.xml/route.ts", "ops/daily-content-batch.json", "ops/recurring-routines.json", "package-lock.json", "package.json", "scripts/batched-coolify-deploy.mjs", "scripts/validate-content-routines.mjs"]
+}
