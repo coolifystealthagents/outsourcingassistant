@@ -33,7 +33,7 @@ const topics = [
 const paragraph = (topic: string, action: string) => `Start the ${topic} lane with one named owner, a written finish line, and examples of acceptable work. The assistant can ${action}, while the owner keeps approval for money movement, legal commitments, account changes, and sensitive customer decisions. A narrow first batch makes quality visible before the role expands.`;
 
 export const dailyBlogPosts: BlogPost[] = topics.map(([slug, title, topic, action], index) => ({
-  slug: `2026-08-07-${slug.replaceAll(' ', '-')}`,
+  slug: `2026-08-07-${slug.toLowerCase().replaceAll(' ', '-')}`,
   title,
   excerpt: `A practical ${topic} routine for teams working with Filipino talent, with clear inputs, review rules, and an escalation path.`,
   minutes: 7 + (index % 4),
@@ -59,7 +59,7 @@ export const dailyResearchPosts = Array.from({ length: 10 }, (_, index) => {
   const subjects = ['remote assistant onboarding', 'outsourced operations scorecards', 'delegated inbox controls', 'Filipino staffing schedules', 'research brief quality', 'CRM data hygiene', 'content production routines', 'vendor verification', 'assistant access reviews', 'handoff documentation'];
   const subject = subjects[index];
   return {
-    slug: `2026-08-07-${subject.replaceAll(' ', '-')}`,
+    slug: `2026-08-07-${subject.toLowerCase().replaceAll(' ', '-')}`,
     title: `Research note: ${subject[0].toUpperCase()}${subject.slice(1)}`,
     excerpt: `A sourced research note on ${subject}, focused on repeatable routines and accountable delegation.`,
     published,
