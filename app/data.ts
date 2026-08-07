@@ -517,6 +517,9 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
+import { dailyBlogBatch } from './blog-batch';
+blogPosts.push(...dailyBlogBatch);
+
 export const navPages = [
   { href: '/', label: 'Home' },
   { href: '/blog', label: 'Staffing details' },
