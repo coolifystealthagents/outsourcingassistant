@@ -576,3 +576,5 @@ import { dailyBlogPosts } from './daily-content';
 blogPosts.push(...dailyBlogPosts);
 import { dailyBlogBatch20260810 } from './blog-batch-2026-08-10';
 blogPosts.push(...dailyBlogBatch20260810);
+import { dailyBlogBatch20260810Run2 } from './blog-batch-2026-08-10-run2';
+blogPosts.push(...dailyBlogBatch20260810Run2);
