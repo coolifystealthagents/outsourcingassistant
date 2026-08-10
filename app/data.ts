@@ -574,3 +574,5 @@ export const staffingFitNote = 'Every staffing plan depends on role scope, sched
 
 import { dailyBlogPosts } from './daily-content';
 blogPosts.push(...dailyBlogPosts);
+import { dailyBlogBatch20260810 } from './blog-batch-2026-08-10';
+blogPosts.push(...dailyBlogBatch20260810);
