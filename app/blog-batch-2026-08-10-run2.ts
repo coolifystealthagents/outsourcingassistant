@@ -29,12 +29,39 @@ const topics: Topic[] = [
   ['virtual-assistant-employee-onboarding-admin', 'An employee-onboarding admin checklist for assistants', 'employee-onboarding administration', 'fewer missing first-day details', 'track approved forms, schedule setup steps, and flag blockers', 'making employment decisions or handling unnecessary sensitive data']
 ].map(([slug, title, focus, outcome, tasks, boundary]) => ({ slug, title, focus, outcome, tasks, boundary }));
 
+const publishedBySlug: Record<string, string> = {
+  'virtual-assistant-appointment-reminders': '2026-08-10',
+  'virtual-assistant-sales-ops-data-entry': '2026-08-10',
+  'virtual-assistant-customer-feedback-tagging': '2026-08-10',
+  'virtual-assistant-podcast-guest-coordination': '2026-08-10',
+  'virtual-assistant-website-content-qa': '2026-08-10',
+  'virtual-assistant-lead-magnet-delivery': '2026-08-10',
+  'virtual-assistant-refund-request-intake': '2026-08-10',
+  'virtual-assistant-booking-confirmation': '2026-08-10',
+  'virtual-assistant-document-version-control': '2026-08-10',
+  'virtual-assistant-market-research-monitoring': '2026-08-10',
+  'virtual-assistant-customer-onboarding-emails': '2026-08-10',
+  'virtual-assistant-support-escalation-queue': '2026-08-10',
+  'virtual-assistant-social-comment-moderation': '2026-08-10',
+  'virtual-assistant-recruiting-interview-scheduling': '2026-08-10',
+  'virtual-assistant-client-report-assembly': '2026-08-10',
+  'virtual-assistant-receipt-categorization': '2026-08-10',
+  'virtual-assistant-training-records': '2026-08-10',
+  'virtual-assistant-event-registration-admin': '2026-08-10',
+  'virtual-assistant-returns-status-workflow': '2026-08-10',
+  'virtual-assistant-knowledge-base-maintenance': '2026-08-10',
+  'virtual-assistant-subscription-cancellation-intake': '2026-08-10',
+  'virtual-assistant-compliance-document-collection': '2026-08-10',
+  'virtual-assistant-project-risk-log': '2026-08-10',
+  'virtual-assistant-employee-onboarding-admin': '2026-08-10',
+};
+
 const source = { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Authoritative governance and risk-management context for controlled delegation.' };
 
 function makePost(topic: Topic): BlogPost {
   return {
     slug: topic.slug,
-    published: '2026-08-10',
+    published: publishedBySlug[topic.slug],
     title: topic.title,
     excerpt: `A practical Outsourcing Assistant guide to delegating ${topic.focus} to Filipino talent with a clear SOP, limited access, and owner review.`,
     minutes: 8,
