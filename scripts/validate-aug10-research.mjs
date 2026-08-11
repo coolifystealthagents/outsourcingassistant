@@ -25,11 +25,14 @@ assert(source.includes("published: '2026-08-10', updated: '2026-08-10'"), 'autho
 
 for (const entry of manifest.entries) {
   assert(source.includes(`'${entry.slug}'`), `${entry.slug}: source record missing`);
-  assert(source.includes(`currentBatchTopic('${entry.slug}'`), `${entry.slug}: source is not a dated Research record`);
+  const sourceRecord = source.split('\n').find((line) => line.includes(`currentBatchTopic('${entry.slug}'`));
+  assert(sourceRecord?.includes("{ published: '2026-08-10', updated: '2026-08-10' }"), `${entry.slug}: exact source date field missing from article record`);
   const parent = execFileSync('git', ['show', `${entry.introducedByCommit}^:${entry.sourcePath}`], { encoding: 'utf8' });
   const introduced = execFileSync('git', ['show', `${entry.introducedByCommit}:${entry.sourcePath}`], { encoding: 'utf8' });
-  assert(!parent.includes(`currentBatchTopic('${entry.slug}'`), `${entry.slug}: not absent before introducing commit`);
-  assert(introduced.includes(`currentBatchTopic('${entry.slug}'`), `${entry.slug}: absent at introducing commit`);
+  const parentRecord = parent.split('\n').find((line) => line.includes(`currentBatchTopic('${entry.slug}'`));
+  const introducedRecord = introduced.split('\n').find((line) => line.includes(`currentBatchTopic('${entry.slug}'`));
+  assert(parentRecord && !parentRecord.includes("{ published: '2026-08-10', updated: '2026-08-10' }"), `${entry.slug}: prior source already had target date field`);
+  assert(introducedRecord?.includes("{ published: '2026-08-10', updated: '2026-08-10' }"), `${entry.slug}: exact date field absent at introducing commit`);
 }
 
 console.log(`Validated ${manifest.entries.length} August 10 Research entries, source/rendered dates, provenance, canonical routes, sitemap eligibility, and newest-first index order.`);
