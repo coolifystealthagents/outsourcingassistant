@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "contract": "sites3-aug10-public-date-v6",
+  "targetDate": "2026-08-10",
+  "family": "research",
+  "domain": "outsourcingassistant.com",
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "branch": "main",
+  "minimum": 10,
+  "priorRunId": "9f913514-d594-434d-b74d-066a1bf50e99",
+  "priorIssueId": "eaa4c128-8aa4-45a3-ae21-d623a6da7465",
+  "validationCommands": [
+    "node scripts/validate-aug10-research.mjs",
+    "npm run validate:routines",
+    "python3 seo/sitemap/health_check.py",
+    "npm run build"
+  ],
+  "cleanBuildPassed": true,
+  "existingCompliancePassed": true,
+  "indexNewestFirstPassed": true,
+  "entries": [
+    {"slug":"assistant-work-acceptance-criteria","route":"/research/assistant-work-acceptance-criteria","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"shared-inbox-escalation-notes","route":"/research/shared-inbox-escalation-notes","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"crm-duplicate-record-review","route":"/research/crm-duplicate-record-review","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"research-source-freshness-review","route":"/research/research-source-freshness-review","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"async-urgent-request-routing","route":"/research/async-urgent-request-routing","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"calendar-conflict-evidence-log","route":"/research/calendar-conflict-evidence-log","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"vendor-contact-verification","route":"/research/vendor-contact-verification","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"support-refund-approval-queue","route":"/research/support-refund-approval-queue","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"assistant-permission-inventory","route":"/research/assistant-permission-inventory","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"sop-owner-review-cadence","route":"/research/sop-owner-review-cadence","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"meeting-action-evidence-trail","route":"/research/meeting-action-evidence-trail","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"content-claim-escalation-rules","route":"/research/content-claim-escalation-rules","sourcePath":"app/fleet-content.ts","provenance":"original-aug10-batch","introducedByCommit":"b9d83e322a2d0098de8ddf9cbe7b7b8e93d21796","sourceDateField":"published","sourceDate":"2026-08-10","renderedDateFields":["datePublished","time[datetime]"],"renderedDate":"2026-08-10"}
+  ]
+}
