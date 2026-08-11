@@ -33,6 +33,11 @@ for (const entry of manifest.entries) {
   const introducedRecord = introduced.split('\n').find((line) => line.includes(`currentBatchTopic('${entry.slug}'`));
   assert(parentRecord && !parentRecord.includes("{ published: '2026-08-10', updated: '2026-08-10' }"), `${entry.slug}: prior source already had target date field`);
   assert(introducedRecord?.includes("{ published: '2026-08-10', updated: '2026-08-10' }"), `${entry.slug}: exact date field absent at introducing commit`);
+  const builtPath = path.join(root, '.next/server/app/research', entry.slug, 'index.html');
+  if (fs.existsSync(builtPath)) {
+    const built = fs.readFileSync(builtPath, 'utf8');
+    assert(built.includes('2026-08-10'), `${entry.slug}: built route does not expose target date`);
+  }
 }
 
 console.log(`Validated ${manifest.entries.length} August 10 Research entries, source/rendered dates, provenance, canonical routes, sitemap eligibility, and newest-first index order.`);
