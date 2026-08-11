@@ -36,7 +36,7 @@ export async function GET() {
     ...fleetServices.map((service) => [`/services/${service.slug}`, serviceLastModified] as const),
     ...blogPosts.map((post) => [
       `/blog/${post.slug}`,
-      post.rich?.updated ?? post.rich?.published ?? staticLastModified['/blog'],
+      post.rich?.updated ?? post.rich?.published ?? post.published ?? staticLastModified['/blog'],
     ] as const),
     ...blogPageEntries,
     ...researchPosts.map((post) => [`/research/${post.slug}`, post.published] as const),

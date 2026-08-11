@@ -34,6 +34,7 @@ const source = { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nis
 function makePost(topic: Topic): BlogPost {
   return {
     slug: topic.slug,
+    published: '2026-08-10',
     title: topic.title,
     excerpt: `A practical Outsourcing Assistant guide to delegating ${topic.focus} to Filipino talent with a clear SOP, limited access, and owner review.`,
     minutes: 8,

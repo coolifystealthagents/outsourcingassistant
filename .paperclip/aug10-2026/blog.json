@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "contract": "sites3-aug10-public-date-v6",
+  "targetDate": "2026-08-10",
+  "family": "blog",
+  "domain": "outsourcingassistant.com",
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "branch": "main",
+  "minimum": 22,
+  "priorRunId": "023f4b2c-45ef-402f-a0c2-2441f3ab1189",
+  "priorIssueId": "27758a91-7522-4a4b-b0ac-350e60534da2",
+  "validationCommands": [
+    "node scripts/validate-aug10-blog-date.mjs",
+    "node scripts/validate-content-routines.mjs",
+    "npm run build"
+  ],
+  "cleanBuildPassed": true,
+  "existingCompliancePassed": true,
+  "indexNewestFirstPassed": true,
+  "entries": [
+    {
+      "slug": "virtual-assistant-appointment-reminders",
+      "route": "/blog/virtual-assistant-appointment-reminders",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-sales-ops-data-entry",
+      "route": "/blog/virtual-assistant-sales-ops-data-entry",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-customer-feedback-tagging",
+      "route": "/blog/virtual-assistant-customer-feedback-tagging",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-podcast-guest-coordination",
+      "route": "/blog/virtual-assistant-podcast-guest-coordination",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-website-content-qa",
+      "route": "/blog/virtual-assistant-website-content-qa",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-lead-magnet-delivery",
+      "route": "/blog/virtual-assistant-lead-magnet-delivery",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-refund-request-intake",
+      "route": "/blog/virtual-assistant-refund-request-intake",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-booking-confirmation",
+      "route": "/blog/virtual-assistant-booking-confirmation",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-document-version-control",
+      "route": "/blog/virtual-assistant-document-version-control",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-market-research-monitoring",
+      "route": "/blog/virtual-assistant-market-research-monitoring",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-customer-onboarding-emails",
+      "route": "/blog/virtual-assistant-customer-onboarding-emails",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-support-escalation-queue",
+      "route": "/blog/virtual-assistant-support-escalation-queue",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-social-comment-moderation",
+      "route": "/blog/virtual-assistant-social-comment-moderation",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-recruiting-interview-scheduling",
+      "route": "/blog/virtual-assistant-recruiting-interview-scheduling",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-client-report-assembly",
+      "route": "/blog/virtual-assistant-client-report-assembly",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-receipt-categorization",
+      "route": "/blog/virtual-assistant-receipt-categorization",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-training-records",
+      "route": "/blog/virtual-assistant-training-records",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-event-registration-admin",
+      "route": "/blog/virtual-assistant-event-registration-admin",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-returns-status-workflow",
+      "route": "/blog/virtual-assistant-returns-status-workflow",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-knowledge-base-maintenance",
+      "route": "/blog/virtual-assistant-knowledge-base-maintenance",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-subscription-cancellation-intake",
+      "route": "/blog/virtual-assistant-subscription-cancellation-intake",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-compliance-document-collection",
+      "route": "/blog/virtual-assistant-compliance-document-collection",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-project-risk-log",
+      "route": "/blog/virtual-assistant-project-risk-log",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "virtual-assistant-employee-onboarding-admin",
+      "route": "/blog/virtual-assistant-employee-onboarding-admin",
+      "sourcePath": "app/blog-batch-2026-08-10-run2.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "60adb05ddac76858a63cd3f339f437a5b9b3164d",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    }
+  ]
+}
+

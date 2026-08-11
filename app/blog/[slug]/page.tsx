@@ -20,7 +20,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 function ArticleSections({ post, start, end }: { post: BlogPost; start: number; end: number }) {
-  return <>{post.sections.slice(start, end).map((section) => (
+  const published = post.rich?.published ?? post.published;
+  return <>{start === 0 && published ? <div className="article-meta"><time dateTime={published}>Published {new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', month: 'long', day: 'numeric', year: 'numeric' }).format(new Date(`${published}T00:00:00Z`))}</time><span>{post.minutes} minute read</span></div> : null}{post.sections.slice(start, end).map((section) => (
     <section className="card article-block" key={section.heading}>
       <h2>{section.heading}</h2>
       {section.paragraphs?.length ? section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>) : <p>{section.body}</p>}
@@ -88,7 +89,6 @@ function AccessGraphic({ graphic }: { graphic: NonNullable<BlogPost['rich']>['gr
 function RichPost({ post }: { post: BlogPost & { rich: NonNullable<BlogPost['rich']> } }) {
   const rich = post.rich;
   return <>
-    <div className="article-meta"><time dateTime={rich.published}>Published {new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', month: 'long', day: 'numeric', year: 'numeric' }).format(new Date(`${rich.published}T00:00:00Z`))}</time><span>{post.minutes} minute read</span></div>
     <div className="article-stats" aria-label={rich.chart.title}>
       {rich.stats.map((stat) => <a href={stat.sourceUrl} className="article-stat" key={stat.label}>
         <strong>{stat.value}</strong><span>{stat.label}</span><small>{stat.detail}</small>
