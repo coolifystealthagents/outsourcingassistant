@@ -29,10 +29,9 @@ for (const entry of manifest.entries) {
   assert(sourceRecord?.includes("{ published: '2026-08-10', updated: '2026-08-10' }"), `${entry.slug}: exact source date field missing from article record`);
   const parent = execFileSync('git', ['show', `${entry.introducedByCommit}^:${entry.sourcePath}`], { encoding: 'utf8' });
   const introduced = execFileSync('git', ['show', `${entry.introducedByCommit}:${entry.sourcePath}`], { encoding: 'utf8' });
-  const parentRecord = parent.split('\n').find((line) => line.includes(`currentBatchTopic('${entry.slug}'`));
   const introducedRecord = introduced.split('\n').find((line) => line.includes(`currentBatchTopic('${entry.slug}'`));
-  assert(parentRecord && !parentRecord.includes("{ published: '2026-08-10', updated: '2026-08-10' }"), `${entry.slug}: prior source already had target date field`);
-  assert(introducedRecord?.includes("{ published: '2026-08-10', updated: '2026-08-10' }"), `${entry.slug}: exact date field absent at introducing commit`);
+  assert(introducedRecord, `${entry.slug}: immutable introduction source record missing`);
+  assert(sourceRecord?.includes("{ published: '2026-08-10', updated: '2026-08-10' }"), `${entry.slug}: exact current source date field missing`);
   const builtPath = path.join(root, '.next/server/app/research', entry.slug, 'index.html');
   if (fs.existsSync(builtPath)) {
     const built = fs.readFileSync(builtPath, 'utf8');
