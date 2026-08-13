@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/verify-call-first-policy.mjs && next build",
     "start": "next start -H 0.0.0.0 -p 3000",
     "lint": "next lint",
     "audit:content": "node scripts/gsc-content-audit.mjs",
