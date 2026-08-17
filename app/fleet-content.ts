@@ -335,7 +335,10 @@ const aug14Topic = (slug: string, title: string, excerpt: string, cluster: strin
   return { ...base, sections: [...base.sections, ...(distinct[slug] ?? []), extra] };
 };
 
+import { researchBatch20260817 } from './research-batch-2026-08-17';
+
 export const researchPosts: readonly ResearchPost[] = [
+  ...researchBatch20260817,
   { ...aug13Topic('capacity-variance-signals', 'Capacity variance signals in outsourced support queues', 'How to distinguish demand shifts, available review hours, and case complexity when a recurring support queue changes shape.', 'Operations research', 'Capacity is a period-specific comparison of incoming cases, usable hours, and case mix', 'capacity variance signals', ['assistant-quality-scorecard', 'async-queue-aging-analysis', 'time-zone-handoff-design']), slug: 'capacity-variance-signals', published: '2026-08-13', updated: '2026-08-13' },
   { ...aug13Topic('approval-dependency-latency', 'Approval dependency latency in distributed operations', 'A bounded study of waiting time caused by missing evidence, owner decisions, and external dependencies.', 'Operations research', 'Queue latency is interpretable only when each waiting interval has a documented dependency', 'approval dependency latency', ['async-queue-aging-analysis', 'customer-support-escalation-matrix', 'daily-handoff-evidence-log']), slug: 'approval-dependency-latency', published: '2026-08-13', updated: '2026-08-13' },
   { ...aug13Topic('handoff-rework-attribution', 'Attributing rework in time-zone handoffs', 'How to separate incomplete inputs, unclear ownership, and avoidable rework in distributed assistant handoffs.', 'Distributed work', 'Rework is most useful when classified by the missing evidence or decision that caused it', 'handoff rework attribution', ['time-zone-handoff-design', 'philippines-assistant-handoff-sop', 'assistant-quality-sampling-plan']), slug: 'handoff-rework-attribution', published: '2026-08-13', updated: '2026-08-13' },
