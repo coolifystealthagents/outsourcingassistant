@@ -1,0 +1,12 @@
+[
+  {"route":"/research/content-brief-evidence-chain-daily-articles","sourcePaths":["app/research-batch-2026-08-18.ts"]},
+  {"route":"/research/assistant-source-freshness-changing-guidance","sourcePaths":["app/research-batch-2026-08-18.ts"]},
+  {"route":"/research/assistant-editorial-review-sample-size","sourcePaths":["app/research-batch-2026-08-18.ts"]},
+  {"route":"/research/philippines-assistant-content-review-overlap","sourcePaths":["app/research-batch-2026-08-18.ts"]},
+  {"route":"/research/assistant-research-claim-audit","sourcePaths":["app/research-batch-2026-08-18.ts"]},
+  {"route":"/research/daily-article-topic-queue-niche-fit","sourcePaths":["app/research-batch-2026-08-18.ts"]},
+  {"route":"/research/outsourced-content-access-boundary-research","sourcePaths":["app/research-batch-2026-08-18.ts"]},
+  {"route":"/research/research-article-source-diversity","sourcePaths":["app/research-batch-2026-08-18.ts"]},
+  {"route":"/research/assistant-research-exception-escalation","sourcePaths":["app/research-batch-2026-08-18.ts"]},
+  {"route":"/research/daily-research-article-originality-boundary","sourcePaths":["app/research-batch-2026-08-18.ts"]}
+]
