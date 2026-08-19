@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "family": "blog",
+  "domain": "outsourcingassistant.com",
+  "campaignDate": "2026-08-18",
+  "entries": [
+    {"route":"/blog/filipino-assistant-daily-content-briefs","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-editorial-calendar-maintenance","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-article-source-checking","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-blog-outline-review","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-content-fact-table","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-blog-internal-link-audit","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-article-refresh-queue","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-reader-question-mining","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-article-brief-approval","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-blog-draft-style-check","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-content-compliance-review","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-blog-meta-data-check","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-content-qa-handoff","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-blog-topic-deduplication","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-article-outline-examples","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-blog-image-alt-review","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-content-calendar-risk-log","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-blog-revision-tracking","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-assistant-content-access","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-blog-publishing-checklist","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-content-performance-notes","sourcePath":"app/blog-batch-2026-08-18.ts"},
+    {"route":"/blog/filipino-assistant-blog-archive-indexing","sourcePath":"app/blog-batch-2026-08-18.ts"}
+  ]
+}
