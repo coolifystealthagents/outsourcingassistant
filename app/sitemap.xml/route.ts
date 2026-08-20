@@ -1,3 +1,4 @@
+import aug19Meta from '../aug19-meta.json';
 import { fleetServices, researchPosts } from '../fleet-content';
 import { blogPosts } from '../data';
 
@@ -40,6 +41,7 @@ export async function GET() {
     ] as const),
     ...blogPageEntries,
     ...researchPosts.map((post) => [`/research/${post.slug}`, post.published] as const),
+    ...Object.entries(aug19Meta).map(([slug, value]) => [`/${(value as { family: string }).family}/${slug}`, '2026-08-19'] as const),
   ];
   const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries
     .map(([path, lastModified]) => entry(path, lastModified))

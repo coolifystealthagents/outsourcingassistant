@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/research/virtual-assistant-source-quality-evidence-research",
+      "source": "content/research/virtual-assistant-source-quality-evidence-research.md"
+    },
+    {
+      "route": "/research/virtual-assistant-exception-aging-patterns-research",
+      "source": "content/research/virtual-assistant-exception-aging-patterns-research.md"
+    },
+    {
+      "route": "/research/virtual-assistant-review-consistency-research",
+      "source": "content/research/virtual-assistant-review-consistency-research.md"
+    },
+    {
+      "route": "/research/virtual-assistant-access-governance-research",
+      "source": "content/research/virtual-assistant-access-governance-research.md"
+    },
+    {
+      "route": "/research/virtual-assistant-handoff-reliability-research",
+      "source": "content/research/virtual-assistant-handoff-reliability-research.md"
+    }
+  ]
+}

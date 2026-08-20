@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/blog/virtual-assistant-intake-source-register",
+      "source": "content/blog/virtual-assistant-intake-source-register.md"
+    },
+    {
+      "route": "/blog/virtual-assistant-approval-evidence-matrix",
+      "source": "content/blog/virtual-assistant-approval-evidence-matrix.md"
+    },
+    {
+      "route": "/blog/virtual-assistant-exception-queue-triage",
+      "source": "content/blog/virtual-assistant-exception-queue-triage.md"
+    },
+    {
+      "route": "/blog/virtual-assistant-quality-review-cadence",
+      "source": "content/blog/virtual-assistant-quality-review-cadence.md"
+    },
+    {
+      "route": "/blog/virtual-assistant-handoff-acceptance-log",
+      "source": "content/blog/virtual-assistant-handoff-acceptance-log.md"
+    },
+    {
+      "route": "/blog/virtual-assistant-access-recertification-review",
+      "source": "content/blog/virtual-assistant-access-recertification-review.md"
+    },
+    {
+      "route": "/blog/virtual-assistant-weekly-decision-brief",
+      "source": "content/blog/virtual-assistant-weekly-decision-brief.md"
+    },
+    {
+      "route": "/blog/virtual-assistant-source-of-truth-map",
+      "source": "content/blog/virtual-assistant-source-of-truth-map.md"
+    },
+    {
+      "route": "/blog/virtual-assistant-change-control-record",
+      "source": "content/blog/virtual-assistant-change-control-record.md"
+    },
+    {
+      "route": "/blog/virtual-assistant-work-queue-ownership",
+      "source": "content/blog/virtual-assistant-work-queue-ownership.md"
+    },
+    {
+      "route": "/blog/virtual-assistant-escalation-path-design",
+      "source": "content/blog/virtual-assistant-escalation-path-design.md"
+    },
+    {
+      "route": "/blog/virtual-assistant-launch-readiness-review",
+      "source": "content/blog/virtual-assistant-launch-readiness-review.md"
+    }
+  ]
+}

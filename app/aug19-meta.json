@@ -1,0 +1,104 @@
+{
+  "virtual-assistant-intake-source-register": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Intake Source Register",
+    "description": "Virtual Assistant Operations: Intake Source Register: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-intake-source-register.webp"
+  },
+  "virtual-assistant-approval-evidence-matrix": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Approval Evidence Matrix",
+    "description": "Virtual Assistant Operations: Approval Evidence Matrix: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-approval-evidence-matrix.webp"
+  },
+  "virtual-assistant-exception-queue-triage": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Exception Queue Triage",
+    "description": "Virtual Assistant Operations: Exception Queue Triage: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-exception-queue-triage.webp"
+  },
+  "virtual-assistant-quality-review-cadence": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Quality Review Cadence",
+    "description": "Virtual Assistant Operations: Quality Review Cadence: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-quality-review-cadence.webp"
+  },
+  "virtual-assistant-handoff-acceptance-log": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Handoff Acceptance Log",
+    "description": "Virtual Assistant Operations: Handoff Acceptance Log: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-handoff-acceptance-log.webp"
+  },
+  "virtual-assistant-access-recertification-review": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Access Recertification Review",
+    "description": "Virtual Assistant Operations: Access Recertification Review: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-access-recertification-review.webp"
+  },
+  "virtual-assistant-weekly-decision-brief": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Weekly Decision Brief",
+    "description": "Virtual Assistant Operations: Weekly Decision Brief: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-weekly-decision-brief.webp"
+  },
+  "virtual-assistant-source-of-truth-map": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Source of Truth Map",
+    "description": "Virtual Assistant Operations: Source of Truth Map: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-source-of-truth-map.webp"
+  },
+  "virtual-assistant-change-control-record": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Change Control Record",
+    "description": "Virtual Assistant Operations: Change Control Record: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-change-control-record.webp"
+  },
+  "virtual-assistant-work-queue-ownership": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Work Queue Ownership",
+    "description": "Virtual Assistant Operations: Work Queue Ownership: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-work-queue-ownership.webp"
+  },
+  "virtual-assistant-escalation-path-design": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Escalation Path Design",
+    "description": "Virtual Assistant Operations: Escalation Path Design: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-escalation-path-design.webp"
+  },
+  "virtual-assistant-launch-readiness-review": {
+    "family": "blog",
+    "title": "Virtual Assistant Operations: Launch Readiness Review",
+    "description": "Virtual Assistant Operations: Launch Readiness Review: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-launch-readiness-review.webp"
+  },
+  "virtual-assistant-source-quality-evidence-research": {
+    "family": "research",
+    "title": "Research Brief: Virtual Assistant Operations Source Quality Evidence",
+    "description": "Research Brief: Virtual Assistant Operations Source Quality Evidence: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-source-quality-evidence-research.webp"
+  },
+  "virtual-assistant-exception-aging-patterns-research": {
+    "family": "research",
+    "title": "Research Brief: Virtual Assistant Operations Exception Aging Patterns",
+    "description": "Research Brief: Virtual Assistant Operations Exception Aging Patterns: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-exception-aging-patterns-research.webp"
+  },
+  "virtual-assistant-review-consistency-research": {
+    "family": "research",
+    "title": "Research Brief: Virtual Assistant Operations Review Consistency",
+    "description": "Research Brief: Virtual Assistant Operations Review Consistency: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-review-consistency-research.webp"
+  },
+  "virtual-assistant-access-governance-research": {
+    "family": "research",
+    "title": "Research Brief: Virtual Assistant Operations Access Governance",
+    "description": "Research Brief: Virtual Assistant Operations Access Governance: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-access-governance-research.webp"
+  },
+  "virtual-assistant-handoff-reliability-research": {
+    "family": "research",
+    "title": "Research Brief: Virtual Assistant Operations Handoff Reliability",
+    "description": "Research Brief: Virtual Assistant Operations Handoff Reliability: evidence-led guidance for Outsourcing Assistant.",
+    "hero": "/aug19-heroes/virtual-assistant-handoff-reliability-research.webp"
+  }
+}
