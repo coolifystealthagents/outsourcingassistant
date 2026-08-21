@@ -608,6 +608,8 @@ import { leastPrivilegeToolOnboardingAssistant } from './blog-2026-08-20-least-p
 blogPosts.push(leastPrivilegeToolOnboardingAssistant);
 import { outsourcedArticleOutlineApproval } from './blog-2026-08-20-outsourced-article-outline-approval';
 blogPosts.push(outsourcedArticleOutlineApproval);
+import { dailyBlogBatch20260821 } from './blog-batch-2026-08-21';
+blogPosts.push(...dailyBlogBatch20260821);
 import { assistantWorkSampleCalibration } from './blog-2026-08-20-assistant-work-sample-calibration';
 blogPosts.push(assistantWorkSampleCalibration);
 import { remoteProjectDependencyRegister } from './blog-2026-08-20-remote-project-dependency-register';

@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "blog",
+  "entries": [
+    {"route":"/blog/outsourced-assistant-weekly-capacity-map","sourcePaths":["app/blog-batch-2026-08-21.ts"]},
+    {"route":"/blog/filipino-virtual-assistant-escalation-ladder","sourcePaths":["app/blog-batch-2026-08-21.ts"]},
+    {"route":"/blog/outsourced-assistant-knowledge-base-review","sourcePaths":["app/blog-batch-2026-08-21.ts"]},
+    {"route":"/blog/remote-assistant-shift-handoff","sourcePaths":["app/blog-batch-2026-08-21.ts"]},
+    {"route":"/blog/outsourced-assistant-approval-queue","sourcePaths":["app/blog-batch-2026-08-21.ts"]},
+    {"route":"/blog/filipino-assistant-data-cleanup-scope","sourcePaths":["app/blog-batch-2026-08-21.ts"]},
+    {"route":"/blog/outsourced-assistant-research-brief","sourcePaths":["app/blog-batch-2026-08-21.ts"]},
+    {"route":"/blog/outsourced-assistant-meeting-prep-packet","sourcePaths":["app/blog-batch-2026-08-21.ts"]},
+    {"route":"/blog/outsourced-assistant-vendor-follow-up","sourcePaths":["app/blog-batch-2026-08-21.ts"]},
+    {"route":"/blog/outsourced-assistant-quality-sample-plan","sourcePaths":["app/blog-batch-2026-08-21.ts"]},
+    {"route":"/blog/filipino-virtual-assistant-calendar-timezone-rules","sourcePaths":["app/blog-batch-2026-08-21.ts"]},
+    {"route":"/blog/outsourced-assistant-role-reset","sourcePaths":["app/blog-batch-2026-08-21.ts"]}
+  ]
+}
