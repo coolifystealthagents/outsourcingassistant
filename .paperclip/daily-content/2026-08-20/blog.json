@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "blog",
+  "entries": [
+    {"route":"/blog/virtual-assistant-inbox-triage-rules","sourcePaths":["app/blog-batch-2026-08-20.ts"]},
+    {"route":"/blog/outsourced-calendar-ownership","sourcePaths":["app/blog-batch-2026-08-20.ts"]},
+    {"route":"/blog/outsourced-research-source-register","sourcePaths":["app/blog-batch-2026-08-20.ts"]},
+    {"route":"/blog/filipino-virtual-assistant-customer-support-escalation","sourcePaths":["app/blog-batch-2026-08-20.ts"]},
+    {"route":"/blog/outsourced-bookkeeping-document-handoff","sourcePaths":["app/blog-batch-2026-08-20.ts"]},
+    {"route":"/blog/outsourced-lead-research-qualification","sourcePaths":["app/blog-batch-2026-08-20.ts"]},
+    {"route":"/blog/virtual-assistant-sop-version-control","sourcePaths":["app/blog-batch-2026-08-20.ts"]},
+    {"route":"/blog/outsourced-operations-daily-handoff","sourcePaths":["app/blog-batch-2026-08-20.ts"]},
+    {"route":"/blog/philippines-based-assistant-access-review","sourcePaths":["app/blog-batch-2026-08-20.ts"]},
+    {"route":"/blog/outsourced-content-brief-review-loop","sourcePaths":["app/blog-batch-2026-08-20.ts"]},
+    {"route":"/blog/virtual-assistant-quality-scorecard","sourcePaths":["app/blog-batch-2026-08-20.ts"]},
+    {"route":"/blog/outsourced-project-coordinator-decision-log","sourcePaths":["app/blog-batch-2026-08-20.ts"]}
+  ]
+}

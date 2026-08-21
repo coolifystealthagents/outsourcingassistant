@@ -1,0 +1,19 @@
+{
+  "campaignDate":"2026-08-20",
+  "family":"blog",
+  "generator":"Gemini",
+  "entries":[
+    {"route":"/blog/virtual-assistant-inbox-triage-rules","imagePath":"public/images/blog-2026-08-20/virtual-assistant-inbox-triage-rules.png","prompt":"Inbox triage desk with labels and draft replies; wide editorial photo; no text, logos, or watermark."},
+    {"route":"/blog/outsourced-calendar-ownership","imagePath":"public/images/blog-2026-08-20/outsourced-calendar-ownership.png","prompt":"Remote assistant arranging a weekly calendar with buffers; wide editorial photo; no text, logos, or watermark."},
+    {"route":"/blog/outsourced-research-source-register","imagePath":"public/images/blog-2026-08-20/outsourced-research-source-register.png","prompt":"Researcher comparing source notes and laptop; wide editorial photo; no text, logos, or watermark."},
+    {"route":"/blog/filipino-virtual-assistant-customer-support-escalation","imagePath":"public/images/blog-2026-08-20/filipino-virtual-assistant-customer-support-escalation.png","prompt":"Customer support assistant reviewing an escalation board; wide editorial photo; no text, logos, or watermark."},
+    {"route":"/blog/outsourced-bookkeeping-document-handoff","imagePath":"public/images/blog-2026-08-20/outsourced-bookkeeping-document-handoff.png","prompt":"Bookkeeping document handoff with receipts and folders; wide editorial photo; no text, logos, or watermark."},
+    {"route":"/blog/outsourced-lead-research-qualification","imagePath":"public/images/blog-2026-08-20/outsourced-lead-research-qualification.png","prompt":"Sales researcher reviewing a prospect list; wide editorial photo; no text, logos, or watermark."},
+    {"route":"/blog/virtual-assistant-sop-version-control","imagePath":"public/images/blog-2026-08-20/virtual-assistant-sop-version-control.png","prompt":"Operations assistant updating an SOP binder and change notes; wide editorial photo; no text, logos, or watermark."},
+    {"route":"/blog/outsourced-operations-daily-handoff","imagePath":"public/images/blog-2026-08-20/outsourced-operations-daily-handoff.png","prompt":"End-of-day operations handoff with checklist and status cards; wide editorial photo; no text, logos, or watermark."},
+    {"route":"/blog/philippines-based-assistant-access-review","imagePath":"public/images/blog-2026-08-20/philippines-based-assistant-access-review.png","prompt":"Access review desk with laptop and security key; wide editorial photo; no text, logos, or watermark."},
+    {"route":"/blog/outsourced-content-brief-review-loop","imagePath":"public/images/blog-2026-08-20/outsourced-content-brief-review-loop.png","prompt":"Editor and outsourced writer reviewing an article brief; wide editorial photo; no text, logos, or watermark."},
+    {"route":"/blog/virtual-assistant-quality-scorecard","imagePath":"public/images/blog-2026-08-20/virtual-assistant-quality-scorecard.png","prompt":"Manager reviewing an assistant quality scorecard; wide editorial photo; no text, logos, or watermark."},
+    {"route":"/blog/outsourced-project-coordinator-decision-log","imagePath":"public/images/blog-2026-08-20/outsourced-project-coordinator-decision-log.png","prompt":"Project coordinator maintaining a decision log; wide editorial photo; no text, logos, or watermark."}
+  ]
+}
