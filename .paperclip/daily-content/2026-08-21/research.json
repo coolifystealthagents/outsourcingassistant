@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "research",
+  "entries": [
+    { "route": "/research/outsourced-article-intake-question-quality", "sourcePaths": ["app/research-batch-2026-08-21.ts"], "imagePath": "public/images/research-2026-08-21/outsourced-article-intake-question-quality.png", "promptReceipt": ".paperclip/daily-content/2026-08-21/prompt-receipts/outsourced-article-intake-question-quality.txt" },
+    { "route": "/research/philippines-assistant-article-handoff-window", "sourcePaths": ["app/research-batch-2026-08-21.ts"], "imagePath": "public/images/research-2026-08-21/philippines-assistant-article-handoff-window.png", "promptReceipt": ".paperclip/daily-content/2026-08-21/prompt-receipts/philippines-assistant-article-handoff-window.txt" },
+    { "route": "/research/article-quality-sampling-for-outsourced-routines", "sourcePaths": ["app/research-batch-2026-08-21.ts"], "imagePath": "public/images/research-2026-08-21/article-quality-sampling-for-outsourced-routines.png", "promptReceipt": ".paperclip/daily-content/2026-08-21/prompt-receipts/article-quality-sampling-for-outsourced-routines.txt" },
+    { "route": "/research/outsourced-research-approval-boundary", "sourcePaths": ["app/research-batch-2026-08-21.ts"], "imagePath": "public/images/research-2026-08-21/outsourced-research-approval-boundary.png", "promptReceipt": ".paperclip/daily-content/2026-08-21/prompt-receipts/outsourced-research-approval-boundary.txt" },
+    { "route": "/research/source-freshness-for-daily-outsourced-articles", "sourcePaths": ["app/research-batch-2026-08-21.ts"], "imagePath": "public/images/research-2026-08-21/source-freshness-for-daily-outsourced-articles.png", "promptReceipt": ".paperclip/daily-content/2026-08-21/prompt-receipts/source-freshness-for-daily-outsourced-articles.txt" }
+  ]
+}
