@@ -131,6 +131,14 @@ const routeLocalReleaseAdditions: Record<string, string> = {
   'filipino-virtual-assistant-calendar-timezone-rules': `Treat every conversion as a record to verify. Write the canonical zone, confirmed zone for each participant, calendar date, local displays, duration, daylight-saving status, source message, and exception approver. A Filipino virtual assistant can compare availability, draft options, and inspect an invitation. The owner decides whether protected time, a customer commitment, or a priority may move. When someone says tomorrow or next afternoon, write the actual date and request confirmation. If a zone is inferred, stop and label the uncertainty. After booking, compare the invitation with the source request and inspect the next occurrence of a recurring event after any daylight-saving change. This route keeps scheduling preparation auditable for an outsourced assistant team without treating a conversion as authorization.`
 };
 
+// Keep the repair prose inside the exact route-bound source field that the release
+// auditor measures, rather than relying only on a rendered-section composition.
+for (const spec of specs as unknown as Array<unknown[]>) {
+  const slug = String(spec[0]);
+  const addition = routeLocalReleaseAdditions[slug];
+  if (addition) spec[10] = `${String(spec[10])} ${addition}`;
+}
+
 function makePost(s: Spec, index: number): BlogPost {
   return { slug: s.slug, title: s.title, published: '2026-08-21', minutes: 11,
     excerpt: `A practical OutsourcingAssistant.com guide for ${s.audience}: make ${s.focus} reviewable, useful, and bounded.`,
