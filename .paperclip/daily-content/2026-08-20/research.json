@@ -1,0 +1,12 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "research",
+  "generator": "Gemini",
+  "entries": [
+    {"route": "/research/assistant-source-chain-for-daily-articles", "sourcePaths": ["app/research-batch-2026-08-20.ts"], "imagePath": "public/images/research-2026-08-20/assistant-source-chain-for-daily-articles.png"},
+    {"route": "/research/daily-article-review-queue-design", "sourcePaths": ["app/research-batch-2026-08-20.ts"], "imagePath": "public/images/research-2026-08-20/daily-article-review-queue-design.png"},
+    {"route": "/research/outsourced-content-brief-evidence-scope", "sourcePaths": ["app/research-batch-2026-08-20.ts"], "imagePath": "public/images/research-2026-08-20/outsourced-content-brief-evidence-scope.png"},
+    {"route": "/research/article-correction-loop-for-outsourced-research", "sourcePaths": ["app/research-batch-2026-08-20.ts"], "imagePath": "public/images/research-2026-08-20/article-correction-loop-for-outsourced-research.png"},
+    {"route": "/research/owner-review-capacity-for-daily-research", "sourcePaths": ["app/research-batch-2026-08-20.ts"], "imagePath": "public/images/research-2026-08-20/owner-review-capacity-for-daily-research.png"}
+  ]
+}
