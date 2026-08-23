@@ -1,6 +1,6 @@
 # Outsourcing Assistant service-link ledger
 
-Updated: 2026-08-22
+Updated: 2026-08-23
 
 This working map pairs the current Philippines-based assistant service routes with the closest existing research route. It is a release checklist, not public copy. Before publishing a handoff, confirm that the source section answers the listed question, the route still builds, and the wording leaves approvals, commitments, spending, and sensitive access with the named owner.
 
@@ -20,3 +20,11 @@ This working map pairs the current Philippines-based assistant service routes wi
 ## Release rule
 
 Use one row for one future contextual link. Do not make a service claim from a broad research finding. Add the handoff only when the surrounding paragraph has the same decision boundary as the target service, then verify the source marker, target route, canonical URL, and sitemap entry after the build.
+
+## Next editorial candidate
+
+- **Source:** `/research/calendar-buffer-outcomes` — rendered H1: "Calendar buffer outcomes for executive support."
+- **Target:** `/services/executive-calendar-management` — rendered H1: "Executive Calendar Management."
+- **Reader decision:** A reader who has identified a calendar buffer, travel constraint, or review window may need help preparing those updates without giving away priority decisions.
+- **Draft handoff scope:** Add one contextual link only in the source passage that says the executive or named manager retains the override decision. Use a descriptive label such as "See the executive calendar management service" rather than a generic services link.
+- **Pre-edit proof:** The target href is absent from the current research data and generated source HTML. Both paths are in the generated sitemap. This is a queued editorial handoff, not a public release.
