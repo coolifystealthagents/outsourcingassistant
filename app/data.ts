@@ -614,4 +614,6 @@ import { assistantWorkSampleCalibration } from './blog-2026-08-20-assistant-work
 blogPosts.push(assistantWorkSampleCalibration);
 import { remoteProjectDependencyRegister } from './blog-2026-08-20-remote-project-dependency-register';
 blogPosts.push(remoteProjectDependencyRegister);
+import { dailyBlogBatch20260823 } from './blog-batch-2026-08-23';
+blogPosts.push(...dailyBlogBatch20260823);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));

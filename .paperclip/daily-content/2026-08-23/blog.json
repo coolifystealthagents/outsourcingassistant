@@ -1,0 +1,19 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "imageStatus": "GEMINI_UNAVAILABLE_TEXT_COMPLETE",
+  "entries": [
+    {"route":"/blog/assistant-daily-content-brief-intake","sourcePaths":["app/blog-batch-2026-08-23.ts"]},
+    {"route":"/blog/assistant-source-packet-research-routine","sourcePaths":["app/blog-batch-2026-08-23.ts"]},
+    {"route":"/blog/assistant-article-outline-approval","sourcePaths":["app/blog-batch-2026-08-23.ts"]},
+    {"route":"/blog/assistant-editorial-fact-check-register","sourcePaths":["app/blog-batch-2026-08-23.ts"]},
+    {"route":"/blog/assistant-content-calendar-dependency-map","sourcePaths":["app/blog-batch-2026-08-23.ts"]},
+    {"route":"/blog/assistant-article-duplicate-topic-check","sourcePaths":["app/blog-batch-2026-08-23.ts"]},
+    {"route":"/blog/assistant-blog-image-brief-review","sourcePaths":["app/blog-batch-2026-08-23.ts"]},
+    {"route":"/blog/assistant-visible-date-publishing-check","sourcePaths":["app/blog-batch-2026-08-23.ts"]},
+    {"route":"/blog/assistant-article-word-count-substance","sourcePaths":["app/blog-batch-2026-08-23.ts"]},
+    {"route":"/blog/assistant-escalation-copy-review","sourcePaths":["app/blog-batch-2026-08-23.ts"]},
+    {"route":"/blog/assistant-article-internal-link-audit","sourcePaths":["app/blog-batch-2026-08-23.ts"]},
+    {"route":"/blog/assistant-publish-queue-handoff-note","sourcePaths":["app/blog-batch-2026-08-23.ts"]}
+  ]
+}
