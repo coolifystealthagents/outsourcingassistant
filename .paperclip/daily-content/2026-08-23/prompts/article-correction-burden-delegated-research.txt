@@ -1,0 +1,9 @@
+Use case: productivity-visual
+Asset type: editorial hero image for an outsourcing research article
+Primary request: a precise editorial illustration of an editor tracing a published article correction back through a source document and evidence trail
+Scene/backdrop: calm editorial desk with layered article pages, highlighted but unreadable lines, source cards, a red correction marker, and a clear path back to evidence
+Subject: correction traceability and quality learning in delegated research
+Style/medium: polished contemporary digital illustration, tactile printmaking and soft realism
+Composition/framing: wide landscape hero composition, diagonal evidence trail, no readable text or UI
+Lighting/mood: focused warm daylight, constructive and analytical
+Constraints: no logos, brands, readable words, or watermark

@@ -1,0 +1,9 @@
+Use case: productivity-visual
+Asset type: editorial hero image for an outsourcing research article
+Primary request: a thoughtful editorial illustration of a research lead pausing an article because authoritative sources disagree, preserving competing evidence for owner review
+Scene/backdrop: quiet research desk with two distinct source stacks, a visible pause marker, transparent overlays, and an open review folder, no readable text
+Subject: responsible stopping and escalation rather than forced consensus
+Style/medium: polished contemporary digital illustration with restrained realism and editorial clarity
+Composition/framing: wide landscape hero, central pause boundary between source groups, generous negative space
+Lighting/mood: calm, serious, constructive, soft directional light
+Constraints: no logos, brands, readable words, or watermark

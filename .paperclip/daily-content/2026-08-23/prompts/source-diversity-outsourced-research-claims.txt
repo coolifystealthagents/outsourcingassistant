@@ -1,0 +1,9 @@
+Use case: productivity-visual
+Asset type: editorial hero image for an outsourcing research article
+Primary request: an elegant visual of a researcher comparing different authoritative source types before writing an outsourcing article, with distinct source cards contributing different evidence roles
+Scene/backdrop: quiet editorial studio with layered paper documents, books, source cards, and a magnifying glass, no readable text
+Subject: evidence comparison and source diversity, with clearly different visual categories that converge on one bounded article question
+Style/medium: polished contemporary digital illustration, editorial magazine quality
+Composition/framing: wide landscape hero, top-down angled desk view, intentional negative space, no software UI
+Lighting/mood: warm natural light, rigorous and calm
+Constraints: no logos, brands, readable words, or watermark

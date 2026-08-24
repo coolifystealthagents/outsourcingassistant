@@ -1,0 +1,10 @@
+Use case: productivity-visual
+Asset type: editorial hero image for an outsourcing research article
+Primary request: a sophisticated editorial illustration showing an editor routing daily article research cards by evidence volatility, with calm visual separation between stable references and fast-changing claims
+Scene/backdrop: modern remote editorial workspace, abstract document cards and source markers, no readable text
+Subject: a focused research-routing board with distinct pathways and a subtle calendar rhythm
+Style/medium: polished contemporary digital illustration with natural paper and glass textures
+Composition/framing: wide landscape hero composition, clear focal hierarchy, generous negative space, no interface chrome
+Lighting/mood: soft daylight, thoughtful, analytical
+Color palette: warm ivory, deep navy, muted teal, restrained coral accents
+Constraints: no logos, brands, readable words, or watermark
