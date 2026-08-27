@@ -40,7 +40,7 @@ export async function GET() {
       post.rich?.updated ?? post.rich?.published ?? post.published ?? staticLastModified['/blog'],
     ] as const),
     ...blogPageEntries,
-    ...researchPosts.map((post) => [`/research/${post.slug}`, post.published] as const),
+    ...researchPosts.map((post) => [`/research/${post.slug}`, post.updated] as const),
     ...Object.entries(aug19Meta).map(([slug, value]) => [`/${(value as { family: string }).family}/${slug}`, '2026-08-19'] as const),
   ];
   const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries
