@@ -1,0 +1,36 @@
+{
+  "batchId": "2026-08-31",
+  "status": "completed",
+  "validated": true,
+  "buildPassed": true,
+  "blogs": [
+    "virtual-assistant-password-reset-request-log",
+    "executive-assistant-meeting-decision-register",
+    "customer-support-refund-evidence-packet",
+    "crm-merge-candidate-review-queue",
+    "vendor-bank-detail-change-verification",
+    "calendar-delegate-private-event-screening",
+    "assistant-shared-mailbox-coverage-map",
+    "research-assistant-source-access-register",
+    "virtual-assistant-device-return-checklist",
+    "lead-qualification-unknown-field-policy",
+    "assistant-recurring-report-cutoff-rules",
+    "outsourced-sop-example-library-governance"
+  ],
+  "research": [
+    "assistant-queue-interruption-cost-observation",
+    "delegated-work-approval-sampling-bias",
+    "philippines-handoff-overlap-window-study",
+    "assistant-access-review-evidence-completeness",
+    "research-brief-return-reason-taxonomy"
+  ],
+  "files": [
+    "app/blog-batch-2026-08-31.ts",
+    "app/research-batch-2026-08-31.ts",
+    "app/data.ts",
+    "app/fleet-content.ts",
+    ".paperclip/daily-content/2026-08-31/blog.json",
+    ".paperclip/daily-content/2026-08-31/research.json",
+    "ops/daily-blog-batch.json"
+  ]
+}

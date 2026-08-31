@@ -616,4 +616,6 @@ import { remoteProjectDependencyRegister } from './blog-2026-08-20-remote-projec
 blogPosts.push(remoteProjectDependencyRegister);
 import { dailyBlogBatch20260823 } from './blog-batch-2026-08-23';
 blogPosts.push(...dailyBlogBatch20260823);
+import { dailyBlogBatch20260831 } from './blog-batch-2026-08-31';
+blogPosts.push(...dailyBlogBatch20260831);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
