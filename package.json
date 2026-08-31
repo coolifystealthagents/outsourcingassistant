@@ -3,7 +3,7 @@
     "dev": "next dev",
     "build": "node scripts/verify-call-first-policy.mjs && next build",
     "start": "next start -H 0.0.0.0 -p 3000",
-    "lint": "next lint",
+    "lint": "tsc --noEmit",
     "audit:content": "node scripts/gsc-content-audit.mjs",
     "report:gsc-weekly": "node scripts/gsc-weekly-report.mjs",
     "refresh:wayback": "node seo/wayback/spn_push.mjs",
