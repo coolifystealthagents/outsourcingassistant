@@ -1,12 +1,12 @@
 # Outsourcing Assistant service-link ledger
 
-Updated: 2026-08-23
+Updated: 2026-09-02
 
 This working map pairs the current Philippines-based assistant service routes with the closest existing research route. It is a release checklist, not public copy. Before publishing a handoff, confirm that the source section answers the listed question, the route still builds, and the wording leaves approvals, commitments, spending, and sensitive access with the named owner.
 
 | Service pillar | Existing supporting research route | Reader's next question | Controlled next handoff |
 | --- | --- | --- | --- |
-| Executive Calendar Management | `/research/calendar-buffer-outcomes` | How can an assistant protect preparation time without deciding the executive's priorities? | `/services/executive-calendar-management` |
+| Executive Calendar Management | `/research/calendar-buffer-outcomes` | How can an assistant protect preparation time without deciding the executive's priorities? | Delivered in the source record on 2026-08-27: `/services/executive-calendar-management`. Do not add another link. |
 | Inbox Triage | `/research/delegated-inbox-risk-segmentation` | Which messages can be sorted safely, and which need an owner's decision? | `/services/inbox-triage` |
 | Travel Coordination | `/research/time-zone-handoff-design` | What handoff details prevent a travel update from being missed across time zones? | `/services/travel-coordination` |
 | Meeting Administration | `/research/meeting-notes-action-tracking` | How should meeting decisions and follow-ups be recorded for review? | `/services/meeting-administration` |
@@ -21,10 +21,9 @@ This working map pairs the current Philippines-based assistant service routes wi
 
 Use one row for one future contextual link. Do not make a service claim from a broad research finding. Add the handoff only when the surrounding paragraph has the same decision boundary as the target service, then verify the source marker, target route, canonical URL, and sitemap entry after the build.
 
-## Next editorial candidate
+## Reconciled delivery
 
 - **Source:** `/research/calendar-buffer-outcomes` — rendered H1: "Calendar buffer outcomes for executive support."
 - **Target:** `/services/executive-calendar-management` — rendered H1: "Executive Calendar Management."
-- **Reader decision:** A reader who has identified a calendar buffer, travel constraint, or review window may need help preparing those updates without giving away priority decisions.
-- **Draft handoff scope:** Add one contextual link only in the source passage that says the executive or named manager retains the override decision. Use a descriptive label such as "See the executive calendar management service" rather than a generic services link.
-- **Pre-edit proof:** The target href is absent from the current research data and generated source HTML. Both paths are in the generated sitemap. This is a queued editorial handoff, not a public release.
+- **Evidence:** The current typed source record already owns the service handoff, its descriptive label, and the 2026-08-27 modified date. The generated route has one service link in its route-local article.
+- **Action:** Mark this pair delivered and non-duplicable. Select any future editorial handoff only after checking its current route-local output from a clean build.
