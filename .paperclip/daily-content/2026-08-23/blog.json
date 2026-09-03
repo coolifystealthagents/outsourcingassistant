@@ -1,0 +1,93 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "requiredCount": 12,
+  "actualCount": 12,
+  "imageStatus": "GEMINI_UNAVAILABLE_TEXT_COMPLETE",
+  "entries": [
+    {
+      "route": "/blog/returned-mail-address-correction-queue",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/returned-mail-address-correction-queue.txt"
+    },
+    {
+      "route": "/blog/appointment-no-show-recovery-packet",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/appointment-no-show-recovery-packet.txt"
+    },
+    {
+      "route": "/blog/contract-renewal-date-register",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/contract-renewal-date-register.txt"
+    },
+    {
+      "route": "/blog/ecommerce-catalog-change-proof",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/ecommerce-catalog-change-proof.txt"
+    },
+    {
+      "route": "/blog/candidate-interview-availability-coordination",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/candidate-interview-availability-coordination.txt"
+    },
+    {
+      "route": "/blog/expense-receipt-exception-packet",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/expense-receipt-exception-packet.txt"
+    },
+    {
+      "route": "/blog/customer-record-identity-mismatch-triage",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/customer-record-identity-mismatch-triage.txt"
+    },
+    {
+      "route": "/blog/meeting-action-dependency-map",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/meeting-action-dependency-map.txt"
+    },
+    {
+      "route": "/blog/supplier-document-expiry-watch",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/supplier-document-expiry-watch.txt"
+    },
+    {
+      "route": "/blog/knowledge-base-contradiction-register",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/knowledge-base-contradiction-register.txt"
+    },
+    {
+      "route": "/blog/multilingual-customer-message-routing",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/multilingual-customer-message-routing.txt"
+    },
+    {
+      "route": "/blog/holiday-coverage-plan-recurring-assistant-tasks",
+      "sourcePaths": [
+        "app/blog-batch-2026-08-23-v8.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompt-receipts/holiday-coverage-plan-recurring-assistant-tasks.txt"
+    }
+  ]
+}
