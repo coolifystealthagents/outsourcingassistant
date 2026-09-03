@@ -4,18 +4,18 @@ const s = (name: string, url: string, note: string) => ({ name, url, note });
 const sec = (heading: string, paragraphs: string[]) => ({ heading, paragraphs, rows: [] });
 
 const common = {
-  published: '2026-08-23',
-  updated: '2026-08-23',
+  published: '2026-09-03',
+  updated: '2026-09-03',
 } as const;
 
-export const researchBatch20260823Contract: readonly ResearchPost[] = [
+export const researchBatch20260903Correction: readonly ResearchPost[] = [
   {
     ...common,
     slug: 'claim-consequence-retrieval-depth-study',
     title: 'How much source retrieval should an assistant do before a consequential claim is ready for review?',
     excerpt: 'A source-led study of how claim consequence, reversibility, and evidence disagreement should change the depth of delegated article research.',
     cluster: 'Research operations',
-    image: { url: '/images/research-2026-08-23/claim-consequence-retrieval-depth-study.png', alt: 'Research assistant comparing source depth for claims with different consequences' },
+    image: { url: '/images/research-2026-09-03/claim-consequence-retrieval-depth-study.png', alt: 'Research assistant comparing source depth for claims with different consequences' },
     headlineStat: 'Retrieval depth should rise with the consequence of being wrong, not with the desired article length.',
     methodology: 'Research question: how much source retrieval should a Philippines-based research assistant complete before a consequential claim is ready for editorial review? This desk review compares the NIST AI Risk Management Framework, the National Academies report on reproducibility and replicability, Google Search Central guidance on helpful content, and the U.S. Government Accountability Office evidence assessment guide. The sources address different domains, so the analysis uses their common principles rather than treating any one document as a content-production standard. No controlled trial of OutsourcingAssistant.com articles was conducted.',
     keyStats: ['Four dimensions guide depth: consequence, reversibility, source agreement, and decision proximity.', 'A long bibliography does not correct a source that fails to support the claim.', 'The editor, not the assistant, accepts a consequential interpretation for publication.'],
@@ -53,7 +53,7 @@ export const researchBatch20260823Contract: readonly ResearchPost[] = [
     title: 'When should manager feedback change an assistant SOP rather than remain a one-off preference?',
     excerpt: 'A research framework for separating repeatable process evidence from personal edits in Philippines-based assistant work.',
     cluster: 'Quality systems',
-    image: { url: '/images/research-2026-08-23/manager-feedback-sop-change-thresholds.png', alt: 'Manager and assistant separating recurring process evidence from one-off feedback' },
+    image: { url: '/images/research-2026-09-03/manager-feedback-sop-change-thresholds.png', alt: 'Manager and assistant separating recurring process evidence from one-off feedback' },
     headlineStat: 'Feedback becomes a candidate process rule when its trigger, rationale, and ownership can be stated beyond one example.',
     methodology: 'Research question: when should feedback on assistant-prepared work become part of the standing SOP? This qualitative desk review compares ISO quality-management principles, the Institute for Healthcare Improvement Model for Improvement, NIST Cybersecurity Framework governance guidance, and the UK Government Service Manual approach to learning from performance data. The analysis translates common ideas about controlled change, tests, ownership, and measures into a small outsourced assistant lane. It does not certify an ISO system or claim that a specific feedback cadence improves productivity.',
     keyStats: ['A correction, a preference, and a policy change require different records.', 'The smallest safe test protects the current process while a proposed rule is examined.', 'Only a named process owner should approve a standing change.'],
@@ -91,7 +91,7 @@ export const researchBatch20260823Contract: readonly ResearchPost[] = [
     title: 'Can exception clusters reveal missing fields in a delegated research brief?',
     excerpt: 'A bounded method for using repeated clarification requests to improve daily article briefs without turning every exception into policy.',
     cluster: 'Content operations',
-    image: { url: '/images/research-2026-08-23/brief-omission-exception-cluster-analysis.png', alt: 'Content operations team grouping research exceptions around missing brief fields' },
+    image: { url: '/images/research-2026-09-03/brief-omission-exception-cluster-analysis.png', alt: 'Content operations team grouping research exceptions around missing brief fields' },
     headlineStat: 'An exception cluster is useful only when cases share a cause, not merely a label.',
     methodology: 'Research question: can repeated exceptions in assistant-prepared research identify omissions in the original brief? This desk review compares the National Institute of Standards and Technology guidance on root-cause analysis, the U.S. Agency for Healthcare Research and Quality discussion of root-cause methods, the UK Government Service Manual on service performance, and ISO quality-management principles. The study maps those concepts to daily article intake. It examines no proprietary queue and makes no causal claim about a particular briefing template.',
     keyStats: ['Group exceptions by missing decision or input, not by superficial wording.', 'A cluster can generate a hypothesis; it does not prove the brief caused every case.', 'High-consequence exceptions deserve review even when they are rare.'],
@@ -129,7 +129,7 @@ export const researchBatch20260823Contract: readonly ResearchPost[] = [
     title: 'How can an outsourced research handoff preserve uncertainty when evidence is summarized?',
     excerpt: 'A study of what gets lost between source, research note, draft, and owner review, with controls for keeping limitations visible.',
     cluster: 'Evidence quality',
-    image: { url: '/images/research-2026-08-23/uncertainty-preservation-summary-transfers.png', alt: 'Assistant tracing uncertainty from an original report through a research handoff' },
+    image: { url: '/images/research-2026-09-03/uncertainty-preservation-summary-transfers.png', alt: 'Assistant tracing uncertainty from an original report through a research handoff' },
     headlineStat: 'A summary is reviewable when it carries the claim boundary as well as the finding.',
     methodology: 'Research question: how can a Philippines-based assistant preserve uncertainty while compressing evidence for an editor? This qualitative review compares National Academies guidance on reproducibility, the GAO data-reliability assessment guide, the OECD Recommendation on Enhancing Access to and Sharing of Data, and Google Search Central guidance on helpful content. The analysis follows four transfer points: source to note, note to draft, draft to review, and review to publication. It does not measure reader comprehension or validate a single summary format.',
     keyStats: ['Four transfer points can narrow or erase a limitation.', 'Source confidence and assistant confidence are different fields.', 'A limitation must travel with the claim it qualifies.'],
@@ -167,7 +167,7 @@ export const researchBatch20260823Contract: readonly ResearchPost[] = [
     title: 'What evidence separates queue delay from genuine research difficulty in assistant-prepared articles?',
     excerpt: 'A measurement model for distinguishing waiting, blocked decisions, source work, and revision in a daily outsourced research queue.',
     cluster: 'Operations research',
-    image: { url: '/images/research-2026-08-23/queue-delay-research-difficulty-separation.png', alt: 'Operations analyst separating waiting time from active research work in an article queue' },
+    image: { url: '/images/research-2026-09-03/queue-delay-research-difficulty-separation.png', alt: 'Operations analyst separating waiting time from active research work in an article queue' },
     headlineStat: 'Elapsed time is a mixture of work, waiting, review, and rework unless the queue records state changes.',
     methodology: 'Research question: what evidence can distinguish slow queue movement from a genuinely difficult research assignment? This desk review compares Little\'s Law as presented by NIST, the UK Government Service Manual on performance measurement, the ILO report on working from home, and GAO guidance on evidence reliability. The analysis defines observable queue states for a Philippines-based assistant and an owner working across time zones. It does not benchmark worker productivity, prescribe staffing levels, or claim that timestamps reveal cognitive effort.',
     keyStats: ['Five states separate active retrieval, clarification, owner review, revision, and ready work.', 'Elapsed time cannot identify a cause without state evidence.', 'Research difficulty needs claim-level observations, not assumptions about the person or location.'],
