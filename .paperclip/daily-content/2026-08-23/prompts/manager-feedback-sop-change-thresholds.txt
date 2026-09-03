@@ -1,0 +1,3 @@
+Provider: built-in image generation
+Use case: photorealistic-natural
+Prompt: Manager and Philippines-based remote assistant reviewing separate groups of recurring process feedback and one-off edits while discussing an SOP change. Candid wide editorial photograph, soft daylight, no readable text, logos, watermarks, staged handshakes, or floating interface.

@@ -1,0 +1,3 @@
+Provider: built-in image generation
+Use case: photorealistic-natural
+Prompt: Content operations analyst grouping exception notes around gaps in a research brief with a remote colleague visible on a laptop call. Landscape overhead-oblique editorial view, neutral daylight, no readable text, logos, watermarks, synthetic overlays, or stock-photo gestures.

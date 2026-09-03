@@ -1,0 +1,3 @@
+Provider: built-in image generation
+Use case: photorealistic-natural
+Prompt: Operations analyst separating active research from waiting and review stages with physical queue cards beside a laptop and a Philippines-based remote teammate in the background. Wide documentary photograph, crisp daylight, no readable text, logos, watermarks, speed imagery, stopwatches, or stock-photo posing.

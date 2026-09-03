@@ -1,0 +1,3 @@
+Provider: built-in image generation
+Use case: photorealistic-natural
+Prompt: Editorial documentary photograph of a Philippines-based remote research assistant and an owner reviewing claim cards arranged by consequence and source depth. Modern quiet office, landscape composition, natural morning light, no readable text, logos, watermarks, charts, interface gibberish, or stock-photo posing.

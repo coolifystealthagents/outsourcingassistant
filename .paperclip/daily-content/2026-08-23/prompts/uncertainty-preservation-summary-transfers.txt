@@ -1,0 +1,3 @@
+Provider: built-in image generation
+Use case: photorealistic-natural
+Prompt: Philippines-based research assistant tracing one finding from an open report through a source note and draft while keeping caution markers beside the evidence. Wide close editorial scene in natural light, no readable text, logos, watermarks, fake publication names, or floating graphics.
