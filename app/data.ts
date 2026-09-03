@@ -624,4 +624,6 @@ import { dailyBlogBatch20260901 } from './blog-batch-2026-09-01';
 blogPosts.push(...dailyBlogBatch20260901);
 import { dailyBlogBatch20260902 } from './blog-batch-2026-09-02';
 blogPosts.push(...dailyBlogBatch20260902);
+import { dailyBlogBatch20260903 } from './blog-batch-2026-09-03';
+blogPosts.push(...dailyBlogBatch20260903);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));

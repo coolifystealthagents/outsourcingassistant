@@ -1,0 +1,93 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "blog",
+  "requiredCount": 12,
+  "actualCount": 12,
+  "imageStatus": "GEMINI_UNAVAILABLE_TEXT_COMPLETE",
+  "entries": [
+    {
+      "route": "/blog/executive-reading-queue-brief",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/executive-reading-queue-brief.txt"
+    },
+    {
+      "route": "/blog/website-correction-request-register",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/website-correction-request-register.txt"
+    },
+    {
+      "route": "/blog/shared-room-booking-conflict-desk",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/shared-room-booking-conflict-desk.txt"
+    },
+    {
+      "route": "/blog/customer-feedback-tagging-calibration",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/customer-feedback-tagging-calibration.txt"
+    },
+    {
+      "route": "/blog/supplier-onboarding-document-intake",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/supplier-onboarding-document-intake.txt"
+    },
+    {
+      "route": "/blog/reference-check-scheduling-boundary",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/reference-check-scheduling-boundary.txt"
+    },
+    {
+      "route": "/blog/newsletter-reply-triage-lane",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/newsletter-reply-triage-lane.txt"
+    },
+    {
+      "route": "/blog/board-packet-source-control",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/board-packet-source-control.txt"
+    },
+    {
+      "route": "/blog/inventory-reorder-alert-review",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/inventory-reorder-alert-review.txt"
+    },
+    {
+      "route": "/blog/travel-disruption-options-packet",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/travel-disruption-options-packet.txt"
+    },
+    {
+      "route": "/blog/policy-acknowledgment-tracker",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/policy-acknowledgment-tracker.txt"
+    },
+    {
+      "route": "/blog/service-request-prerequisite-check",
+      "sourcePaths": [
+        "app/blog-batch-2026-09-03.ts"
+      ],
+      "promptReceipt": ".paperclip/daily-content/2026-09-03/prompt-receipts/service-request-prerequisite-check.txt"
+    }
+  ]
+}
