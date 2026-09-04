@@ -42,7 +42,7 @@ export const checklistSteps = [
   'Keep owner approval for anything risky until trust is proven.'
 ] as const;
 
-export type BlogSection = { heading: string; body: string; paragraphs?: string[]; bullets?: string[] };
+export type BlogSection = { heading: string; body?: string; paragraphs?: string[]; bullets?: string[] };
 export type ArticleSource = { name: string; url: string; note: string };
 export type ArticleBanner = { eyebrow: string; title: string; body: string; href: string; label: string };
 export type RichArticle = {
@@ -626,4 +626,6 @@ import { dailyBlogBatch20260902 } from './blog-batch-2026-09-02';
 blogPosts.push(...dailyBlogBatch20260902);
 import { dailyBlogBatch20260903 } from './blog-batch-2026-09-03';
 blogPosts.push(...dailyBlogBatch20260903);
+import { dailyBlogBatch20260904 } from './blog-batch-2026-09-04';
+blogPosts.push(...dailyBlogBatch20260904);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
