@@ -1,6 +1,6 @@
 # Outsourcing Assistant service-link ledger
 
-Updated: 2026-09-14
+Updated: 2026-09-15
 
 This working map pairs the current Philippines-based assistant service routes with the closest existing research route. It is a release checklist, not public copy. Before publishing a handoff, confirm that the source section answers the listed question, the route still builds, and the wording leaves approvals, commitments, spending, and sensitive access with the named owner.
 
@@ -10,7 +10,7 @@ This working map pairs the current Philippines-based assistant service routes wi
 | Inbox Triage | `/research/delegated-inbox-risk-segmentation` | Which messages can be sorted safely, and which need an owner's decision? | Delivered in the typed source record on 2026-09-03: `/services/inbox-triage`. Do not add another link. |
 | Travel Coordination | `/research/time-zone-handoff-design` | What handoff details prevent a travel update from being missed across time zones? | Delivered in the typed source record on 2026-09-06: `/services/travel-coordination`. Do not add another link. |
 | Meeting Administration | `/research/meeting-notes-action-tracking` | How should meeting decisions and follow-ups be recorded for review? | Delivered in the typed source record on 2026-09-13: `/services/meeting-administration`. Do not add another link. |
-| CRM Administration | `/research/crm-evidence-confidence` | What source checks should happen before a CRM record is prepared for correction? | `/services/crm-administration` |
+| CRM Administration | `/research/crm-evidence-confidence` | What source checks should happen before a CRM record is prepared for correction? | Delivered locally in the typed source record on 2026-09-15: `/services/crm-administration` (`2be3d5dd931e00a35938f39ed44fdd813bc9a472`). Public verification remains assigned to the batched deployment routine. Do not add another link. |
 | Research Briefing | `/research/research-briefing-workflow` | What evidence and ownership notes make a research brief ready for review? | Delivered in the typed source record on 2026-09-07: `/services/research-briefing`. Do not add another link. |
 | Document Production | `/research/virtual-assistant-source-quality-evidence-research` | How can a team show which approved sources supported a prepared document? | `/services/document-production` |
 | Vendor Follow-Up | `/research/vendor-follow-up-escalation` | Which supplier follow-ups can move forward, and which need escalation? | `/services/vendor-follow-up` |
@@ -37,3 +37,9 @@ The remaining five rows are generated and route-locally absent. They remain the 
 ## Generated-artifact reconciliation — 2026-09-14
 
 The fresh production build confirmed the Meeting Administration link appears once inside the `/research/meeting-notes-action-tracking` route-local main and is not a shared-navigation match. Its source and target artifacts have nonempty H1s, canonical URLs, and structural sitemap locations. This row is delivered and non-duplicable; the next candidate is CRM Administration.
+
+## Delivered locally — 2026-09-15
+
+The CRM Administration handoff is now rendered from the `/research/crm-evidence-confidence` typed record. Rendered source: `2be3d5dd931e00a35938f39ed44fdd813bc9a472`. The local artifact has the route H1, canonical URL, one route-local `/services/crm-administration` link, the owner boundary, Article and Open Graph modified date `2026-09-15`, original published date `2026-08-13`, and a sitemap location; this sitemap intentionally has no `<lastmod>`.
+
+Preserve rendered-source commit `2be3d5dd931e00a35938f39ed44fdd813bc9a472`. The configured Batched Coolify Deployment routine owns deployment and live-page verification, so this record is `deployment_pending_public_verification`; no direct deployment or public probe was run here. The next verified-absent candidate is Document Production.
