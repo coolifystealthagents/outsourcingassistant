@@ -76,14 +76,14 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
   return (
     <div className="sa-form-card">
       <h2>Find Growth In Your Business By Hiring Industry Experienced Virtual Assistants</h2>
-      <form onSubmit={submit} id="contactPageForm">
+      <form action={endpoint} method="post" onSubmit={submit} id="contactPageForm">
         <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
         <div className="sa-grid">
           <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>
           <label>Last Name *<input name="lastName" required autoComplete="family-name" /></label>
         </div>
         <label>Business Email *<input name="email" type="email" required autoComplete="email" /><small>Not Accepting Personal Email</small></label>
-        <label>Phone Number *<span className="sa-phone"><select aria-label="Country code" value={countryCode} onChange={(e) => setCountryCode(e.target.value)}>{countryCodes.map(([flag, code], i) => <option value={code} key={`${code}-${i}`}>{flag} {code}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
+        <label>Phone Number *<span className="sa-phone"><select name="countryCode" aria-label="Country code" value={countryCode} onChange={(e) => setCountryCode(e.target.value)}>{countryCodes.map(([flag, code], i) => <option value={code} key={`${code}-${i}`}>{flag} {code}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
         <div className="sa-grid">
           <label>Company Name *<input name="companyName" required autoComplete="organization" /></label>
           <label>Website / URL<input name="website" placeholder="example.com" autoComplete="url" /></label>
@@ -94,7 +94,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
         </div>
         <label>How Did You Hear About Us? *<select name="referral" required value={referral} onChange={(e) => setReferral(e.target.value)}><option value="" disabled>Select...</option>{referrals.map((x) => <option key={x}>{x}</option>)}</select></label>
         {referral === "Other" ? <label>Please Specify *<input name="referralSpecify" required /></label> : null}
-        <label>Message<textarea name="message" rows={4} /></label>
+        <label>Message *<textarea name="message" rows={4} required /></label>
         {error ? <p className="sa-error" role="alert">{error}</p> : null}
         <button type="submit" disabled={submitting}>{submitting ? "Submitting..." : "Book a Free Consultation"}</button>
       </form>
