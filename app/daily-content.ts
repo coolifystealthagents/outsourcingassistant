@@ -52,7 +52,7 @@ export const dailyBlogPosts: BlogPost[] = topics.map(([slug, title, topic, actio
   ],
   citations: sources,
   internalLinks: [{ href: '/resources/assistant-sop-handoff-checklist', label: 'Use the SOP handoff checklist' }, { href: '/services', label: 'Review assistant services' }],
-  cta: { href: '/contact', label: 'Plan this assistant workflow' },
+  cta: { href: '/contact-us', label: 'Plan this assistant workflow' },
 }));
 
 export const dailyResearchPosts = Array.from({ length: 10 }, (_, index) => {
@@ -70,7 +70,7 @@ export const dailyResearchPosts = Array.from({ length: 10 }, (_, index) => {
       `For implementation, begin with a small ${subject} sample. Record the inputs, expected finish line, review result, and unresolved questions. Expand the lane only after the same quality standard is met across several samples.`,
     ],
     citations: sources,
-    internalLinks: [{ href: '/services/research-briefing', label: 'Research briefing service' }, { href: '/contact', label: 'Discuss a research workflow' }],
-    cta: { href: '/contact', label: 'Discuss this research workflow' },
+    internalLinks: [{ href: '/services/research-briefing', label: 'Research briefing service' }, { href: '/contact-us', label: 'Discuss a research workflow' }],
+    cta: { href: '/contact-us', label: 'Discuss this research workflow' },
   };
 });
