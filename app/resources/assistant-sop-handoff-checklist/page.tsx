@@ -29,7 +29,7 @@ const accessLanes = [
     label: 'Run',
     title: 'Open only proven steps',
     body: 'Give the smallest access needed for the approved task. Refunds, payments, passwords, and final promises still stay with the owner.',
-    link: '/contact',
+    link: '/contact-us',
     linkLabel: 'Scope a Filipino assistant',
   },
 ] as const;
