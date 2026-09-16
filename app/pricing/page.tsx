@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
 
 export default function Pricing() {
-  redirect('/contact');
+  redirect('/contact-us');
 }
