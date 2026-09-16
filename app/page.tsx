@@ -39,7 +39,7 @@ export default function Home() {
               <h1>Get the work off your plate. Keep control of the outcome.</h1>
               <p className="oa-hero-lead">Tell us what keeps landing back on your desk. We&apos;ll turn it into a clear role for Filipino talent, with a practical handoff, firm access rules, and close review during the first few weeks.</p>
               <div className="oa-actions">
-                <a className="oa-button oa-button-coral" href="/contact">Request staffing plan <span>↗</span></a>
+                <a className="oa-button oa-button-coral" href="/contact-us">Request staffing plan <span>↗</span></a>
                 <a className="oa-text-link" href="#role-board">See what to delegate <span>↓</span></a>
               </div>
               <p className="oa-routing-note">Requests are limited to Filipino talent and may be handled by a Philippines-focused staffing partner.</p>
@@ -186,7 +186,7 @@ export default function Home() {
           </div>
           <div>
             <p>Share the work, schedule, tools, and sticking points. A Philippines-focused staffing partner can turn it into a practical scope for Filipino talent.</p>
-            <a className="oa-button oa-button-coral" href="/contact">Request staffing plan <span>↗</span></a>
+            <a className="oa-button oa-button-coral" href="/contact-us">Request staffing plan <span>↗</span></a>
           </div>
         </section>
       </main>
