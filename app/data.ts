@@ -203,12 +203,12 @@ export const blogPosts: BlogPost[] = [
         { href: '/resources/assistant-sop-handoff-checklist', label: 'Assistant SOP handoff checklist', note: 'Turn the task into a short training and review sheet.' },
         { href: '/blog', label: 'Assistant onboarding checklist', note: 'Plan the first week, scorecard, and access checks.' },
         { href: '/services/inbox-triage', label: 'Inbox triage support', note: 'See the owner-control line for message work.' },
-        { href: '/contact', label: 'Plan a Philippines staffing request', note: 'Share the role, tools, schedule, and approval needs.' }
+        { href: '/contact-us', label: 'Plan a Philippines staffing request', note: 'Share the role, tools, schedule, and approval needs.' }
       ],
       banners: [
         { eyebrow: 'Build the handoff', title: 'Put the task on one page', body: 'Use the SOP checklist to name the input, finish line, exception rule, and reviewer. It gives the Filipino assistant one clear place to start.', href: '/resources/assistant-sop-handoff-checklist', label: 'Open the SOP checklist' },
         { eyebrow: 'Check the work lane', title: 'Set inbox limits before access', body: 'Decide which messages can be labeled, drafted, sent, or escalated. The inbox service page shows a simple owner-control model.', href: '/services/inbox-triage', label: 'Review inbox triage' },
-        { eyebrow: 'Plan the role', title: 'Bring the task list and tool list', body: 'A useful staffing request starts with the work and the approval line. Share those details for a Philippines-focused role review.', href: '/contact', label: 'Start the role request' }
+        { eyebrow: 'Plan the role', title: 'Bring the task list and tool list', body: 'A useful staffing request starts with the work and the approval line. Share those details for a Philippines-focused role review.', href: '/contact-us', label: 'Start the role request' }
       ],
       sources: [
         { name: 'FBI Internet Crime Complaint Center, 2024 IC3 Annual Report', url: 'https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf', note: 'Complaint counts and reported loss figures used in the data cards and chart.' },
@@ -353,12 +353,12 @@ export const blogPosts: BlogPost[] = [
         { href: '/resources/assistant-sop-handoff-checklist', label: 'Assistant SOP handoff checklist', note: 'Write the intake fields, hard stops, and manager route on one page.' },
         { href: '/services/inbox-triage', label: 'Inbox triage support', note: 'Set the message labels, draft rules, and owner controls.' },
         { href: '/blog/secure-onboarding-filipino-virtual-assistant', label: 'Secure assistant onboarding', note: 'Set separate access and review rules before the first customer report.' },
-        { href: '/contact', label: 'Plan a Filipino support role', note: 'Share the queue, schedule, systems, and approval needs.' }
+        { href: '/contact-us', label: 'Plan a Filipino support role', note: 'Share the queue, schedule, systems, and approval needs.' }
       ],
       banners: [
         { eyebrow: 'Write the intake lane', title: 'Put the report route on one page', body: 'Use the SOP checklist to name the facts, hard stops, risk labels, and manager. A Filipino assistant can then follow the same path on every shift.', href: '/resources/assistant-sop-handoff-checklist', label: 'Open the SOP checklist' },
         { eyebrow: 'Control the message queue', title: 'Separate routine support from risk reports', body: 'Set labels for suspicious messages and unknown account activity. Keep refunds, ownership changes, and payment actions with approved staff.', href: '/services/inbox-triage', label: 'Review inbox triage' },
-        { eyebrow: 'Plan the support role', title: 'Bring the queue and approval map', body: 'A useful role request starts with ticket types, systems, hours, and the manager path. Share those details for a Philippines-focused staffing review.', href: '/contact', label: 'Start the role request' }
+        { eyebrow: 'Plan the support role', title: 'Bring the queue and approval map', body: 'A useful role request starts with ticket types, systems, hours, and the manager path. Share those details for a Philippines-focused staffing review.', href: '/contact-us', label: 'Start the role request' }
       ],
       sources: [
         { name: 'Federal Trade Commission, 2024 fraud data release, March 10, 2025', url: 'https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024', note: 'The three dated figures, year comparison, and exact Christopher Mufarrige quote.' },
@@ -503,12 +503,12 @@ export const blogPosts: BlogPost[] = [
         { href: '/resources/assistant-sop-handoff-checklist', label: 'Assistant SOP handoff checklist', note: 'Write the comparison fields, hard stops, and manager route on one page.' },
         { href: '/services', label: 'Filipino assistant services', note: 'Review the available support lanes and keep owner controls clear for each role.' },
         { href: '/blog/secure-onboarding-filipino-virtual-assistant', label: 'Secure assistant onboarding', note: 'Create separate access and review rules before invoice work starts.' },
-        { href: '/contact', label: 'Plan a Filipino bookkeeping support role', note: 'Share the invoice flow, systems, Philippine schedule, and approval needs.' }
+        { href: '/contact-us', label: 'Plan a Filipino bookkeeping support role', note: 'Share the invoice flow, systems, Philippine schedule, and approval needs.' }
       ],
       banners: [
         { eyebrow: 'Write the review lane', title: 'Put the change check on one page', body: 'Use the SOP checklist to name the trusted vendor record, second channel, evidence fields, and manager. A Filipino assistant can then follow the same safe path for every changed invoice.', href: '/resources/assistant-sop-handoff-checklist', label: 'Open the SOP checklist' },
         { eyebrow: 'Set the role boundary', title: 'Separate bookkeeping prep from approval', body: 'Give the assistant a clear place to compare invoices and prepare evidence. Keep vendor changes and every payment decision with authorized staff.', href: '/services', label: 'Review Filipino assistant services' },
-        { eyebrow: 'Plan the role', title: 'Bring the invoice flow and approval map', body: 'A useful role request starts with the systems, vendor records, Philippine work window, and named manager. Share those details for a Philippines-focused staffing review.', href: '/contact', label: 'Start the role request' }
+        { eyebrow: 'Plan the role', title: 'Bring the invoice flow and approval map', body: 'A useful role request starts with the systems, vendor records, Philippine work window, and named manager. Share those details for a Philippines-focused staffing review.', href: '/contact-us', label: 'Start the role request' }
       ],
       sources: [
         { name: 'FBI IC3, Business Email Compromise: The $55 Billion Scam, September 11, 2024', url: 'https://www.ic3.gov/PSA/2024/PSA240911', note: 'The three dated figures and the FBI recommendation to verify account-information changes through a second channel.' },
@@ -530,7 +530,7 @@ export const navPages = [
   { href: '/blog', label: 'Staffing details' },
   { href: '/resources/assistant-sop-handoff-checklist', label: 'SOP checklist' },
   { href: '/blog', label: 'Blog' },
-  { href: '/contact', label: 'Contact' }
+  { href: '/contact-us', label: 'Contact' }
 ] as const;
 
 export const staffingOffer = {
