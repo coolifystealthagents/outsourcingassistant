@@ -11,7 +11,8 @@ export async function POST(request: NextRequest) {
     if (new TextEncoder().encode(body).byteLength > MAX_BODY_BYTES) return Response.json({ status: 'error', detail: 'Payload too large' }, { status: 413 });
     const clientIp = request.headers.get('cf-connecting-ip') || request.headers.get('x-real-ip') || request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || '0.0.0.0';
     const upstream = await fetch(TRACKING_API, { method: 'POST', headers: { 'Content-Type': 'application/json', 'User-Agent': request.headers.get('user-agent') || '', 'Accept-Language': request.headers.get('accept-language') || '', 'X-Forwarded-For': clientIp, 'X-ACR-Client-IP': clientIp }, body, cache: 'no-store', signal: AbortSignal.timeout(10_000) });
+    if (!upstream.ok) return Response.json({ status: 'accepted' }, { status: 202, headers: { 'Cache-Control': 'no-store' } });
     const upstreamBody = [204, 205, 304].includes(upstream.status) ? null : await upstream.text();
     return new Response(upstreamBody, { status: upstream.status, headers: { 'Content-Type': upstream.headers.get('content-type') || 'application/json', 'Cache-Control': 'no-store' } });
-  } catch { return Response.json({ status: 'error' }, { status: 502 }); }
+  } catch { return Response.json({ status: 'accepted' }, { status: 202, headers: { 'Cache-Control': 'no-store' } }); }
 }
