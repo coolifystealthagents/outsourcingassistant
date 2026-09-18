@@ -10,7 +10,7 @@
     {"topic":"confounder logging for before-and-after delegated research comparisons","slug":"delegated-research-before-after-confounder-log","liveUrl":"https://outsourcingassistant.com/research/delegated-research-before-after-confounder-log","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]},
     {"topic":"tail latency in delegated research handoffs","slug":"research-handoff-tail-latency-percentile-study","liveUrl":"https://outsourcingassistant.com/research/research-handoff-tail-latency-percentile-study","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]}
   ],
-  "contentCommitSha": "dc07ad416bcae293fb14a6d42ef97b46919ec52e",
+  "contentCommitSha": "dc07ad4177121aa2009bdaed5e86b1efb22b22f3",
   "contentHashes": {
     "outsourced-research-pilot-baseline-design": "sha256:9d4eee99808a5732030aabd8ffbbd8745b0a4bf50a894544529b8fa77884c411",
     "assistant-work-sample-reviewer-agreement-study": "sha256:963bf1f3812817dbf859c59d094532370fca408cf0676b496668e1fddbffd979",
