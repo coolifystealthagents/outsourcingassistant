@@ -4,11 +4,11 @@
   "family": "research",
   "requiredCount": 5,
   "entries": [
-    {"topic":"baseline design for an outsourced research pilot","slug":"outsourced-research-pilot-baseline-design","liveUrl":"https://outsourcingassistant.com/research/outsourced-research-pilot-baseline-design","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]},
-    {"topic":"reviewer agreement on assistant research work samples","slug":"assistant-work-sample-reviewer-agreement-study","liveUrl":"https://outsourcingassistant.com/research/assistant-work-sample-reviewer-agreement-study","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]},
-    {"topic":"cancelled and returned work in an outsourcing pilot denominator","slug":"outsourcing-pilot-cancelled-work-denominator","liveUrl":"https://outsourcingassistant.com/research/outsourcing-pilot-cancelled-work-denominator","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]},
-    {"topic":"confounder logging for before-and-after delegated research comparisons","slug":"delegated-research-before-after-confounder-log","liveUrl":"https://outsourcingassistant.com/research/delegated-research-before-after-confounder-log","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]},
-    {"topic":"tail latency in delegated research handoffs","slug":"research-handoff-tail-latency-percentile-study","liveUrl":"https://outsourcingassistant.com/research/research-handoff-tail-latency-percentile-study","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]}
+    {"family":"research","topic":"baseline design for an outsourced research pilot","slug":"outsourced-research-pilot-baseline-design","publicationDate":"2026-09-18","contentHash":"sha256:9d4eee99808a5732030aabd8ffbbd8745b0a4bf50a894544529b8fa77884c411","commitSha":"dc07ad4177121aa2009bdaed5e86b1efb22b22f3","liveUrl":"https://outsourcingassistant.com/research/outsourced-research-pilot-baseline-design","verificationTime":"2026-09-18T14:25:36Z","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]},
+    {"family":"research","topic":"reviewer agreement on assistant research work samples","slug":"assistant-work-sample-reviewer-agreement-study","publicationDate":"2026-09-18","contentHash":"sha256:963bf1f3812817dbf859c59d094532370fca408cf0676b496668e1fddbffd979","commitSha":"dc07ad4177121aa2009bdaed5e86b1efb22b22f3","liveUrl":"https://outsourcingassistant.com/research/assistant-work-sample-reviewer-agreement-study","verificationTime":"2026-09-18T14:25:36Z","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]},
+    {"family":"research","topic":"cancelled and returned work in an outsourcing pilot denominator","slug":"outsourcing-pilot-cancelled-work-denominator","publicationDate":"2026-09-18","contentHash":"sha256:12237fc549651b7a469c1e23ca78294bf22e69fd2012f7f62bbaa7dc1c26d8be","commitSha":"dc07ad4177121aa2009bdaed5e86b1efb22b22f3","liveUrl":"https://outsourcingassistant.com/research/outsourcing-pilot-cancelled-work-denominator","verificationTime":"2026-09-18T14:25:36Z","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]},
+    {"family":"research","topic":"confounder logging for before-and-after delegated research comparisons","slug":"delegated-research-before-after-confounder-log","publicationDate":"2026-09-18","contentHash":"sha256:bc444142d0cd02554c241a4d859f56b1a14b300d2f774d9f29d8521e4d6e50d5","commitSha":"dc07ad4177121aa2009bdaed5e86b1efb22b22f3","liveUrl":"https://outsourcingassistant.com/research/delegated-research-before-after-confounder-log","verificationTime":"2026-09-18T14:25:36Z","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]},
+    {"family":"research","topic":"tail latency in delegated research handoffs","slug":"research-handoff-tail-latency-percentile-study","publicationDate":"2026-09-18","contentHash":"sha256:b4ff2a69da53679c2d055bbffea39ea4d787d69d27935be3a94876e7dc97ced3","commitSha":"dc07ad4177121aa2009bdaed5e86b1efb22b22f3","liveUrl":"https://outsourcingassistant.com/research/research-handoff-tail-latency-percentile-study","verificationTime":"2026-09-18T14:25:36Z","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gov.uk/service-manual/measuring-success","https://www.itl.nist.gov/div898/handbook/pri/section1/pri11.htm","https://www.itl.nist.gov/div898/handbook/pri/section3/pri3326.htm","https://www.nist.gov/cyberframework"]}
   ],
   "contentCommitSha": "dc07ad4177121aa2009bdaed5e86b1efb22b22f3",
   "contentHashes": {
@@ -18,6 +18,23 @@
     "delegated-research-before-after-confounder-log": "sha256:bc444142d0cd02554c241a4d859f56b1a14b300d2f774d9f29d8521e4d6e50d5",
     "research-handoff-tail-latency-percentile-study": "sha256:b4ff2a69da53679c2d055bbffea39ea4d787d69d27935be3a94876e7dc97ced3"
   },
-  "deploymentEvidence": null,
-  "verificationTime": null
+  "status": "completed",
+  "verifiedCount": 5,
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "remoteShaAtVerification": "83d8ff7f3ff4ef287a67d629152a930f11bbad2f",
+  "validation": {
+    "routineValidator": "passed",
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "publicChecks": "Five HTTP 200 responses; H1, canonical URL, datePublished, shared asset, and sitemap membership verified per article."
+  },
+  "deploymentEvidence": {
+    "provider": "Coolify3",
+    "applicationUuid": "q9x033mt5ul6xq2obsofw9m7",
+    "applicationStatus": "running:unknown",
+    "fqdn": "https://outsourcingassistant.com",
+    "authenticatedStatusCheck": "passed"
+  },
+  "verificationTime": "2026-09-18T14:25:36Z"
 }
