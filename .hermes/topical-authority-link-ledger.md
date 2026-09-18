@@ -2,6 +2,10 @@
 
 Updated: 2026-09-15
 
+## Research inventory — 2026-09-18
+
+Five new decision-method articles strengthen the Research Briefing conversion pillar without adding another service CTA: outsourced-pilot baseline design, work-sample reviewer agreement, cancelled-work denominators, before/after confounder logging, and handoff tail-latency analysis. Their canonical slugs and source set are recorded in `.paperclip/daily-content/2026-09-18/research.json`. These topics were checked against the repository's existing Research inventory before drafting; later routines should treat them as occupied topic families rather than generate keyword variants.
+
 This working map pairs the current Philippines-based assistant service routes with the closest existing research route. It is a release checklist, not public copy. Before publishing a handoff, confirm that the source section answers the listed question, the route still builds, and the wording leaves approvals, commitments, spending, and sensitive access with the named owner.
 
 | Service pillar | Existing supporting research route | Reader's next question | Controlled next handoff |
