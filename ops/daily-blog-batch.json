@@ -1,6 +1,6 @@
 {
   "batchId": "2026-09-18",
-  "status": "awaiting-live-verification",
+  "status": "live-verified",
   "validated": true,
   "buildPassed": true,
   "blogs": [
@@ -22,5 +22,7 @@
     "app/data.ts",
     ".paperclip/daily-content/2026-09-18/blog.json",
     "ops/daily-blog-batch.json"
-  ]
+  ],
+  "verified": 12,
+  "verificationTime": "2026-09-18T14:18:58Z"
 }
