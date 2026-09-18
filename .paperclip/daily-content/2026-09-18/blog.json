@@ -1,0 +1,33 @@
+{
+  "family": "blog",
+  "required": 12,
+  "created": 12,
+  "verified": 0,
+  "site": "https://outsourcingassistant.com",
+  "timezone": "UTC",
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "contentCommit": "263d723de8b9b99b28ecb7295de87fdcc03bc94f",
+  "build": "passed",
+  "typecheck": "passed",
+  "deployment": { "provider": "Coolify3", "application": "q9x033mt5ul6xq2obsofw9m7", "status": "pending" },
+  "sources": [
+    "https://www.nist.gov/cyberframework",
+    "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+    "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information"
+  ],
+  "entries": [
+    {"topic":"home-service estimate follow-up","slug":"home-services-virtual-assistant-estimate-follow-up","contentHash":"72163b4db10633e654a404e7456efd550dbc40504749efc893140d10a9459104","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/home-services-virtual-assistant-estimate-follow-up","verificationTime":null,"status":"pending"},
+    {"topic":"healthcare appointment waitlist administration","slug":"healthcare-office-virtual-assistant-appointment-waitlist","contentHash":"9e63047af8adf01bebfa1108b6c34adad02df30d43597e2d6d615a62db6d0027","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/healthcare-office-virtual-assistant-appointment-waitlist","verificationTime":null,"status":"pending"},
+    {"topic":"real-estate listing inquiry routing","slug":"real-estate-virtual-assistant-listing-inquiry-routing","contentHash":"bcf7ef217ea453c0051a3498c6251f9d9948045960303adc83976f5133bbfe46","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/real-estate-virtual-assistant-listing-inquiry-routing","verificationTime":null,"status":"pending"},
+    {"topic":"agency client asset intake","slug":"agency-virtual-assistant-client-asset-intake","contentHash":"c1cc88d3862610a412f97083d39967e2495c001bb803fd16d9960ca61664cdce","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/agency-virtual-assistant-client-asset-intake","verificationTime":null,"status":"pending"},
+    {"topic":"SaaS trial account support","slug":"saas-virtual-assistant-trial-account-support","contentHash":"d1d1e444cc1e085f51a30e9af7bfafd0e4fb14a1716a76266ce4c702eb480e7e","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/saas-virtual-assistant-trial-account-support","verificationTime":null,"status":"pending"},
+    {"topic":"construction change-order intake","slug":"construction-virtual-assistant-change-order-intake","contentHash":"3003aeb566537fbc71853bf7151037ac1ad8cfdda484498d4430f4068fd317ef","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/construction-virtual-assistant-change-order-intake","verificationTime":null,"status":"pending"},
+    {"topic":"certificate of insurance tracking","slug":"insurance-certificate-tracking-virtual-assistant","contentHash":"a2324e6d651629365104cd80d6af8381282fe2c30865ce25a33d7c0cd4d03427","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/insurance-certificate-tracking-virtual-assistant","verificationTime":null,"status":"pending"},
+    {"topic":"nonprofit donation acknowledgment preparation","slug":"nonprofit-virtual-assistant-donation-acknowledgment-preparation","contentHash":"abef98947c78762dc34195984be865bfac72329358e26ac7a9cd98cd8032ac13","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/nonprofit-virtual-assistant-donation-acknowledgment-preparation","verificationTime":null,"status":"pending"},
+    {"topic":"reference-check scheduling","slug":"recruiting-virtual-assistant-reference-check-scheduling","contentHash":"a53f7f099a724b13d436ae8e95b1402d0ca50aba1362c886801ab467424db977","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/recruiting-virtual-assistant-reference-check-scheduling","verificationTime":null,"status":"pending"},
+    {"topic":"property maintenance work-order triage","slug":"property-management-virtual-assistant-maintenance-work-order","contentHash":"600e8431b8952cede52b024bb3e4a4818cf12ffddf57aa3ca51e7a2cb7c7c3ea","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/property-management-virtual-assistant-maintenance-work-order","verificationTime":null,"status":"pending"},
+    {"topic":"ecommerce inventory exception queue","slug":"ecommerce-virtual-assistant-inventory-exception-queue","contentHash":"f0ac4d9f689ae0daca7be897a3b695074c99d63538135a9482817c339efb560c","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/ecommerce-virtual-assistant-inventory-exception-queue","verificationTime":null,"status":"pending"},
+    {"topic":"bookkeeping month-end document follow-up","slug":"bookkeeping-virtual-assistant-month-end-document-chase","contentHash":"bec13d14599e8a082550f75a25bed36dbfa8e3a19458ff006ab2c9166f14f349","publicationDate":"2026-09-18","commit":"263d723de8b9b99b28ecb7295de87fdcc03bc94f","liveUrl":"https://outsourcingassistant.com/blog/bookkeeping-virtual-assistant-month-end-document-chase","verificationTime":null,"status":"pending"}
+  ]
+}
