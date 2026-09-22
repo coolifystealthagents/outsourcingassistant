@@ -61,7 +61,7 @@
     }
   ],
   "contentCommitSha": "64b357eef9444873839b955e457e47e648a7ba7e",
-  "status": "ready-for-push",
+  "status": "blocked-deployment-authentication",
   "verifiedCount": 0,
   "repository": "coolifystealthagents/outsourcingassistant",
   "productionBranch": "main",
@@ -78,7 +78,13 @@
     "applicationUuid": "q9x033mt5ul6xq2obsofw9m7",
     "fqdn": "https://outsourcingassistant.com",
     "deploymentUuid": null,
-    "deployedCommitSha": null
+    "deployedCommitSha": null,
+    "authenticatedStatusCheck": "unavailable: configured Coolify3 API endpoint redirected authenticated API requests to the login page",
+    "publicTransitionCheck": "five bounded public route checks returned HTTP 404; zero articles counted",
+    "blockerObservedAt": "2026-09-22T16:00:00Z",
+    "blocker": "The configured Coolify3 API credential did not authorize the application endpoint, and the pushed production SHA has not reached the public site.",
+    "unblockOwner": "Coolify3 operator",
+    "recoveryAction": "Restore API authorization for the existing application, deploy main SHA d1e5b8080f12eadb0ea21465f546584d5eae01cb through the existing Git-to-Coolify path, then verify all five routes, canonicals, images, Article dates, unique content, and sitemap entries before changing verifiedCount."
   },
   "verificationTime": null
 }
