@@ -2,6 +2,10 @@
 
 Updated: 2026-09-15
 
+## Research inventory — 2026-09-22, run 2
+
+Five new buyer-decision articles extend the staffing conversion pillar without duplicating the earlier September 22 task-inventory batch: service-lane fit, provider due diligence, pilot acceptance criteria, business-continuity coverage, and a total-cost decision record. Their canonical slugs and checked source set are recorded in `.paperclip/daily-content/2026-09-22-run2/research.json`. Treat these topic families as occupied in later routines; keyword substitutions or re-dated variants do not count as new work.
+
 ## Research inventory — 2026-09-18
 
 Five new decision-method articles strengthen the Research Briefing conversion pillar without adding another service CTA: outsourced-pilot baseline design, work-sample reviewer agreement, cancelled-work denominators, before/after confounder logging, and handoff tail-latency analysis. Their canonical slugs and source set are recorded in `.paperclip/daily-content/2026-09-18/research.json`. These topics were checked against the repository's existing Research inventory before drafting; later routines should treat them as occupied topic families rather than generate keyword variants.
