@@ -1,0 +1,84 @@
+{
+  "publicationDate": "2026-09-22",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "entries": [
+    {
+      "family": "research",
+      "topic": "matching observed work to a virtual assistant service lane",
+      "slug": "virtual-assistant-service-lane-fit-evidence-map",
+      "publicationDate": "2026-09-22",
+      "contentHash": "sha256:4ce2fdf9953f116b4785e83ab27e4e11238173cdd038946d8702ac1904f0ec75",
+      "commitSha": "64b357eef9444873839b955e457e47e648a7ba7e",
+      "liveUrl": "https://outsourcingassistant.com/research/virtual-assistant-service-lane-fit-evidence-map",
+      "verificationTime": null,
+      "sources": ["https://www.onetonline.org/link/details/43-6011.00", "https://www.sba.gov/counseling/manage-your-business/", "https://www.gao.gov/products/gao-20-283g", "https://www.nist.gov/cyberframework", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    },
+    {
+      "family": "research",
+      "topic": "buyer due diligence for an assistant staffing provider",
+      "slug": "assistant-staffing-provider-due-diligence-record",
+      "publicationDate": "2026-09-22",
+      "contentHash": "sha256:51df1290e8096b95f5852a5422d6ea36c6e8c1f098b6b176a2fc70eb0fee0f16",
+      "commitSha": "64b357eef9444873839b955e457e47e648a7ba7e",
+      "liveUrl": "https://outsourcingassistant.com/research/assistant-staffing-provider-due-diligence-record",
+      "verificationTime": null,
+      "sources": ["https://www.onetonline.org/link/details/43-6011.00", "https://www.sba.gov/counseling/manage-your-business/", "https://www.gao.gov/products/gao-20-283g", "https://www.nist.gov/cyberframework", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    },
+    {
+      "family": "research",
+      "topic": "acceptance criteria for a bounded virtual assistant pilot",
+      "slug": "virtual-assistant-pilot-acceptance-criteria-design",
+      "publicationDate": "2026-09-22",
+      "contentHash": "sha256:8fecd36bd4e7a8814d81c3953fb5617df1cebe99319469f716103394cb1a9007",
+      "commitSha": "64b357eef9444873839b955e457e47e648a7ba7e",
+      "liveUrl": "https://outsourcingassistant.com/research/virtual-assistant-pilot-acceptance-criteria-design",
+      "verificationTime": null,
+      "sources": ["https://www.onetonline.org/link/details/43-6011.00", "https://www.sba.gov/counseling/manage-your-business/", "https://www.gao.gov/products/gao-20-283g", "https://www.nist.gov/cyberframework", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    },
+    {
+      "family": "research",
+      "topic": "business continuity coverage readiness for an assistant lane",
+      "slug": "assistant-business-continuity-coverage-readiness",
+      "publicationDate": "2026-09-22",
+      "contentHash": "sha256:1853ce80df1ed7a5f3ed2798ebc28182bb7fef5f1124c5192f2216925d0cb16a",
+      "commitSha": "64b357eef9444873839b955e457e47e648a7ba7e",
+      "liveUrl": "https://outsourcingassistant.com/research/assistant-business-continuity-coverage-readiness",
+      "verificationTime": null,
+      "sources": ["https://www.onetonline.org/link/details/43-6011.00", "https://www.sba.gov/counseling/manage-your-business/", "https://www.gao.gov/products/gao-20-283g", "https://www.nist.gov/cyberframework", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    },
+    {
+      "family": "research",
+      "topic": "total-cost decision record for outsourced assistant support",
+      "slug": "outsourced-assistant-total-cost-decision-record",
+      "publicationDate": "2026-09-22",
+      "contentHash": "sha256:cfd5b3f84bbfada13f15008e4eaa4ce176c681bff6e874bd46c72740133bacf1",
+      "commitSha": "64b357eef9444873839b955e457e47e648a7ba7e",
+      "liveUrl": "https://outsourcingassistant.com/research/outsourced-assistant-total-cost-decision-record",
+      "verificationTime": null,
+      "sources": ["https://www.onetonline.org/link/details/43-6011.00", "https://www.sba.gov/counseling/manage-your-business/", "https://www.gao.gov/products/gao-20-283g", "https://www.nist.gov/cyberframework", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    }
+  ],
+  "contentCommitSha": "64b357eef9444873839b955e457e47e648a7ba7e",
+  "status": "ready-for-push",
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "remoteShaAtVerification": null,
+  "validation": {
+    "routineValidator": "passed",
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "renderedRoutes": "passed: five routes, canonical URLs, Article datePublished 2026-09-22, sitemap generation",
+    "sourceReachability": "four sources returned HTTP 200; GAO returned HTTP 403 to automated curl but was checked through the public web index"
+  },
+  "deploymentEvidence": {
+    "provider": "Coolify3",
+    "applicationUuid": "q9x033mt5ul6xq2obsofw9m7",
+    "fqdn": "https://outsourcingassistant.com",
+    "deploymentUuid": null,
+    "deployedCommitSha": null
+  },
+  "verificationTime": null
+}
