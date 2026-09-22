@@ -1,0 +1,83 @@
+{
+  "publicationDate": "2026-09-22",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "entries": [
+    {
+      "family": "research",
+      "topic": "task inventory evidence for scoping a virtual assistant role",
+      "slug": "virtual-assistant-role-scope-task-inventory-study",
+      "publicationDate": "2026-09-22",
+      "contentHash": "sha256:7a2f0b1209da63d8b39e4e501b64ccf355bcf5ae9fd81a6d42c3349d13a857b6",
+      "commitSha": "1c949235edcc20e1f866f07805633e1915c0ae49",
+      "liveUrl": "https://outsourcingassistant.com/research/virtual-assistant-role-scope-task-inventory-study",
+      "verificationTime": null,
+      "sources": ["https://www.onetonline.org/link/details/43-6011.00", "https://www.gao.gov/products/gao-20-283g", "https://www.gov.uk/service-manual/measuring-success/measuring-the-success-of-your-service", "https://www.nist.gov/cyberframework", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    },
+    {
+      "family": "research",
+      "topic": "workload volume and variability before hiring an assistant",
+      "slug": "assistant-workload-volume-variability-baseline",
+      "publicationDate": "2026-09-22",
+      "contentHash": "sha256:7afdb5645288838cad9edb516d16485684b60a52825174ac7503ab64ad57df29",
+      "commitSha": "1c949235edcc20e1f866f07805633e1915c0ae49",
+      "liveUrl": "https://outsourcingassistant.com/research/assistant-workload-volume-variability-baseline",
+      "verificationTime": null,
+      "sources": ["https://www.onetonline.org/link/details/43-6011.00", "https://www.gao.gov/products/gao-20-283g", "https://www.gov.uk/service-manual/measuring-success/measuring-the-success-of-your-service", "https://www.nist.gov/cyberframework", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    },
+    {
+      "family": "research",
+      "topic": "supervision responsibility map for managed assistant support",
+      "slug": "managed-assistant-supervision-responsibility-map",
+      "publicationDate": "2026-09-22",
+      "contentHash": "sha256:d418651a15a5138d306cf19a36f56fc941a0eef6be736c43f8fe5752561b1280",
+      "commitSha": "1c949235edcc20e1f866f07805633e1915c0ae49",
+      "liveUrl": "https://outsourcingassistant.com/research/managed-assistant-supervision-responsibility-map",
+      "verificationTime": null,
+      "sources": ["https://www.onetonline.org/link/details/43-6011.00", "https://www.gao.gov/products/gao-20-283g", "https://www.gov.uk/service-manual/measuring-success/measuring-the-success-of-your-service", "https://www.nist.gov/cyberframework", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    },
+    {
+      "family": "research",
+      "topic": "first-week pilot readiness for a Philippines-based assistant",
+      "slug": "philippines-assistant-first-week-pilot-readiness",
+      "publicationDate": "2026-09-22",
+      "contentHash": "sha256:670288d3f3511f9db4e2e14e15edf08cecec2b94bfb642b9aecdbd3eee92bb2c",
+      "commitSha": "1c949235edcc20e1f866f07805633e1915c0ae49",
+      "liveUrl": "https://outsourcingassistant.com/research/philippines-assistant-first-week-pilot-readiness",
+      "verificationTime": null,
+      "sources": ["https://www.onetonline.org/link/details/43-6011.00", "https://www.gao.gov/products/gao-20-283g", "https://www.gov.uk/service-manual/measuring-success/measuring-the-success-of-your-service", "https://www.nist.gov/cyberframework", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    },
+    {
+      "family": "research",
+      "topic": "sequencing virtual assistant access from task evidence",
+      "slug": "virtual-assistant-access-sequencing-task-evidence",
+      "publicationDate": "2026-09-22",
+      "contentHash": "sha256:adf2bc4aecdf24a0da37c7be6c82bfa7a67a57f62eb5f8c7697f222bd7cd0a3d",
+      "commitSha": "1c949235edcc20e1f866f07805633e1915c0ae49",
+      "liveUrl": "https://outsourcingassistant.com/research/virtual-assistant-access-sequencing-task-evidence",
+      "verificationTime": null,
+      "sources": ["https://www.onetonline.org/link/details/43-6011.00", "https://www.gao.gov/products/gao-20-283g", "https://www.gov.uk/service-manual/measuring-success/measuring-the-success-of-your-service", "https://www.nist.gov/cyberframework", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]
+    }
+  ],
+  "contentCommitSha": "1c949235edcc20e1f866f07805633e1915c0ae49",
+  "status": "awaiting-deployment",
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "remoteShaAtVerification": null,
+  "validation": {
+    "routineValidator": "passed",
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "publicChecks": "pending"
+  },
+  "deploymentEvidence": {
+    "provider": "Coolify3",
+    "applicationUuid": "q9x033mt5ul6xq2obsofw9m7",
+    "applicationStatus": "pending",
+    "fqdn": "https://outsourcingassistant.com",
+    "authenticatedStatusCheck": "pending"
+  },
+  "verificationTime": null
+}
