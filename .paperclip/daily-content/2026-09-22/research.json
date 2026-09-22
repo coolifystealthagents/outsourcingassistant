@@ -80,7 +80,7 @@
     "authenticatedStatusCheck": "passed",
     "queuedDeploymentUuids": ["ycytv1znlzo5c91woc2v6pug", "i9krxz9c3pract8wy2kfmhno"],
     "queuedCommitSha": "261ef8139118f5ed5c29dd64f0052da3082af1c1",
-    "targetRemoteSha": "afd163e4ce526960442a09779a6f51b8a7b62717",
+    "targetContentSha": "72d4848541b3e446467a047e826aa709b23c905d",
     "blockerObservedAt": "2026-09-22T15:35:00Z",
     "blocker": "Coolify3 global deployment queue has long-running unrelated jobs and the application queue remains pinned to the pre-run SHA; the API cannot yet enqueue the target SHA without duplicating stale work.",
     "recoveryAction": "Coolify3 operator clears or advances the global queue; then trigger this existing application once for the newest main SHA and run all five live verification checks."
