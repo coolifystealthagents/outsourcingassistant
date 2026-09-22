@@ -81,7 +81,7 @@
     "deployedCommitSha": null,
     "authenticatedStatusCheck": "unavailable: configured Coolify3 API endpoint redirected authenticated API requests to the login page",
     "publicTransitionCheck": "five bounded public route checks returned HTTP 404; zero articles counted",
-    "blockerObservedAt": "2026-09-22T16:00:00Z",
+    "blockerObservedAt": "2026-09-22T23:40:00Z",
     "blocker": "The configured Coolify3 API credential did not authorize the application endpoint, and the pushed production SHA has not reached the public site.",
     "unblockOwner": "Coolify3 operator",
     "recoveryAction": "Restore API authorization for the existing application, deploy main SHA d1e5b8080f12eadb0ea21465f546584d5eae01cb through the existing Git-to-Coolify path, then verify all five routes, canonicals, images, Article dates, unique content, and sitemap entries before changing verifiedCount."
