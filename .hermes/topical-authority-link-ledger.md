@@ -51,3 +51,11 @@ The fresh production build confirmed the Meeting Administration link appears onc
 The CRM Administration handoff is now rendered from the `/research/crm-evidence-confidence` typed record. Rendered source: `2be3d5dd931e00a35938f39ed44fdd813bc9a472`. The local artifact has the route H1, canonical URL, one route-local `/services/crm-administration` link, the owner boundary, Article and Open Graph modified date `2026-09-15`, original published date `2026-08-13`, and a sitemap location; this sitemap intentionally has no `<lastmod>`.
 
 Preserve rendered-source commit `2be3d5dd931e00a35938f39ed44fdd813bc9a472`. The configured Batched Coolify Deployment routine owns deployment and live-page verification, so this record is `deployment_pending_public_verification`; no direct deployment or public probe was run here. The next verified-absent candidate is Document Production.
+
+## 2026-09-23 Research decision-control batch
+
+- `executive-calendar-delegation-readiness-record` → executive calendar management; calendar permissions, decision rules, and sensitive-event boundaries.
+- `shared-inbox-delegation-control-study` → inbox triage; mailbox identity, permission, routing, and exception controls.
+- `crm-assistant-change-authority-matrix` → CRM administration; field-level authority, evidence, audit, and rollback.
+- `outsourced-research-brief-acceptance-protocol` → research briefing; claim-level source support, uncertainty, and acceptance.
+- `vendor-follow-up-decision-rights-register` → vendor follow-up; communication authority, commitments, verification, and escalation.

@@ -9,14 +9,14 @@ const sources: readonly ResearchSource[] = [
   { name: 'NIST SP 800-53 Rev. 5, Security and Privacy Controls', url: 'https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final', note: `Primary control catalogue used for least privilege, separation of duties, external-service, contingency, logging, and account-management concepts. ${checked}` },
 ];
 
-type Spec = {
+export type ResearchDecisionSpec = {
   slug: string; title: string; excerpt: string; cluster: string; question: string;
   decision: string; unit: string; evidence: string; variation: string; boundary: string;
   test: string; failure: string; owner: string; handoff: string; label: string;
   related: readonly string[];
 };
 
-const specs: readonly Spec[] = [
+const specs: readonly ResearchDecisionSpec[] = [
   {
     slug: 'virtual-assistant-service-lane-fit-evidence-map',
     title: 'Choosing a virtual assistant service lane from task evidence',
@@ -107,14 +107,14 @@ const specs: readonly Spec[] = [
 const row = (label: string, value: string, source: string) => ({ label, value, source });
 const section = (heading: string, paragraphs: readonly string[], rows: ResearchSection['rows']): ResearchSection => ({ heading, paragraphs, rows });
 
-function make(x: Spec): ResearchPost {
+export function buildDecisionResearch(x: ResearchDecisionSpec, sourceList: readonly ResearchSource[] = sources): ResearchPost {
   return {
     slug: x.slug, title: x.title, excerpt: x.excerpt, published: '2026-09-22', updated: '2026-09-22', cluster: x.cluster,
     image: { url: '/illustrations/getillustrations/goodle-team/assistant-handoff-collaboration.svg', alt: `Owner and assistant reviewing evidence for ${x.title.toLowerCase()}` },
     headlineStat: 'One declared buyer decision, one traceable observation unit, and zero assumed outcomes.',
     methodology: `Structured desk review of five named primary or official sources, checked September 22, 2026, followed by a proposed local decision protocol. Research question: ${x.question} Unit of analysis: ${x.unit}. The method separates retained facts, analysis, inference, and uncertainty. It has not been applied to private client outcomes and makes no universal claim about price, savings, performance, location, classification, or business results.`,
     keyStats: [`Decision: ${x.decision}.`, `Observation unit: ${x.unit}.`, 'Evidence base: five named primary or official sources with URLs and checked dates.'],
-    takeaways: [x.boundary, x.test, `Accountable owner: ${x.owner}.`], sources, related: x.related,
+    takeaways: [x.boundary, x.test, `Accountable owner: ${x.owner}.`], sources: sourceList, related: x.related,
     body: [x.question, x.decision, x.unit, x.evidence, x.variation, x.boundary, x.test, x.failure],
     serviceHandoff: { heading: 'Use the record in a staffing conversation', href: x.handoff, label: x.label, paragraphs: [`Use the completed record to ${x.label}. Bring the task examples, source records, exceptions, access boundaries, schedule constraints, open questions, and the name of the person who will accept the work.`, 'The buyer retains responsibility for consequential business decisions and should involve qualified advisers for legal, employment, privacy, security, tax, financial, or regulated questions.'] },
     sections: [
@@ -163,4 +163,4 @@ function make(x: Spec): ResearchPost {
   };
 }
 
-export const researchBatch20260922Run2: readonly ResearchPost[] = specs.map(make);
+export const researchBatch20260922Run2: readonly ResearchPost[] = specs.map(x => buildDecisionResearch(x));
