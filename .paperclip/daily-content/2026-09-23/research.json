@@ -1,0 +1,85 @@
+{
+  "publicationDate": "2026-09-23",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "entries": [
+    {
+      "family": "research",
+      "topic": "executive calendar delegation permissions and decision readiness",
+      "slug": "executive-calendar-delegation-readiness-record",
+      "sources": ["https://support.google.com/a/users/answer/170963?hl=en", "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user?view=o365-worldwide", "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity", "https://doi.org/10.6028/NIST.SP.1300", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"],
+      "contentHash": "sha256:56e54c8259ef703235f2baf25d5ce508d91a73f6ce13949c9a20d15b8256d622",
+      "publicationDate": "2026-09-23",
+      "commitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
+      "liveUrl": "https://outsourcingassistant.com/research/executive-calendar-delegation-readiness-record",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "shared inbox permission, identity, routing, and exception controls",
+      "slug": "shared-inbox-delegation-control-study",
+      "sources": ["https://support.google.com/a/users/answer/170963?hl=en", "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user?view=o365-worldwide", "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity", "https://doi.org/10.6028/NIST.SP.1300", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"],
+      "contentHash": "sha256:4d6ebae55c8a577db2e5e26ac45c9a4ebdbfea0d0a444ae48fbec3574239a58b",
+      "publicationDate": "2026-09-23",
+      "commitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
+      "liveUrl": "https://outsourcingassistant.com/research/shared-inbox-delegation-control-study",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "CRM field-level assistant change authority",
+      "slug": "crm-assistant-change-authority-matrix",
+      "sources": ["https://support.google.com/a/users/answer/170963?hl=en", "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user?view=o365-worldwide", "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity", "https://doi.org/10.6028/NIST.SP.1300", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"],
+      "contentHash": "sha256:ececc06b5eb4d667c455b3075c1069d9dd20e2c0dc9c9e9fc8258a627c14c373",
+      "publicationDate": "2026-09-23",
+      "commitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
+      "liveUrl": "https://outsourcingassistant.com/research/crm-assistant-change-authority-matrix",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "outsourced research brief evidence acceptance",
+      "slug": "outsourced-research-brief-acceptance-protocol",
+      "sources": ["https://support.google.com/a/users/answer/170963?hl=en", "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user?view=o365-worldwide", "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity", "https://doi.org/10.6028/NIST.SP.1300", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"],
+      "contentHash": "sha256:00cac33ae7fbdf6132f6f838a3e11dec5f70e8fe3c884f9bd23f0ea1acff72f6",
+      "publicationDate": "2026-09-23",
+      "commitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
+      "liveUrl": "https://outsourcingassistant.com/research/outsourced-research-brief-acceptance-protocol",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "vendor follow-up decision rights and escalation",
+      "slug": "vendor-follow-up-decision-rights-register",
+      "sources": ["https://support.google.com/a/users/answer/170963?hl=en", "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user?view=o365-worldwide", "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity", "https://doi.org/10.6028/NIST.SP.1300", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"],
+      "contentHash": "sha256:d142902c9916925b1161f4bd420e8b40ef88febb1ded7c23b319a26ac8e9232f",
+      "publicationDate": "2026-09-23",
+      "commitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
+      "liveUrl": "https://outsourcingassistant.com/research/vendor-follow-up-decision-rights-register",
+      "verificationTime": null
+    }
+  ],
+  "contentCommitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
+  "status": "ready-to-push",
+  "verifiedCount": 0,
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "remoteShaAtVerification": null,
+  "validation": {
+    "routineValidator": "passed",
+    "typecheck": "passed",
+    "productionBuild": "passed with one pre-existing CSS autoprefixer warning",
+    "renderedRoutes": "passed: five routes, 2,612-2,655 rendered words, canonical URLs, Article datePublished 2026-09-23, sitemap generation",
+    "sourceReachability": "five authoritative source URLs checked September 23, 2026"
+  },
+  "deploymentEvidence": {
+    "provider": "Coolify3",
+    "applicationUuid": "q9x033mt5ul6xq2obsofw9m7",
+    "deploymentUuid": null,
+    "deployedCommitSha": null,
+    "authenticatedStatusCheck": "pending",
+    "publicTransitionCheck": "pending"
+  },
+  "verificationTime": null
+}
