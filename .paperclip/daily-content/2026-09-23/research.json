@@ -13,7 +13,7 @@
       "publicationDate": "2026-09-23",
       "commitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
       "liveUrl": "https://outsourcingassistant.com/research/executive-calendar-delegation-readiness-record",
-      "verificationTime": null
+      "verificationTime": "2026-09-23T16:14:02Z"
     },
     {
       "family": "research",
@@ -24,7 +24,7 @@
       "publicationDate": "2026-09-23",
       "commitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
       "liveUrl": "https://outsourcingassistant.com/research/shared-inbox-delegation-control-study",
-      "verificationTime": null
+      "verificationTime": "2026-09-23T16:14:02Z"
     },
     {
       "family": "research",
@@ -35,7 +35,7 @@
       "publicationDate": "2026-09-23",
       "commitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
       "liveUrl": "https://outsourcingassistant.com/research/crm-assistant-change-authority-matrix",
-      "verificationTime": null
+      "verificationTime": "2026-09-23T16:14:02Z"
     },
     {
       "family": "research",
@@ -46,7 +46,7 @@
       "publicationDate": "2026-09-23",
       "commitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
       "liveUrl": "https://outsourcingassistant.com/research/outsourced-research-brief-acceptance-protocol",
-      "verificationTime": null
+      "verificationTime": "2026-09-23T16:14:02Z"
     },
     {
       "family": "research",
@@ -57,15 +57,15 @@
       "publicationDate": "2026-09-23",
       "commitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
       "liveUrl": "https://outsourcingassistant.com/research/vendor-follow-up-decision-rights-register",
-      "verificationTime": null
+      "verificationTime": "2026-09-23T16:14:02Z"
     }
   ],
   "contentCommitSha": "07c80da409efd4f090acd554e7f2d934f777a253",
-  "status": "ready-to-push",
-  "verifiedCount": 0,
+  "status": "live-verified",
+  "verifiedCount": 5,
   "repository": "coolifystealthagents/outsourcingassistant",
   "productionBranch": "main",
-  "remoteShaAtVerification": null,
+  "remoteShaAtVerification": "20de9bfe9c41915bade7e4b1c64d0c176389d29d",
   "validation": {
     "routineValidator": "passed",
     "typecheck": "passed",
@@ -76,10 +76,10 @@
   "deploymentEvidence": {
     "provider": "Coolify3",
     "applicationUuid": "q9x033mt5ul6xq2obsofw9m7",
-    "deploymentUuid": null,
-    "deployedCommitSha": null,
-    "authenticatedStatusCheck": "pending",
-    "publicTransitionCheck": "pending"
+    "deploymentUuid": "86utudwnai1p0kqfj4ab1fim",
+    "deployedCommitSha": "f159263420d8b01352c7d0f71452455793286363",
+    "authenticatedStatusCheck": "passed: Coolify3 confirmed application q9x033mt5ul6xq2obsofw9m7, repository coolifystealthagents/outsourcingassistant, branch main, and deployment commit f159263420d8b01352c7d0f71452455793286363 through queued and in_progress states",
+    "publicTransitionCheck": "passed: all five final URLs returned HTTP 200 with expected titles, unique content markers, canonical URLs, Article datePublished 2026-09-23, visible dates, working hero asset, and sitemap entries"
   },
-  "verificationTime": null
+  "verificationTime": "2026-09-23T16:14:02Z"
 }
