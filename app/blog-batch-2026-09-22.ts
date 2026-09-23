@@ -1,11 +1,11 @@
 import type { BlogPost } from './data';
 
-type Spec = {
+export type DailyWorkflowSpec = {
   slug: string; title: string; excerpt: string; audience: string; workflow: string;
   record: string; inputs: string; boundary: string; example: string; metric: string; image: string;
 };
 
-const specs: Spec[] = [
+const specs: DailyWorkflowSpec[] = [
   { slug:'virtual-assistant-shared-inbox-triage', title:'How to set up shared inbox triage for a virtual assistant', excerpt:'A bounded inbox routine can shorten response times while keeping sensitive, contractual, and high-impact messages with the right owner.', audience:'a small business with a busy shared email address', workflow:'shared inbox triage', record:'inbox routing register', inputs:'message ID, sender, received time, approved category, priority signal, account owner, draft status, escalation reason, and next review time', boundary:'Pause for threats, legal notices, payment disputes, security reports, sensitive personal data, cancellations, or any message requiring an undocumented promise.', example:'A customer asks for a refund and mentions a chargeback. The assistant tags the message, preserves the original wording, and routes it to the account owner without approving or denying money.', metric:'first-sort time, correctly routed messages, drafts approved without correction, missed escalation signals, reopened threads, and aging by owner', image:'/images/blog-2026-08-20/cross-timezone-queue-status-note.png' },
   { slug:'virtual-assistant-calendar-gatekeeping-workflow', title:'Build a calendar gatekeeping workflow for a virtual assistant', excerpt:'A calendar gatekeeping routine protects focus time without allowing an assistant to accept commitments or disclose private schedule details.', audience:'a founder or manager with frequent meeting requests', workflow:'calendar gatekeeping', record:'meeting request queue', inputs:'requester, purpose, source, attendees, duration, time zone, required decision, approved priority, conflicts, and calendar owner', boundary:'Stop when the purpose is unclear, attendance creates a conflict, confidential calendar details may be exposed, travel is affected, or the request commits money or authority.', example:'A vendor asks for an urgent meeting and requests the names of other attendees already booked. The assistant offers approved windows without exposing private calendar entries.', metric:'requests resolved, protected focus blocks, reschedules, unclear-purpose escalations, time-zone errors, and meetings accepted by the owner', image:'/images/blog-2026-08-20/remote-meeting-preparation-brief.png' },
   { slug:'virtual-assistant-crm-data-cleanup-rules', title:'Create safe CRM data-cleanup rules for a virtual assistant', excerpt:'A source-linked cleanup lane can improve CRM usefulness without silently merging people, erasing history, or inventing customer facts.', audience:'a sales or service team with inconsistent CRM records', workflow:'CRM data cleanup', record:'CRM correction log', inputs:'record ID, field in question, current value, authoritative source, proposed value, duplicate candidate, account owner, approval state, and change time', boundary:'Pause before merging records, deleting history, changing consent, reassigning ownership, altering deal values, or resolving conflicting sources.', example:'Two contacts share a company and surname but use different email addresses. The assistant flags a possible duplicate and leaves both records intact until the owner verifies identity.', metric:'source-backed corrections, duplicate candidates reviewed, rejected changes, consent exceptions, reopened records, and corrections sampled for accuracy', image:'/images/blog-2026-08-20/shared-drive-filing-conventions-assistant.png' },
@@ -20,8 +20,8 @@ const specs: Spec[] = [
   { slug:'virtual-assistant-expense-report-preflight-check', title:'Run expense-report preflight checks with a virtual assistant', excerpt:'A preflight checklist can reduce finance rework while keeping reimbursement, tax treatment, and policy exceptions with authorised reviewers.', audience:'a growing company processing employee expenses', workflow:'expense report preflight review', record:'expense completeness queue', inputs:'report ID, submitter, period, receipt state, currency, business-purpose field, policy category, duplicate signal, exception note, and finance owner', boundary:'Stop for missing or altered evidence, personal or disputed charges, duplicate uncertainty, tax questions, policy exceptions, manager conflicts, or requests to change an amount.', example:'Two meals on the same day have identical totals but different receipts. The assistant flags the duplicate signal and preserves both records for finance review.', metric:'complete reports, missing receipts, duplicate signals, policy exceptions, resubmissions, and finance review time', image:'/images/blog-2026-08-20/delegated-invoice-exception-notes.png' },
 ];
 
-const makePost = (x: Spec): BlogPost => ({
-  slug:x.slug, title:x.title, excerpt:x.excerpt, minutes:9, published:'2026-09-22',
+export const makeDailyWorkflowPost = (x: DailyWorkflowSpec, published = '2026-09-22'): BlogPost => ({
+  slug:x.slug, title:x.title, excerpt:x.excerpt, minutes:9, published,
   image:{url:x.image,alt:`Operational workflow illustration for ${x.workflow}`},
   takeaway:`Define a source-linked ${x.record}, a narrow action boundary, and a named owner before delegating ${x.workflow}.`,
   sections:[
@@ -54,4 +54,4 @@ const makePost = (x: Spec): BlogPost => ({
   cta:{href:'/contact',label:'Plan the assistant role'}
 });
 
-export const dailyBlogBatch20260922: BlogPost[] = specs.map(makePost);
+export const dailyBlogBatch20260922: BlogPost[] = specs.map((x) => makeDailyWorkflowPost(x));
