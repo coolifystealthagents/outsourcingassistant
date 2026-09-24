@@ -1,0 +1,214 @@
+{
+  "routine": "Daily Blog Publishing",
+  "required": 12,
+  "publicationDate": "2026-09-24",
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "contentCommit": "pending",
+  "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+  "build": {
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "staticPages": 676
+  },
+  "deployment": {
+    "provider": "Coolify3",
+    "resourceUuid": "q9x033mt5ul6xq2obsofw9m7",
+    "status": "pending",
+    "verifiedCount": 0
+  },
+  "articles": [
+    {
+      "family": "meeting operations",
+      "topic": "meeting action-item follow-up",
+      "slug": "virtual-assistant-meeting-action-item-follow-up",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-meeting-action-item-follow-up",
+      "verificationTime": null
+    },
+    {
+      "family": "ecommerce operations",
+      "topic": "backorder customer updates",
+      "slug": "virtual-assistant-ecommerce-backorder-update-workflow",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-ecommerce-backorder-update-workflow",
+      "verificationTime": null
+    },
+    {
+      "family": "finance operations",
+      "topic": "accounts-receivable follow-up",
+      "slug": "virtual-assistant-accounts-receivable-follow-up-queue",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-accounts-receivable-follow-up-queue",
+      "verificationTime": null
+    },
+    {
+      "family": "executive assistance",
+      "topic": "travel itinerary change control",
+      "slug": "virtual-assistant-executive-travel-change-control",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-executive-travel-change-control",
+      "verificationTime": null
+    },
+    {
+      "family": "home services operations",
+      "topic": "estimate input follow-up",
+      "slug": "virtual-assistant-home-services-estimate-document-chase",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-home-services-estimate-document-chase",
+      "verificationTime": null
+    },
+    {
+      "family": "property management",
+      "topic": "lease-renewal input coordination",
+      "slug": "virtual-assistant-property-management-lease-renewal-inputs",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-property-management-lease-renewal-inputs",
+      "verificationTime": null
+    },
+    {
+      "family": "agency operations",
+      "topic": "client report source checking",
+      "slug": "virtual-assistant-agency-client-report-source-check",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-agency-client-report-source-check",
+      "verificationTime": null
+    },
+    {
+      "family": "customer operations",
+      "topic": "social-media comment routing",
+      "slug": "virtual-assistant-social-media-comment-routing",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-social-media-comment-routing",
+      "verificationTime": null
+    },
+    {
+      "family": "operations quality",
+      "topic": "data-entry quality sampling",
+      "slug": "virtual-assistant-data-entry-quality-sampling",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-data-entry-quality-sampling",
+      "verificationTime": null
+    },
+    {
+      "family": "marketing operations",
+      "topic": "testimonial permission tracking",
+      "slug": "virtual-assistant-customer-testimonial-permission-tracker",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-customer-testimonial-permission-tracker",
+      "verificationTime": null
+    },
+    {
+      "family": "recruiting operations",
+      "topic": "interview rescheduling",
+      "slug": "virtual-assistant-recruiting-interview-reschedule-queue",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-recruiting-interview-reschedule-queue",
+      "verificationTime": null
+    },
+    {
+      "family": "content operations",
+      "topic": "knowledge-base feedback triage",
+      "slug": "virtual-assistant-knowledge-base-feedback-queue",
+      "sources": [
+        "NIST CSF 2.0",
+        "SBA hiring guidance",
+        "FTC personal information guidance"
+      ],
+      "contentHash": "e9c5a4540fe5ca1a5b08fbc7e083b38b70356882348a5b968fe01c2e4c6cda29",
+      "publicationDate": "2026-09-24",
+      "commitSha": "pending",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcingassistant.com/blog/virtual-assistant-knowledge-base-feedback-queue",
+      "verificationTime": null
+    }
+  ]
+}

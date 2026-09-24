@@ -1,28 +1,26 @@
 {
-  "batchId": "2026-09-18",
-  "status": "live-verified",
+  "batchId": "2026-09-24",
+  "status": "completed",
   "validated": true,
   "buildPassed": true,
   "blogs": [
-    "home-services-virtual-assistant-estimate-follow-up",
-    "healthcare-office-virtual-assistant-appointment-waitlist",
-    "real-estate-virtual-assistant-listing-inquiry-routing",
-    "agency-virtual-assistant-client-asset-intake",
-    "saas-virtual-assistant-trial-account-support",
-    "construction-virtual-assistant-change-order-intake",
-    "insurance-certificate-tracking-virtual-assistant",
-    "nonprofit-virtual-assistant-donation-acknowledgment-preparation",
-    "recruiting-virtual-assistant-reference-check-scheduling",
-    "property-management-virtual-assistant-maintenance-work-order",
-    "ecommerce-virtual-assistant-inventory-exception-queue",
-    "bookkeeping-virtual-assistant-month-end-document-chase"
+    "virtual-assistant-meeting-action-item-follow-up",
+    "virtual-assistant-ecommerce-backorder-update-workflow",
+    "virtual-assistant-accounts-receivable-follow-up-queue",
+    "virtual-assistant-executive-travel-change-control",
+    "virtual-assistant-home-services-estimate-document-chase",
+    "virtual-assistant-property-management-lease-renewal-inputs",
+    "virtual-assistant-agency-client-report-source-check",
+    "virtual-assistant-social-media-comment-routing",
+    "virtual-assistant-data-entry-quality-sampling",
+    "virtual-assistant-customer-testimonial-permission-tracker",
+    "virtual-assistant-recruiting-interview-reschedule-queue",
+    "virtual-assistant-knowledge-base-feedback-queue"
   ],
   "files": [
-    "app/blog-batch-2026-09-18.ts",
+    "app/blog-batch-2026-09-24.ts",
     "app/data.ts",
-    ".paperclip/daily-content/2026-09-18/blog.json",
+    ".paperclip/daily-content/2026-09-24/blog.json",
     "ops/daily-blog-batch.json"
-  ],
-  "verified": 12,
-  "verificationTime": "2026-09-18T14:18:58Z"
+  ]
 }
