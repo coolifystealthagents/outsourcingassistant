@@ -59,3 +59,11 @@ Preserve rendered-source commit `2be3d5dd931e00a35938f39ed44fdd813bc9a472`. The 
 - `crm-assistant-change-authority-matrix` → CRM administration; field-level authority, evidence, audit, and rollback.
 - `outsourced-research-brief-acceptance-protocol` → research briefing; claim-level source support, uncertainty, and acceptance.
 - `vendor-follow-up-decision-rights-register` → vendor follow-up; communication authority, commitments, verification, and escalation.
+
+## 2026-09-24 Research service-readiness batch
+
+- `meeting-administration-decision-capture-readiness` → meeting administration; source-grounded decisions, actions, ownership, approval, and correction.
+- `customer-support-response-authority-readiness` → customer support; case-level identity, response authority, commitments, escalation, and closure.
+- `bookkeeping-preparation-source-control-boundary` → bookkeeping preparation; source provenance, proposal boundaries, financial exceptions, approval, and rollback.
+- `sales-prospect-research-acceptance-record` → sales support; field-level provenance, freshness, uncertainty, permitted use, and acceptance.
+- `travel-coordination-disruption-handoff-test` → travel coordination; itinerary truth, time zones, supplier evidence, approvals, and disruption handoffs.
