@@ -1,5 +1,9 @@
 # Outsourcing Assistant service-link ledger
 
+## 2026-09-25 Research routine
+
+Five new buyer-decision studies extend active staffing and service paths: executive-inbox delegation readiness, calendar constraint coverage, CRM hygiene exception sampling, ecommerce order-exception authority, and recruiting candidate-record boundaries. Canonical slugs, checked sources, commit evidence, and bounded live-check results are recorded in `.paperclip/daily-content/2026-09-25/research.json`. Treat these families as occupied in later routines; re-dated or keyword-swapped variants do not count as new work.
+
 Updated: 2026-09-15
 
 ## Research inventory — 2026-09-22, run 2

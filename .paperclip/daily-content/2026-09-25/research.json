@@ -1,0 +1,20 @@
+{
+  "routine": "Daily Research Publishing",
+  "required": 5,
+  "publicationDate": "2026-09-25",
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "contentCommit": "98d62c9e0857de13ac75f8e293a63c064ccc20ee",
+  "remoteSha": "98d62c9e0857de13ac75f8e293a63c064ccc20ee",
+  "contentHash": "3345e1b9ce6859476e8adfe4e3f6bc8352ba0b9ce49152d76c114a4675e170d2",
+  "build": { "typescript": "passed", "productionBuild": "passed", "staticPages": 699 },
+  "deployment": { "provider": "Coolify3", "resourceUuid": "unavailable: configured API credential returned HTTP 401", "status": "not_live", "verifiedCount": 0, "checkedAt": "2026-09-25T18:28:25Z" },
+  "sources": ["O*NET OnLine: Executive Secretaries and Executive Administrative Assistants", "U.S. Small Business Administration: Manage Your Business", "Federal Trade Commission: Cybersecurity for Small Business", "NIST Cybersecurity Framework 2.0", "NIST SP 800-53 Rev. 5"],
+  "articles": [
+    { "family": "executive assistance", "topic": "executive inbox delegation readiness", "slug": "executive-inbox-delegation-readiness-test", "contentHash": "3345e1b9ce6859476e8adfe4e3f6bc8352ba0b9ce49152d76c114a4675e170d2", "publicationDate": "2026-09-25", "commitSha": "98d62c9e0857de13ac75f8e293a63c064ccc20ee", "deploymentEvidence": "HTTP 404 at 2026-09-25T18:28:25Z", "liveUrl": "https://outsourcingassistant.com/research/executive-inbox-delegation-readiness-test", "verificationTime": null },
+    { "family": "calendar management", "topic": "calendar scheduling constraint coverage", "slug": "calendar-scheduling-constraint-coverage-study", "contentHash": "3345e1b9ce6859476e8adfe4e3f6bc8352ba0b9ce49152d76c114a4675e170d2", "publicationDate": "2026-09-25", "commitSha": "98d62c9e0857de13ac75f8e293a63c064ccc20ee", "deploymentEvidence": "HTTP 404 at 2026-09-25T18:28:25Z", "liveUrl": "https://outsourcingassistant.com/research/calendar-scheduling-constraint-coverage-study", "verificationTime": null },
+    { "family": "CRM administration", "topic": "CRM data hygiene exception sampling", "slug": "crm-data-hygiene-exception-sampling-protocol", "contentHash": "3345e1b9ce6859476e8adfe4e3f6bc8352ba0b9ce49152d76c114a4675e170d2", "publicationDate": "2026-09-25", "commitSha": "98d62c9e0857de13ac75f8e293a63c064ccc20ee", "deploymentEvidence": "HTTP 404 at 2026-09-25T18:28:25Z", "liveUrl": "https://outsourcingassistant.com/research/crm-data-hygiene-exception-sampling-protocol", "verificationTime": null },
+    { "family": "ecommerce operations", "topic": "ecommerce order exception delegation", "slug": "ecommerce-order-exception-delegation-test", "contentHash": "3345e1b9ce6859476e8adfe4e3f6bc8352ba0b9ce49152d76c114a4675e170d2", "publicationDate": "2026-09-25", "commitSha": "98d62c9e0857de13ac75f8e293a63c064ccc20ee", "deploymentEvidence": "HTTP 404 at 2026-09-25T18:28:25Z", "liveUrl": "https://outsourcingassistant.com/research/ecommerce-order-exception-delegation-test", "verificationTime": null },
+    { "family": "recruiting coordination", "topic": "candidate record authority boundary", "slug": "recruiting-coordination-candidate-record-boundary", "contentHash": "3345e1b9ce6859476e8adfe4e3f6bc8352ba0b9ce49152d76c114a4675e170d2", "publicationDate": "2026-09-25", "commitSha": "98d62c9e0857de13ac75f8e293a63c064ccc20ee", "deploymentEvidence": "HTTP 404 at 2026-09-25T18:28:25Z", "liveUrl": "https://outsourcingassistant.com/research/recruiting-coordination-candidate-record-boundary", "verificationTime": null }
+  ]
+}
