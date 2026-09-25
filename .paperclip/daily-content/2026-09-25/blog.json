@@ -1,0 +1,25 @@
+{
+  "routine": "Daily Blog Publishing",
+  "required": 12,
+  "publicationDate": "2026-09-25",
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "contentCommit": "4f89c14c01ea5982d655ec8f4111628bb1ce6862",
+  "contentHash": "34b450b30b0d5b0461e2897292e62e753e8929a0e25ee3e41706e68e089eca53",
+  "build": { "typescript": "passed", "productionBuild": "passed", "staticPages": 694 },
+  "deployment": { "provider": "Coolify3", "resourceUuid": "q9x033mt5ul6xq2obsofw9m7", "status": "pending", "verifiedCount": 0 },
+  "articles": [
+    {"family":"sales operations","topic":"sales proposal input checking","slug":"virtual-assistant-sales-proposal-input-check"},
+    {"family":"customer onboarding","topic":"customer onboarding document readiness","slug":"virtual-assistant-customer-onboarding-document-readiness"},
+    {"family":"marketing operations","topic":"webinar attendee follow-up","slug":"virtual-assistant-webinar-attendee-follow-up"},
+    {"family":"property operations","topic":"maintenance request intake triage","slug":"virtual-assistant-maintenance-request-intake-triage"},
+    {"family":"procurement operations","topic":"procurement renewal tracking","slug":"virtual-assistant-procurement-renewal-calendar"},
+    {"family":"executive operations","topic":"board pre-read distribution","slug":"virtual-assistant-board-pre-read-distribution"},
+    {"family":"customer operations","topic":"warranty claim evidence intake","slug":"virtual-assistant-warranty-claim-evidence-intake"},
+    {"family":"people operations","topic":"training attendance administration","slug":"virtual-assistant-training-attendance-record"},
+    {"family":"people operations","topic":"employee equipment return tracking","slug":"virtual-assistant-employee-equipment-return-tracker"},
+    {"family":"ecommerce operations","topic":"shipping address exception routing","slug":"virtual-assistant-shipping-address-exception-review"},
+    {"family":"legal operations","topic":"contract signature status tracking","slug":"virtual-assistant-contract-signature-status-tracking"},
+    {"family":"privacy operations","topic":"customer data-export request intake","slug":"virtual-assistant-customer-data-export-intake"}
+  ]
+}

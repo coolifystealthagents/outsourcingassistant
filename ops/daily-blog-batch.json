@@ -1,26 +1,22 @@
 {
-  "batchId": "2026-09-24",
-  "status": "completed",
+  "batchId": "2026-09-25",
+  "status": "content_validated",
   "validated": true,
   "buildPassed": true,
+  "contentCommit": "4f89c14c01ea5982d655ec8f4111628bb1ce6862",
   "blogs": [
-    "virtual-assistant-meeting-action-item-follow-up",
-    "virtual-assistant-ecommerce-backorder-update-workflow",
-    "virtual-assistant-accounts-receivable-follow-up-queue",
-    "virtual-assistant-executive-travel-change-control",
-    "virtual-assistant-home-services-estimate-document-chase",
-    "virtual-assistant-property-management-lease-renewal-inputs",
-    "virtual-assistant-agency-client-report-source-check",
-    "virtual-assistant-social-media-comment-routing",
-    "virtual-assistant-data-entry-quality-sampling",
-    "virtual-assistant-customer-testimonial-permission-tracker",
-    "virtual-assistant-recruiting-interview-reschedule-queue",
-    "virtual-assistant-knowledge-base-feedback-queue"
+    "virtual-assistant-sales-proposal-input-check",
+    "virtual-assistant-customer-onboarding-document-readiness",
+    "virtual-assistant-webinar-attendee-follow-up",
+    "virtual-assistant-maintenance-request-intake-triage",
+    "virtual-assistant-procurement-renewal-calendar",
+    "virtual-assistant-board-pre-read-distribution",
+    "virtual-assistant-warranty-claim-evidence-intake",
+    "virtual-assistant-training-attendance-record",
+    "virtual-assistant-employee-equipment-return-tracker",
+    "virtual-assistant-shipping-address-exception-review",
+    "virtual-assistant-contract-signature-status-tracking",
+    "virtual-assistant-customer-data-export-intake"
   ],
-  "files": [
-    "app/blog-batch-2026-09-24.ts",
-    "app/data.ts",
-    ".paperclip/daily-content/2026-09-24/blog.json",
-    "ops/daily-blog-batch.json"
-  ]
+  "files": ["app/blog-batch-2026-09-25.ts", "app/data.ts", ".paperclip/daily-content/2026-09-25/blog.json", "ops/daily-blog-batch.json"]
 }
