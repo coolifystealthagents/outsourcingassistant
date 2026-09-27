@@ -25,7 +25,7 @@ This working map pairs the current Philippines-based assistant service routes wi
 | CRM Administration | `/research/crm-evidence-confidence` | What source checks should happen before a CRM record is prepared for correction? | Delivered locally in the typed source record on 2026-09-15: `/services/crm-administration` (`2be3d5dd931e00a35938f39ed44fdd813bc9a472`). Public verification remains assigned to the batched deployment routine. Do not add another link. |
 | Research Briefing | `/research/research-briefing-workflow` | What evidence and ownership notes make a research brief ready for review? | Delivered in the typed source record on 2026-09-07: `/services/research-briefing`. Do not add another link. |
 | Document Production | `/research/virtual-assistant-source-quality-evidence-research` | How can a team show which approved sources supported a prepared document? | `/services/document-production` |
-| Vendor Follow-Up | `/research/vendor-follow-up-escalation` | Which supplier follow-ups can move forward, and which need escalation? | `/services/vendor-follow-up` |
+| Vendor Follow-Up | `/research/vendor-follow-up-decision-rights-register` | Which supplier follow-ups can be prepared, and which need the owner's decision? | Delivered in the typed source record on 2026-09-23: `/services/vendor-follow-up`. Do not add another link. |
 | Project Administration | `/research/handoff-state-transitions` | Which project status changes need a clear owner and acceptance record? | `/services/project-administration` |
 | Personal Executive Support | `/research/calendar-delegation-controls` | Where should delegated support stop so personal priorities remain under the executive's control? | `/services/personal-executive-support` |
 
