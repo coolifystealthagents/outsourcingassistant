@@ -1,0 +1,38 @@
+{
+  "routine": "Daily Blog Publishing",
+  "cycleLabel": "September28",
+  "required": 12,
+  "publicationDate": "2026-09-28",
+  "timezone": "UTC",
+  "baselineSha": "e10e96ec2c41ccfd481265cf0f2e9ca38bd74ceb",
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "integratorIssue": "OUT-82",
+  "pairedResearchIssue": "OUT-81",
+  "deploymentOwner": "browser operator",
+  "deploymentResource": "q9x033mt5ul6xq2obsofw9m7",
+  "status": "drafted-local-blocked-editorial-rewrite-required",
+  "validation": {
+    "typescript": "passed",
+    "productionBuild": "passed: 712 static pages",
+    "bodyWordCounts": [1169, 1169, 1167, 1169, 1173, 1172, 1172, 1171, 1160, 1170, 1175, 1178],
+    "minimumBodyWords": 1160,
+    "maximumFiveWordShingleJaccard": 0.751335,
+    "maximumOverlapPair": ["virtual-assistant-customer-offboarding-checklist", "virtual-assistant-membership-pause-request-intake"],
+    "editorialResult": "failed: maximum overlap exceeds 0.50; substantive rewrites required before integration"
+  },
+  "articles": [
+    {"family":"sales operations","topic":"lead handoff acceptance checking","slug":"virtual-assistant-lead-handoff-acceptance-check"},
+    {"family":"customer operations","topic":"customer offboarding coordination","slug":"virtual-assistant-customer-offboarding-checklist"},
+    {"family":"partner operations","topic":"referral intake routing","slug":"virtual-assistant-referral-intake-routing"},
+    {"family":"subscription operations","topic":"membership pause-request intake","slug":"virtual-assistant-membership-pause-request-intake"},
+    {"family":"support operations","topic":"knowledge-base change intake","slug":"virtual-assistant-knowledge-base-change-intake"},
+    {"family":"service operations","topic":"service complaint evidence preparation","slug":"virtual-assistant-service-complaint-evidence-packet"},
+    {"family":"travel administration","topic":"travel request readiness checking","slug":"virtual-assistant-travel-request-readiness-check"},
+    {"family":"ecommerce operations","topic":"inventory count exception logging","slug":"virtual-assistant-inventory-count-exception-log"},
+    {"family":"partner operations","topic":"partner directory verification","slug":"virtual-assistant-partner-directory-verification"},
+    {"family":"community operations","topic":"donation request screening","slug":"virtual-assistant-donation-request-screening"},
+    {"family":"website operations","topic":"website form routing auditing","slug":"virtual-assistant-website-form-routing-audit"},
+    {"family":"client operations","topic":"client meeting decision logging","slug":"virtual-assistant-client-meeting-decision-log"}
+  ]
+}
