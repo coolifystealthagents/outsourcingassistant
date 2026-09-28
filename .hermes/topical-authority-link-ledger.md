@@ -1,5 +1,9 @@
 # Outsourcing Assistant service-link ledger
 
+## 2026-09-28 Research routine
+
+Five new decision studies extend live service paths without reusing occupied topic families: document-version acceptance, project dependency registers, personal-support privacy boundaries, inbox template drift, and reschedule consequence evidence. Canonical slugs and checked source records are stored in `.paperclip/daily-content/2026-09-28/research.json`. This is a local Research handoff for the combined release; the Blog integrator owns the sole production push and must reconcile first-publication dates immediately before that push.
+
 ## 2026-09-25 Research routine
 
 Five new buyer-decision studies extend active staffing and service paths: executive-inbox delegation readiness, calendar constraint coverage, CRM hygiene exception sampling, ecommerce order-exception authority, and recruiting candidate-record boundaries. Canonical slugs, checked sources, commit evidence, and bounded live-check results are recorded in `.paperclip/daily-content/2026-09-25/research.json`. Treat these families as occupied in later routines; re-dated or keyword-swapped variants do not count as new work.
