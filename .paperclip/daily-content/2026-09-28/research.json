@@ -7,6 +7,8 @@
   "preparedCount": 5,
   "verifiedLiveCount": 0,
   "status": "local_research_handoff",
+  "publicationDate": "2026-09-28",
+  "sourceFileSha256": "17acc9a2dca4b065592163a1dd11d63f891076d0beaa95a6c7f2d09a02d5f546",
   "siteTimezone": "UTC",
   "metadataDatePrepared": "2026-09-28",
   "publicationDateRule": "Blog integrator must reconcile visible date, datePublished, sitemap metadata, this manifest, and ledger to each article's actual first-public verification date immediately before the sole combined push; the user owns article-by-article public verification.",

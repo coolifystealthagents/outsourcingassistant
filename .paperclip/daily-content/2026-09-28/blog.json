@@ -7,6 +7,7 @@
   "baselineSha": "e10e96ec2c41ccfd481265cf0f2e9ca38bd74ceb",
   "repository": "coolifystealthagents/outsourcingassistant",
   "productionBranch": "main",
+  "sourceFileSha256": "c883681ff03f299826affbd566088c1c44a261027824d85ecaab398008f645f8",
   "integratorIssue": "OUT-82",
   "pairedResearchIssue": "OUT-81",
   "researchHandoff": {
@@ -18,7 +19,7 @@
   },
   "deploymentOwner": "browser operator",
   "deploymentResource": "q9x033mt5ul6xq2obsofw9m7",
-  "status": "editorial-validation-passed-awaiting-release-checks",
+  "status": "release-validated-awaiting-single-push",
   "validation": {
     "typescript": "passed",
     "productionBuild": "passed: 712 static pages",
