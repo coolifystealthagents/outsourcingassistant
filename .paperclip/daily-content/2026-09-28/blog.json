@@ -18,15 +18,15 @@
   },
   "deploymentOwner": "browser operator",
   "deploymentResource": "q9x033mt5ul6xq2obsofw9m7",
-  "status": "drafted-local-blocked-editorial-rewrite-required",
+  "status": "editorial-validation-passed-awaiting-release-checks",
   "validation": {
     "typescript": "passed",
     "productionBuild": "passed: 712 static pages",
-    "bodyWordCounts": [1656, 1703, 1567, 1676, 1582, 1643, 1547, 1594, 1589, 1571, 1175, 1178],
+    "bodyWordCounts": [1656, 1703, 1567, 1676, 1582, 1643, 1547, 1594, 1589, 1571, 1554, 1565],
     "minimumBodyWords": 1160,
-    "maximumFiveWordShingleJaccard": 0.728497,
-    "maximumOverlapPair": ["virtual-assistant-website-form-routing-audit", "virtual-assistant-client-meeting-decision-log"],
-    "editorialResult": "failed: maximum overlap exceeds 0.50; substantive rewrites required before integration"
+    "maximumFiveWordShingleJaccard": 0.465964,
+    "maximumOverlapPair": ["virtual-assistant-travel-request-readiness-check", "virtual-assistant-website-form-routing-audit"],
+    "editorialResult": "passed: all bodies exceed 900 words and maximum overlap is below 0.50"
   },
   "articles": [
     {"family":"sales operations","topic":"lead handoff acceptance checking","slug":"virtual-assistant-lead-handoff-acceptance-check"},
