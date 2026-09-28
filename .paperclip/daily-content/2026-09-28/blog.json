@@ -9,6 +9,13 @@
   "productionBranch": "main",
   "integratorIssue": "OUT-82",
   "pairedResearchIssue": "OUT-81",
+  "researchHandoff": {
+    "branch": "routine/out-81-research-2026-09-28",
+    "contentCommit": "0a986eef03441b05f781ac8a4a29017cf2bf5cfb",
+    "manifestCommit": "253a8fd6387060ef99d16fb0921e49abeda92d9c",
+    "integrated": true,
+    "integratedHead": "bd8d57efd027989479b707b24e8c5e566b26c8c0"
+  },
   "deploymentOwner": "browser operator",
   "deploymentResource": "q9x033mt5ul6xq2obsofw9m7",
   "status": "drafted-local-blocked-editorial-rewrite-required",
