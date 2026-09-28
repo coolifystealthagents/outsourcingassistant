@@ -22,10 +22,10 @@
   "validation": {
     "typescript": "passed",
     "productionBuild": "passed: 712 static pages",
-    "bodyWordCounts": [1656, 1703, 1567, 1676, 1173, 1643, 1547, 1594, 1589, 1170, 1175, 1178],
+    "bodyWordCounts": [1656, 1703, 1567, 1676, 1582, 1643, 1547, 1594, 1589, 1571, 1175, 1178],
     "minimumBodyWords": 1160,
-    "maximumFiveWordShingleJaccard": 0.738275,
-    "maximumOverlapPair": ["virtual-assistant-knowledge-base-change-intake", "virtual-assistant-donation-request-screening"],
+    "maximumFiveWordShingleJaccard": 0.728497,
+    "maximumOverlapPair": ["virtual-assistant-website-form-routing-audit", "virtual-assistant-client-meeting-decision-log"],
     "editorialResult": "failed: maximum overlap exceeds 0.50; substantive rewrites required before integration"
   },
   "articles": [
