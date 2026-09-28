@@ -1,0 +1,102 @@
+{
+  "routine": "Daily Research Publishing",
+  "cycleLabel": "September 28, 2026 combined release",
+  "taskId": "15b752cb-909d-48c9-989d-b31ba0d38788",
+  "runId": "50c662ac-0f31-472f-8ae1-d7349820bc0e",
+  "required": 5,
+  "preparedCount": 5,
+  "verifiedLiveCount": 0,
+  "status": "local_research_handoff",
+  "siteTimezone": "UTC",
+  "metadataDatePrepared": "2026-09-28",
+  "publicationDateRule": "Blog integrator must reconcile visible date, datePublished, sitemap metadata, this manifest, and ledger to each article's actual first-public verification date immediately before the sole combined push; the user owns article-by-article public verification.",
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "baselineSha": "e10e96ec2c41ccfd481265cf0f2e9ca38bd74ceb",
+  "researchBranch": "routine/out-81-research-2026-09-28",
+  "contentCommit": "0a986eef03441b05f781ac8a4a29017cf2bf5cfb",
+  "remoteShaAtStart": "e10e96ec2c41ccfd481265cf0f2e9ca38bd74ceb",
+  "pushPerformed": false,
+  "deploymentPerformed": false,
+  "deploymentOwner": "Browser Operator after the Blog integrator's sole combined push",
+  "coolifyApplicationUuid": "q9x033mt5ul6xq2obsofw9m7",
+  "validation": {
+    "typescript": "passed",
+    "routineManifest": "passed",
+    "productionBuild": "passed",
+    "staticPages": 704,
+    "bodyWordMinimum": 1200,
+    "maximumPairwiseFiveWordShingleJaccardPercent": 43.79,
+    "overlapThresholdPercent": 50,
+    "renderedArtifactHashAlgorithm": "sha256"
+  },
+  "sources": [
+    { "title": "Executive Secretaries and Executive Administrative Assistants", "publisher": "O*NET OnLine / U.S. Department of Labor", "url": "https://www.onetonline.org/link/details/43-6011.00", "checkedDate": "2026-09-28" },
+    { "title": "Manage Your Business", "publisher": "U.S. Small Business Administration", "url": "https://www.sba.gov/business-guide/manage-your-business", "checkedDate": "2026-09-28" },
+    { "title": "Assessing Data Reliability", "publisher": "U.S. Government Accountability Office", "url": "https://www.gao.gov/products/gao-20-283g", "checkedDate": "2026-09-28" },
+    { "title": "Cybersecurity Framework 2.0", "publisher": "National Institute of Standards and Technology", "url": "https://www.nist.gov/cyberframework", "checkedDate": "2026-09-28" },
+    { "title": "Security and Privacy Controls for Information Systems and Organizations, SP 800-53 Rev. 5", "publisher": "National Institute of Standards and Technology", "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final", "checkedDate": "2026-09-28" }
+  ],
+  "articles": [
+    {
+      "family": "document production",
+      "topic": "document version-control acceptance",
+      "slug": "document-production-version-control-acceptance-test",
+      "bodyWordCount": 2496,
+      "contentHash": "367fe35f817079dc34c93d98c4ca275c2fe16add23aeec08f972200a838638f1",
+      "metadataDate": "2026-09-28",
+      "commitSha": "0a986eef03441b05f781ac8a4a29017cf2bf5cfb",
+      "liveUrl": "https://outsourcingassistant.com/research/document-production-version-control-acceptance-test",
+      "deploymentEvidence": "not submitted by Research; combined release pending",
+      "verificationTime": null
+    },
+    {
+      "family": "project administration",
+      "topic": "project dependency register delegation",
+      "slug": "project-dependency-register-delegation-study",
+      "bodyWordCount": 2461,
+      "contentHash": "335f607695c216029265bbf67db291eda99739807d2c1fecd80294f21355ffb6",
+      "metadataDate": "2026-09-28",
+      "commitSha": "0a986eef03441b05f781ac8a4a29017cf2bf5cfb",
+      "liveUrl": "https://outsourcingassistant.com/research/project-dependency-register-delegation-study",
+      "deploymentEvidence": "not submitted by Research; combined release pending",
+      "verificationTime": null
+    },
+    {
+      "family": "personal executive support",
+      "topic": "personal-support privacy boundary",
+      "slug": "personal-executive-support-privacy-boundary-test",
+      "bodyWordCount": 2495,
+      "contentHash": "2aa126a2e9046fc03b75b1ae61c118286b40e1c847588bb8c99b5d6c1221c6bd",
+      "metadataDate": "2026-09-28",
+      "commitSha": "0a986eef03441b05f781ac8a4a29017cf2bf5cfb",
+      "liveUrl": "https://outsourcingassistant.com/research/personal-executive-support-privacy-boundary-test",
+      "deploymentEvidence": "not submitted by Research; combined release pending",
+      "verificationTime": null
+    },
+    {
+      "family": "inbox triage",
+      "topic": "reply-template drift monitoring",
+      "slug": "inbox-reply-template-drift-monitoring-study",
+      "bodyWordCount": 2495,
+      "contentHash": "3ce207baea26a7dcfd08f7fc335bc4a7bd9404eb16a1befd7c981937ebc06977",
+      "metadataDate": "2026-09-28",
+      "commitSha": "0a986eef03441b05f781ac8a4a29017cf2bf5cfb",
+      "liveUrl": "https://outsourcingassistant.com/research/inbox-reply-template-drift-monitoring-study",
+      "deploymentEvidence": "not submitted by Research; combined release pending",
+      "verificationTime": null
+    },
+    {
+      "family": "calendar management",
+      "topic": "calendar reschedule consequence evidence",
+      "slug": "calendar-reschedule-cost-evidence-protocol",
+      "bodyWordCount": 2488,
+      "contentHash": "36162cc0c01c04723c45d689426cc16a0a48fa5d4f90be4f41a09aa00f146a5d",
+      "metadataDate": "2026-09-28",
+      "commitSha": "0a986eef03441b05f781ac8a4a29017cf2bf5cfb",
+      "liveUrl": "https://outsourcingassistant.com/research/calendar-reschedule-cost-evidence-protocol",
+      "deploymentEvidence": "not submitted by Research; combined release pending",
+      "verificationTime": null
+    }
+  ]
+}
