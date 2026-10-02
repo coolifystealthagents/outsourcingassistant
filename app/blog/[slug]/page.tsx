@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: post.title,
     description: post.excerpt,
     alternates: { canonical: `${site.url}/blog/${post.slug}` },
-    openGraph: { title: post.title, description: post.excerpt, type: 'article', url: `${site.url}/blog/${post.slug}`, images: post.image ? [{ url: post.image.url, alt: post.image.alt }] : undefined }
+    openGraph: { title: post.title, description: post.excerpt, type: 'article', url: `${site.url}/blog/${post.slug}`, publishedTime: post.published, modifiedTime: post.updated ?? post.published, images: post.image ? [{ url: post.image.url, alt: post.image.alt }] : undefined }
   };
 }
 
@@ -134,7 +134,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   if (!post) notFound();
   const citations = post.rich?.sources.map((source) => source.url) ?? post.citations?.map((source) => source.url) ?? sourceNotes.map((source) => source.url);
   const schema = [
-    { '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${site.url}/blog/${post.slug}#article`, headline: post.title, description: post.excerpt, url: `${site.url}/blog/${post.slug}`, datePublished: post.rich?.published ?? post.published, dateModified: post.rich?.updated ?? post.published, image: post.image?.url, publisher: { '@id': `${site.url}/#organization` }, mainEntityOfPage: `${site.url}/blog/${post.slug}`, citation: citations, hasPart: post.sections.map((section, index) => ({ '@type': 'WebPageElement', position: index + 1, name: section.heading })) },
+    { '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${site.url}/blog/${post.slug}#article`, headline: post.title, description: post.excerpt, url: `${site.url}/blog/${post.slug}`, datePublished: post.rich?.published ?? post.published, dateModified: post.rich?.updated ?? post.updated ?? post.published, image: post.image?.url, publisher: { '@id': `${site.url}/#organization` }, mainEntityOfPage: `${site.url}/blog/${post.slug}`, citation: citations, hasPart: post.sections.map((section, index) => ({ '@type': 'WebPageElement', position: index + 1, name: section.heading })) },
     { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: post.faqs.map((faq) => ({ '@type': 'Question', name: faq.q, acceptedAnswer: { '@type': 'Answer', text: faq.a } })) },
     { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: site.url }, { '@type': 'ListItem', position: 2, name: 'Blog', item: `${site.url}/blog` }, { '@type': 'ListItem', position: 3, name: post.title, item: `${site.url}/blog/${post.slug}` }] }
   ];

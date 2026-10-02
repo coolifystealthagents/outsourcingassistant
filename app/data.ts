@@ -67,6 +67,7 @@ export type BlogPost = {
   sections: BlogSection[];
   faqs: { q: string; a: string }[];
   published?: string;
+  updated?: string;
   image?: { url: string; alt: string };
   citations?: ArticleSource[];
   internalLinks?: { href: string; label: string }[];
