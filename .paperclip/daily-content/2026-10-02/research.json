@@ -1,0 +1,51 @@
+{
+  "routine": "Daily Research Publishing",
+  "cycleLabel": "October 2, 2026 combined release",
+  "taskId": "18a9c15d-89e5-4756-ad77-8bda666a9741",
+  "runId": "a7a27b95-25a6-4f29-bde0-48bb95216480",
+  "required": 5,
+  "preparedCount": 5,
+  "verifiedLiveCount": 0,
+  "status": "local_research_handoff",
+  "publicationDate": "2026-10-02",
+  "sourceFileSha256": "24cd376e3663f546840cda8922051373889bc5b3be29a2f73e3859fdaf6b0d4c",
+  "siteTimezone": "UTC",
+  "metadataDatePrepared": "2026-10-02",
+  "publicationDateRule": "October 2 is the cycle label and the current UTC date, not permission to backdate. Blog integrator must reconcile visible date, datePublished, sitemap metadata, this manifest, and ledger to each article's actual first-public verification date immediately before the sole combined push.",
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "baselineSha": "03e3d52121e8cbc41e07de9c56b90d6171136588",
+  "researchBranch": "routine/out-84-research-2026-10-02",
+  "contentCommit": "540e7cdc00e03327353776d69ffe31bbeae490a8",
+  "remoteShaAtStart": "03e3d52121e8cbc41e07de9c56b90d6171136588",
+  "pushPerformed": false,
+  "deploymentPerformed": false,
+  "deploymentOwner": "Browser Operator after the Blog integrator's sole combined push",
+  "coolifyApplicationUuid": "q9x033mt5ul6xq2obsofw9m7",
+  "validation": {
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "staticPages": 722,
+    "bodyWordMinimum": 1200,
+    "maximumPairwiseFiveWordShingleJaccardPercent": 42.87,
+    "maximumOverlapPair": "customer-support-case-closure-evidence-study <> vendor-follow-up-nonresponse-escalation-study",
+    "overlapThresholdPercent": 50,
+    "repeatedParagraphCount": 0,
+    "sharedArgumentAudit": "passed: each article has a separate observation unit, consequence model, field protocol, examples, evidence test, and reader decision; common governance citations do not substitute for topic-specific reasoning",
+    "renderedArtifactHashAlgorithm": "sha256"
+  },
+  "sources": [
+    { "title": "Executive Secretaries and Executive Administrative Assistants", "publisher": "O*NET OnLine / U.S. Department of Labor", "url": "https://www.onetonline.org/link/details/43-6011.00", "checkedDate": "2026-10-02" },
+    { "title": "Manage Your Business", "publisher": "U.S. Small Business Administration", "url": "https://www.sba.gov/counseling/manage-your-business/", "checkedDate": "2026-10-02" },
+    { "title": "Assessing Data Reliability", "publisher": "U.S. Government Accountability Office", "url": "https://www.gao.gov/products/gao-20-283g", "checkedDate": "2026-10-02" },
+    { "title": "Cybersecurity Framework 2.0", "publisher": "National Institute of Standards and Technology", "url": "https://www.nist.gov/cyberframework", "checkedDate": "2026-10-02" },
+    { "title": "Security and Privacy Controls for Information Systems and Organizations, SP 800-53 Rev. 5", "publisher": "National Institute of Standards and Technology", "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final", "checkedDate": "2026-10-02" }
+  ],
+  "articles": [
+    { "family": "customer support", "topic": "case-closure evidence", "slug": "customer-support-case-closure-evidence-study", "bodyWordCount": 4143, "contentHash": "e5c58ce2fde321dce09084c0d0e16931a5a21d8c3f63de04ed0324fd86b26aaa", "metadataDate": "2026-10-02", "commitSha": "540e7cdc00e03327353776d69ffe31bbeae490a8", "liveUrl": "https://outsourcingassistant.com/research/customer-support-case-closure-evidence-study", "deploymentEvidence": "not submitted by Research; combined release pending", "verificationTime": null },
+    { "family": "meeting administration", "topic": "action-acceptance traceability", "slug": "meeting-action-acceptance-traceability-study", "bodyWordCount": 4008, "contentHash": "7f947c056ef0a83d4720ada1d7d092bf26f78f4197d06db240f3cfd193f459ab", "metadataDate": "2026-10-02", "commitSha": "540e7cdc00e03327353776d69ffe31bbeae490a8", "liveUrl": "https://outsourcingassistant.com/research/meeting-action-acceptance-traceability-study", "deploymentEvidence": "not submitted by Research; combined release pending", "verificationTime": null },
+    { "family": "vendor follow-up", "topic": "nonresponse escalation", "slug": "vendor-follow-up-nonresponse-escalation-study", "bodyWordCount": 4036, "contentHash": "1e81a98994ff1b2e8f629aa5081f798228e06d5da41fa14644c06e3543ab7cf7", "metadataDate": "2026-10-02", "commitSha": "540e7cdc00e03327353776d69ffe31bbeae490a8", "liveUrl": "https://outsourcingassistant.com/research/vendor-follow-up-nonresponse-escalation-study", "deploymentEvidence": "not submitted by Research; combined release pending", "verificationTime": null },
+    { "family": "travel coordination", "topic": "option-expiry revalidation", "slug": "travel-option-expiry-revalidation-study", "bodyWordCount": 4303, "contentHash": "b721e3ec438af0e3bef565468a873a0d883b4f85298979485432bac31246629c", "metadataDate": "2026-10-02", "commitSha": "540e7cdc00e03327353776d69ffe31bbeae490a8", "liveUrl": "https://outsourcingassistant.com/research/travel-option-expiry-revalidation-study", "deploymentEvidence": "not submitted by Research; combined release pending", "verificationTime": null },
+    { "family": "CRM administration", "topic": "duplicate-merge reversibility", "slug": "crm-duplicate-merge-reversibility-study", "bodyWordCount": 4284, "contentHash": "28c7ee090963c46cc1f7d00839d84e02440fde6f85911d46b1271c38a1c88f57", "metadataDate": "2026-10-02", "commitSha": "540e7cdc00e03327353776d69ffe31bbeae490a8", "liveUrl": "https://outsourcingassistant.com/research/crm-duplicate-merge-reversibility-study", "deploymentEvidence": "not submitted by Research; combined release pending", "verificationTime": null }
+  ]
+}
