@@ -1,5 +1,5 @@
 import type { ResearchPost, ResearchSource } from './fleet-content';
-import { buildDecisionResearch, type ResearchDecisionSpec } from './research-batch-2026-09-22-run2';
+import type { ResearchDecisionSpec } from './research-batch-2026-09-22-run2';
 
 const checked = 'Checked October 2, 2026.';
 const sources: readonly ResearchSource[] = [
@@ -146,24 +146,63 @@ const fieldNotes: Readonly<Record<string, { heading: string; paragraphs: readonl
   },
 };
 
+const closingAnalysis: Readonly<Record<string, { heading: string; paragraphs: readonly string[] }>> = {
+  'customer-support-case-closure-evidence-study': { heading: 'Decide closure from the customer-visible outcome', paragraphs: [
+    'Read each sampled case from the customer outcome backward. Identify the exact promise in the reply, then locate the operational event that proves or contradicts it. A replacement needs shipment evidence, an access correction needs a successful account event, and a promised review needs an authorised disposition. Silence does not prove any of those outcomes. If the workflow permits administrative closure after a stated interval, label that rule separately from confirmed resolution so reporting does not merge two different states.',
+    'Reopened cases need a reason code grounded in the later message. Separate a failed promised action from a new request, delayed external event, or fact that was unavailable at closure. Preserve the first decision rather than rewriting it after the reopen. The support owner can then correct the reply, repair the operational step, or change the closure rule. The assistant maintains links and state history; remedies, policy exceptions, money, privacy, safety, and final closure authority remain with the owner.',
+    'Sample cases by consequence, not only by volume. Include ordinary questions, system-dependent promises, transferred work, money-related requests, identity checks, corrections, and unresolved exceptions. Ask two reviewers to name the closure claim and its evidence without seeing each other’s answer. A disagreement may show that the finish condition is vague or that the event cannot be retrieved reliably. Repair the earliest unsupported transition instead of telling staff to add more notes everywhere.',
+    'A weekly closure review can stay small. Select cases from each consequence class, record the first unsupported link, assign the correction to the system or policy owner, and verify that the customer record reflects the final action. Trends should change the workflow only after the support owner reviews contrary cases and confirms that the proposed rule would not close a different class of request prematurely.',
+  ] },
+  'meeting-action-acceptance-traceability-study': { heading: 'Keep acceptance and completion as separate events', paragraphs: [
+    'An action becomes a commitment only when the authorised owner accepts the work and its finish condition. Attendance, silence, a facilitator’s summary, or a date typed into notes does not establish acceptance. Keep proposed work visible in a pending state and retain the exact source context. If two people offer partial help, record each contribution instead of inventing a single owner. If the due point depends on another event, preserve the condition rather than presenting a calendar date as an unconditional promise.',
+    'Completion requires its own artifact and accepting decision. A chat message saying done may be enough for a low-consequence reminder, but it cannot prove that a client deliverable was accepted or a system change succeeded. Reassignment also remains an event: record who first accepted, why it moved, who accepted next, and whether scope changed. This gives the reader a register that protects people from inferred commitments while making genuine commitments and their evidence easy to reconstruct.',
+    'A useful challenge set includes an unassigned suggestion, two partial volunteers, a client request outside scope, an owner who agrees subject to missing information, and an artifact that fails the written finish condition. Independent reviewers should place each item in the same state. If they cannot, change the state definition or evidence rule before measuring overdue work. The assistant may request confirmation and maintain the log, but the meeting owner confirms decisions and accepts completion.',
+    'Review overdue actions against acceptance time, not meeting time, and keep blocked work separate from work the owner simply has not started. This distinction prevents the dashboard from blaming an assistant for a decision that never became a commitment. It also lets the meeting owner see whether delays come from unclear acceptance, missing dependencies, reassignment, or failure to produce the agreed artifact.',
+  ] },
+  'vendor-follow-up-nonresponse-escalation-study': { heading: 'Diagnose the route before escalating the supplier', paragraphs: [
+    'An unanswered request may have bounced, reached a retired address, arrived during a local closure, lacked a clear ask, or be waiting on the buyer’s own approval. Confirm delivery and the approved contact route before labelling the vendor nonresponsive. An automated receipt proves system acceptance, not human acknowledgement. Reassignment inside the buyer’s team must not reset the external clock, and an internal hold should remain visible as internal delay instead of being added to supplier age.',
+    'The escalation brief should state the dependency affected, the declared response window, the attempts with delivery evidence, and the owner decision now required. More reminders do not create authority to threaten, concede, change channels, or update payment details. Changed contacts stop for independent verification. Reviewing answered, partial, bounced, disputed, and unanswered cases together lets the buyer distinguish a supplier pattern from unclear requests or a broken route. The result is an evidence-based ladder, not an urgency script.',
+    'Time zones and outages belong in the record without becoming excuses assumed on the supplier’s behalf. The assistant records the applicable business window and any verified service notice. The relationship owner decides whether that information changes the next step. Close the case only when the requested evidence arrives, the owner changes the dependency, or the owner expressly stops outreach. This preserves the difference between a supplier response, an internal workaround, and an abandoned request.',
+    'Measure the process by route accuracy as well as elapsed time. A prompt response sent to an unverified address is not a success, and a slower case may be correct when payment or contract details require independent checks. Keep the original request, delivery events, replies, internal decisions, and final disposition under one stable identifier so the next reviewer does not restart contact or misstate what the vendor received.',
+  ] },
+  'travel-option-expiry-revalidation-study': { heading: 'Show when an option stopped being comparable', paragraphs: [
+    'A travel search is a time-stamped observation. Price, inventory, restrictions, connection feasibility, room type, and accessibility details may change on different schedules. Record the source time and time zone for every option. Recheck the complete itinerary, total shown price, taxes and fees, cancellation terms, and linked transfers before approval. If one segment disappears, reassess the whole option rather than substituting a new segment while leaving old totals and timings in place.',
+    'Distinguish a supplier hold from a buyer review window and from an ordinary result with no guarantee. Each has a different meaning. Accessibility requests need direct confirmation through the approved provider channel, while passport, visa, health, and entry questions stay with the traveller or qualified source. A useful brief tells the traveller when each option was checked, what can change, which downstream plans it affects, and what must be decided. It does not turn research into a booking promise.',
+    'Test the packet by changing one fact at a time: raise the fare, remove a segment, move the arrival airport, shorten a connection, alter a cancellation term, or let a hold expire. The exercise shows which fields need a final check immediately before purchase. Record rejected options as well as the selected one so the decision remains understandable after inventory changes. The traveller or authorised owner chooses the trade-off and completes or expressly authorises the booking.',
+    'The final brief should also state when it expires for internal use. Once that point passes, the assistant refreshes volatile fields or labels the option stale rather than silently carrying it forward. This protects the traveller from comparing a fresh fare with an old room rate or an updated flight with a transfer that no longer works. The source timestamps remain visible after revalidation.',
+  ] },
+  'crm-duplicate-merge-reversibility-study': { heading: 'Require field-level evidence and a tested rollback path', paragraphs: [
+    'A suspected duplicate is an identity question, not a cleanup instruction. Shared names, domains, telephone numbers, and addresses can belong to distinct people or organisations. Record creation provenance and stable identifiers before comparing values. A recent import is not automatically more reliable than an older verified field. Consent, suppression, ownership, billing, open cases, and commercial relationships may each have different authoritative sources, so the proposal must show which value survives and which conflict blocks the merge.',
+    'Test rollback beyond the CRM interface. Email automation, analytics, billing, support, and warehouse systems may consume the surviving identifier before an error is found. Exported rows may not restore activity links, audit history, or communication preferences. Use challenge pairs such as family members, company movers, shared domains, renamed organisations, and recycled addresses. The assistant prepares provenance and downstream checks; the data owner accepts identity and rollback risk and initiates the production change.',
+    'Report false-merge risk separately from missed duplicates because the remedies differ. An uncertain pair can remain separate while staff gather evidence; a false merge may expose information, distort reporting, or attach activity to the wrong relationship. After an approved merge, verify the survivor record and every mapped consumer, then retain the approval, timestamp, affected identifiers, and correction path. If the platform cannot support that evidence, narrow merge authority rather than treating the limitation as routine cleanup.',
+    'A useful queue keeps three outcomes distinct: merge approved, remain separate, and evidence incomplete. The third outcome is not failure and should not be forced into either of the others to improve throughput. Reviewers can sample each outcome against later corrections, but they should never use a low correction count as proof when the system makes mistaken merges difficult to detect or report.',
+  ] },
+};
+
 export const researchBatch20261002: readonly ResearchPost[] = specs.map((spec) => {
-  const post = buildDecisionResearch(spec, sources);
   return {
-    ...post,
+    slug: spec.slug,
+    title: spec.title,
+    excerpt: spec.excerpt,
     published: '2026-10-02',
     updated: '2026-10-02',
-    methodology: post.methodology.replaceAll('September 22, 2026', 'October 2, 2026'),
-    serviceHandoff: post.serviceHandoff ? {
-      ...post.serviceHandoff,
-      paragraphs: post.serviceHandoff.paragraphs.map((paragraph) => `${paragraph} For this study, the retained decision boundary is: ${spec.boundary}`),
-    } : undefined,
-    faqs: post.faqs.map((faq) => ({ ...faq, a: `${faq.a} In this protocol the accountable owner is ${spec.owner}.` })),
+    cluster: spec.cluster,
+    image: { url: '/illustrations/getillustrations/goodle-team/assistant-handoff-collaboration.svg', alt: `Owner and assistant reviewing evidence for ${spec.title.toLowerCase()}` },
+    headlineStat: spec.question,
+    methodology: spec.test,
+    keyStats: [spec.decision, spec.unit, spec.evidence],
+    takeaways: [spec.boundary, spec.failure, spec.owner],
+    sources,
+    related: spec.related,
+    body: [spec.question, spec.decision, spec.unit, spec.evidence, spec.variation, spec.boundary, spec.test, spec.failure],
+    serviceHandoff: { heading: 'Apply this study to a defined assistant role', href: spec.handoff, label: spec.label, paragraphs: [spec.boundary] },
+    faqs: [
+      { q: spec.question, a: spec.decision },
+      { q: 'Who owns the consequential decision?', a: spec.owner },
+    ],
     sections: [
       { heading: fieldNotes[spec.slug].heading, paragraphs: fieldNotes[spec.slug].paragraphs, rows: [] },
-      ...post.sections.map((section) => ({
-        ...section,
-        paragraphs: section.paragraphs.map((paragraph, index) => `${paragraph} Application note ${index + 1} for this ${spec.cluster.toLowerCase()}: evaluate the point against ${spec.unit}.`),
-      })),
+      { heading: closingAnalysis[spec.slug].heading, paragraphs: closingAnalysis[spec.slug].paragraphs, rows: [] },
     ],
   };
 });
