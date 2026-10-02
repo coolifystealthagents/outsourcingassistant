@@ -1,0 +1,41 @@
+{
+  "routine": "Daily Blog Publishing",
+  "cycleLabel": "2026-10-02",
+  "required": 12,
+  "publicationDate": "2026-10-02",
+  "publicationDateState": "provisional-until-first-live-verification",
+  "timezone": "UTC",
+  "repository": "coolifystealthagents/outsourcingassistant",
+  "productionBranch": "main",
+  "baselineSha": "03e3d52121e8cbc41e07de9c56b90d6171136588",
+  "integratorIssue": "OUT-85",
+  "pairedResearchIssue": "OUT-84",
+  "deploymentOwner": "browser operator",
+  "deploymentResource": "q9x033mt5ul6xq2obsofw9m7",
+  "status": "draft-originality-rewrite-required",
+  "validation": {
+    "dependencies": "installed with dev dependencies",
+    "typescript": "passed",
+    "routineValidation": "passed",
+    "bodyWordCounts": [1129, 1127, 1131, 1132, 1126, 1124, 1133, 1132, 1130, 1138, 1151, 1136],
+    "minimumBodyWords": 1124,
+    "maximumFiveWordShingleJaccard": 0.763365,
+    "maximumOverlapPair": ["virtual-assistant-customer-onboarding-dependency-map", "virtual-assistant-payroll-timesheet-anomaly-intake"],
+    "repeatedParagraphs": 165,
+    "editorialResult": "failed: substantive structural and argument rewrite required before integration"
+  },
+  "articles": [
+    {"family":"finance operations","topic":"accounts receivable dispute preparation","slug":"virtual-assistant-accounts-receivable-dispute-packet"},
+    {"family":"customer operations","topic":"customer onboarding dependency tracking","slug":"virtual-assistant-customer-onboarding-dependency-map"},
+    {"family":"ecommerce operations","topic":"return exception triage","slug":"virtual-assistant-ecommerce-return-exception-triage"},
+    {"family":"contract administration","topic":"contract obligation calendar maintenance","slug":"virtual-assistant-contract-obligation-calendar"},
+    {"family":"procurement operations","topic":"procurement quote comparison","slug":"virtual-assistant-procurement-quote-comparison"},
+    {"family":"payroll administration","topic":"timesheet anomaly intake","slug":"virtual-assistant-payroll-timesheet-anomaly-intake"},
+    {"family":"marketing operations","topic":"webinar speaker coordination","slug":"virtual-assistant-webinar-speaker-coordination"},
+    {"family":"property operations","topic":"maintenance request intake","slug":"virtual-assistant-property-maintenance-request-intake"},
+    {"family":"recruiting operations","topic":"reference-check consent routing","slug":"virtual-assistant-reference-check-consent-routing"},
+    {"family":"customer communications","topic":"social comment escalation","slug":"virtual-assistant-social-comment-escalation-map"},
+    {"family":"privacy operations","topic":"data-deletion request intake","slug":"virtual-assistant-data-deletion-request-intake"},
+    {"family":"executive support","topic":"travel disruption option preparation","slug":"virtual-assistant-executive-travel-change-brief"}
+  ]
+}
