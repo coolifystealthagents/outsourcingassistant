@@ -1,5 +1,9 @@
 # Outsourcing Assistant service-link ledger
 
+## 2026-10-02 Research routine
+
+Five new decision studies extend distinct service conversion paths without reusing the September 28 families: customer-support closure evidence, meeting-action acceptance, vendor nonresponse escalation, travel-option expiry, and reversible CRM duplicate handling. Canonical slugs, checked sources, body lengths, hashes, and originality evidence are stored in `.paperclip/daily-content/2026-10-02/research.json`. This is a local Research handoff for the combined release; the Blog integrator owns the sole production push and must reconcile first-publication dates immediately before that push.
+
 ## 2026-09-28 Research routine
 
 Five new decision studies extend live service paths without reusing occupied topic families: document-version acceptance, project dependency registers, personal-support privacy boundaries, inbox template drift, and reschedule consequence evidence. Canonical slugs and checked source records are stored in `.paperclip/daily-content/2026-09-28/research.json`. This is a local Research handoff for the combined release; the Blog integrator owns the sole production push and must reconcile first-publication dates immediately before that push.

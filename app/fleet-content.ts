@@ -359,8 +359,10 @@ import { researchBatch20260923 } from './research-batch-2026-09-23';
 import { researchBatch20260924 } from './research-batch-2026-09-24';
 import { researchBatch20260925 } from './research-batch-2026-09-25';
 import { researchBatch20260928 } from './research-batch-2026-09-28';
+import { researchBatch20261002 } from './research-batch-2026-10-02';
 
 export const researchPosts: readonly ResearchPost[] = [
+  ...researchBatch20261002,
   ...researchBatch20260928,
   ...researchBatch20260925,
   ...researchBatch20260924,
