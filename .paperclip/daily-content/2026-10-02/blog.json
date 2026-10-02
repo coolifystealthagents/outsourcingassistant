@@ -8,15 +8,26 @@
   "repository": "coolifystealthagents/outsourcingassistant",
   "productionBranch": "main",
   "baselineSha": "03e3d52121e8cbc41e07de9c56b90d6171136588",
+  "sourceFileSha256": "aec17ed27fccf316702f67ed864410a423530fa2ccff4935c643fbc4bd27b205",
+  "contentCommit": "491e881591604927ac5f204382021256ecaf9e59",
   "integratorIssue": "OUT-85",
   "pairedResearchIssue": "OUT-84",
   "deploymentOwner": "browser operator",
   "deploymentResource": "q9x033mt5ul6xq2obsofw9m7",
-  "status": "blog-validated-awaiting-research-handoff",
+  "researchHandoff": {
+    "sourceCommit": "540e7cdc00e03327353776d69ffe31bbeae490a8",
+    "evidenceCommit": "cd7ba11f5546c29d284cdfa291e73c7bd64ef5fb",
+    "integratedContentCommit": "cf2852e31eba18435fe6fd6be536bb3aa9a7293b",
+    "integratedEvidenceCommit": "da716c806474574bc848cb858e464dc29f8fe51b",
+    "integrated": true
+  },
+  "status": "combined-validated-awaiting-final-rebase-and-push",
   "validation": {
     "dependencies": "installed with dev dependencies",
     "typescript": "passed",
     "routineValidation": "passed",
+    "appropriateTests": "10 passed; 1 unrelated baseline contact-us string-spacing assertion failed; all research handoff tests passed",
+    "productionBuild": "passed: clean Next.js production build, 734 static pages",
     "bodyWordCounts": [975, 962, 966, 972, 944, 955, 953, 960, 967, 990, 992, 973],
     "minimumBodyWords": 944,
     "maximumFiveWordShingleJaccard": 0.477600,
@@ -26,17 +37,17 @@
     "editorialResult": "passed: all bodies exceed 900 words, maximum overlap is below 0.50, and no exact body paragraph repeats"
   },
   "articles": [
-    {"family":"finance operations","topic":"accounts receivable dispute preparation","slug":"virtual-assistant-accounts-receivable-dispute-packet"},
-    {"family":"customer operations","topic":"customer onboarding dependency tracking","slug":"virtual-assistant-customer-onboarding-dependency-map"},
-    {"family":"ecommerce operations","topic":"return exception triage","slug":"virtual-assistant-ecommerce-return-exception-triage"},
-    {"family":"contract administration","topic":"contract obligation calendar maintenance","slug":"virtual-assistant-contract-obligation-calendar"},
-    {"family":"procurement operations","topic":"procurement quote comparison","slug":"virtual-assistant-procurement-quote-comparison"},
-    {"family":"payroll administration","topic":"timesheet anomaly intake","slug":"virtual-assistant-payroll-timesheet-anomaly-intake"},
-    {"family":"marketing operations","topic":"webinar speaker coordination","slug":"virtual-assistant-webinar-speaker-coordination"},
-    {"family":"property operations","topic":"maintenance request intake","slug":"virtual-assistant-property-maintenance-request-intake"},
-    {"family":"recruiting operations","topic":"reference-check consent routing","slug":"virtual-assistant-reference-check-consent-routing"},
-    {"family":"customer communications","topic":"social comment escalation","slug":"virtual-assistant-social-comment-escalation-map"},
-    {"family":"privacy operations","topic":"data-deletion request intake","slug":"virtual-assistant-data-deletion-request-intake"},
-    {"family":"executive support","topic":"travel disruption option preparation","slug":"virtual-assistant-executive-travel-change-brief"}
+    {"family":"finance operations","topic":"accounts receivable dispute preparation","slug":"virtual-assistant-accounts-receivable-dispute-packet","contentHash":"a5f105f8f6b7db6f3f9efe8ec21923aeb2469ace14701cf22d61dce0927554e5","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-accounts-receivable-dispute-packet","deploymentEvidence":"combined release pending","verificationTime":null},
+    {"family":"customer operations","topic":"customer onboarding dependency tracking","slug":"virtual-assistant-customer-onboarding-dependency-map","contentHash":"23faeafbb3ac44b72144f10f8db2f1a6355049823654e908cc821ddf03b491bb","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-customer-onboarding-dependency-map","deploymentEvidence":"combined release pending","verificationTime":null},
+    {"family":"ecommerce operations","topic":"return exception triage","slug":"virtual-assistant-ecommerce-return-exception-triage","contentHash":"45f8cecc61e4978890da15892413ce42b8594a33128c08639da99420f157ac3d","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-ecommerce-return-exception-triage","deploymentEvidence":"combined release pending","verificationTime":null},
+    {"family":"contract administration","topic":"contract obligation calendar maintenance","slug":"virtual-assistant-contract-obligation-calendar","contentHash":"e59df0fdca1ba0f0ebfca48baf2e5e9b230f0b5b99c99aee48f8138ac2374b3c","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-contract-obligation-calendar","deploymentEvidence":"combined release pending","verificationTime":null},
+    {"family":"procurement operations","topic":"procurement quote comparison","slug":"virtual-assistant-procurement-quote-comparison","contentHash":"69ca403ff42839e43f72d5f4852d51a9fceef7d1b2246a3231d00e752f8d336d","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-procurement-quote-comparison","deploymentEvidence":"combined release pending","verificationTime":null},
+    {"family":"payroll administration","topic":"timesheet anomaly intake","slug":"virtual-assistant-payroll-timesheet-anomaly-intake","contentHash":"ec35820466b05ae709d27980dcd1fbc2e0b0686c9a570fe2f4f8ae2e78dfc9dd","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-payroll-timesheet-anomaly-intake","deploymentEvidence":"combined release pending","verificationTime":null},
+    {"family":"marketing operations","topic":"webinar speaker coordination","slug":"virtual-assistant-webinar-speaker-coordination","contentHash":"ee4c5236002e47c2457ca313a9d5f2fa6bf340c46a289a677b4dac05fd31ad4b","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-webinar-speaker-coordination","deploymentEvidence":"combined release pending","verificationTime":null},
+    {"family":"property operations","topic":"maintenance request intake","slug":"virtual-assistant-property-maintenance-request-intake","contentHash":"e77acbcccf03683d270b032d1f1c16fd4b079d3aa2b2e3eff65e96689cfba8aa","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-property-maintenance-request-intake","deploymentEvidence":"combined release pending","verificationTime":null},
+    {"family":"recruiting operations","topic":"reference-check consent routing","slug":"virtual-assistant-reference-check-consent-routing","contentHash":"385b00cf1488e6c3af5553d1699c7d0411b9c9fbc44a806168575bb387e503ae","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-reference-check-consent-routing","deploymentEvidence":"combined release pending","verificationTime":null},
+    {"family":"customer communications","topic":"social comment escalation","slug":"virtual-assistant-social-comment-escalation-map","contentHash":"53fb280461e7935066d1a049df0d09a7daacbc984b5408fd7001d737a444def3","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-social-comment-escalation-map","deploymentEvidence":"combined release pending","verificationTime":null},
+    {"family":"privacy operations","topic":"data-deletion request intake","slug":"virtual-assistant-data-deletion-request-intake","contentHash":"d6a6fb7aa1ead84c3cb617604393bec56b5892b1ee1e9aebfb48e8c209015474","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-data-deletion-request-intake","deploymentEvidence":"combined release pending","verificationTime":null},
+    {"family":"executive support","topic":"travel disruption option preparation","slug":"virtual-assistant-executive-travel-change-brief","contentHash":"07b5b897421587bbbf4f8dc664b4bb0715c3b6922274d6b094fc2e3004b872f3","metadataDate":"2026-10-02","commitSha":"491e881591604927ac5f204382021256ecaf9e59","liveUrl":"https://outsourcingassistant.com/blog/virtual-assistant-executive-travel-change-brief","deploymentEvidence":"combined release pending","verificationTime":null}
   ]
 }
