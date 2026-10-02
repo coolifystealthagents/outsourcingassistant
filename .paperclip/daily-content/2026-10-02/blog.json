@@ -12,17 +12,18 @@
   "pairedResearchIssue": "OUT-84",
   "deploymentOwner": "browser operator",
   "deploymentResource": "q9x033mt5ul6xq2obsofw9m7",
-  "status": "draft-originality-rewrite-required",
+  "status": "blog-validated-awaiting-research-handoff",
   "validation": {
     "dependencies": "installed with dev dependencies",
     "typescript": "passed",
     "routineValidation": "passed",
-    "bodyWordCounts": [1129, 1127, 1131, 1132, 1126, 1124, 1133, 1132, 1130, 1138, 1151, 1136],
-    "minimumBodyWords": 1124,
-    "maximumFiveWordShingleJaccard": 0.763365,
-    "maximumOverlapPair": ["virtual-assistant-customer-onboarding-dependency-map", "virtual-assistant-payroll-timesheet-anomaly-intake"],
-    "repeatedParagraphs": 165,
-    "editorialResult": "failed: substantive structural and argument rewrite required before integration"
+    "bodyWordCounts": [970, 957, 962, 967, 940, 951, 949, 956, 963, 984, 987, 968],
+    "minimumBodyWords": 940,
+    "maximumFiveWordShingleJaccard": 0.484262,
+    "maximumOverlapPair": ["virtual-assistant-procurement-quote-comparison", "virtual-assistant-webinar-speaker-coordination"],
+    "repeatedParagraphs": 0,
+    "sharedArgumentReview": "passed: each article has a topic-specific evidence problem, operating sequence, decision owner, failure analysis, reviewer view, and reader outcome",
+    "editorialResult": "passed: all bodies exceed 900 words, maximum overlap is below 0.50, and no exact body paragraph repeats"
   },
   "articles": [
     {"family":"finance operations","topic":"accounts receivable dispute preparation","slug":"virtual-assistant-accounts-receivable-dispute-packet"},
