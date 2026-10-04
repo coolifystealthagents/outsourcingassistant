@@ -32,10 +32,10 @@ This working map pairs the current Philippines-based assistant service routes wi
 | Meeting Administration | `/research/meeting-notes-action-tracking` | How should meeting decisions and follow-ups be recorded for review? | Delivered in the typed source record on 2026-09-13: `/services/meeting-administration`. Do not add another link. |
 | CRM Administration | `/research/crm-evidence-confidence` | What source checks should happen before a CRM record is prepared for correction? | Delivered locally in the typed source record on 2026-09-15: `/services/crm-administration` (`2be3d5dd931e00a35938f39ed44fdd813bc9a472`). Public verification remains assigned to the batched deployment routine. Do not add another link. |
 | Research Briefing | `/research/research-briefing-workflow` | What evidence and ownership notes make a research brief ready for review? | Delivered in the typed source record on 2026-09-07: `/services/research-briefing`. Do not add another link. |
-| Document Production | `/research/virtual-assistant-source-quality-evidence-research` | How can a team show which approved sources supported a prepared document? | `/services/document-production` |
+| Document Production | `/research/document-production-version-control-acceptance-test` | How can a team show which approved sources supported a prepared document? | Delivered in the typed source record on 2026-09-28: `/services/document-production`. Do not add another link. |
 | Vendor Follow-Up | `/research/vendor-follow-up-decision-rights-register` | Which supplier follow-ups can be prepared, and which need the owner's decision? | Delivered in the typed source record on 2026-09-23: `/services/vendor-follow-up`. Do not add another link. |
-| Project Administration | `/research/handoff-state-transitions` | Which project status changes need a clear owner and acceptance record? | `/services/project-administration` |
-| Personal Executive Support | `/research/calendar-delegation-controls` | Where should delegated support stop so personal priorities remain under the executive's control? | `/services/personal-executive-support` |
+| Project Administration | `/research/project-dependency-register-delegation-study` | Which project status changes need a clear owner and acceptance record? | Delivered in the typed source record on 2026-09-28: `/services/project-administration`. Do not add another link. |
+| Personal Executive Support | `/research/personal-executive-support-privacy-boundary-test` | Where should delegated support stop so personal priorities remain under the executive's control? | Delivered in the typed source record on 2026-09-28: `/services/personal-executive-support`. Do not add another link. |
 
 ## Release rule
 
@@ -52,7 +52,17 @@ Use one row for one future contextual link. Do not make a service claim from a b
 
 A clean production build verified every mapped source and target has a generated H1, canonical URL, and sitemap location. Five source routes now carry exactly one matching route-local service link: Executive Calendar Management (`ab66a03f945544f3dd7873dde497df9ed699386a`), Inbox Triage (`924db735f9a31586f30da8a5637801080c12f024`), Travel Coordination (`35d02dc2100f88b18efe027bc28f5f9a2564342c`), Research Briefing (`387c74dfe375701435833246114b6f70a7a33147`), and Meeting Administration (`ff50624f33b643d9ea6a0159236609fa4768ef11`).
 
-The remaining five rows are generated and route-locally absent. They remain the only candidates for later contextual-link work, one pair at a time: CRM Administration, Document Production, Vendor Follow-Up, Project Administration, and Personal Executive Support. Do not add another CTA to any delivered row.
+The remaining five rows were then candidates: CRM Administration, Document Production, Vendor Follow-Up, Project Administration, and Personal Executive Support. Each must be rechecked against its current typed record and fresh route-local artifact before any new CTA is considered.
+
+## Reconciliation — 2026-10-04
+
+A fresh production build shows that the three formerly open service paths are already covered by later typed research records introduced in rendered-source commit `02830ef86b6db48f703f42e80322307da72ec4f9`. Each selected source and destination has a generated self-canonical artifact and sitemap location, and each selected source `<main>` has exactly one matching service href.
+
+- Document Production: `/research/document-production-version-control-acceptance-test` → `/services/document-production`.
+- Project Administration: `/research/project-dependency-register-delegation-study` → `/services/project-administration`.
+- Personal Executive Support: `/research/personal-executive-support-privacy-boundary-test` → `/services/personal-executive-support`.
+
+The older legacy sources named in the prior rows remain separate editorial records; this map does not authorize a second CTA in them. All ten service-pillar rows are now delivered or otherwise non-duplicable. No reader-facing route, metadata, or sitemap input changed in this reconciliation.
 
 ## Generated-artifact reconciliation — 2026-09-14
 
