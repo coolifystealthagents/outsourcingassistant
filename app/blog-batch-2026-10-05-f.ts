@@ -31,7 +31,7 @@ export const dailyBlogBatch20261005F: BlogPost[] = [
     citations: [
       { name: 'Grants.gov Applicant FAQs', url: 'https://www.grants.gov/applicants/applicant-faqs', note: 'Primary federal resource consulted for application and workspace context.' },
       { name: 'Uniform Administrative Requirements, Cost Principles, and Audit Requirements', url: 'https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200', note: 'Primary U.S. regulation consulted for federal award and cost context.' },
-      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information', note: 'Primary guidance used for sensitive evidence handling.' },
+      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for sensitive evidence handling.' },
     ],
     internalLinks: [{ href: '/services', label: 'Review research and administrative support' }, { href: '/contact', label: 'Discuss application coordination' }],
     cta: { href: '/contact', label: 'Plan a source-led application workflow' },
@@ -66,7 +66,7 @@ export const dailyBlogBatch20261005F: BlogPost[] = [
     citations: [
       { name: 'FTC Business Guidance', url: 'https://www.ftc.gov/business-guidance', note: 'Primary federal resource consulted for consumer-protection guidance context.' },
       { name: 'Consumer Financial Protection Bureau complaint process', url: 'https://www.consumerfinance.gov/complaint/process/', note: 'Primary federal example consulted for complaint intake, routing, response, and feedback stages.' },
-      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information', note: 'Primary guidance used for handling customer and complaint information.' },
+      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for handling customer and complaint information.' },
     ],
     internalLinks: [{ href: '/services', label: 'Review customer support services' }, { href: '/contact', label: 'Discuss complaint coordination' }],
     cta: { href: '/contact', label: 'Design a controlled remedy-review lane' },

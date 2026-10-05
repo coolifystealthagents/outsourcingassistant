@@ -30,7 +30,7 @@ export const dailyBlogBatch20261005D: BlogPost[] = [
     citations: [
       { name: 'IRS About Form W-9', url: 'https://www.irs.gov/forms-pubs/about-form-w-9', note: 'Primary federal source consulted for U.S. taxpayer information form context.' },
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for supplier, governance, and access concepts.' },
-      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information', note: 'Primary guidance used for handling sensitive supplier information.' },
+      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for handling sensitive supplier information.' },
     ],
     internalLinks: [{ href: '/services', label: 'Review procurement support services' }, { href: '/contact', label: 'Discuss supplier onboarding support' }],
     cta: { href: '/contact', label: 'Plan a controlled supplier intake role' },
@@ -63,7 +63,7 @@ export const dailyBlogBatch20261005D: BlogPost[] = [
     ],
     citations: [
       { name: 'FTC Mail, Internet, or Telephone Order Merchandise Rule', url: 'https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule', note: 'Primary federal rule consulted for shipment timing and customer-choice context.' },
-      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information', note: 'Primary guidance used for limiting exposure of customer and address information.' },
+      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for limiting exposure of customer and address information.' },
       { name: 'CISA Avoiding Social Engineering and Phishing Attacks', url: 'https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks', note: 'Primary government guidance consulted for verification and suspicious-request handling.' },
     ],
     internalLinks: [{ href: '/services', label: 'Review ecommerce support services' }, { href: '/contact', label: 'Discuss an order-exception role' }],

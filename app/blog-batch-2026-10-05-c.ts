@@ -30,7 +30,7 @@ export const dailyBlogBatch20261005C: BlogPost[] = [
     citations: [
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for governance, identity, access, and review concepts.' },
       { name: 'CISA Identity and Access Management recommended practices', url: 'https://www.cisa.gov/sites/default/files/2023-12/ESF%20IDENTITY%20AND%20ACCESS%20MANAGEMENT%20RECOMMENDED%20BEST%20PRACTICES%20FOR%20ADMINISTRATORS%20PP-23-0248_508C.pdf', note: 'Primary government guidance consulted for identity and access context.' },
-      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information', note: 'Primary guidance used for proportionate access and information handling.' },
+      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for proportionate access and information handling.' },
     ],
     internalLinks: [{ href: '/services', label: 'Review administrative support services' }, { href: '/contact', label: 'Discuss a software review role' }],
     cta: { href: '/contact', label: 'Plan an evidence-led seat review' },
@@ -64,7 +64,7 @@ export const dailyBlogBatch20261005C: BlogPost[] = [
     citations: [
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for governance, ownership, and evidence concepts.' },
       { name: 'National Archives records management guidance', url: 'https://www.archives.gov/records-mgmt', note: 'Primary federal resource consulted for records-management principles.' },
-      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information', note: 'Primary guidance used for limiting access to sensitive meeting information.' },
+      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for limiting access to sensitive meeting information.' },
     ],
     internalLinks: [{ href: '/services', label: 'Review executive support services' }, { href: '/contact', label: 'Discuss a decision-record role' }],
     cta: { href: '/contact', label: 'Design a reliable decision register' },

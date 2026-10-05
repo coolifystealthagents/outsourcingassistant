@@ -62,7 +62,7 @@ export const dailyBlogBatch20261005B: BlogPost[] = [
       { q: 'What if the vendor name does not exactly match?', a: 'Preserve the mismatch and route it through vendor identity review rather than editing the records to force a match.' },
     ],
     citations: [
-      { name: 'ACORD certificate forms information', url: 'https://www.acord.org/standards-architecture/acord-forms', note: 'Primary industry source consulted for standardized insurance form context.' },
+      { name: 'ACORD Forms Portal', url: 'https://formsportal.acord.org/Home', note: 'Primary industry portal consulted for standardized insurance form context.' },
       { name: 'U.S. Small Business Administration: Get business insurance', url: 'https://www.sba.gov/business-guide/launch-your-business/get-business-insurance', note: 'Primary federal small-business overview used for general insurance context.' },
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for governance, access, and evidence handling.' },
     ],

@@ -29,8 +29,8 @@ export const dailyBlogBatch20261005E: BlogPost[] = [
       { q: 'What if the member also asks for data deletion?', a: 'Create a linked privacy request and preserve its own verification, scope, deadline, owner, and evidence trail.' },
     ],
     citations: [
-      { name: 'FTC guidance on negative option practices', url: 'https://www.ftc.gov/business-guidance/blog/2024/10/click-cancel-ftc-amends-negative-option-rule', note: 'Primary federal guidance consulted for cancellation and recurring-membership context.' },
-      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information', note: 'Primary guidance used for account and personal-information handling.' },
+      { name: 'FTC 2026 negative option rulemaking notice', url: 'https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-response-advance-notice-proposed-rulemaking-regarding-negative-option', note: 'Current primary federal source consulted for recurring-membership and cancellation context; it identifies the 2024 amendments as vacated, so this article does not present them as current law.' },
+      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for account and personal-information handling.' },
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for access changes, ownership, and verification evidence.' },
     ],
     internalLinks: [{ href: '/services', label: 'Review customer support services' }, { href: '/contact', label: 'Discuss a cancellation support role' }],
@@ -65,7 +65,7 @@ export const dailyBlogBatch20261005E: BlogPost[] = [
     ],
     citations: [
       { name: 'OSHA Recommended Practices for Safety and Health Programs', url: 'https://www.osha.gov/safety-management', note: 'Primary federal guidance consulted for hazard reporting and management context.' },
-      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information', note: 'Primary guidance used for customer, site, and access information handling.' },
+      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for customer, site, and access information handling.' },
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for ownership, access, evidence, and incident routing.' },
     ],
     internalLinks: [{ href: '/services', label: 'Review scheduling support services' }, { href: '/contact', label: 'Discuss field-service coordination' }],
