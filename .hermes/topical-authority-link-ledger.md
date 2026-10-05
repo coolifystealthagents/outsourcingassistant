@@ -1,5 +1,9 @@
 # Outsourcing Assistant service-link ledger
 
+## 2026-10-05 Research routine
+
+Five new decision studies extend occupied service pillars without repeating their prior questions: document accessibility sampling, project-status source conflicts, purchase-request verification in personal support, shared-inbox thread context loss, and claim-level source update triggers. The articles preserve the already-delivered service paths without inserting links into older routes. The durable handoff, body lengths, content hashes, originality evidence, and local validation are stored in `.paperclip/daily-content/2026-10-05/research.json`. Research does not push or deploy this combined release.
+
 ## 2026-10-02 Research routine
 
 Five new decision studies extend distinct service conversion paths without reusing the September 28 families: customer-support closure evidence, meeting-action acceptance, vendor nonresponse escalation, travel-option expiry, and reversible CRM duplicate handling. Canonical slugs, checked sources, body lengths, hashes, and originality evidence are stored in `.paperclip/daily-content/2026-10-02/research.json`. This is a local Research handoff for the combined release; the Blog integrator owns the sole production push and must reconcile first-publication dates immediately before that push.
