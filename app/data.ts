@@ -650,5 +650,6 @@ import { dailyBlogBatch20261005C } from './blog-batch-2026-10-05-c';
 import { dailyBlogBatch20261005D } from './blog-batch-2026-10-05-d';
 import { dailyBlogBatch20261005E } from './blog-batch-2026-10-05-e';
 import { dailyBlogBatch20261005F } from './blog-batch-2026-10-05-f';
-blogPosts.unshift(...dailyBlogBatch20261005A, ...dailyBlogBatch20261005B, ...dailyBlogBatch20261005C, ...dailyBlogBatch20261005D, ...dailyBlogBatch20261005E, ...dailyBlogBatch20261005F, ...dailyBlogBatch20261002, ...dailyBlogBatch20260928, ...dailyBlogBatch20260925, ...dailyBlogBatch20260924, ...dailyBlogBatch20260923, ...dailyBlogBatch20260922, ...dailyBlogBatch20260918, ...dailyBlogBatch20260911, ...dailyBlogBatch20260910);
+import { dailyBlogBatch20261008 } from './blog-batch-2026-10-08';
+blogPosts.unshift(...dailyBlogBatch20261008, ...dailyBlogBatch20261005A, ...dailyBlogBatch20261005B, ...dailyBlogBatch20261005C, ...dailyBlogBatch20261005D, ...dailyBlogBatch20261005E, ...dailyBlogBatch20261005F, ...dailyBlogBatch20261002, ...dailyBlogBatch20260928, ...dailyBlogBatch20260925, ...dailyBlogBatch20260924, ...dailyBlogBatch20260923, ...dailyBlogBatch20260922, ...dailyBlogBatch20260918, ...dailyBlogBatch20260911, ...dailyBlogBatch20260910);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
