@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-09",
+  "kind": "research",
+  "count": 5,
+  "publicationDateVisible": true,
+  "items": [
+    {
+      "slug": "outsourcingassistant-queue-wait-state-evidence-study",
+      "title": "Outsourcing Assistant Queue Wait-State Evidence Study",
+      "excerpt": "A source-backed study of whether waiting reasons explain queue age.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/outsourcingassistant-queue-wait-state-evidence-study"
+    },
+    {
+      "slug": "outsourcingassistant-reviewer-agreement-reliability-study",
+      "title": "Outsourcing Assistant Reviewer Agreement Reliability Study",
+      "excerpt": "A source-backed study of whether reviewers reproduce the same conclusion.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/outsourcingassistant-reviewer-agreement-reliability-study"
+    },
+    {
+      "slug": "outsourcingassistant-minimum-access-effectiveness-study",
+      "title": "Outsourcing Assistant Minimum Access Effectiveness Study",
+      "excerpt": "A source-backed study of whether permissions are sufficient but bounded.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/outsourcingassistant-minimum-access-effectiveness-study"
+    },
+    {
+      "slug": "outsourcingassistant-handoff-completeness-observation",
+      "title": "Outsourcing Assistant Handoff Completeness Observation",
+      "excerpt": "A source-backed study of whether a receiving team can continue without private clarification.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/outsourcingassistant-handoff-completeness-observation"
+    },
+    {
+      "slug": "outsourcingassistant-control-change-traceability-research",
+      "title": "Outsourcing Assistant Control Change Traceability Research",
+      "excerpt": "A source-backed study of whether operating changes remain attributable and reversible.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/outsourcingassistant-control-change-traceability-research"
+    }
+  ]
+}
