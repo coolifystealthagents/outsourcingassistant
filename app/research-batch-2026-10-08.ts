@@ -127,10 +127,10 @@ export const researchBatch20261008 = [
     ],
     "serviceHandoff": {
       "heading": "Turn the study into a bounded assistant lane",
-      "href": "/services/research-assistance",
-      "label": "research assistance service",
+      "href": "/services/research-briefing",
+      "label": "research briefing service",
       "paragraphs": [
-        "Use this queue interruption protocol when defining a research assistance service; the business retains method approval, access decisions, interpretation, and every consequential disposition."
+        "Use this queue interruption protocol when defining a research briefing service; the business retains method approval, access decisions, interpretation, and every consequential disposition."
       ]
     },
     "faqs": [
@@ -270,10 +270,10 @@ export const researchBatch20261008 = [
     ],
     "serviceHandoff": {
       "heading": "Turn the study into a bounded assistant lane",
-      "href": "/services/research-assistance",
-      "label": "research assistance service",
+      "href": "/services/research-briefing",
+      "label": "research briefing service",
       "paragraphs": [
-        "Use this task acceptance protocol when defining a research assistance service; the business retains method approval, access decisions, interpretation, and every consequential disposition."
+        "Use this task acceptance protocol when defining a research briefing service; the business retains method approval, access decisions, interpretation, and every consequential disposition."
       ]
     },
     "faqs": [
@@ -413,10 +413,10 @@ export const researchBatch20261008 = [
     ],
     "serviceHandoff": {
       "heading": "Turn the study into a bounded assistant lane",
-      "href": "/services/research-assistance",
-      "label": "research assistance service",
+      "href": "/services/research-briefing",
+      "label": "research briefing service",
       "paragraphs": [
-        "Use this review window protocol when defining a research assistance service; the business retains method approval, access decisions, interpretation, and every consequential disposition."
+        "Use this review window protocol when defining a research briefing service; the business retains method approval, access decisions, interpretation, and every consequential disposition."
       ]
     },
     "faqs": [
@@ -556,10 +556,10 @@ export const researchBatch20261008 = [
     ],
     "serviceHandoff": {
       "heading": "Turn the study into a bounded assistant lane",
-      "href": "/services/research-assistance",
-      "label": "research assistance service",
+      "href": "/services/research-briefing",
+      "label": "research briefing service",
       "paragraphs": [
-        "Use this evidence retrieval protocol when defining a research assistance service; the business retains method approval, access decisions, interpretation, and every consequential disposition."
+        "Use this evidence retrieval protocol when defining a research briefing service; the business retains method approval, access decisions, interpretation, and every consequential disposition."
       ]
     },
     "faqs": [
@@ -699,10 +699,10 @@ export const researchBatch20261008 = [
     ],
     "serviceHandoff": {
       "heading": "Turn the study into a bounded assistant lane",
-      "href": "/services/research-assistance",
-      "label": "research assistance service",
+      "href": "/services/research-briefing",
+      "label": "research briefing service",
       "paragraphs": [
-        "Use this exception escalation protocol when defining a research assistance service; the business retains method approval, access decisions, interpretation, and every consequential disposition."
+        "Use this exception escalation protocol when defining a research briefing service; the business retains method approval, access decisions, interpretation, and every consequential disposition."
       ]
     },
     "faqs": [
