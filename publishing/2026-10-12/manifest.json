@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-12",
+  "site": "OutsourcingAssistant.com",
+  "blogCount": 12,
+  "researchCount": 5,
+  "blogRegistry": "app/data.ts",
+  "researchRegistry": "app/fleet-content.ts",
+  "blogIndex": "app/blog/page.tsx",
+  "researchIndex": "app/research/page.tsx",
+  "blogRoute": "app/blog/[slug]/page.tsx",
+  "researchRoute": "app/research/[slug]/page.tsx",
+  "items": [
+    {
+      "system": "Blog",
+      "slug": "executive-inbox-delegation-receipt",
+      "title": "Create a Receipt for Executive Inbox Delegation",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/executive-inbox-delegation-receipt",
+      "thumbnail": "/oct12/executive-inbox-delegation-receipt.png",
+      "thumbnailTitle": "Create a Receipt for Executive Inbox Delegation"
+    },
+    {
+      "system": "Blog",
+      "slug": "recurring-invoice-approval-preparation",
+      "title": "Prepare Recurring Invoices for Approval without Moving Money",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/recurring-invoice-approval-preparation",
+      "thumbnail": "/oct12/recurring-invoice-approval-preparation.png",
+      "thumbnailTitle": "Prepare Recurring Invoices for Approval without Moving Money"
+    },
+    {
+      "system": "Blog",
+      "slug": "stakeholder-briefing-source-pack",
+      "title": "Build a Stakeholder Briefing Source Pack",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/stakeholder-briefing-source-pack",
+      "thumbnail": "/oct12/stakeholder-briefing-source-pack.png",
+      "thumbnailTitle": "Build a Stakeholder Briefing Source Pack"
+    },
+    {
+      "system": "Blog",
+      "slug": "travel-option-hold-expiry",
+      "title": "Track Expiry Times for Travel Options on Hold",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/travel-option-hold-expiry",
+      "thumbnail": "/oct12/travel-option-hold-expiry.png",
+      "thumbnailTitle": "Track Expiry Times for Travel Options on Hold"
+    },
+    {
+      "system": "Blog",
+      "slug": "password-manager-request-routing",
+      "title": "Route Password-Manager Access Requests Safely",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/password-manager-request-routing",
+      "thumbnail": "/oct12/password-manager-request-routing.png",
+      "thumbnailTitle": "Route Password-Manager Access Requests Safely"
+    },
+    {
+      "system": "Blog",
+      "slug": "customer-refund-evidence-packet",
+      "title": "Assemble a Customer Refund Evidence Packet",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/customer-refund-evidence-packet",
+      "thumbnail": "/oct12/customer-refund-evidence-packet.png",
+      "thumbnailTitle": "Assemble a Customer Refund Evidence Packet"
+    },
+    {
+      "system": "Blog",
+      "slug": "weekly-kpi-commentary-draft",
+      "title": "Draft Weekly KPI Commentary from Verified Drivers",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/weekly-kpi-commentary-draft",
+      "thumbnail": "/oct12/weekly-kpi-commentary-draft.png",
+      "thumbnailTitle": "Draft Weekly KPI Commentary from Verified Drivers"
+    },
+    {
+      "system": "Blog",
+      "slug": "signature-status-follow-up",
+      "title": "Follow Up on Document Signatures without Altering Terms",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/signature-status-follow-up",
+      "thumbnail": "/oct12/signature-status-follow-up.png",
+      "thumbnailTitle": "Follow Up on Document Signatures without Altering Terms"
+    },
+    {
+      "system": "Blog",
+      "slug": "event-attendee-reconciliation",
+      "title": "Reconcile Event Registrations with Attendee Records",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/event-attendee-reconciliation",
+      "thumbnail": "/oct12/event-attendee-reconciliation.png",
+      "thumbnailTitle": "Reconcile Event Registrations with Attendee Records"
+    },
+    {
+      "system": "Blog",
+      "slug": "marketing-asset-approval-handoff",
+      "title": "Hand Off Marketing Assets with Approval Evidence",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/marketing-asset-approval-handoff",
+      "thumbnail": "/oct12/marketing-asset-approval-handoff.png",
+      "thumbnailTitle": "Hand Off Marketing Assets with Approval Evidence"
+    },
+    {
+      "system": "Blog",
+      "slug": "recruitment-scheduling-conflict",
+      "title": "Resolve Recruitment Scheduling Conflicts without Choosing Candidates",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/recruitment-scheduling-conflict",
+      "thumbnail": "/oct12/recruitment-scheduling-conflict.png",
+      "thumbnailTitle": "Resolve Recruitment Scheduling Conflicts without Choosing Candidates"
+    },
+    {
+      "system": "Blog",
+      "slug": "contractor-renewal-notice-tracker",
+      "title": "Track Contractor Renewal Notices and Decision Dates",
+      "date": "2026-10-12",
+      "source": "app/blog-batch-2026-10-12.ts",
+      "route": "/blog/contractor-renewal-notice-tracker",
+      "thumbnail": "/oct12/contractor-renewal-notice-tracker.png",
+      "thumbnailTitle": "Track Contractor Renewal Notices and Decision Dates"
+    },
+    {
+      "system": "Research",
+      "slug": "delegated-queue-owner-response-latency",
+      "title": "Measure Owner Response Latency in Delegated Queues",
+      "date": "2026-10-12",
+      "source": "app/research-batch-2026-10-12.ts",
+      "route": "/research/delegated-queue-owner-response-latency",
+      "thumbnail": "/oct12/delegated-queue-owner-response-latency.png",
+      "thumbnailTitle": "Measure Owner Response Latency in Delegated Queues"
+    },
+    {
+      "system": "Research",
+      "slug": "assistant-instruction-version-drift",
+      "title": "Detect Instruction Version Drift in Assistant Work",
+      "date": "2026-10-12",
+      "source": "app/research-batch-2026-10-12.ts",
+      "route": "/research/assistant-instruction-version-drift",
+      "thumbnail": "/oct12/assistant-instruction-version-drift.png",
+      "thumbnailTitle": "Detect Instruction Version Drift in Assistant Work"
+    },
+    {
+      "system": "Research",
+      "slug": "approval-window-reliability",
+      "title": "Evaluate Approval Window Reliability for Assistant Handoffs",
+      "date": "2026-10-12",
+      "source": "app/research-batch-2026-10-12.ts",
+      "route": "/research/approval-window-reliability",
+      "thumbnail": "/oct12/approval-window-reliability.png",
+      "thumbnailTitle": "Evaluate Approval Window Reliability for Assistant Handoffs"
+    },
+    {
+      "system": "Research",
+      "slug": "access-scope-expansion-rework",
+      "title": "Study Rework after Assistant Access Scope Expands",
+      "date": "2026-10-12",
+      "source": "app/research-batch-2026-10-12.ts",
+      "route": "/research/access-scope-expansion-rework",
+      "thumbnail": "/oct12/access-scope-expansion-rework.png",
+      "thumbnailTitle": "Study Rework after Assistant Access Scope Expands"
+    },
+    {
+      "system": "Research",
+      "slug": "briefing-source-omission",
+      "title": "Audit Source Omissions in Assistant-Prepared Briefings",
+      "date": "2026-10-12",
+      "source": "app/research-batch-2026-10-12.ts",
+      "route": "/research/briefing-source-omission",
+      "thumbnail": "/oct12/briefing-source-omission.png",
+      "thumbnailTitle": "Audit Source Omissions in Assistant-Prepared Briefings"
+    }
+  ]
+}
