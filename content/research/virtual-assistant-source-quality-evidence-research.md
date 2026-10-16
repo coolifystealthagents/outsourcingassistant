@@ -4,11 +4,15 @@ title: "Research Brief: Virtual Assistant Operations Source Quality Evidence"
 description: "Research Brief: Virtual Assistant Operations Source Quality Evidence: evidence-led guidance for Outsourcing Assistant."
 datePublished: "2026-08-19"
 publishedAt: "2026-08-19T12:00:00.000Z"
-updatedAt: "2026-08-19T12:00:00.000Z"
+updatedAt: "2026-10-16T00:00:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
 reviewedAt: "2026-08-19T12:00:00.000Z"
 featuredImage: "/aug19-heroes/virtual-assistant-source-quality-evidence-research.webp"
+serviceHandoffHeading: "Turn source checks into a reviewable brief"
+serviceHandoffHref: "/services/research-briefing"
+serviceHandoffLabel: "Plan a research briefing"
+serviceHandoffParagraph: "A Philippines-based assistant can prepare the source register, note differences, and bring open questions to the named reviewer. The owner still decides how the findings are interpreted, published, or used for legal, privacy, security, financial, or employment decisions."
 ---
 
 # Research Brief: Virtual Assistant Operations Source Quality Evidence
