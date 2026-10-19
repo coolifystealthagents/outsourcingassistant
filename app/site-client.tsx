@@ -1,9 +1,22 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { usePathname } from 'next/navigation';
+
+const primaryLinks = [{ href: '/', label: 'Home' }, { href: '/services', label: 'Services' }, { href: '/contact-us', label: 'Contact Us' }];
+const isCurrentRoute = (pathname: string, href: string) => href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(`${href}/`);
+
+export function PrimaryNavigation() {
+  const pathname = usePathname();
+  return <nav className="links fleet-links" aria-label="Main navigation">{primaryLinks.map(link => {
+    const current = isCurrentRoute(pathname, link.href);
+    return <a href={link.href} aria-current={current ? 'page' : undefined} className={current ? 'is-active' : undefined} key={link.href}>{link.label}</a>;
+  })}</nav>;
+}
 
 export function MobileNavigation() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
   const button = useRef<HTMLButtonElement>(null);
   const panel = useRef<HTMLDivElement>(null);
 
@@ -30,7 +43,10 @@ export function MobileNavigation() {
     <button ref={button} type="button" aria-label={open ? 'Close main navigation' : 'Open main navigation'} aria-expanded={open} aria-controls="mobile-navigation-panel" onClick={() => setOpen(value => !value)}>Menu</button>
     {open ? <div ref={panel} id="mobile-navigation-panel" className="mobile-navigation-panel" role="dialog" aria-modal="true" aria-label="Main navigation">
       <button type="button" className="mobile-close" onClick={() => { setOpen(false); button.current?.focus(); }}>Close</button>
-      <nav aria-label="Mobile navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/contact-us">Contact Us</a></nav>
+      <nav aria-label="Mobile navigation">{primaryLinks.map(link => {
+        const current = isCurrentRoute(pathname, link.href);
+        return <a href={link.href} aria-current={current ? 'page' : undefined} className={current ? 'is-active' : undefined} key={link.href}>{link.label}</a>;
+      })}</nav>
     </div> : null}
   </div>;
 }

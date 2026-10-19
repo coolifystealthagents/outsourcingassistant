@@ -6,8 +6,11 @@ const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
 
 test('header visibly attributes the parent and uses the exact three-link navigation', async () => {
   const source = await read('app/components.tsx');
+  const client = await read('app/site-client.tsx');
   assert.match(source, /Powered by StealthAgents/);
-  assert.match(source, /<nav className="links fleet-links"[^>]*><a href="\/">Home<\/a><a href="\/services">Services<\/a><a href="\/contact-us">Contact Us<\/a><\/nav>/);
+  assert.match(source, /PrimaryNavigation/);
+  assert.match(client, /aria-current=\{current \? 'page'/);
+  assert.match(client, /\{ href: '\/', label: 'Home' \}.*\{ href: '\/services', label: 'Services' \}.*\{ href: '\/contact-us', label: 'Contact Us' \}/s);
 });
 
 test('review rail has exactly 14 unique reviews and no playback controls', async () => {
