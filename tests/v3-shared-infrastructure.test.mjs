@@ -13,6 +13,33 @@ test('header visibly attributes the parent and uses the exact three-link navigat
   assert.match(client, /\{ href: '\/', label: 'Home' \}.*\{ href: '\/services', label: 'Services' \}.*\{ href: '\/contact-us', label: 'Contact Us' \}/s);
 });
 
+test('every rendered main template provides the shared skip-link target', async () => {
+  const templates = [
+    'app/not-found.tsx', 'app/thanks-whats-next/page.tsx', 'app/terms/page.tsx',
+    'app/research/[slug]/page.tsx', 'app/research/page.tsx', 'app/contact-us/page.tsx',
+    'app/services/[slug]/page.tsx', 'app/services/page.tsx', 'app/thank-you/page.tsx',
+    'app/resources/assistant-sop-handoff-checklist/page.tsx', 'app/privacy/page.tsx',
+    'app/alternatives/page.tsx', 'app/blog/[slug]/page.tsx',
+    'app/blog/top-30-virtual-assistant-outsourcing-companies/page.tsx',
+    'app/blog/blog-listing.tsx', 'app/page.tsx', 'app/aug19-content.tsx',
+    'app/cancellation-policy/page.tsx',
+  ];
+  for (const template of templates) {
+    const source = await read(template);
+    assert.match(source, /<main id="main-content"/, template);
+  }
+});
+
+test('contact copy is claims-safe and mobile parent attribution stays readable', async () => {
+  const contact = await read('app/contact-us/page.tsx');
+  const css = await read('app/globals.css');
+  assert.doesNotMatch(contact, /35\+|Forbes|top rated/i);
+  assert.match(contact, /recruiting, account management, training, and ongoing service operations/);
+  assert.doesNotMatch(css, /parent-brand-compact[^}]*font-size:(?:7|8|9)px/);
+  assert.match(css, /parent-brand-compact\{[^}]*font-size:11px/);
+  assert.match(css, /parent-brand-compact span\{[^}]*font-size:10px/);
+});
+
 test('homepage role icon alternatives use the role name rather than object coercion', async () => {
   const source = await read('app/page.tsx');
   assert.match(source, /alt=\{`\$\{role\.name\} task icon`\}/);

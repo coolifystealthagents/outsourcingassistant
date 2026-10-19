@@ -9,7 +9,8 @@ test('contact-us publishes the required trust and indexability contract', () => 
   assert.match(page, /alternates: \{ canonical: "\/contact-us" \}/);
   assert.match(page, /robots: \{ index: true, follow: true \}/);
   assert.match(page, /<h2>About Stealth Agents<\/h2>/);
-  assert.match(page, /Stealth Agents works with over 35\+ different industries\. We're featured on Forbes as the top rated virtual assistant company\./);
+  assert.match(page, /Stealth Agents supports the recruiting, account management, training, and ongoing service operations behind assistant engagements\./);
+  assert.doesNotMatch(page, /35\+|Forbes|top rated/i);
   assert.match(page, />Powered by Stealth Agents<\/a>/);
 });
 

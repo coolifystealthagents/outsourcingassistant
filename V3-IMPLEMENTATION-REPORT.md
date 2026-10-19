@@ -48,6 +48,8 @@ The design fingerprint is specific to Outsourcing Assistant: a warm editorial de
 - Reviews use one semantic record set and move continuously forward without cloned duplicate entries.
 - Reduced-motion mode renders all fourteen reviews as a static accessible grid.
 - Every review card displays five gold stars with an accessible five-star label and retains the readable `Verified client review` text.
+- Unsupported industry-count and Forbes-ranking copy was removed from Contact Us; the replacement describes only the documented parent-team operating role.
+- Mobile parent attribution remains 10px or larger and wraps without splitting the StealthAgents name.
 - The generated “Top 30” page is now a transparent non-ranked directory; unsupported ranking and performance claims were removed.
 
 ## Commercial content
@@ -71,7 +73,7 @@ The design fingerprint is specific to Outsourcing Assistant: a warm editorial de
 The clean candidate was validated with:
 
 - `git diff --check`
-- 25 Node source-contract tests
+- 28 Node source-contract tests, including form ownership, complete skip-link coverage, visible review stars, claims safety, mobile attribution readability, role-icon alt text, and laptop first-fold rules
 - TypeScript validation through `npm run lint`
 - Call-first policy verification
 - Optimized Next.js production build
@@ -100,6 +102,7 @@ Browser interaction matrix:
 - Interaction issues: 0
 - Verified mobile menu behavior, reduced motion, overflow, H1s, image loading, console/CSP errors, redirect chains, blocked-form behavior, and conversion metadata.
 - Final desktop and 320px captures visually verified the homepage, Contact Us, and an article template with locally hosted typography.
+- Exact first-fold geometry is checked at both mandatory laptop viewports for overflow, overlap, clipping, and role-icon alternative text.
 
 Machine-readable evidence:
 
