@@ -17,7 +17,7 @@ export function BlogListing({ page = 1 }: { page?: number }) {
   const posts = blogPosts.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   return <>
     <Header />
-    <main className="fleet-main">
+    <main id="main-content" className="fleet-main">
       <section className={styles.hero}>
         <div className={`container ${styles.heroGrid}`}>
           <div><p className="eyebrow">Blog library</p><h1>Practical guides for Philippines-based staffing</h1><p>Role planning, onboarding, access, and operating guidance for teams working with specialists in the Philippines. Every guide includes a publication date, reading time, and a clear topic signal.</p></div>

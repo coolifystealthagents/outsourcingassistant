@@ -9,7 +9,7 @@ export const metadata: Metadata = { title: "Contact Us for Filipino Assistant St
 
 export default function ContactUsPage(){return <>
   <Header/>
-  <main className="trusted-contact tc-legal">
+  <main id="main-content" className="trusted-contact tc-legal">
     <section className="tc-hero" aria-labelledby="contact-title"><div className="container tc-hero-grid">
       <div className="tc-copy"><p className="tc-kicker">Delegation built around your workflow</p><h1 id="contact-title">Build a Filipino assistant role that actually fits.</h1><p className="tc-lead">Tell us which recurring work, tools, hours, and outcomes matter most. We will help scope an outsourced assistant role with clear ownership and manager review.</p><div className="tc-proof-row"><span>Philippines talent specialists</span><span>Clear approval boundaries</span><span>Consultation request</span></div><TestimonialsRail contact/></div>
       <StandardContactForm endpoint="/api/contact" encoding="form"/>

@@ -43,7 +43,7 @@ export default function Checklist() {
 
   return <>
     <Header />
-    <main className="section sop-resource" data-resource="assistant-access-ladder-2026">
+    <main id="main-content" className="section sop-resource" data-resource="assistant-access-ladder-2026">
       <JsonLd data={schema} />
       <div className="container">
         <EditorialLayout

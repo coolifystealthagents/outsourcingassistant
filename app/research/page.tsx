@@ -17,7 +17,7 @@ const newestFirst = [...researchPosts].sort((a, b) => b.published.localeCompare(
 export default function Research() {
   return <>
     <Header />
-    <main className="fleet-main">
+    <main id="main-content" className="fleet-main">
       <section className={styles.hero}>
         <div className={`container ${styles.heroGrid}`}>
           <div><p className="eyebrow">Research library</p><h1>Evidence for planning distributed support teams</h1><p>Sourced analysis for designing clear work, access boundaries, review routines, and evidence trails. Each record identifies its topic and latest public update.</p></div>

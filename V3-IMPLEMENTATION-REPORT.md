@@ -6,7 +6,7 @@
 - Repository: `coolifystealthagents/outsourcingassistant`
 - Production branch: `main`
 - Coolify application: `q9x033mt5ul6xq2obsofw9m7`
-- Candidate branch: `hermes/v3-full-optimization-20261019`
+- Candidate branch: `hermes/v3-release-fix-20261019`
 
 ## Design read
 
@@ -26,6 +26,7 @@ The design fingerprint is specific to Outsourcing Assistant: a warm editorial de
 - Header and footer visibly identify Outsourcing Assistant and include readable `Powered by StealthAgents` attribution.
 - Mobile navigation is modal, focus trapped, Escape dismissible, and maintains parent attribution at 320px.
 - Header, footer, and favicon share the subsidiary identity.
+- Every rendered primary `<main>` exposes the shared `main-content` skip-link target.
 - DM Sans and Space Grotesk are self-hosted to avoid external font dependencies and preserve consistent rendering.
 - Security headers include CSP, HSTS, `object-src 'none'`, `base-uri 'self'`, and `form-action 'self'`.
 - HTTP and `www` traffic permanently canonicalize to the HTTPS apex host.
@@ -36,6 +37,7 @@ The design fingerprint is specific to Outsourcing Assistant: a warm editorial de
 - The first fold prioritizes the complete consultation form on mobile and retains the role-scoping context on desktop.
 - The exact text `Official team, Bacolod` and official first-party Stealth Agents imagery appear immediately after the first fold.
 - Rejected submissions remain on Contact Us, expose a visible error, and cannot invoke lead-success tracking.
+- The React form is the sole contact-submission owner; the global ACR client labels CTAs and scheduler frames but does not submit or track form acceptance.
 - Existing lead field names, `/ingest/track`, and ACR integration are preserved.
 - The required app-side sequence is `/contact-us` → `/thank-you` → OnceHub `StealthAgentsTeam` → `/thanks-whats-next`.
 - The scheduler advances only through an actual same-origin completion redirect; guessed cross-origin message handling was removed.
@@ -70,7 +72,7 @@ The design fingerprint is specific to Outsourcing Assistant: a warm editorial de
 The clean candidate was validated with:
 
 - `git diff --check`
-- 22 Node source-contract tests
+- 24 Node source-contract tests, including sole form ownership and complete skip-link target coverage
 - TypeScript validation through `npm run lint`
 - Call-first policy verification
 - Optimized Next.js production build
@@ -97,6 +99,8 @@ Browser interaction matrix:
 - Interaction issues: 0
 - Verified mobile menu behavior, reduced motion, overflow, H1s, image loading, console/CSP errors, redirect chains, blocked-form behavior, and conversion metadata.
 - Final desktop and 320px captures visually verified the homepage, Contact Us, and an article template with locally hosted typography.
+
+Independent review of the first immutable candidate identified duplicate form-submission ownership and incomplete skip-link targets. Both findings were corrected in an isolated successor worktree, covered by regression tests, and the complete source/build/crawl/browser gates were rerun.
 
 Machine-readable evidence:
 

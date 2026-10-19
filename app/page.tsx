@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="oa-home" data-design="delegation-desk-2026" data-gi-rollout="two-illustration-packs-one-icon-pack">
+      <main id="main-content" className="oa-home" data-design="delegation-desk-2026" data-gi-rollout="two-illustration-packs-one-icon-pack">
         <JsonLd data={schema} />
 
         <section className="oa-hero">
