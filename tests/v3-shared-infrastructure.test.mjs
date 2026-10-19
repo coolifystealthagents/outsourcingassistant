@@ -120,6 +120,11 @@ test('all required security headers and canonical host redirect are configured',
   assert.match(source, /frame-src 'self' https:\/\/go\.oncehub\.com/);
   assert.match(source, /type: 'host', value: 'www\.outsourcingassistant\.com'/);
   assert.match(source, /destination: 'https:\/\/outsourcingassistant\.com\/:path\*'/);
+  const middleware = await read('middleware.ts');
+  assert.match(middleware, /x-forwarded-proto/);
+  assert.match(middleware, /forwardedProtocol === 'http'/);
+  assert.match(middleware, /www\.\$\{canonicalHost\}/);
+  assert.match(middleware, /NextResponse\.redirect\(destination, 308\)/);
 });
 
 test('mobile menu is modal, focus trapped, and escape dismissible', async () => {
