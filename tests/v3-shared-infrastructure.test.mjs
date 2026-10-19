@@ -123,6 +123,8 @@ test('all required security headers and canonical host redirect are configured',
   const middleware = await read('middleware.ts');
   assert.match(middleware, /x-forwarded-proto/);
   assert.match(middleware, /forwardedProtocol === 'http'/);
+  assert.match(middleware, /host === canonicalHost \|\| host === `www\.\$\{canonicalHost\}`/);
+  assert.doesNotMatch(middleware, /endsWith\(canonicalHost\)/);
   assert.match(middleware, /www\.\$\{canonicalHost\}/);
   assert.match(middleware, /NextResponse\.redirect\(destination, 308\)/);
 });

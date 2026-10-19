@@ -7,7 +7,8 @@ export function middleware(request: NextRequest) {
   const host = (forwardedHost || request.headers.get('host') || '').split(':')[0].toLowerCase();
   const forwardedProtocol = request.headers.get('x-forwarded-proto')?.split(',')[0]?.trim().toLowerCase();
   const needsCanonicalHost = host === `www.${canonicalHost}`;
-  const needsHttps = host.endsWith(canonicalHost) && forwardedProtocol === 'http';
+  const isCanonicalDomain = host === canonicalHost || host === `www.${canonicalHost}`;
+  const needsHttps = isCanonicalDomain && forwardedProtocol === 'http';
 
   if (!needsCanonicalHost && !needsHttps) return NextResponse.next();
 
