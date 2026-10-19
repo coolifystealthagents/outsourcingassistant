@@ -6,6 +6,8 @@ const page = readFileSync(new URL('../app/page.tsx', import.meta.url), 'utf8');
 const chrome = readFileSync(new URL('../app/components.tsx', import.meta.url), 'utf8');
 const layout = readFileSync(new URL('../app/layout.tsx', import.meta.url), 'utf8');
 const styles = readFileSync(new URL('../app/globals.css', import.meta.url), 'utf8');
+const services = readFileSync(new URL('../app/services/page.tsx', import.meta.url), 'utf8');
+const booking = readFileSync(new URL('../app/booking-components.tsx', import.meta.url), 'utf8');
 
 test('homepage auditor contract', () => {
   assert.equal((page.match(/<h1\b/g) || []).length, 1);
@@ -21,4 +23,14 @@ test('homepage auditor contract', () => {
   assert.match(styles, /@media\(min-width:981px\) and \(max-height:820px\)\{\:root\{--header-height:70px\}\}\s*$/);
   const title = layout.match(/default:\s*'([^']+)'/)?.[1] ?? '';
   assert.ok(title.length >= 30 && title.length <= 60, `title length was ${title.length}`);
+});
+
+test('service heroes stay sharp and the testimonial rail keeps subpixel motion', () => {
+  assert.match(services, /src="\/assistant-collaboration\.jpg"/);
+  assert.doesNotMatch(services, /delegation-team-planning\.webp/);
+  assert.match(styles, /\.service-hero-image img\{[^}]*height:auto[^}]*aspect-ratio:16\/9[^}]*object-fit:cover/);
+  assert.doesNotMatch(styles, /\.service-hero-image img\{[^}]*height:430px/);
+  assert.match(booking, /let position = element\.scrollLeft/);
+  assert.match(booking, /position \+= pixelsPerSecond \* elapsed \/ 1000/);
+  assert.match(booking, /element\.scrollLeft = position/);
 });

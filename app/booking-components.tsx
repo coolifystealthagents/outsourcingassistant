@@ -33,19 +33,22 @@ export function TestimonialsRail({ contact = false }: { contact?: boolean }) {
 
     let frame = 0;
     let previous = performance.now();
+    let position = element.scrollLeft;
     const pixelsPerSecond = 24;
     const move = (now: number) => {
       const elapsed = Math.min(now - previous, 50);
       previous = now;
-      element.scrollLeft += pixelsPerSecond * elapsed / 1000;
+      position += pixelsPerSecond * elapsed / 1000;
+      element.scrollLeft = position;
       const first = element.querySelector<HTMLElement>('.sa-testimonial-card');
       const track = element.querySelector<HTMLElement>('.sa-testimonial-track');
       if (first && track) {
         const gap = Number.parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap || '0');
         const distance = first.getBoundingClientRect().width + gap;
-        if (element.scrollLeft >= distance) {
+        if (position >= distance) {
           track.append(first);
-          element.scrollLeft -= distance;
+          position -= distance;
+          element.scrollLeft = position;
         }
       }
       frame = requestAnimationFrame(move);
