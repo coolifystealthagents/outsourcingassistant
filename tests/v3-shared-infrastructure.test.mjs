@@ -13,6 +13,12 @@ test('header visibly attributes the parent and uses the exact three-link navigat
   assert.match(client, /\{ href: '\/', label: 'Home' \}.*\{ href: '\/services', label: 'Services' \}.*\{ href: '\/contact-us', label: 'Contact Us' \}/s);
 });
 
+test('homepage role icon alternatives use the role name rather than object coercion', async () => {
+  const source = await read('app/page.tsx');
+  assert.match(source, /alt=\{`\$\{role\.name\} task icon`\}/);
+  assert.doesNotMatch(source, /alt=\{`\$\{role\} task icon`\}/);
+});
+
 test('review rail has exactly 14 unique reviews and no playback controls', async () => {
   const source = await read('app/booking-components.tsx');
   const names = [...source.matchAll(/\{ name: '([^']+)'/g)].map(([, name]) => name);
