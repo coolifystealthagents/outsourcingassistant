@@ -1,5 +1,12 @@
 import { blogPosts, roles, site, staffingOffer, staffingProcess } from './data';
 import { Footer, Header, JsonLd } from './components';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: { absolute: 'Outsourcing Assistant | Filipino Talent Staffing' },
+  description: 'Plan a well-scoped role for Filipino talent, with clear SOPs, access limits, onboarding steps, and owner review.',
+  alternates: { canonical: '/' },
+};
 
 const roleIcons = [
   '/icons/getillustrations/sharpie-office/admin-checklist.svg',
@@ -57,7 +64,7 @@ export default function Home() {
               <div className="oa-desk-card">
                 <div className="oa-desk-head">
                   <div><span className="oa-status-dot" /> Handoff board</div>
-                  <b>Week 01</b>
+                  <b>First week</b>
                 </div>
                 <div className="oa-desk-row"><span className="oa-check">✓</span><p><b>Inbox triage</b><small>Draft first. Owner sends.</small></p><em>Daily</em></div>
                 <div className="oa-desk-row"><span className="oa-check">✓</span><p><b>CRM follow-up</b><small>Use approved notes and fields.</small></p><em>3× wk</em></div>
@@ -86,9 +93,8 @@ export default function Home() {
           </div>
           <div className="oa-role-grid">
             {roles.map((role, index) => (
-              <a className="oa-role-card" href={`/contact?role=${slugify(role.name)}`} key={role.name}>
+              <a className="oa-role-card" href={`/contact-us?role=${slugify(role.name)}`} key={role.name}>
                 <span className="oa-role-icon"><img src={roleIcons[index]} alt={`${role} task icon`} /></span>
-                <span className="oa-role-num">0{index + 1}</span>
                 <h3>{role.name}</h3>
                 <p>{role.tasks}.</p>
                 <div><small>Keep an eye on</small><strong>{role.risk}</strong></div>
@@ -126,7 +132,7 @@ export default function Home() {
           <div className="oa-process-grid">
             {staffingProcess.map((item, index) => (
               <article key={item.step}>
-                <div><span>{item.step.padStart(2, '0')}</span>{index < staffingProcess.length - 1 && <i />}</div>
+                <div><span>{item.step}</span>{index < staffingProcess.length - 1 && <i />}</div>
                 <h3>{item.title}</h3>
                 <p>{item.body}</p>
               </article>
@@ -168,9 +174,9 @@ export default function Home() {
             <a href="/blog">Browse all guides ↗</a>
           </div>
           <div className="oa-guide-grid">
-            {blogPosts.slice(0, 3).map((post, index) => (
+            {blogPosts.slice(0, 3).map((post) => (
               <a href={`/blog/${post.slug}`} key={post.slug}>
-                <span>{String(index + 1).padStart(2, '0')} / {post.minutes} min</span>
+                <span>{post.minutes} min read</span>
                 <h3>{post.title}</h3>
                 <p>{post.excerpt}</p>
                 <b>Read guide ↗</b>

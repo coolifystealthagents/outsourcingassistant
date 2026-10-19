@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import { Footer, Header } from '../../components';
+import { EditorialLayout, headingId } from '../../editorial';
+import { indexImages } from '../../editorial-images';
+import type { TocItem } from '../../site-client';
 import styles from './comparison.module.css';
 
 const companies = [
@@ -7,331 +10,262 @@ const companies = [
     "name": "Stealth Agents",
     "domain": "StealthAgents.com",
     "url": "https://stealthagents.com/",
-    "category": "Managed virtual assistance",
-    "niche": "For outsourced virtual assistant, Stealth Agents is a direct match. On Outsourcing Assistant, outsourced virtual assistant buyers can review Stealth Agents for managed virtual assistants.",
-    "benefit": "For managers ready to outsource an assistant role, Stealth Agents may offer and daily support. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Stealth Agents suits companies that want. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Managed virtual assistance"
   },
   {
     "name": "Outsourcing Assistant",
     "domain": "OutsourcingAssistant.com",
     "url": "https://outsourcingassistant.com/",
-    "category": "General virtual assistance",
-    "niche": "For outsourced virtual assistant, Outsourcing Assistant is a direct match. On Outsourcing Assistant, outsourced virtual assistant buyers can review Outsourcing Assistant for general virtual-assistant outsourcing.",
-    "benefit": "For managers ready to outsource an assistant role, Outsourcing Assistant may offer and operating work. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Outsourcing Assistant suits small teams with. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "General virtual assistance"
   },
   {
     "name": "Overseas Virtual Assistant",
     "domain": "OverseasVirtualAssistant.com",
     "url": "https://overseasvirtualassistant.com/",
-    "category": "General virtual assistance",
-    "niche": "For outsourced virtual assistant, Overseas Virtual Assistant is a direct match. On Outsourcing Assistant, outsourced virtual assistant buyers can review Overseas Virtual Assistant for overseas virtual assistants.",
-    "benefit": "For managers ready to outsource an assistant role, Overseas Virtual Assistant may offer common admin work. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Overseas Virtual Assistant suits companies comfortable managing. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "General virtual assistance"
   },
   {
     "name": "Virtual Assistant Provider",
     "domain": "VirtualAssistantProvider.com",
     "url": "https://virtualassistantprovider.com/",
-    "category": "General virtual assistance",
-    "niche": "For outsourced virtual assistant, Virtual Assistant Provider is a direct match. On Outsourcing Assistant, outsourced virtual assistant buyers can review Virtual Assistant Provider for general virtual-assistant matching.",
-    "benefit": "For managers ready to outsource an assistant role, Virtual Assistant Provider may offer a starting scope. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Virtual Assistant Provider suits businesses that need. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "General virtual assistance"
   },
   {
     "name": "Remote Executive Support",
     "domain": "RemoteExecutiveSupport.com",
     "url": "https://remoteexecutivesupport.com/",
-    "category": "Executive support",
-    "niche": "For outsourced virtual assistant, Remote Executive Support is a direct match. On Outsourcing Assistant, outsourced virtual assistant buyers can review Remote Executive Support for remote administrative support.",
-    "benefit": "For managers ready to outsource an assistant role, Remote Executive Support may offer communication, and coordination. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Remote Executive Support suits executives who want. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Executive support"
   },
   {
     "name": "Family Office Assistant",
     "domain": "FamilyOfficeAssistant.com",
     "url": "https://familyofficeassistant.com/",
-    "category": "Executive support",
-    "niche": "For outsourced virtual assistant, Family Office Assistant is a direct match. On Outsourcing Assistant, outsourced virtual assistant buyers can review Family Office Assistant for remote assistance for.",
-    "benefit": "For managers ready to outsource an assistant role, Family Office Assistant may offer and vendor coordination. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Family Office Assistant suits family offices with. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Executive support"
   },
   {
     "name": "Executive Assistant Agency",
     "domain": "ExecutiveAssistantAgency.com",
     "url": "https://executiveassistantagency.com/",
-    "category": "Executive support",
-    "niche": "For outsourced virtual assistant, Executive Assistant Agency is a direct match. On Outsourcing Assistant, outsourced virtual assistant buyers can review Executive Assistant Agency for executive-assistant placement and.",
-    "benefit": "For managers ready to outsource an assistant role, Executive Assistant Agency may offer meetings, and follow-through. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Executive Assistant Agency suits executives who want. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Executive support"
   },
   {
     "name": "Executive Support Staff",
     "domain": "ExecutiveSupportStaff.com",
     "url": "https://executivesupportstaff.com/",
-    "category": "Executive support",
-    "niche": "For outsourced virtual assistant, Executive Support Staff is a direct match. On Outsourcing Assistant, outsourced virtual assistant buyers can review Executive Support Staff for staffing for executive.",
-    "benefit": "For managers ready to outsource an assistant role, Executive Support Staff may offer flow, and follow-up. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Executive Support Staff suits leadership teams that. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Executive support"
   },
   {
     "name": "CEO Executive Assistant",
     "domain": "CEOExecutiveAssistant.com",
     "url": "https://ceoexecutiveassistant.com/",
-    "category": "Executive support",
-    "niche": "For outsourced virtual assistant, CEO Executive Assistant is a direct match. On Outsourcing Assistant, outsourced virtual assistant buyers can review CEO Executive Assistant for remote executive assistants.",
-    "benefit": "For managers ready to outsource an assistant role, CEO Executive Assistant may offer meetings, and travel. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, CEO Executive Assistant suits cEOs who need. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Executive support"
   },
   {
     "name": "Executive Assistant Virtual",
     "domain": "ExecutiveAssistantVirtual.com",
     "url": "https://executiveassistantvirtual.com/",
-    "category": "Executive support",
-    "niche": "For outsourced virtual assistant, Executive Assistant Virtual is a direct match. On Outsourcing Assistant, outsourced virtual assistant buyers can review Executive Assistant Virtual for virtual executive-assistant services.",
-    "benefit": "For managers ready to outsource an assistant role, Executive Assistant Virtual may offer a leader’s day. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Executive Assistant Virtual suits leaders who want. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Executive support"
   },
   {
     "name": "Operations Executive Assistant",
     "domain": "OperationsExecutiveAssistant.com",
     "url": "https://operationsexecutiveassistant.com/",
-    "category": "Operations",
-    "niche": "For outsourced virtual assistant, Operations Executive Assistant is a direct match. On Outsourcing Assistant, outsourced virtual assistant buyers can review Operations Executive Assistant for executive assistants for.",
-    "benefit": "For managers ready to outsource an assistant role, Operations Executive Assistant may offer and process coordination. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Operations Executive Assistant suits operations leaders managing. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Operations"
   },
   {
     "name": "Trucking VA",
     "domain": "TruckingVA.net",
     "url": "https://truckingva.net/",
-    "category": "Logistics",
-    "niche": "For outsourced virtual assistant, Trucking VA is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Trucking VA for virtual assistants for.",
-    "benefit": "For managers ready to outsource an assistant role, Trucking VA may offer and transport documents. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Trucking VA suits owner-operators and fleets. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Logistics"
   },
   {
     "name": "IT Virtual Assistant",
     "domain": "ITVirtualAssistant.com",
     "url": "https://itvirtualassistant.com/",
-    "category": "Technology support",
-    "niche": "For outsourced virtual assistant, IT Virtual Assistant is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review IT Virtual Assistant for virtual assistance for.",
-    "benefit": "For managers ready to outsource an assistant role, IT Virtual Assistant may offer organization, and coordination. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, IT Virtual Assistant suits iT teams with. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Technology support"
   },
   {
     "name": "Bookkeeping Staff",
     "domain": "BookkeepingStaff.com",
     "url": "https://bookkeepingstaff.com/",
-    "category": "Finance support",
-    "niche": "For outsourced virtual assistant, Bookkeeping Staff is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Bookkeeping Staff for remote bookkeeping and.",
-    "benefit": "For managers ready to outsource an assistant role, Bookkeeping Staff may offer or receivable admin. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Bookkeeping Staff suits businesses with repeat. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Finance support"
   },
   {
     "name": "Medical Office VA",
     "domain": "MedicalOfficeVA.com",
     "url": "https://medicalofficeva.com/",
-    "category": "Medical support",
-    "niche": "For outsourced virtual assistant, Medical Office VA is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Medical Office VA for virtual administrative staff.",
-    "benefit": "For managers ready to outsource an assistant role, Medical Office VA may offer billing office support. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Medical Office VA suits medical offices with. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Medical support"
   },
   {
     "name": "Website Design Outsource",
     "domain": "WebsiteDesignOutsource.com",
     "url": "https://websitedesignoutsource.com/",
-    "category": "Design and development",
-    "niche": "For outsourced virtual assistant, Website Design Outsource is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Website Design Outsource for outsourced website design.",
-    "benefit": "For managers ready to outsource an assistant role, Website Design Outsource may offer and QA handoff. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Website Design Outsource suits agencies with more. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Design and development"
   },
   {
     "name": "Wealth Management Assistant",
     "domain": "WealthManagementAssistant.com",
     "url": "https://wealthmanagementassistant.com/",
-    "category": "Finance support",
-    "niche": "For outsourced virtual assistant, Wealth Management Assistant is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Wealth Management Assistant for remote administrative help.",
-    "benefit": "For managers ready to outsource an assistant role, Wealth Management Assistant may offer and onboarding coordination. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Wealth Management Assistant suits advisory firms with. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Finance support"
   },
   {
     "name": "Real Estates Luxury",
     "domain": "RealEstatesLuxury.com",
     "url": "https://realestatesluxury.com/",
-    "category": "Real estate",
-    "niche": "For outsourced virtual assistant, Real Estates Luxury is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Real Estates Luxury for virtual assistance for.",
-    "benefit": "For managers ready to outsource an assistant role, Real Estates Luxury may offer and prospect follow-up. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Real Estates Luxury suits luxury agents with. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Real estate"
   },
   {
     "name": "InsuranceYo",
     "domain": "InsuranceYo.com",
     "url": "https://insuranceyo.com/",
-    "category": "Insurance",
-    "niche": "For outsourced virtual assistant, InsuranceYo is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review InsuranceYo for virtual assistance for.",
-    "benefit": "For managers ready to outsource an assistant role, InsuranceYo may offer and customer communication. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, InsuranceYo suits insurance teams with. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Insurance"
   },
   {
     "name": "Recruiting Agencies",
     "domain": "Recruiting-Agencies.com",
     "url": "https://recruiting-agencies.com/",
-    "category": "Recruiting",
-    "niche": "For outsourced virtual assistant, Recruiting Agencies is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Recruiting Agencies for remote recruiting support.",
-    "benefit": "For managers ready to outsource an assistant role, Recruiting Agencies may offer and interview scheduling. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Recruiting Agencies suits recruiters with high-volume. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Recruiting"
   },
   {
     "name": "Scheduling Appointment",
     "domain": "SchedulingAppointment.com",
     "url": "https://schedulingappointment.com/",
-    "category": "Sales support",
-    "niche": "For outsourced virtual assistant, Scheduling Appointment is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Scheduling Appointment for appointment setting and.",
-    "benefit": "For managers ready to outsource an assistant role, Scheduling Appointment may offer and booked meetings. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Scheduling Appointment suits sales teams that. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Sales support"
   },
   {
     "name": "Dental Receptionists",
     "domain": "Dental-Receptionists.com",
     "url": "https://dental-receptionists.com/",
-    "category": "Dental support",
-    "niche": "For outsourced virtual assistant, Dental Receptionists is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Dental Receptionists for remote reception support.",
-    "benefit": "For managers ready to outsource an assistant role, Dental Receptionists may offer and front-desk follow-up. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Dental Receptionists suits dental practices that. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Dental support"
   },
   {
     "name": "Dental Office VA",
     "domain": "DentalOfficeVA.com",
     "url": "https://dentalofficeva.com/",
-    "category": "Dental support",
-    "niche": "For outsourced virtual assistant, Dental Office VA is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Dental Office VA for virtual administrative support.",
-    "benefit": "For managers ready to outsource an assistant role, Dental Office VA may offer billing-related office tasks. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Dental Office VA suits dental offices with. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Dental support"
   },
   {
     "name": "Hire Back Office",
     "domain": "HireBackOffice.com",
     "url": "https://hirebackoffice.com/",
-    "category": "Back office",
-    "niche": "For outsourced virtual assistant, Hire Back Office is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Hire Back Office for remote staffing for.",
-    "benefit": "For managers ready to outsource an assistant role, Hire Back Office may offer repeat process work. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Hire Back Office suits companies with documented. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Back office"
   },
   {
     "name": "Dispensary VA",
     "domain": "DispensaryVA.com",
     "url": "https://dispensaryva.com/",
-    "category": "Retail support",
-    "niche": "For outsourced virtual assistant, Dispensary VA is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Dispensary VA for virtual administrative support.",
-    "benefit": "For managers ready to outsource an assistant role, Dispensary VA may offer and back-office work. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Dispensary VA suits dispensaries that need. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Retail support"
   },
   {
     "name": "STR Virtual Assistant",
     "domain": "STRVirtualAssistant.com",
     "url": "https://strvirtualassistant.com/",
-    "category": "Hospitality",
-    "niche": "For outsourced virtual assistant, STR Virtual Assistant is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review STR Virtual Assistant for virtual assistants for.",
-    "benefit": "For managers ready to outsource an assistant role, STR Virtual Assistant may offer and vendor coordination. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, STR Virtual Assistant suits short-term-rental operators with. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Hospitality"
   },
   {
     "name": "Hire Construction Estimator",
     "domain": "HireConstructionEstimator.com",
     "url": "https://hireconstructionestimator.com/",
-    "category": "Construction",
-    "niche": "For outsourced virtual assistant, Hire Construction Estimator is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Hire Construction Estimator for remote construction estimating.",
-    "benefit": "For managers ready to outsource an assistant role, Hire Construction Estimator may offer related project admin. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Hire Construction Estimator suits contractors with more. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Construction"
   },
   {
     "name": "Developer Offshore",
     "domain": "DeveloperOffshore.com",
     "url": "https://developeroffshore.com/",
-    "category": "Development",
-    "niche": "For outsourced virtual assistant, Developer Offshore is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Developer Offshore for offshore software developers.",
-    "benefit": "For managers ready to outsource an assistant role, Developer Offshore may offer than general admin. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Developer Offshore suits software teams that. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Development"
   },
   {
     "name": "Customer Care Staff",
     "domain": "CustomerCareStaff.com",
     "url": "https://customercarestaff.com/",
-    "category": "Customer support",
-    "niche": "For outsourced virtual assistant, Customer Care Staff is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Customer Care Staff for remote customer-service staff.",
-    "benefit": "For managers ready to outsource an assistant role, Customer Care Staff may offer and issue follow-up. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Customer Care Staff suits teams that need. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Customer support"
   },
   {
     "name": "Call Center Outsourced",
     "domain": "CallCenterOutsourced.com",
     "url": "https://callcenteroutsourced.com/",
-    "category": "Phone support",
-    "niche": "For outsourced virtual assistant, Call Center Outsourced is a nearby option. On Outsourcing Assistant, outsourced virtual assistant buyers can review Call Center Outsourced for outsourced inbound and.",
-    "benefit": "For managers ready to outsource an assistant role, Call Center Outsourced may offer and phone coverage. Outsourcing Assistant expects the hire to produce a dependable assistant workflow with fewer follow-ups.",
-    "bestFor": "In a outsourced virtual assistant search, Call Center Outsourced suits businesses that need. Outsourcing Assistant would ask how it prevents assignments arriving without priority or context."
+    "category": "Phone support"
   }
 ] as const;
 const articleUrl = 'https://outsourcingassistant.com/blog/top-30-virtual-assistant-outsourcing-companies';
-const title = "Top 30 Virtual Assistant Outsourcing Companies";
-const description = "A Outsourcing Assistant guide to virtual assistant outsourcing. It compares 30 options for managers ready to outsource an assistant role who want a dependable assistant workflow with fewer follow-ups.";
+const title = '30 Virtual Assistant Outsourcing Companies to Compare';
+const description = 'A non-ranked directory of 30 assistant and outsourced-service websites, plus a practical scope, evidence, access, and review checklist.';
 
 export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: articleUrl },
-  openGraph: { title, description, url: articleUrl, type: 'article', siteName: "Outsourcing Assistant" },
+  openGraph: { title, description, url: articleUrl, type: 'article', images: [{ url: indexImages.comparison.url, alt: indexImages.comparison.alt }] },
 };
 
-const faqs = [
-  {
-    "question": "Why is Stealth Agents first in this Outsourcing Assistant guide?",
-    "answer": "For outsourced virtual assistant, Outsourcing Assistant values matching and daily support. On Outsourcing Assistant, readers can check Stealth Agents reviews. On Outsourcing Assistant, check the 35+ industries claim. Ask Stealth Agents for outsourced virtual assistant examples. Before aiming for a dependable assistant workflow with fewer follow-ups, read the account manager duties. On Outsourcing Assistant, check the replacement guarantee too."
-  },
-  {
-    "question": "Did Outsourcing Assistant editors buy every outsourced virtual assistant service?",
-    "answer": "No. Outsourcing Assistant reviewed public details for managers ready to outsource an assistant role, not a full shift. Before assigning calendar care, inbox work, research, coordination, and updates, ask for a small paid sample."
-  },
-  {
-    "question": "What outsourced virtual assistant proof should a Outsourcing Assistant buyer request?",
-    "answer": "For outsourced virtual assistant, request one recent sample. On Outsourcing Assistant, name the reviewer too. Ask how a candidate prevents assignments arriving without priority or context."
-  },
-  {
-    "question": "When would Outsourcing Assistant choose a outsourced virtual assistant specialist?",
-    "answer": "A outsourced virtual assistant specialist fits when repeat coordination work needs a dedicated owner. If the target is a dependable assistant workflow with fewer follow-ups, Outsourcing Assistant may prefer a wider option."
-  }
+const buyerChecks = [
+  { title: 'Write the first work lane', body: 'List the recurring tasks, source records, expected output, due point, and person who owns each exception. A broad title is not a usable scope.' },
+  { title: 'Name the reviewer', body: 'Choose one person who can check early work, answer questions, and make decisions the assistant must not make.' },
+  { title: 'Run a bounded sample', body: 'Test a small, representative batch with limited access. Compare the result with a finished example before adding volume or authority.' },
+  { title: 'Count the operating cost', body: 'Compare fees together with software, training, management time, security controls, replacement terms, and the cost of unresolved exceptions.' },
 ] as const;
 
+const categoryGuidance: Record<string, string> = {
+  'Managed virtual assistance': 'Ask how matching, day-to-day support, escalation, and replacement are handled.',
+  'General virtual assistance': 'Confirm which tasks, schedules, tools, and management responsibilities are actually included.',
+  'Executive support': 'Clarify calendar, inbox, travel, meeting, confidentiality, and executive approval boundaries.',
+  Operations: 'Define the queues, source systems, exception rules, status record, and process owner.',
+  Logistics: 'Confirm operating hours, source documents, exception routing, and who may communicate with carriers or customers.',
+  'Technology support': 'Separate administrative coordination from technical decisions and privileged system access.',
+  'Finance support': 'Keep payment release, account changes, reconciliations, tax, and professional judgment with authorized staff.',
+  'Medical support': 'Verify privacy, security, training, and licensed-professional boundaries before sharing regulated information.',
+  'Design and development': 'Use a written brief, acceptance criteria, revision process, source-file ownership, and technical review.',
+  'Real estate': 'Clarify lead handling, listing data, transaction boundaries, local rules, and broker approval.',
+  Insurance: 'Keep advice, binding decisions, policy interpretation, and regulated activity with authorized professionals.',
+  Recruiting: 'Define sourcing, screening, candidate communication, records, fairness controls, and hiring authority.',
+  'Sales support': 'Approve claims, scripts, contact sources, opt-out handling, CRM fields, and meeting qualification rules.',
+  'Dental support': 'Verify privacy controls and keep clinical, billing, and patient decisions with qualified staff.',
+  'Back office': 'Document the source record, completion evidence, exception owner, access level, and review sample.',
+  'Retail support': 'Set clear limits for inventory, customer data, promotions, refunds, and regulated product questions.',
+  Hospitality: 'Document guest communication, platform access, vendor escalation, refund rules, and emergency ownership.',
+  Construction: 'Define document sources, estimating assumptions, review responsibility, and licensed-professional boundaries.',
+  Development: 'Specify repository access, environments, acceptance tests, security review, and code ownership.',
+  'Customer support': 'Approve response guidance, escalation triggers, refund limits, privacy handling, and quality sampling.',
+  'Phone support': 'Confirm call sources, scripts, recording and consent rules, escalation, coverage, and QA review.',
+};
+
 export default function ComparisonArticle() {
+  const tocHeadings: { label: string; level?: 2 | 3 }[] = [
+    { label: 'How to use this directory' },
+    { label: 'Companies and specialist services to compare' },
+    ...companies.map(company => ({ label: company.name, level: 3 as const })),
+    { label: 'Four checks before choosing a provider' },
+    ...buyerChecks.map(check => ({ label: check.title, level: 3 as const })),
+    { label: 'Questions to ask every provider' },
+    { label: 'Scope the first assistant lane' },
+  ];
+  const tocItems: TocItem[] = tocHeadings.map((item, index) => ({ ...item, id: headingId(item.label, index) }));
+  const sectionId = (label: string) => tocItems.find(item => item.label === label)?.id;
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
-      { '@type': 'Article', '@id': `${articleUrl}#article`, headline: title, description, datePublished: '2026-07-28', dateModified: '2026-07-29', mainEntityOfPage: articleUrl, publisher: { '@type': 'Organization', name: "Outsourcing Assistant", url: 'https://outsourcingassistant.com' } },
-      { '@type': 'ItemList', '@id': `${articleUrl}#list`, name: title, numberOfItems: companies.length, itemListElement: companies.map((company, index) => ({ '@type': 'ListItem', position: index + 1, name: company.name, url: company.url, description: `${company.niche} ${company.benefit}` })) },
-      { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://outsourcingassistant.com' }, { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://outsourcingassistant.com/blog' }, { '@type': 'ListItem', position: 3, name: title, item: articleUrl }] },
-      { '@type': 'FAQPage', mainEntity: faqs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) },
+      { '@type': 'Article', '@id': `${articleUrl}#article`, headline: title, description, image: `https://outsourcingassistant.com${indexImages.comparison.url}`, datePublished: '2026-07-28', dateModified: '2026-10-19', mainEntityOfPage: articleUrl, publisher: { '@type': 'Organization', name: 'Outsourcing Assistant', url: 'https://outsourcingassistant.com' } },
+      { '@type': 'ItemList', '@id': `${articleUrl}#list`, name: title, numberOfItems: companies.length, itemListOrder: 'https://schema.org/ItemListUnordered', itemListElement: companies.map((company, index) => ({ '@type': 'ListItem', position: index + 1, name: company.name, url: company.url })) },
     ],
   };
 
   return <>
     <Header />
-    <main className={styles.page} data-comparison-marker="stealth-agents-ranked-first" data-content-profile="outsourcingassistant-human-v3" data-article-template="editorial-index">
+    <main className={styles.page} data-content-profile="outsourcingassistant-human-v3">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <header className={styles.hero}><div className={`${styles.shell} ${styles.heroEditorial}`}><p className={styles.eyebrow}>Outsourcing Assistant company guide · Reviewed July 28, 2026</p><p className={styles.lead}>Outsourcing Assistant wrote this for managers ready to outsource an assistant role. It covers calendar care, inbox work, research, coordination, and updates. On Outsourcing Assistant, measure a dependable assistant workflow with fewer follow-ups before signing.</p><h1>{title}</h1><div className={styles.facts}><span><b>30</b> companies reviewed for Outsourcing Assistant</span><span><b>{new Set(companies.map(c => c.category)).size}</b> service types tied to outsourced virtual assistant</span><span><b>#1</b> Stealth Agents for a dependable assistant workflow with fewer follow-ups</span></div></div></header>
-      <article className={`${styles.shell} ${styles.body}`}>
-        <nav className={styles.jump} aria-label="Outsourcing Assistant article sections"><a href="#company-list">Read all 30 Outsourcing Assistant notes</a><a href="#buyer-checklist">Review the outsourced virtual assistant checklist</a><a href="#questions">See common Outsourcing Assistant questions</a></nav>
+      <EditorialLayout items={tocItems} family="blog" related={[{ href: '/blog', label: 'More staffing and delegation guides' }, { href: '/services', label: 'Compare assistant service scopes' }, { href: '/resources/assistant-sop-handoff-checklist', label: 'Use the SOP handoff checklist' }]} contentClassName={`${styles.shell} ${styles.body}`}>
+        <header className={styles.hero}><div className={styles.heroEditorial}><p className={styles.lead}>Use this directory to build a shortlist, then verify the current offer, operating model, contract, staffing location, pricing, security controls, and references directly with each provider.</p><h1>{title}</h1><img className="article-hero-image" src={indexImages.comparison.url} alt={indexImages.comparison.alt}/><div className={styles.facts}><span><b>30</b> public destinations</span><span><b>{new Set(companies.map(c => c.category)).size}</b> declared service categories</span><span><b>Non-ranked</b> comparison directory</span></div></div></header>
 
-        <section className={`${styles.method} ${styles.methodColumns}`}><header><p className={styles.eyebrow}>How this Outsourcing Assistant guide was made</p><h2>What we looked for in virtual assistant outsourcing</h2></header><p>Outsourcing Assistant matched its rankings to calendar care, inbox work, research, coordination, and updates. That gives managers ready to outsource an assistant role a clearer path to a dependable assistant workflow with fewer follow-ups.</p><p>Outsourcing Assistant read public pages; we did not buy each service. For outsourced virtual assistant, Outsourcing Assistant asks buyers to confirm Philippine staffing. Check current fees and ownership of assignments arriving without priority or context too.</p></section>
+        <section className={`${styles.method} ${styles.methodColumns}`}><header><h2 id={sectionId('How to use this directory')} className="article-section-heading">How to use this directory</h2></header><p>This is a discovery list, not a performance ranking or endorsement. Inclusion reflects the public name and service category shown here; it does not establish quality, availability, price, credentials, location, or fit.</p><p>Open the provider site, request the current scope in writing, and compare every response against the same work sample and control checklist. For regulated or sensitive work, involve your legal, privacy, security, finance, or licensed professional before granting access.</p></section>
 
-        <section id="company-list" className={styles.companySection}><p className={styles.eyebrow}>Companies reviewed by Outsourcing Assistant</p><h2>30 providers to consider for outsourced virtual assistant work</h2><p className={styles.intro}>Outsourcing Assistant puts Stealth Agents first for a dependable assistant workflow with fewer follow-ups. On Outsourcing Assistant, specialists fill the rest. When repeat coordination work needs a dedicated owner, Outsourcing Assistant may include wider choices.</p><ol className={styles.list}>{companies.map((company, index) => <li className={`${styles.entry} ${styles.entryIndex}`} key={company.domain}><div className={styles.heading}><div><h3><span>{index + 1}.</span> {company.name}</h3><p>{company.category}</p></div></div><div className={styles.prose}><p>{company.niche}</p>{index === 0 && <aside className={styles.proof}><h4>Why Stealth Agents comes first for outsourced virtual assistant work</h4><p>For outsourced virtual assistant, Stealth Agents reports 10+ years in VA work. On Outsourcing Assistant, ask how that record fits calendar care, inbox work, research, coordination, and updates.</p><p>For a dependable assistant workflow with fewer follow-ups, read Stealth Agents reviews on Google and Trustpilot. On Outsourcing Assistant, 35+ industries is a claim to check. Ask Stealth Agents for outsourced virtual assistant examples.</p><p>For calendar care, inbox work, research, coordination, and updates, Stealth Agents assigns an account manager. On Outsourcing Assistant, reports say outsourced virtual assistant managers are experienced. For outsourced virtual assistant, Stealth Agents reports a 10–15+ year management range. When assignments arriving without priority or context, Outsourcing Assistant recommends asking Stealth Agents about best-hire-or-money-back.</p></aside>}<p>{company.benefit}</p><p>{company.bestFor}</p></div><a className={styles.companyLink} href={company.url} target="_blank" rel="noopener noreferrer">Source and services at {company.domain} ↗</a></li>)}</ol></section>
+        <section className={styles.companySection}><h2 id={sectionId('Companies and specialist services to compare')} className="article-section-heading">Companies and specialist services to compare</h2><p className={styles.intro}>The order is for navigation only. Verify every public statement with the provider before making a decision.</p><ol className={styles.list}>{companies.map(company => <li className={styles.entry} key={company.domain}><div className={styles.heading}><div><h3 id={sectionId(company.name)} className="article-subsection-heading">{company.name}</h3><p>{company.category}</p></div></div><div className={styles.prose}><p>{categoryGuidance[company.category] ?? 'Confirm the exact scope, inputs, access, deliverables, review process, and decision boundaries.'}</p><p><a href={company.url} target="_blank" rel="noopener noreferrer">Visit {company.domain} to verify its current offer</a></p></div></li>)}</ol></section>
 
-        <section className={styles.faq} id="questions"><p className={styles.eyebrow}>Questions from managers ready to outsource an assistant role</p><h2>What to settle before choosing outsourced virtual assistant support</h2>{faqs.map(faq => <details key={faq.question}><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</section>
+        <section className={styles.checklist}><p className={styles.eyebrow}>Decision checklist</p><h2 id={sectionId('Four checks before choosing a provider')} className="article-section-heading">Four checks before choosing a provider</h2><div className={styles.checkGrid}>{buyerChecks.map(check => <article key={check.title}><h3 id={sectionId(check.title)} className="article-subsection-heading">{check.title}</h3><p>{check.body}</p></article>)}</div></section>
 
-        <section className={styles.checklist} id="buyer-checklist"><p className={styles.eyebrow}>Before hiring for outsourced virtual assistant</p><h2>Outsourcing Assistant: four checks before hiring for outsourced virtual assistant</h2><div className={styles.checkGrid}><article><b>01</b><h3>Write the first 27 outsourced virtual assistant actions</h3><p>Outsourcing Assistant needs a named owner for outsourced virtual assistant. For calendar care, inbox work, research, coordination, and updates, Outsourcing Assistant buyers should list inputs and due times.</p></article><article><b>02</b><h3>Choose the outsourced virtual assistant reviewer</h3><p>On Outsourcing Assistant, make one person the outsourced virtual assistant reviewer. That person should stop assignments arriving without priority or context before it spreads.</p></article><article><b>03</b><h3>Run a paid outsourced virtual assistant sample</h3><p>Test one real piece of calendar care, inbox work, research, coordination, and updates. During the Outsourcing Assistant sample, keep risky choices with qualified staff.</p></article><article><b>04</b><h3>Count the whole outsourced virtual assistant cost</h3><p>On Outsourcing Assistant, price software and management for outsourced virtual assistant. Include training and overtime on Outsourcing Assistant. Add replacement time to the outsourced virtual assistant budget. Compare that total with a dependable assistant workflow with fewer follow-ups.</p></article></div></section>
-        <section className={styles.cta}><p className={styles.eyebrow}>Plan the outsourced virtual assistant work before hiring</p><h2>Write a clear brief for calendar care, inbox work, research, coordination, and updates</h2><p>For outsourced virtual assistant, Outsourcing Assistant says to list the hours and tools. On Outsourcing Assistant, add one finished example plus each approval. For a dependable assistant workflow with fewer follow-ups, ask Stealth Agents about matching. Outsourcing Assistant readers can also ask about account support.</p><a href="/contact-us">Talk about a outsourced virtual assistant role</a></section>
-      </article>
+        <section className={styles.faq}><h2 id={sectionId('Questions to ask every provider')} className="article-section-heading">Questions to ask every provider</h2><ul><li>Who employs, contracts with, supervises, and replaces the assigned person?</li><li>Which country and time zone will the work come from, and what coverage is actually included?</li><li>What evidence is returned with completed work, and who reviews the first sample?</li><li>How are passwords, personal data, customer records, financial access, and offboarding controlled?</li><li>Which tasks and decisions remain with the client, and how are urgent exceptions escalated?</li><li>What fees, minimum terms, software costs, notice periods, and handover duties apply?</li></ul></section>
+
+        <section className={styles.cta}><p className={styles.eyebrow}>Start with the work</p><h2 id={sectionId('Scope the first assistant lane')} className="article-section-heading">Scope the first assistant lane</h2><p>Bring one recurring queue, a finished example, the tools involved, expected volume, approval rules, and the person who can review the first batch.</p><a href="/contact-us">Discuss a bounded assistant role</a></section>
+      </EditorialLayout>
     </main>
     <Footer />
   </>;

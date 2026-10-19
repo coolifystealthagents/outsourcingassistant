@@ -17,6 +17,7 @@ const staticLastModified: Record<string, string> = {
   '/privacy': '2026-07-27',
   '/terms': '2026-07-27',
   '/cancellation-policy': '2026-07-27',
+  '/resources/assistant-sop-handoff-checklist': '2026-07-25',
 };
 const serviceLastModified = '2026-07-27';
 
@@ -32,7 +33,7 @@ export async function GET() {
   )
     .filter((page) => page > 1)
     .map((page) => [`/blog/page/${page}`, staticLastModified['/blog']] as const);
-  const entries = [
+  const candidates = [
     ...staticEntries,
     ...fleetServices.map((service) => [`/services/${service.slug}`, serviceLastModified] as const),
     ...blogPosts.map((post) => [
@@ -43,6 +44,14 @@ export async function GET() {
     ...researchPosts.map((post) => [`/research/${post.slug}`, post.updated] as const),
     ...Object.entries(aug19Meta).map(([slug, value]) => [`/${(value as { family: string }).family}/${slug}`, '2026-08-19'] as const),
   ];
+  // Some content is present in both fleet data and date-batch metadata. Prefer the
+  // latest date for a path, then sort so builds always emit byte-stable XML.
+  const byPath = new Map<string, string>();
+  for (const [path, lastModified] of candidates) {
+    const previous = byPath.get(path);
+    if (!previous || lastModified > previous) byPath.set(path, lastModified);
+  }
+  const entries = [...byPath.entries()].sort(([left], [right]) => left.localeCompare(right));
   const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries
     .map(([path, lastModified]) => entry(path, lastModified))
     .join('')}</urlset>`;

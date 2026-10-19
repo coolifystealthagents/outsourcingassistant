@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
 import { Header, Footer } from '../components';
 import { TestimonialsRail } from '../booking-components';
+import { OnceHubScheduler } from '../oncehub-scheduler';
 
 export const metadata: Metadata = {
   title: 'Thank You - Book A Meeting',
   description: 'Choose a convenient time to speak with the Stealth Agents team.',
   robots: { index: false, follow: false },
+  alternates: { canonical: '/thank-you' },
 };
 
 export default function ThankYouPage() {
@@ -23,18 +25,7 @@ export default function ThankYouPage() {
           </div>
           <section className="sa-booking-calendar" aria-labelledby="booking-calendar-title">
             <h2 id="booking-calendar-title">Pick a Time That Works for You</h2>
-            <iframe
-              src="https://go.oncehub.com/StealthAgentsTeam?brdr=1pxd8d8d8&amp;dt=&amp;em=1&amp;Si=1"
-              id="SOI_StealthAgentsTeam"
-              name="ScheduleOnceIframe"
-              title="Schedule a meeting with Stealth Agents"
-              scrolling="yes"
-              frameBorder="0"
-              height="850"
-              width="100%"
-              className="sa-oncehub-frame"
-              referrerPolicy="strict-origin-when-cross-origin"
-            />
+            <OnceHubScheduler />
           </section>
         </div>
       </main>

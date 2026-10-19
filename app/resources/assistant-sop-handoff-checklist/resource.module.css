@@ -1,0 +1,18 @@
+.header { margin-bottom: 2rem; }
+.meta { display: flex; flex-wrap: wrap; gap: .6rem 1.1rem; margin: 1rem 0; color: #52656a; font-size: .88rem; font-weight: 700; }
+.hero { margin: 1.75rem 0 3rem; }
+.heroMedia { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #e0ebe8; }
+.heroMedia img { object-fit: cover; }
+.hero figcaption { padding: .8rem 0; color: #52656a; font-size: .88rem; }
+.sequence { display: grid; gap: 1px; margin: 1.5rem 0; background: #cfdbd8; border: 1px solid #cfdbd8; }
+.sequence article { padding: 1.4rem; background: #fff; }
+.sequence h3 { margin: 0 0 .5rem; font-size: 1.35rem; }
+.sequence p { margin: 0 0 .9rem; }
+.stage { color: #b8470c; font-size: .78rem; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
+.tableWrap { overflow-x: auto; }
+.table { width: 100%; border-collapse: collapse; min-width: 560px; }
+.table caption { padding: 0 0 .8rem; text-align: left; font-weight: 800; }
+.table th, .table td { padding: .85rem; border: 1px solid #cfdbd8; text-align: left; vertical-align: top; }
+.table th { background: #edf3f1; }
+.source { border-left: 4px solid #ed6d27; padding: 1rem 1.25rem; background: #f4f7f6; }
+@media (min-width: 760px) { .sequence { grid-template-columns: repeat(3, minmax(0, 1fr)); } }

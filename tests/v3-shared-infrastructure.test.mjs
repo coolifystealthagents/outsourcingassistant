@@ -1,0 +1,67 @@
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import test from 'node:test';
+
+const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
+
+test('header visibly attributes the parent and uses the exact three-link navigation', async () => {
+  const source = await read('app/components.tsx');
+  assert.match(source, /Powered by StealthAgents/);
+  assert.match(source, /<nav className="links fleet-links"[^>]*><a href="\/">Home<\/a><a href="\/services">Services<\/a><a href="\/contact-us">Contact Us<\/a><\/nav>/);
+});
+
+test('review rail has exactly 14 unique reviews and no playback controls', async () => {
+  const source = await read('app/booking-components.tsx');
+  const names = [...source.matchAll(/\{ name: '([^']+)'/g)].map(([, name]) => name);
+  assert.equal(names.length, 14);
+  assert.equal(new Set(names).size, 14);
+  assert.doesNotMatch(source, /testimonial-toggle|Pause reviews|Resume reviews/);
+  assert.match(source, /data-review-count=\{testimonials\.length\}/);
+  const css = await read('app/globals.css');
+  assert.match(source, /requestAnimationFrame/);
+  assert.match(source, /track\.append\(first\)/);
+  assert.match(source, /matchMedia\('\(prefers-reduced-motion: reduce\)'\)/);
+  assert.match(css, /prefers-reduced-motion:reduce/);
+  assert.match(css, /\.sa-testimonial-track\{display:grid/);
+});
+
+test('conversion routes are direct, canonical, and noindex', async () => {
+  for (const route of ['thank-you', 'thanks-whats-next']) {
+    const source = await read(`app/${route}/page.tsx`);
+    assert.match(source, /robots:\s*\{\s*index:\s*false,\s*follow:\s*false\s*\}/);
+    assert.match(source, new RegExp(`canonical: ['\"]\\/${route}['\"]`));
+  }
+});
+
+test('sitemap deduplicates by path and emits deterministic ordering', async () => {
+  const source = await read('app/sitemap.xml/route.ts');
+  assert.match(source, /new Map<string, string>/);
+  assert.match(source, /byPath\.set\(path, lastModified\)/);
+  assert.match(source, /sort\(\(\[left\], \[right\]\) => left\.localeCompare\(right\)\)/);
+  assert.doesNotMatch(source, /['\"]\/(?:thank-you|thanks-whats-next)['\"]/);
+});
+
+test('all required security headers and canonical host redirect are configured', async () => {
+  const source = await read('next.config.mjs');
+  for (const header of ['Content-Security-Policy', 'Strict-Transport-Security', 'X-Content-Type-Options', 'Referrer-Policy', 'Permissions-Policy']) assert.match(source, new RegExp(header));
+  assert.match(source, /type: 'host', value: 'www\.outsourcingassistant\.com'/);
+  assert.match(source, /destination: 'https:\/\/outsourcingassistant\.com\/:path\*'/);
+});
+
+test('mobile menu is modal, focus trapped, and escape dismissible', async () => {
+  const source = await read('app/site-client.tsx');
+  assert.match(source, /role="dialog" aria-modal="true"/);
+  assert.match(source, /event\.key === 'Escape'/);
+  assert.match(source, /event\.key === 'Tab'/);
+  assert.match(source, /last\.focus\(\)/);
+  assert.match(source, /first\.focus\(\)/);
+  assert.match(source, /aria-expanded=\{open\}/);
+});
+
+test('visible punctuation sanitizer normalizes dash punctuation but excludes code', async () => {
+  const source = await read('app/site-client.tsx');
+  assert.match(source, /export const sanitizeVisibleText/);
+  assert.match(source, /\\u2013\\u2014/);
+  assert.match(source, /script,style,pre,code,kbd,samp/);
+  assert.match(source, /MutationObserver/);
+});

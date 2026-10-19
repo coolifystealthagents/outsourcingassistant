@@ -1,0 +1,33 @@
+{
+  "sites": [
+    {
+      "domain": "outsourcingassistant.com",
+      "industry": "Philippines assistant staffing and operational handoff design",
+      "audience": "Owners, executives, and operations leaders defining controlled remote support roles",
+      "designFamily": "delegation desk editorial operations system",
+      "heroComposition": "asymmetric commercial proposition paired with a visible handoff or workflow artifact",
+      "typeCharacter": "direct editorial headlines with compact operational labels and plain-language body copy",
+      "paletteFamily": "warm paper, dark ink, coral action, lime signal, and restrained blue-green support tones",
+      "shapeGrammar": "layered desk cards, ruled work queues, practical pills, and framed evidence panels",
+      "imageTreatment": "topic-specific operational illustrations and documentary work imagery with explanatory captions",
+      "sectionRhythm": "bold opening, compact signal bands, deep operational modules, boundary pauses, and direct closing action",
+      "navigationTreatment": "compact service-led navigation with one unambiguous Contact Us route",
+      "motionSignature": "restrained interface movement that supports status and hierarchy rather than decoration",
+      "density": "information-rich commercial pages with scannable cards, bounded reading widths, and explicit handoffs",
+      "signatureElement": "delegation desk showing the queue, evidence, access boundary, and next decision owner",
+      "designRead": {
+        "DESIGN_VARIANCE": 7,
+        "MOTION_INTENSITY": 2,
+        "VISUAL_DENSITY": 7,
+        "redesignMode": "evolve",
+        "primaryTheme": "light",
+        "statement": "Site’s design in one sentence: A bright delegation desk that makes scoped Philippines-based support, evidence, and owner-held decisions visible at a glance.",
+        "primaryAccentStrategy": "Use coral for primary action and lime for positive operating signals against warm neutral surfaces and dark ink.",
+        "shapeSystem": "Layered task cards, framed workflow artifacts, and ruled operating modules communicate handoffs without decorative numbering.",
+        "typographyDirection": "Confident editorial display headings pair with readable sans serif copy and concise operational labels.",
+        "imageDirection": "Use service-specific workflow imagery with honest captions and a collaboration illustration as the safe fallback.",
+        "motionRationale": "Keep motion low so it clarifies status and hierarchy without competing with dense operational content."
+      }
+    }
+  ]
+}

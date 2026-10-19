@@ -60,15 +60,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
       try { (window as TrackerWindow).acrTracker?.trackLead?.(payload); } catch {}
       window.location.assign("/thank-you");
     } catch {
-      try {
-        const tracker = (window as TrackerWindow).acrTracker?.trackLead;
-        if (tracker) {
-          tracker(payload);
-          window.location.assign("/thank-you");
-          return;
-        }
-      } catch {}
-      setError("We could not submit your request. Please try again.");
+      setError("We could not submit your request. Nothing was recorded. Please try again.");
       setSubmitting(false);
     }
   }

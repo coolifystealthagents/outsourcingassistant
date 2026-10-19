@@ -4,6 +4,7 @@
     "build": "node scripts/verify-call-first-policy.mjs && next build",
     "start": "next start -H 0.0.0.0 -p 3000",
     "lint": "tsc --noEmit",
+    "test:v3": "node --test tests/v3-shared-infrastructure.test.mjs",
     "audit:content": "node scripts/gsc-content-audit.mjs",
     "report:gsc-weekly": "node scripts/gsc-weekly-report.mjs",
     "refresh:wayback": "node seo/wayback/spn_push.mjs",

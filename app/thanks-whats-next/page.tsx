@@ -1,0 +1,6 @@
+import type { Metadata } from 'next';
+import { Footer, Header } from '../components';
+
+export const metadata: Metadata = { title: 'Your Consultation Is Booked', description: 'Your StealthAgents consultation has been booked.', robots: { index: false, follow: false }, alternates: { canonical: '/thanks-whats-next' } };
+
+export default function BookingConfirmation(){return <><Header/><main className="confirmation-page"><section className="container confirmation-card"><img src="/logo.svg" width="96" height="96" alt="Outsourcing Assistant logo"/><p className="eyebrow">Booking confirmed</p><h1>Your consultation is on the calendar.</h1><p>Thank you for booking with the StealthAgents team. Check your inbox for the calendar invitation and meeting details. Bring your recurring task list, current tools, preferred coverage hours, and any approval boundaries you already know.</p><div className="confirmation-actions"><a className="btn primary" href="/services">Review services</a><a className="btn" href="/">Return home</a></div></section></main><Footer/></>}
