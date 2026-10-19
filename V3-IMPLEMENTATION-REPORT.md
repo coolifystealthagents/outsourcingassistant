@@ -63,7 +63,8 @@ The design fingerprint is specific to Outsourcing Assistant: a warm editorial de
 
 - Blog, research, and standalone resource families share complete generated TOCs, stable heading IDs, sticky populated desktop sidebars, active-section behavior, mobile TOCs, related reading, and topic-aware imagery.
 - Every generated blog and research detail route receives a unique, topic-labelled first-party editorial illustration URL with meaningful alt text.
-- Generated SVG illustrations embed the site font, and blog layouts never place promotional banners before the header or after the footer.
+- Generated SVG illustrations embed the site font and select among ten topic-level compositions (schedule, systems, evidence, service, access, finance, quality, handoff, people, and workflow), rather than changing only text and color inside one repeated graphic. Blog layouts never place promotional banners before the header or after the footer.
+- Desktop and mobile navigation expose `aria-current="page"` and persistent, visibly distinct active-route treatments.
 - Blog pagination canonicalizes `/blog/page/1` to `/blog`.
 - Sitemap generation deduplicates by path and produces deterministic ordering.
 - Legacy routes permanently redirect: `/contact` and `/pricing` to `/contact-us`, `/cancellation` to `/cancellation-policy`, and `/blog/page/1` to `/blog`.

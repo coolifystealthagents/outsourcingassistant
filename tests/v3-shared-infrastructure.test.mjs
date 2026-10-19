@@ -13,6 +13,14 @@ test('header visibly attributes the parent and uses the exact three-link navigat
   assert.match(client, /\{ href: '\/', label: 'Home' \}.*\{ href: '\/services', label: 'Services' \}.*\{ href: '\/contact-us', label: 'Contact Us' \}/s);
 });
 
+test('current desktop and mobile navigation states are visibly distinct', async () => {
+  const client = await read('app/site-client.tsx');
+  const css = await read('app/globals.css');
+  assert.match(client, /aria-current=\{current \? 'page'/);
+  assert.match(css, /\.links a(?:\.is-active|\[aria-current="page"\])/);
+  assert.match(css, /\.mobile-navigation-panel nav a(?:\.is-active|\[aria-current="page"\])/);
+});
+
 test('every rendered main template provides the shared skip-link target', async () => {
   const templates = [
     'app/not-found.tsx', 'app/thanks-whats-next/page.tsx', 'app/terms/page.tsx',
@@ -79,6 +87,9 @@ test('editorial detail heroes are unique topic-labelled generated illustrations'
   assert.match(source, /encodeURIComponent\(title\)/);
   assert.match(route, /embeddedFont/);
   assert.doesNotMatch(route, /font:[^;}]*Arial/);
+  for (const family of ['schedule', 'systems', 'evidence', 'service', 'access', 'finance', 'quality', 'handoff', 'people', 'workflow']) {
+    assert.match(route, new RegExp(`data-visual=\\"${family}\\"`), `missing topic composition ${family}`);
+  }
 });
 
 test('blog layout never renders banners before the header or after the footer', async () => {

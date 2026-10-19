@@ -94,13 +94,15 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .parent-brand-compact{padding-left:22px;border-left:1px solid rgba(255,255,255,.16)}
 .links a{position:relative;color:#fff}
 .links a:after{content:"";position:absolute;right:0;bottom:-8px;left:0;height:2px;transform:scaleX(0);background:var(--lime);transition:transform .18s}
-.links a:hover:after,.links a:focus-visible:after{transform:scaleX(1)}
+.links a:hover:after,.links a:focus-visible:after,.links a.is-active:after,.links a[aria-current="page"]:after{transform:scaleX(1)}
+.links a.is-active,.links a[aria-current="page"]{color:#fff;font-weight:800}
 .mobile-navigation{display:none;margin-left:auto}
 .mobile-navigation>button,.mobile-close{min-height:44px;padding:8px 14px;border:1px solid rgba(255,255,255,.3);border-radius:9px;background:transparent;color:#fff;font-weight:800;cursor:pointer}
 .mobile-navigation-panel{position:fixed;z-index:200;inset:0;display:grid;grid-template-rows:auto 1fr;padding:18px;background:#07111f;color:#fff}
 .mobile-close{justify-self:end}
 .mobile-navigation-panel nav{display:grid;align-content:start;gap:6px;width:min(100%,520px);margin:52px auto 0}
 .mobile-navigation-panel nav a{padding:18px 4px;border-bottom:1px solid rgba(255,255,255,.18);font-family:'Space Grotesk',sans-serif;font-size:clamp(26px,9vw,42px);font-weight:700}
+.mobile-navigation-panel nav a.is-active,.mobile-navigation-panel nav a[aria-current="page"]{border-bottom-color:var(--lime);color:var(--lime)}
 .menu-open{overflow:hidden}
 .legit-footer .parent-brand{margin-top:18px}.legit-footer .parent-brand img{width:149px}.legit-footer h2{margin:3px 0 16px;color:var(--lime);font-size:11px;text-transform:uppercase;letter-spacing:.14em}
 
