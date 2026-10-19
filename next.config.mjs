@@ -6,7 +6,7 @@ const csp = [
   "img-src 'self' data: https:",
   "style-src 'self' 'unsafe-inline'",
   "font-src 'self' data:",
-  "frame-src https://go.oncehub.com https://*.oncehub.com https://*.scheduleonce.com",
+  "frame-src 'self' https://go.oncehub.com https://*.oncehub.com https://*.scheduleonce.com",
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",

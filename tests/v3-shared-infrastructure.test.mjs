@@ -73,6 +73,7 @@ test('sitemap deduplicates by path and emits deterministic ordering', async () =
 test('all required security headers and canonical host redirect are configured', async () => {
   const source = await read('next.config.mjs');
   for (const header of ['Content-Security-Policy', 'Strict-Transport-Security', 'X-Content-Type-Options', 'Referrer-Policy', 'Permissions-Policy']) assert.match(source, new RegExp(header));
+  assert.match(source, /frame-src 'self' https:\/\/go\.oncehub\.com/);
   assert.match(source, /type: 'host', value: 'www\.outsourcingassistant\.com'/);
   assert.match(source, /destination: 'https:\/\/outsourcingassistant\.com\/:path\*'/);
 });
