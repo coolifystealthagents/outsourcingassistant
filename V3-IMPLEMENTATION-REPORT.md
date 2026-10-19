@@ -74,7 +74,7 @@ The design fingerprint is specific to Outsourcing Assistant: a warm editorial de
 The clean candidate was validated with:
 
 - `git diff --check`
-- 25 Node source-contract tests, including form ownership, skip-link coverage, visible review stars, claims safety, and mobile attribution readability
+- 25 Node source-contract tests, including form ownership, skip-link coverage, visible review stars, claims safety, mobile attribution readability, role-icon alt text, and laptop first-fold rules
 - TypeScript validation through `npm run lint`
 - Call-first policy verification
 - Optimized Next.js production build
@@ -101,13 +101,15 @@ Browser interaction matrix:
 - Interaction issues: 0
 - Verified mobile menu behavior, reduced motion, overflow, H1s, image loading, console/CSP errors, redirect chains, blocked-form behavior, and conversion metadata.
 - Final desktop and 320px captures visually verified the homepage, Contact Us, and an article template with locally hosted typography.
+- Exact first-fold geometry was recorded at both mandatory laptop viewports. The complete opening composition ends at 705px, leaving 63px at 1366×768 and 95px at 1440×800, with no horizontal overflow, overlap, clipping, or invalid role-icon alt text.
 
-Independent review of the first immutable candidate identified duplicate form-submission ownership and incomplete skip-link targets. A second immutable review then identified missing visible review stars, unsupported Contact Us claims, and undersized mobile attribution. All findings were corrected in the isolated successor worktree, covered by regression tests, and the complete source/build/crawl/browser gates were rerun.
+Independent review of the first immutable candidate identified duplicate form-submission ownership and incomplete skip-link targets. A second immutable review then identified missing visible review stars, unsupported Contact Us claims, and undersized mobile attribution. A third review confirmed those fixes and identified object-interpolated role-icon alt text plus an unproven laptop first-fold bound. Both final findings were corrected and measured in the rendered build. All findings are covered by regression or browser gates, and the complete source/build/crawl/browser gates were rerun.
 
 Machine-readable evidence:
 
-- `V3-CANDIDATE-CRAWL.json`
-- `V3-BROWSER-QA.json`
+- `V3-CANDIDATE-CRAWL-FINAL.json`
+- `V3-BROWSER-QA-FINAL.json`
+- `HOME-FIRST-FOLD-BOUNDS.json`
 
 ## External account dependency
 

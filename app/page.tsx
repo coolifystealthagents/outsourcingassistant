@@ -94,7 +94,7 @@ export default function Home() {
           <div className="oa-role-grid">
             {roles.map((role, index) => (
               <a className="oa-role-card" href={`/contact-us?role=${slugify(role.name)}`} key={role.name}>
-                <span className="oa-role-icon"><img src={roleIcons[index]} alt={`${role} task icon`} /></span>
+                <span className="oa-role-icon"><img src={roleIcons[index]} alt={`${role.name} task icon`} /></span>
                 <h3>{role.name}</h3>
                 <p>{role.tasks}.</p>
                 <div><small>Keep an eye on</small><strong>{role.risk}</strong></div>
