@@ -17,12 +17,38 @@ test('review rail has exactly 14 unique reviews and no playback controls', async
   assert.equal(new Set(names).size, 14);
   assert.doesNotMatch(source, /testimonial-toggle|Pause reviews|Resume reviews/);
   assert.match(source, /data-review-count=\{testimonials\.length\}/);
+  assert.match(source, /Array\.from\(\{ length: 5 \}/);
+  assert.match(source, /sa-review-star/);
   const css = await read('app/globals.css');
   assert.match(source, /requestAnimationFrame/);
   assert.match(source, /track\.append\(first\)/);
   assert.match(source, /matchMedia\('\(prefers-reduced-motion: reduce\)'\)/);
   assert.match(css, /prefers-reduced-motion:reduce/);
   assert.match(css, /\.sa-testimonial-track\{display:grid/);
+  assert.doesNotMatch(css, /@keyframes sa-testimonial-scroll|translateY\(-190px\)/);
+});
+
+test('the React contact form is the only contact submission owner', async () => {
+  const acr = await read('app/acr-client.tsx');
+  const form = await read('app/contact-us/StandardContactForm.tsx');
+  assert.doesNotMatch(acr, /addEventListener\(['"]submit|fetch\(action/);
+  assert.match(form, /onSubmit=\{submit\}/);
+  assert.match(form, /trackLead/);
+});
+
+test('editorial detail heroes are unique topic-labelled generated illustrations', async () => {
+  const source = await read('app/editorial-images.ts');
+  const route = await read('app/editorial-art/[slug]/route.ts');
+  assert.match(source, /editorial-art\/\$\{family\}-\$\{encodeURIComponent\(slug\)\}\.svg/);
+  assert.match(source, /encodeURIComponent\(title\)/);
+  assert.match(route, /embeddedFont/);
+  assert.doesNotMatch(route, /font:[^;}]*Arial/);
+});
+
+test('blog layout never renders banners before the header or after the footer', async () => {
+  const source = await read('app/blog/layout.tsx');
+  assert.doesNotMatch(source, /BlogBanner/);
+  assert.match(source, /return children/);
 });
 
 test('conversion routes are direct, canonical, and noindex', async () => {

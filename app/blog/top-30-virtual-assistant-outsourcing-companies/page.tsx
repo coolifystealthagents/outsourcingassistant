@@ -251,7 +251,7 @@ export default function ComparisonArticle() {
 
   return <>
     <Header />
-    <main className={styles.page} data-content-profile="outsourcingassistant-human-v3">
+    <main id="main-content" className={styles.page} data-content-profile="outsourcingassistant-human-v3">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <EditorialLayout items={tocItems} family="blog" related={[{ href: '/blog', label: 'More staffing and delegation guides' }, { href: '/services', label: 'Compare assistant service scopes' }, { href: '/resources/assistant-sop-handoff-checklist', label: 'Use the SOP handoff checklist' }]} contentClassName={`${styles.shell} ${styles.body}`}>
         <header className={styles.hero}><div className={styles.heroEditorial}><p className={styles.lead}>Use this directory to build a shortlist, then verify the current offer, operating model, contract, staffing location, pricing, security controls, and references directly with each provider.</p><h1>{title}</h1><img className="article-hero-image" src={indexImages.comparison.url} alt={indexImages.comparison.alt}/><div className={styles.facts}><span><b>30</b> public destinations</span><span><b>{new Set(companies.map(c => c.category)).size}</b> declared service categories</span><span><b>Non-ranked</b> comparison directory</span></div></div></header>

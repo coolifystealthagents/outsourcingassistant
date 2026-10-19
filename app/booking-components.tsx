@@ -59,7 +59,7 @@ export function TestimonialsRail({ contact = false }: { contact?: boolean }) {
     <div className="sa-testimonial-heading"><h2 id={headingId}>StealthAgents reviews</h2></div>
     <div ref={viewport} className="sa-testimonial-viewport" aria-label="StealthAgents client reviews">
       <div className="sa-testimonial-track">{testimonials.map(review => <article className="sa-testimonial-card" key={review.name}>
-        <p className="sa-testimonial-rating">Verified client review</p>
+        <p className="sa-testimonial-rating" aria-label="Five out of five stars"><span className="sa-review-stars" aria-hidden="true">{Array.from({ length: 5 }, (_, star) => <span className="sa-review-star" key={star} />)}</span> Verified client review</p>
         <h3>{review.name}</h3><blockquote>“{review.quote}”</blockquote><p>{review.name}, {review.role}</p>
       </article>)}</div>
     </div>

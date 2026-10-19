@@ -47,7 +47,7 @@ The design fingerprint is specific to Outsourcing Assistant: a warm editorial de
 - Source URL and retrieval date are embedded as review provenance.
 - Reviews use one semantic record set and move continuously forward without cloned duplicate entries.
 - Reduced-motion mode renders all fourteen reviews as a static accessible grid.
-- Decorative star glyphs were replaced with a readable `Verified client review` label.
+- Every review card displays five gold stars with an accessible five-star label and retains the readable `Verified client review` text.
 - The generated “Top 30” page is now a transparent non-ranked directory; unsupported ranking and performance claims were removed.
 
 ## Commercial content
@@ -60,7 +60,8 @@ The design fingerprint is specific to Outsourcing Assistant: a warm editorial de
 ## Editorial infrastructure
 
 - Blog, research, and standalone resource families share complete generated TOCs, stable heading IDs, sticky populated desktop sidebars, active-section behavior, mobile TOCs, related reading, and topic-aware imagery.
-- All generated imagery resolves to local assets with meaningful alt text and safe fallbacks.
+- Every generated blog and research detail route receives a unique, topic-labelled first-party editorial illustration URL with meaningful alt text.
+- Generated SVG illustrations embed the site font, and blog layouts never place promotional banners before the header or after the footer.
 - Blog pagination canonicalizes `/blog/page/1` to `/blog`.
 - Sitemap generation deduplicates by path and produces deterministic ordering.
 - Legacy routes permanently redirect: `/contact` and `/pricing` to `/contact-us`, `/cancellation` to `/cancellation-policy`, and `/blog/page/1` to `/blog`.
@@ -70,7 +71,7 @@ The design fingerprint is specific to Outsourcing Assistant: a warm editorial de
 The clean candidate was validated with:
 
 - `git diff --check`
-- 22 Node source-contract tests
+- 25 Node source-contract tests
 - TypeScript validation through `npm run lint`
 - Call-first policy verification
 - Optimized Next.js production build
@@ -85,8 +86,10 @@ Rendered sitemap crawl:
 - Duplicate paths: 0
 - Pages returning 200: 798/798
 - Article/resource routes with complete editorial infrastructure: 748/748
-- Unique rendered images: 193
-- Images returning 200: 193/193
+- Unique rendered image URLs: 775
+- Images returning 200: 775/775
+- Article routes using generated editorial art: 729
+- Unique generated editorial-art URLs: 729
 - Crawl issues: 0
 
 Browser interaction matrix:

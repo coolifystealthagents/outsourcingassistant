@@ -48,21 +48,19 @@ function selectImage(title: string, slug: string, candidates: readonly ImageCand
   return pool[stableIndex(slug, pool.length)];
 }
 
+function generatedEditorialImage(family: 'blog' | 'research', title: string, slug: string): EditorialImage {
+  return {
+    url: `/editorial-art/${family}-${encodeURIComponent(slug)}.svg?title=${encodeURIComponent(title)}&family=${family}`,
+    alt: `Editorial workflow illustration for ${title}`,
+  };
+}
+
 export function resolveBlogImage(post: { title: string; slug: string; image?: EditorialImage }): EditorialImage {
-  const supplied = post.image;
-  // One legacy record used its single-letter title as a filename even though no
-  // matching asset was published. Route it through the topic-aware library.
-  return supplied?.url === '/images/blog-2026-08-21/T.png'
-    ? selectImage(post.title, post.slug, BLOG_IMAGES)
-    : supplied ?? selectImage(post.title, post.slug, BLOG_IMAGES);
+  return generatedEditorialImage('blog', post.title, post.slug);
 }
 
 export function resolveResearchImage(post: { title: string; slug: string; image?: EditorialImage }): EditorialImage {
-  const supplied = post.image;
-  // These five editorial assets were published in the August 23 collection;
-  // several imported records retained an August 24 directory that never existed.
-  const normalized = supplied?.url.replace('/images/research-2026-08-24/', '/images/research-2026-08-23/');
-  return supplied && normalized ? { ...supplied, url: normalized } : selectImage(post.title, post.slug, RESEARCH_IMAGES);
+  return generatedEditorialImage('research', post.title, post.slug);
 }
 
 export const indexImages = {

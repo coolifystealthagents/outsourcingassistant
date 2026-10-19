@@ -21,7 +21,7 @@ const categories = [
 export default function Alternatives() {
   return <>
     <Header />
-    <main className="fleet-main fleet-outsourcingassistant">
+    <main id="main-content" className="fleet-main fleet-outsourcingassistant">
       <section className={styles.hero}>
         <div className={`container ${styles.heroGrid}`}>
           <div><p className="eyebrow">Alternatives library</p><h1>Compare practical ways to move recurring work off the owner</h1><p>Choose between an assistant, an employee, an agency, software, or a redesigned process. Start with scope and control rather than assuming one delivery model fits every queue.</p><p className={styles.cardMeta}><time dateTime={reviewed}>Reviewed October 19, 2026</time><span>Decision guide</span></p></div>
