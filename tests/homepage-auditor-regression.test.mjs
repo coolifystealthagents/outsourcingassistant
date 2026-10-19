@@ -13,6 +13,10 @@ test('homepage auditor contract', () => {
   assert.doesNotMatch(chrome, /alt=["']\s*["']/);
   assert.match(page, /alt=\{`\$\{role\.name\} task icon`\}/);
   assert.doesNotMatch(page, /alt=\{`\$\{role\} task icon`\}/);
+  assert.doesNotMatch(page, /oa-desk-card|oa-image-label|Handoff board/);
+  assert.match(styles, /\.oa-image-frame\{position:absolute;inset:0;overflow:hidden;border-radius:24px/);
+  assert.doesNotMatch(styles, /\.oa-image-frame:after/);
+  assert.match(styles, /@media\(max-width:480px\)\{\.logo-name\{display:none\}\}/);
   assert.match(styles, /@media\(min-width:981px\) and \(max-height:820px\)[^{]*\{[^}]*\.nav-inner\{min-height:70px\}[^}]*\.oa-hero\{padding-top:24px;padding-bottom:28px\}/);
   assert.match(styles, /@media\(min-width:981px\) and \(max-height:820px\)\{\:root\{--header-height:70px\}\}\s*$/);
   const title = layout.match(/default:\s*'([^']+)'/)?.[1] ?? '';

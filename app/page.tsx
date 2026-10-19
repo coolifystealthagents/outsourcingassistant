@@ -59,17 +59,6 @@ export default function Home() {
             <div className="oa-visual" aria-label="Assistant handoff planning example">
               <div className="oa-image-frame">
                 <img src="/illustrations/getillustrations/goodle-team/assistant-handoff-collaboration.svg" alt="Illustration of an owner and Filipino assistant collaborating on a laptop handoff" />
-                <span className="oa-image-label">A role built around your week</span>
-              </div>
-              <div className="oa-desk-card">
-                <div className="oa-desk-head">
-                  <div><span className="oa-status-dot" /> Handoff board</div>
-                  <b>First week</b>
-                </div>
-                <div className="oa-desk-row"><span className="oa-check">✓</span><p><b>Inbox triage</b><small>Draft first. Owner sends.</small></p><em>Daily</em></div>
-                <div className="oa-desk-row"><span className="oa-check">✓</span><p><b>CRM follow-up</b><small>Use approved notes and fields.</small></p><em>3× wk</em></div>
-                <div className="oa-desk-row"><span className="oa-lock">⌁</span><p><b>Refund requests</b><small>Prepare details. Manager approves.</small></p><em>Review</em></div>
-                <div className="oa-desk-foot"><span>5 tasks scoped</span><span>15 min review block</span></div>
               </div>
             </div>
           </div>
