@@ -43,12 +43,25 @@ test('review rail has exactly 14 unique reviews and no playback controls', async
   assert.equal(new Set(names).size, 14);
   assert.doesNotMatch(source, /testimonial-toggle|Pause reviews|Resume reviews/);
   assert.match(source, /data-review-count=\{testimonials\.length\}/);
+  assert.match(source, /aria-label="5 out of 5 stars"/);
+  assert.match(source, /\[0, 1, 2, 3, 4\]\.map\(star => <svg/);
   const css = await read('app/globals.css');
   assert.match(source, /requestAnimationFrame/);
   assert.match(source, /track\.append\(first\)/);
   assert.match(source, /matchMedia\('\(prefers-reduced-motion: reduce\)'\)/);
   assert.match(css, /prefers-reduced-motion:reduce/);
   assert.match(css, /\.sa-testimonial-track\{display:grid/);
+  assert.match(css, /\.sa-testimonial-rating\{[^}]*color:#e5a500/);
+});
+
+test('contact copy is claims-safe and mobile parent attribution stays readable', async () => {
+  const contact = await read('app/contact-us/page.tsx');
+  const css = await read('app/globals.css');
+  assert.doesNotMatch(contact, /35\+|Forbes|top rated/i);
+  assert.match(contact, /recruiting, account management, training, and ongoing service operations/);
+  assert.doesNotMatch(css, /parent-brand-compact[^}]*font-size:(?:7|8|9)px/);
+  assert.match(css, /parent-brand-compact\{[^}]*font-size:11px/);
+  assert.match(css, /parent-brand-compact span\{[^}]*font-size:10px/);
 });
 
 test('conversion routes are direct, canonical, and noindex', async () => {

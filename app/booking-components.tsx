@@ -59,7 +59,9 @@ export function TestimonialsRail({ contact = false }: { contact?: boolean }) {
     <div className="sa-testimonial-heading"><h2 id={headingId}>StealthAgents reviews</h2></div>
     <div ref={viewport} className="sa-testimonial-viewport" aria-label="StealthAgents client reviews">
       <div className="sa-testimonial-track">{testimonials.map(review => <article className="sa-testimonial-card" key={review.name}>
-        <p className="sa-testimonial-rating">Verified client review</p>
+        <div className="sa-testimonial-rating" role="img" aria-label="5 out of 5 stars">
+          {[0, 1, 2, 3, 4].map(star => <svg key={star} viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.8l2.76 5.6 6.18.9-4.47 4.36 1.06 6.15L12 16.9l-5.53 2.91 1.06-6.15L3.06 9.3l6.18-.9L12 2.8z"/></svg>)}
+        </div>
         <h3>{review.name}</h3><blockquote>“{review.quote}”</blockquote><p>{review.name}, {review.role}</p>
       </article>)}</div>
     </div>
