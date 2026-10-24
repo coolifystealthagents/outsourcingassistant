@@ -148,3 +148,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}.sa-testimonial-viewport{overflow:visible;mask-image:none;-webkit-mask-image:none}.sa-testimonial-track{display:grid;width:auto;grid-template-columns:repeat(2,minmax(0,1fr));transform:none!important;animation:none!important}.sa-testimonial-card{min-width:0;width:auto}.sa-testimonial-track>.sa-testimonial-card:nth-child(n){display:flex}}
 @media(max-width:620px) and (prefers-reduced-motion:reduce){.sa-testimonial-track{grid-template-columns:1fr}}
 @media(min-width:981px) and (max-height:820px){:root{--header-height:70px}}
+
+/* Oct 24 QA: overflow-x:hidden on body creates a scroll container and breaks sticky header/ToC in Chrome. clip keeps containment without a scroll container. */
+body{overflow-x:clip}
