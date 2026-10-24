@@ -15,3 +15,9 @@ This ledger records one evidence-backed path from an existing research page to a
 - **Route-local anchor evidence:** The source route's `<main>` contains `0` anchors to `/services/research-briefing`.
 - **State:** `verified_absent_candidate` — no CTA was added, no route freshness changed, and no deployment or public verification is required for this ledger-only record.
 - **Next editorial action:** In a separate reader-facing release, recheck the route data and add one contextual Research Briefing handoff only if the source still has zero matching anchors. Refresh only the source record's real modified date and verify the rendered route, schema, sitemap, and approved delivery policy.
+
+## Reconciliation — 2026-10-24
+
+- A fresh production build shows the typed Markdown record now owns the intended handoff. The source artifact has exactly one `/services/research-briefing` anchor inside `<main>`; it also has the expected H1 and self-canonical. The Research Briefing artifact has its expected H1 and self-canonical, and both canonical URLs are present in the generated sitemap.
+- The existing handoff keeps the Philippines-based assistant limited to preparing the source register, noting differences, and bringing open questions to the named reviewer. The owner still decides interpretation, publication, and consequential legal, privacy, security, financial, or employment use.
+- **State:** `delivered_non_duplicable`. No second CTA, route-date change, deployment, or public check is authorized by this Markdown-only reconciliation.
