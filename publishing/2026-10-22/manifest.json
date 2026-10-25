@@ -1,222 +1,422 @@
 {
-  "date": "2026-10-22",
-  "visibleDate": "October 22, 2026",
   "site": "OutsourcingAssistant.com",
-  "canonicalDomain": "https://outsourcingassistant.com",
+  "domain": "https://outsourcingassistant.com",
   "repository": "coolifystealthagents/outsourcingassistant",
   "branch": "main",
-  "blogCount": 12,
-  "researchCount": 5,
-  "articleCount": 17,
-  "thumbnailCount": 17,
-  "blogRegistry": "app/data.ts",
-  "researchRegistry": "app/fleet-content.ts",
-  "blogRoute": "app/blog/[slug]/page.tsx",
-  "researchRoute": "app/research/[slug]/page.tsx",
-  "items": [
+  "baseSha": "c282b31c09b5d2a92c29640de5210673276cfd6c",
+  "publicationDate": "2026-10-22",
+  "visibleDate": "October 22, 2026",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17,
+    "thumbnails": 17
+  },
+  "registryPaths": [
+    "app/data.ts",
+    "app/fleet-content.ts"
+  ],
+  "articles": [
     {
-      "system": "Blog",
-      "slug": "inbox-rule-change-request-evidence",
+      "section": "Blog",
       "title": "Handle Inbox Rule Change Requests With Evidence",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "inbox-rule-change-request-evidence",
       "route": "/blog/inbox-rule-change-request-evidence",
-      "thumbnail": "/oct22/inbox-rule-change-request-evidence.png",
-      "thumbnailTitle": "Handle Inbox Rule Change Requests With Evidence",
-      "wordCount": 901,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/inbox-rule-change-request-evidence.png",
+      "thumbnailSha256": "bf91842f25c3c1927ff1a4ff3990b3d95d7559f894f94b6ae0af21bb5cec9488",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/inbox-rule-change-request-evidence-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/inbox-rule-change-request-evidence-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/inbox-rule-change-request-evidence-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/inbox-rule-change-request-evidence-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/inbox-rule-change-request-evidence-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "travel-itinerary-change-confirmation",
+      "section": "Blog",
       "title": "Confirm Travel Itinerary Changes Before Reissue",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "travel-itinerary-change-confirmation",
       "route": "/blog/travel-itinerary-change-confirmation",
-      "thumbnail": "/oct22/travel-itinerary-change-confirmation.png",
-      "thumbnailTitle": "Confirm Travel Itinerary Changes Before Reissue",
-      "wordCount": 882,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/travel-itinerary-change-confirmation.png",
+      "thumbnailSha256": "f149075bcdf9ac41a8add872f29858a89b097c163076f70e1e2474cc0a1d88a7",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/travel-itinerary-change-confirmation-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/travel-itinerary-change-confirmation-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/travel-itinerary-change-confirmation-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/travel-itinerary-change-confirmation-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/travel-itinerary-change-confirmation-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "vendor-invoice-acknowledgement-routing",
+      "section": "Blog",
       "title": "Route Vendor Invoice Acknowledgements Without Approving Spend",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "vendor-invoice-acknowledgement-routing",
       "route": "/blog/vendor-invoice-acknowledgement-routing",
-      "thumbnail": "/oct22/vendor-invoice-acknowledgement-routing.png",
-      "thumbnailTitle": "Route Vendor Invoice Acknowledgements Without Approving Spend",
-      "wordCount": 867,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/vendor-invoice-acknowledgement-routing.png",
+      "thumbnailSha256": "aa3de2440654def4ae035f19960c825a4c8c908886c866424142a7931d7153cf",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/vendor-invoice-acknowledgement-routing-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/vendor-invoice-acknowledgement-routing-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/vendor-invoice-acknowledgement-routing-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/vendor-invoice-acknowledgement-routing-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/vendor-invoice-acknowledgement-routing-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "meeting-minutes-distribution-list",
+      "section": "Blog",
       "title": "Control Meeting Minutes Distribution Lists",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "meeting-minutes-distribution-list",
       "route": "/blog/meeting-minutes-distribution-list",
-      "thumbnail": "/oct22/meeting-minutes-distribution-list.png",
-      "thumbnailTitle": "Control Meeting Minutes Distribution Lists",
-      "wordCount": 822,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/meeting-minutes-distribution-list.png",
+      "thumbnailSha256": "04b6c376f3496c2ab0688acf55ecd1d99e1ff3a08da9aad3e2043d833d3e3cd1",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/meeting-minutes-distribution-list-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/meeting-minutes-distribution-list-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/meeting-minutes-distribution-list-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/meeting-minutes-distribution-list-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/meeting-minutes-distribution-list-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "signature-packet-completeness-check",
+      "section": "Blog",
       "title": "Check Signature Packets Before They Leave the Office",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "signature-packet-completeness-check",
       "route": "/blog/signature-packet-completeness-check",
-      "thumbnail": "/oct22/signature-packet-completeness-check.png",
-      "thumbnailTitle": "Check Signature Packets Before They Leave the Office",
-      "wordCount": 928,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/signature-packet-completeness-check.png",
+      "thumbnailSha256": "d4806b1f0f4a66a62d7d63376d638cd2e081d92d5d68487e0665646ab80b4db0",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/signature-packet-completeness-check-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/signature-packet-completeness-check-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/signature-packet-completeness-check-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/signature-packet-completeness-check-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/signature-packet-completeness-check-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "recurring-report-delivery-receipt",
+      "section": "Blog",
       "title": "Verify Recurring Report Delivery, Not Just Generation",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "recurring-report-delivery-receipt",
       "route": "/blog/recurring-report-delivery-receipt",
-      "thumbnail": "/oct22/recurring-report-delivery-receipt.png",
-      "thumbnailTitle": "Verify Recurring Report Delivery, Not Just Generation",
-      "wordCount": 883,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/recurring-report-delivery-receipt.png",
+      "thumbnailSha256": "08d615f60ca29add9e1d50d90876944f353b2bffecd8daa3f4eceb7061b305ca",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/recurring-report-delivery-receipt-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/recurring-report-delivery-receipt-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/recurring-report-delivery-receipt-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/recurring-report-delivery-receipt-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/recurring-report-delivery-receipt-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "contact-record-merge-conflict",
+      "section": "Blog",
       "title": "Resolve Contact Record Merge Conflicts Without Losing History",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "contact-record-merge-conflict",
       "route": "/blog/contact-record-merge-conflict",
-      "thumbnail": "/oct22/contact-record-merge-conflict.png",
-      "thumbnailTitle": "Resolve Contact Record Merge Conflicts Without Losing History",
-      "wordCount": 881,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/contact-record-merge-conflict.png",
+      "thumbnailSha256": "c69b345f0fa4e716718c2b74416c5d80de383135895b231aa11441c43be100da",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/contact-record-merge-conflict-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/contact-record-merge-conflict-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/contact-record-merge-conflict-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/contact-record-merge-conflict-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/contact-record-merge-conflict-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "shared-drive-permission-review",
+      "section": "Blog",
       "title": "Review Shared Drive Permissions for Departing Client Contacts",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "shared-drive-permission-review",
       "route": "/blog/shared-drive-permission-review",
-      "thumbnail": "/oct22/shared-drive-permission-review.png",
-      "thumbnailTitle": "Review Shared Drive Permissions for Departing Client Contacts",
-      "wordCount": 941,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/shared-drive-permission-review.png",
+      "thumbnailSha256": "f70ad5d37697fe9f733018fc59a263a13bd043ebd5567536130a07e35b2efe9b",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/shared-drive-permission-review-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/shared-drive-permission-review-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/shared-drive-permission-review-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/shared-drive-permission-review-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/shared-drive-permission-review-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "event-rsvp-list-privacy",
+      "section": "Blog",
       "title": "Handle Event RSVP Lists With Privacy Boundaries",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "event-rsvp-list-privacy",
       "route": "/blog/event-rsvp-list-privacy",
-      "thumbnail": "/oct22/event-rsvp-list-privacy.png",
-      "thumbnailTitle": "Handle Event RSVP Lists With Privacy Boundaries",
-      "wordCount": 850,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/event-rsvp-list-privacy.png",
+      "thumbnailSha256": "d9e5e7e332a2c24d00b4305721249507eed40b131798b11b7cee5eac402c56ce",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/event-rsvp-list-privacy-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/event-rsvp-list-privacy-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/event-rsvp-list-privacy-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/event-rsvp-list-privacy-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/event-rsvp-list-privacy-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "research-source-bookmark-expiry",
+      "section": "Blog",
       "title": "Review Research Source Bookmarks Before They Go Stale",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "research-source-bookmark-expiry",
       "route": "/blog/research-source-bookmark-expiry",
-      "thumbnail": "/oct22/research-source-bookmark-expiry.png",
-      "thumbnailTitle": "Review Research Source Bookmarks Before They Go Stale",
-      "wordCount": 870,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/research-source-bookmark-expiry.png",
+      "thumbnailSha256": "d5b141a14298ce6cc49ec5dd7c5ca22389405a3f764186e5f381b9c99925f389",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/research-source-bookmark-expiry-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/research-source-bookmark-expiry-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/research-source-bookmark-expiry-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/research-source-bookmark-expiry-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/research-source-bookmark-expiry-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "purchase-approval-evidence-packet",
+      "section": "Blog",
       "title": "Prepare Purchase Approval Packets Without Choosing the Vendor",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "purchase-approval-evidence-packet",
       "route": "/blog/purchase-approval-evidence-packet",
-      "thumbnail": "/oct22/purchase-approval-evidence-packet.png",
-      "thumbnailTitle": "Prepare Purchase Approval Packets Without Choosing the Vendor",
-      "wordCount": 866,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/purchase-approval-evidence-packet.png",
+      "thumbnailSha256": "9c0a81123a81e67ef153a1b969b78d199b51fd2429f661f9e03848e1ce33960e",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/purchase-approval-evidence-packet-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/purchase-approval-evidence-packet-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/purchase-approval-evidence-packet-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/purchase-approval-evidence-packet-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/purchase-approval-evidence-packet-mobile-toc.png"
+      }
     },
     {
-      "system": "Blog",
-      "slug": "client-onboarding-welcome-packet",
+      "section": "Blog",
       "title": "Version Client Onboarding Welcome Packets",
-      "date": "2026-10-22",
-      "source": "app/blog-batch-2026-10-22.ts",
+      "slug": "client-onboarding-welcome-packet",
       "route": "/blog/client-onboarding-welcome-packet",
-      "thumbnail": "/oct22/client-onboarding-welcome-packet.png",
-      "thumbnailTitle": "Version Client Onboarding Welcome Packets",
-      "wordCount": 838,
-      "sha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526"
+      "sourcePath": "app/blog-batch-2026-10-22.ts",
+      "sourceSha256": "f3d1bebbbbf069a74b2da46a35797a1de379a41142785cd22fe1fd34f2c1a526",
+      "thumbnailPath": "public/oct22/client-onboarding-welcome-packet.png",
+      "thumbnailSha256": "fa4c261f0b4c3d2554a5001dbf6446d517582f5e7ee3f625fbbbcb58863e14de",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/client-onboarding-welcome-packet-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/client-onboarding-welcome-packet-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/client-onboarding-welcome-packet-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/client-onboarding-welcome-packet-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/client-onboarding-welcome-packet-mobile-toc.png"
+      }
     },
     {
-      "system": "Research",
-      "slug": "delegated-inbox-reopen-study",
+      "section": "Research",
       "title": "Delegated Inbox Reopen Study",
-      "date": "2026-10-22",
-      "source": "app/research-batch-2026-10-22.ts",
+      "slug": "delegated-inbox-reopen-study",
       "route": "/research/delegated-inbox-reopen-study",
-      "thumbnail": "/oct22/delegated-inbox-reopen-study.png",
-      "thumbnailTitle": "Delegated Inbox Reopen Study",
-      "wordCount": 1434,
-      "sha256": "6bbc5930b047082681dae0393a68068a5703abfbd9fbfaf4cbf02c5930d3a85b"
+      "sourcePath": "app/research-batch-2026-10-22.ts",
+      "sourceSha256": "6bbc5930b047082681dae0393a68068a5703abfbd9fbfaf4cbf02c5930d3a85b",
+      "thumbnailPath": "public/oct22/delegated-inbox-reopen-study.png",
+      "thumbnailSha256": "4c73df16fb2ce45580705d8eeb94971424c4f0bc2f044da73851cc1a85cac0b7",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/delegated-inbox-reopen-study-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/delegated-inbox-reopen-study-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/delegated-inbox-reopen-study-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/delegated-inbox-reopen-study-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/delegated-inbox-reopen-study-mobile-toc.png"
+      }
     },
     {
-      "system": "Research",
-      "slug": "report-delivery-receipt-study",
+      "section": "Research",
       "title": "Report Delivery Receipt Study",
-      "date": "2026-10-22",
-      "source": "app/research-batch-2026-10-22.ts",
+      "slug": "report-delivery-receipt-study",
       "route": "/research/report-delivery-receipt-study",
-      "thumbnail": "/oct22/report-delivery-receipt-study.png",
-      "thumbnailTitle": "Report Delivery Receipt Study",
-      "wordCount": 1411,
-      "sha256": "6bbc5930b047082681dae0393a68068a5703abfbd9fbfaf4cbf02c5930d3a85b"
+      "sourcePath": "app/research-batch-2026-10-22.ts",
+      "sourceSha256": "6bbc5930b047082681dae0393a68068a5703abfbd9fbfaf4cbf02c5930d3a85b",
+      "thumbnailPath": "public/oct22/report-delivery-receipt-study.png",
+      "thumbnailSha256": "77dd3f540bfde7b38b15c824a69e27883332f75135d8c8d7768e78691e713cac",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/report-delivery-receipt-study-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/report-delivery-receipt-study-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/report-delivery-receipt-study-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/report-delivery-receipt-study-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/report-delivery-receipt-study-mobile-toc.png"
+      }
     },
     {
-      "system": "Research",
-      "slug": "signature-packet-completeness-study",
+      "section": "Research",
       "title": "Signature Packet Completeness Study",
-      "date": "2026-10-22",
-      "source": "app/research-batch-2026-10-22.ts",
+      "slug": "signature-packet-completeness-study",
       "route": "/research/signature-packet-completeness-study",
-      "thumbnail": "/oct22/signature-packet-completeness-study.png",
-      "thumbnailTitle": "Signature Packet Completeness Study",
-      "wordCount": 1367,
-      "sha256": "6bbc5930b047082681dae0393a68068a5703abfbd9fbfaf4cbf02c5930d3a85b"
+      "sourcePath": "app/research-batch-2026-10-22.ts",
+      "sourceSha256": "6bbc5930b047082681dae0393a68068a5703abfbd9fbfaf4cbf02c5930d3a85b",
+      "thumbnailPath": "public/oct22/signature-packet-completeness-study.png",
+      "thumbnailSha256": "66b00095c395e0435e6c3ad380f3845604efe4c1b2984457894901ded9b0fd08",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/signature-packet-completeness-study-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/signature-packet-completeness-study-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/signature-packet-completeness-study-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/signature-packet-completeness-study-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/signature-packet-completeness-study-mobile-toc.png"
+      }
     },
     {
-      "system": "Research",
-      "slug": "contact-merge-conflict-study",
+      "section": "Research",
       "title": "Contact Merge Conflict Study",
-      "date": "2026-10-22",
-      "source": "app/research-batch-2026-10-22.ts",
+      "slug": "contact-merge-conflict-study",
       "route": "/research/contact-merge-conflict-study",
-      "thumbnail": "/oct22/contact-merge-conflict-study.png",
-      "thumbnailTitle": "Contact Merge Conflict Study",
-      "wordCount": 1368,
-      "sha256": "6bbc5930b047082681dae0393a68068a5703abfbd9fbfaf4cbf02c5930d3a85b"
+      "sourcePath": "app/research-batch-2026-10-22.ts",
+      "sourceSha256": "6bbc5930b047082681dae0393a68068a5703abfbd9fbfaf4cbf02c5930d3a85b",
+      "thumbnailPath": "public/oct22/contact-merge-conflict-study.png",
+      "thumbnailSha256": "c9a24261494d3269747c13b258f79ccfdce6351a04d406f3f20537373d1ea6f2",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/contact-merge-conflict-study-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/contact-merge-conflict-study-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/contact-merge-conflict-study-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/contact-merge-conflict-study-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/contact-merge-conflict-study-mobile-toc.png"
+      }
     },
     {
-      "system": "Research",
-      "slug": "permission-review-closure-study",
+      "section": "Research",
       "title": "Permission Review Closure Study",
-      "date": "2026-10-22",
-      "source": "app/research-batch-2026-10-22.ts",
+      "slug": "permission-review-closure-study",
       "route": "/research/permission-review-closure-study",
-      "thumbnail": "/oct22/permission-review-closure-study.png",
-      "thumbnailTitle": "Permission Review Closure Study",
-      "wordCount": 1342,
-      "sha256": "6bbc5930b047082681dae0393a68068a5703abfbd9fbfaf4cbf02c5930d3a85b"
+      "sourcePath": "app/research-batch-2026-10-22.ts",
+      "sourceSha256": "6bbc5930b047082681dae0393a68068a5703abfbd9fbfaf4cbf02c5930d3a85b",
+      "thumbnailPath": "public/oct22/permission-review-closure-study.png",
+      "thumbnailSha256": "a2dad2a56ae63f3df8acc65d8adb2ed98b321b7f53652ab5106366c86133bcd9",
+      "thumbnailDimensions": [
+        1200,
+        630
+      ],
+      "publicationDate": "2026-10-22",
+      "screenshots": {
+        "desktop-top": "qa/coverage-outsourcingassistant/render/shots/permission-review-closure-study-desktop-top.png",
+        "mobile-top": "qa/coverage-outsourcingassistant/render/shots/permission-review-closure-study-mobile-top.png",
+        "desktop-mid": "qa/coverage-outsourcingassistant/render/shots/permission-review-closure-study-desktop-mid.png",
+        "mobile-mid": "qa/coverage-outsourcingassistant/render/shots/permission-review-closure-study-mobile-mid.png",
+        "mobile-toc": "qa/coverage-outsourcingassistant/render/shots/permission-review-closure-study-mobile-toc.png"
+      }
     }
-  ]
+  ],
+  "errors": [],
+  "generatedAt": "2026-10-25",
+  "coverageJob": "outsourcingassistant|2026-10-22|render_evidence",
+  "checks": {
+    "contentCounts": "12 blog + 5 research",
+    "publicationDate": "2026-10-22",
+    "thumbnailSize": "1200x630",
+    "uniqueSlugs": true,
+    "uniqueTitles": true,
+    "sourceHashes": "sha256 per source registry",
+    "thumbnailHashes": "sha256 per article",
+    "build": "pass (npm run build through safe_build.sh)",
+    "renderedAudit": "17/17 articles pass desktop+mobile",
+    "visibleDate": "October 22, 2026 observed",
+    "timeDatetime": "2026-10-22 observed",
+    "desktopStickyToc": "pass",
+    "mobileStickyToc": "pass",
+    "horizontalOverflow": "0",
+    "missingAnchors": "none",
+    "brokenImages": "none",
+    "sources": "authoritative HTTPS sources present in each article source registry"
+  },
+  "evidence": {
+    "helperArtifact": "helper-2/qa/coverage-outsourcingassistant/render/qa.json",
+    "screenshots": "helper-2/qa/coverage-outsourcingassistant/render/shots",
+    "note": "Evidence generated from local production server at baseSha before this manifest-only commit."
+  }
 }
