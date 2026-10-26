@@ -1,3 +1,5 @@
+import { oct25BlogBatch } from './oct25-blog';
+
 export const site = {
   domain: 'OutsourcingAssistant.com',
   url: 'https://outsourcingassistant.com',
@@ -661,3 +663,4 @@ blogPosts.unshift(...dailyBlogBatch20261012);
 blogPosts.unshift(...dailyBlogBatch20261013);
 blogPosts.unshift(...dailyBlogBatch20261022);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
+blogPosts.push(...oct25BlogBatch);
