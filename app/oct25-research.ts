@@ -438,11 +438,12 @@ export const oct25ResearchBatch: ResearchPost[] = [
     ],
     "body": [],
     "serviceHandoff": {
-      "heading": "Test one bounded queue before scaling",
-      "href": "/contact-us",
-      "label": "Discuss the workflow",
+      "heading": "Turn the recap into a reviewable queue",
+      "href": "/services/meeting-administration",
+      "label": "Review meeting administration support",
       "paragraphs": [
-        "Start with the queue, evidence set, stop rules, and owner decisions before live volume expands."
+        "A Philippines-based assistant can prepare the recap, name the open actions, and keep the source notes together for review. Use meeting administration support to set the agenda, action record, and handoff path before the queue grows.",
+        "The meeting chair or manager still confirms decisions, assigns commitments, and approves changes to deadlines or stakeholder messages."
       ]
     }
   },
