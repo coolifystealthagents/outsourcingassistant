@@ -666,3 +666,4 @@ blogPosts.unshift(...dailyBlogBatch20261022);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
 blogPosts.push(...oct25BlogBatch);
 blogPosts.push(...oct26BlogBatch);
+blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
