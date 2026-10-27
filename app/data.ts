@@ -1,5 +1,6 @@
 import { oct25BlogBatch } from './oct25-blog';
 import { oct26BlogBatch } from './oct26-blog';
+import { oct27BlogBatch } from './oct27-blog';
 
 export const site = {
   domain: 'OutsourcingAssistant.com',
@@ -665,5 +666,5 @@ blogPosts.unshift(...dailyBlogBatch20261013);
 blogPosts.unshift(...dailyBlogBatch20261022);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
 blogPosts.push(...oct25BlogBatch);
-blogPosts.push(...oct26BlogBatch);
+blogPosts.push(...oct27BlogBatch, ...oct26BlogBatch);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
