@@ -111,11 +111,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Build an intake record for the task brief that survives review"
     },
     "citations": [
-      "https://www.nist.gov/cyberframework",
-      "https://www.nist.gov/privacy-framework",
-      "https://www.cisa.gov/",
-      "https://www.ilo.org/",
-      "https://www.dol.gov/"
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Bounded cybersecurity control guidance."
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Bounded privacy control guidance."
+      },
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/",
+        "note": "Public infrastructure security guidance."
+      },
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      },
+      {
+        "name": "U.S. Department of Labor",
+        "url": "https://www.dol.gov/",
+        "note": "U.S. labor guidance and worker protections."
+      }
     ],
     "internalLinks": [
       {
@@ -242,11 +262,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Map the source of truth for the access request"
     },
     "citations": [
-      "https://www.cisa.gov/",
-      "https://www.ilo.org/",
-      "https://www.dol.gov/",
-      "https://www.sba.gov/",
-      "https://www.nist.gov/cyberframework"
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/",
+        "note": "Public infrastructure security guidance."
+      },
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      },
+      {
+        "name": "U.S. Department of Labor",
+        "url": "https://www.dol.gov/",
+        "note": "U.S. labor guidance and worker protections."
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/",
+        "note": "Small-business hiring and operations guidance."
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Bounded cybersecurity control guidance."
+      }
     ],
     "internalLinks": [
       {
@@ -373,11 +413,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Onboard a VA into the access request workflow in the first week"
     },
     "citations": [
-      "https://www.sba.gov/",
-      "https://www.nist.gov/cyberframework",
-      "https://www.nist.gov/privacy-framework",
-      "https://www.cisa.gov/",
-      "https://www.ilo.org/"
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/",
+        "note": "Small-business hiring and operations guidance."
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Bounded cybersecurity control guidance."
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Bounded privacy control guidance."
+      },
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/",
+        "note": "Public infrastructure security guidance."
+      },
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      }
     ],
     "internalLinks": [
       {
@@ -503,11 +563,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Report the handover note without vanity metrics"
     },
     "citations": [
-      "https://www.nist.gov/privacy-framework",
-      "https://www.cisa.gov/",
-      "https://www.ilo.org/",
-      "https://www.dol.gov/",
-      "https://www.sba.gov/"
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Bounded privacy control guidance."
+      },
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/",
+        "note": "Public infrastructure security guidance."
+      },
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      },
+      {
+        "name": "U.S. Department of Labor",
+        "url": "https://www.dol.gov/",
+        "note": "U.S. labor guidance and worker protections."
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/",
+        "note": "Small-business hiring and operations guidance."
+      }
     ],
     "internalLinks": [
       {
@@ -633,11 +713,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Review access before changing the meeting recap"
     },
     "citations": [
-      "https://www.cisa.gov/",
-      "https://www.ilo.org/",
-      "https://www.dol.gov/",
-      "https://www.sba.gov/",
-      "https://www.nist.gov/cyberframework"
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/",
+        "note": "Public infrastructure security guidance."
+      },
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      },
+      {
+        "name": "U.S. Department of Labor",
+        "url": "https://www.dol.gov/",
+        "note": "U.S. labor guidance and worker protections."
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/",
+        "note": "Small-business hiring and operations guidance."
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Bounded cybersecurity control guidance."
+      }
     ],
     "internalLinks": [
       {
@@ -763,11 +863,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Run a weekly review for the task brief"
     },
     "citations": [
-      "https://www.cisa.gov/",
-      "https://www.ilo.org/",
-      "https://www.dol.gov/",
-      "https://www.sba.gov/",
-      "https://www.nist.gov/cyberframework"
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/",
+        "note": "Public infrastructure security guidance."
+      },
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      },
+      {
+        "name": "U.S. Department of Labor",
+        "url": "https://www.dol.gov/",
+        "note": "U.S. labor guidance and worker protections."
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/",
+        "note": "Small-business hiring and operations guidance."
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Bounded cybersecurity control guidance."
+      }
     ],
     "internalLinks": [
       {
@@ -894,11 +1014,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Run an exception queue for the handover note"
     },
     "citations": [
-      "https://www.cisa.gov/",
-      "https://www.ilo.org/",
-      "https://www.dol.gov/",
-      "https://www.sba.gov/",
-      "https://www.nist.gov/cyberframework"
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/",
+        "note": "Public infrastructure security guidance."
+      },
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      },
+      {
+        "name": "U.S. Department of Labor",
+        "url": "https://www.dol.gov/",
+        "note": "U.S. labor guidance and worker protections."
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/",
+        "note": "Small-business hiring and operations guidance."
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Bounded cybersecurity control guidance."
+      }
     ],
     "internalLinks": [
       {
@@ -1025,11 +1165,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Sample quality for the vendor invoice without guessing"
     },
     "citations": [
-      "https://www.nist.gov/privacy-framework",
-      "https://www.cisa.gov/",
-      "https://www.ilo.org/",
-      "https://www.dol.gov/",
-      "https://www.sba.gov/"
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Bounded privacy control guidance."
+      },
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/",
+        "note": "Public infrastructure security guidance."
+      },
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      },
+      {
+        "name": "U.S. Department of Labor",
+        "url": "https://www.dol.gov/",
+        "note": "U.S. labor guidance and worker protections."
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/",
+        "note": "Small-business hiring and operations guidance."
+      }
     ],
     "internalLinks": [
       {
@@ -1156,11 +1316,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Set approval boundaries around the quality sample"
     },
     "citations": [
-      "https://www.nist.gov/cyberframework",
-      "https://www.nist.gov/privacy-framework",
-      "https://www.cisa.gov/",
-      "https://www.ilo.org/",
-      "https://www.dol.gov/"
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Bounded cybersecurity control guidance."
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Bounded privacy control guidance."
+      },
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/",
+        "note": "Public infrastructure security guidance."
+      },
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      },
+      {
+        "name": "U.S. Department of Labor",
+        "url": "https://www.dol.gov/",
+        "note": "U.S. labor guidance and worker protections."
+      }
     ],
     "internalLinks": [
       {
@@ -1286,11 +1466,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Standardize updates to the backlog item across the team"
     },
     "citations": [
-      "https://www.ilo.org/",
-      "https://www.dol.gov/",
-      "https://www.sba.gov/",
-      "https://www.nist.gov/cyberframework",
-      "https://www.nist.gov/privacy-framework"
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      },
+      {
+        "name": "U.S. Department of Labor",
+        "url": "https://www.dol.gov/",
+        "note": "U.S. labor guidance and worker protections."
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/",
+        "note": "Small-business hiring and operations guidance."
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Bounded cybersecurity control guidance."
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Bounded privacy control guidance."
+      }
     ],
     "internalLinks": [
       {
@@ -1417,11 +1617,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Write a handoff protocol for the weekly report"
     },
     "citations": [
-      "https://www.nist.gov/privacy-framework",
-      "https://www.cisa.gov/",
-      "https://www.ilo.org/",
-      "https://www.dol.gov/",
-      "https://www.sba.gov/"
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Bounded privacy control guidance."
+      },
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/",
+        "note": "Public infrastructure security guidance."
+      },
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      },
+      {
+        "name": "U.S. Department of Labor",
+        "url": "https://www.dol.gov/",
+        "note": "U.S. labor guidance and worker protections."
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/",
+        "note": "Small-business hiring and operations guidance."
+      }
     ],
     "internalLinks": [
       {
@@ -1547,11 +1767,31 @@ export const oct27BlogBatch: BlogPost[] = [
       "alt": "Title-overlaid editorial thumbnail for Write an SOP for the weekly report that people use"
     },
     "citations": [
-      "https://www.sba.gov/",
-      "https://www.nist.gov/cyberframework",
-      "https://www.nist.gov/privacy-framework",
-      "https://www.cisa.gov/",
-      "https://www.ilo.org/"
+      {
+        "name": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/",
+        "note": "Small-business hiring and operations guidance."
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Bounded cybersecurity control guidance."
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Bounded privacy control guidance."
+      },
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/",
+        "note": "Public infrastructure security guidance."
+      },
+      {
+        "name": "International Labour Organization",
+        "url": "https://www.ilo.org/",
+        "note": "International labor standards context."
+      }
     ],
     "internalLinks": [
       {
