@@ -33,8 +33,8 @@ export const dailyBlogBatch20261005E: BlogPost[] = [
       { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for account and personal-information handling.' },
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for access changes, ownership, and verification evidence.' },
     ],
-    internalLinks: [{ href: '/services', label: 'Review customer support services' }, { href: '/contact', label: 'Discuss a cancellation support role' }],
-    cta: { href: '/contact', label: 'Plan a controlled membership workflow' },
+    internalLinks: [{ href: '/services', label: 'Review customer support services' }, { href: '/contact-us', label: 'Discuss a cancellation support role' }],
+    cta: { href: '/contact-us', label: 'Plan a controlled membership workflow' },
   },
   {
     slug: 'virtual-assistant-field-service-appointment-exception-board',
@@ -68,7 +68,7 @@ export const dailyBlogBatch20261005E: BlogPost[] = [
       { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for customer, site, and access information handling.' },
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for ownership, access, evidence, and incident routing.' },
     ],
-    internalLinks: [{ href: '/services', label: 'Review scheduling support services' }, { href: '/contact', label: 'Discuss field-service coordination' }],
-    cta: { href: '/contact', label: 'Design a field-service exception workflow' },
+    internalLinks: [{ href: '/services', label: 'Review scheduling support services' }, { href: '/contact-us', label: 'Discuss field-service coordination' }],
+    cta: { href: '/contact-us', label: 'Design a field-service exception workflow' },
   },
 ];

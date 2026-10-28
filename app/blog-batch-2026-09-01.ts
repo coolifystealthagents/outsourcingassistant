@@ -44,7 +44,7 @@ const make = (s: Spec): BlogPost => ({
   ],
   citations,
   internalLinks: [{ href: '/resources/assistant-sop-handoff-checklist', label: 'Use the assistant SOP handoff checklist' }, { href: '/services', label: 'Review outsourcing support services' }],
-  cta: { href: '/contact', label: 'Plan a controlled assistant workflow' },
+  cta: { href: '/contact-us', label: 'Plan a controlled assistant workflow' },
 });
 
 export const dailyBlogBatch20260901: BlogPost[] = specs.map(make);

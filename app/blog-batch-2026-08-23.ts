@@ -53,7 +53,7 @@ function makePost(r: RecordSpec, index: number): BlogPost {
     { q: 'What can the assistant own?', a: 'The assistant can perform the documented preparation and routine actions, record evidence, and escalate anything outside the approved lane.' },
     { q: 'What should the owner review?', a: 'The owner reviews claims, sensitive data, access changes, commitments, exceptions, and the final public identity of the article.' },
     { q: 'What proves the routine is ready to expand?', a: 'A clean sample with traceable inputs, correct escalation, useful handoffs, and no unresolved boundary or date errors.' }
-  ], internalLinks: [{ href: '/resources/assistant-sop-handoff-checklist', label: 'Use the assistant SOP handoff checklist' }, { href: '/services', label: 'Review assistant services' }, { href: '/contact', label: 'Plan a bounded staffing role' }] };
+  ], internalLinks: [{ href: '/resources/assistant-sop-handoff-checklist', label: 'Use the assistant SOP handoff checklist' }, { href: '/services', label: 'Review assistant services' }, { href: '/contact-us', label: 'Plan a bounded staffing role' }] };
 }
 
 export const dailyBlogBatch20260823: BlogPost[] = records.map(makePost);

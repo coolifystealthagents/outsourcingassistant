@@ -181,27 +181,33 @@ export const oct27ResearchBatch: ResearchPost[] = [
     "sources": [
       {
         "name": "U.S. Department of Labor",
-        "url": "https://www.dol.gov/"
+        "url": "https://www.dol.gov/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Small Business Administration",
-        "url": "https://www.sba.gov/"
+        "url": "https://www.sba.gov/",
+        "note": "Official small-business guidance consulted for general research context."
       },
       {
         "name": "NIST Cybersecurity Framework",
-        "url": "https://www.nist.gov/cyberframework"
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Official risk-management framework consulted for general research context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Official privacy risk-management framework consulted for general research context."
       },
       {
         "name": "Cybersecurity and Infrastructure Security Agency",
-        "url": "https://www.cisa.gov/"
+        "url": "https://www.cisa.gov/",
+        "note": "Official cybersecurity guidance consulted for general research context."
       },
       {
         "name": "International Labour Organization",
-        "url": "https://www.ilo.org/"
+        "url": "https://www.ilo.org/",
+        "note": "Official labor information consulted for general research context."
       }
     ],
     "related": [
@@ -284,9 +290,10 @@ export const oct27ResearchBatch: ResearchPost[] = [
       "On the Outsourcing Assistant desk, the client success manager treats the attributing rework in the vendor invoice case as a task brief and handover note control owned by the client owner. Record the exact source for the vendor invoice and the time it was observed. the next client success manager can tell whether the value was current when the first action was taken, even if the attributing rework in the vendor invoice case brief and handover note has changed since. For the attributing rework in the vendor invoice case, the client success manager verifies the task brief and handover note before releasing the next step to the client owner."
     ],
     "serviceHandoff": {
+      "heading": "Service handoff",
       "href": "/services",
       "label": "See the related service",
-      "body": "Use the evidence and boundary language in the role brief."
+      "paragraphs": ["Use the evidence and boundary language in the role brief."]
     }
   },
   {
@@ -468,27 +475,33 @@ export const oct27ResearchBatch: ResearchPost[] = [
     "sources": [
       {
         "name": "U.S. Small Business Administration",
-        "url": "https://www.sba.gov/"
+        "url": "https://www.sba.gov/",
+        "note": "Official small-business guidance consulted for general research context."
       },
       {
         "name": "NIST Cybersecurity Framework",
-        "url": "https://www.nist.gov/cyberframework"
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Official risk-management framework consulted for general research context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Official privacy risk-management framework consulted for general research context."
       },
       {
         "name": "Cybersecurity and Infrastructure Security Agency",
-        "url": "https://www.cisa.gov/"
+        "url": "https://www.cisa.gov/",
+        "note": "Official cybersecurity guidance consulted for general research context."
       },
       {
         "name": "International Labour Organization",
-        "url": "https://www.ilo.org/"
+        "url": "https://www.ilo.org/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Department of Labor",
-        "url": "https://www.dol.gov/"
+        "url": "https://www.dol.gov/",
+        "note": "Official labor information consulted for general research context."
       }
     ],
     "related": [
@@ -570,9 +583,10 @@ export const oct27ResearchBatch: ResearchPost[] = [
       "Within Outsourcing Assistant's outsourced assistant services work, the client success manager logs the capacity planning for the meeting recap source in the task brief and handover note and routes the exception to the client owner. Record the exact source for the meeting recap and the time it was observed. the next client success manager can tell whether the value was current when the first action was taken, even if the capacity planning for the meeting recap case brief and handover note has changed since. For the capacity planning for the meeting recap case, the client success manager verifies the task brief and handover note before releasing the next step to the client owner."
     ],
     "serviceHandoff": {
+      "heading": "Service handoff",
       "href": "/services",
       "label": "See the related service",
-      "body": "Use the evidence and boundary language in the role brief."
+      "paragraphs": ["Use the evidence and boundary language in the role brief."]
     }
   },
   {
@@ -755,27 +769,33 @@ export const oct27ResearchBatch: ResearchPost[] = [
     "sources": [
       {
         "name": "U.S. Department of Labor",
-        "url": "https://www.dol.gov/"
+        "url": "https://www.dol.gov/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Small Business Administration",
-        "url": "https://www.sba.gov/"
+        "url": "https://www.sba.gov/",
+        "note": "Official small-business guidance consulted for general research context."
       },
       {
         "name": "NIST Cybersecurity Framework",
-        "url": "https://www.nist.gov/cyberframework"
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Official risk-management framework consulted for general research context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Official privacy risk-management framework consulted for general research context."
       },
       {
         "name": "Cybersecurity and Infrastructure Security Agency",
-        "url": "https://www.cisa.gov/"
+        "url": "https://www.cisa.gov/",
+        "note": "Official cybersecurity guidance consulted for general research context."
       },
       {
         "name": "International Labour Organization",
-        "url": "https://www.ilo.org/"
+        "url": "https://www.ilo.org/",
+        "note": "Official labor information consulted for general research context."
       }
     ],
     "related": [
@@ -858,9 +878,10 @@ export const oct27ResearchBatch: ResearchPost[] = [
       "Within Outsourcing Assistant's outsourced assistant services work, the client success manager logs the early-warning signals in the backlog item source in the task brief and handover note and routes the exception to the client owner. Record the exact source for the backlog item and the time it was observed. the next client success manager can tell whether the value was current when the first action was taken, even if the early-warning signals in the backlog item case brief and handover note has changed since. For early-warning signals in the backlog item, the task brief and handover note is the working evidence; the client success manager may prepare it, but the client owner signs off on the exception."
     ],
     "serviceHandoff": {
+      "heading": "Service handoff",
       "href": "/services",
       "label": "See the related service",
-      "body": "Use the evidence and boundary language in the role brief."
+      "paragraphs": ["Use the evidence and boundary language in the role brief."]
     }
   },
   {
@@ -1042,27 +1063,33 @@ export const oct27ResearchBatch: ResearchPost[] = [
     "sources": [
       {
         "name": "Cybersecurity and Infrastructure Security Agency",
-        "url": "https://www.cisa.gov/"
+        "url": "https://www.cisa.gov/",
+        "note": "Official cybersecurity guidance consulted for general research context."
       },
       {
         "name": "International Labour Organization",
-        "url": "https://www.ilo.org/"
+        "url": "https://www.ilo.org/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Department of Labor",
-        "url": "https://www.dol.gov/"
+        "url": "https://www.dol.gov/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Small Business Administration",
-        "url": "https://www.sba.gov/"
+        "url": "https://www.sba.gov/",
+        "note": "Official small-business guidance consulted for general research context."
       },
       {
         "name": "NIST Cybersecurity Framework",
-        "url": "https://www.nist.gov/cyberframework"
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Official risk-management framework consulted for general research context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Official privacy risk-management framework consulted for general research context."
       }
     ],
     "related": [
@@ -1144,9 +1171,10 @@ export const oct27ResearchBatch: ResearchPost[] = [
       "In Outsourcing Assistant's outsourced assistant services queue, the client success manager uses the task brief and handover note to test measuring response time for the handover note and leaves the exception with the client owner. Record the exact source for the handover note and the time it was observed. the next client success manager can tell whether the value was current when the first action was taken, even if the measuring response time for the handover note case brief and handover note has changed since. In the outsourced assistant services desk, the client success manager records the measuring response time for the handover note source, the observation time, and the client owner who accepted the handoff."
     ],
     "serviceHandoff": {
+      "heading": "Service handoff",
       "href": "/services",
       "label": "See the related service",
-      "body": "Use the evidence and boundary language in the role brief."
+      "paragraphs": ["Use the evidence and boundary language in the role brief."]
     }
   },
   {
@@ -1329,27 +1357,33 @@ export const oct27ResearchBatch: ResearchPost[] = [
     "sources": [
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Official privacy risk-management framework consulted for general research context."
       },
       {
         "name": "Cybersecurity and Infrastructure Security Agency",
-        "url": "https://www.cisa.gov/"
+        "url": "https://www.cisa.gov/",
+        "note": "Official cybersecurity guidance consulted for general research context."
       },
       {
         "name": "International Labour Organization",
-        "url": "https://www.ilo.org/"
+        "url": "https://www.ilo.org/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Department of Labor",
-        "url": "https://www.dol.gov/"
+        "url": "https://www.dol.gov/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Small Business Administration",
-        "url": "https://www.sba.gov/"
+        "url": "https://www.sba.gov/",
+        "note": "Official small-business guidance consulted for general research context."
       },
       {
         "name": "NIST Cybersecurity Framework",
-        "url": "https://www.nist.gov/cyberframework"
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Official risk-management framework consulted for general research context."
       }
     ],
     "related": [
@@ -1432,9 +1466,10 @@ export const oct27ResearchBatch: ResearchPost[] = [
       "For Outsourcing Assistant's task brief and handover note, the client success manager checks the testing completeness in the quality sample source and records the next dated action for the client owner. Record the exact source for the quality sample and the time it was observed. the next client success manager can tell whether the value was current when the first action was taken, even if the testing completeness in the quality sample case brief and handover note has changed since. The client success manager treats testing completeness in the quality sample as a task brief and handover note control: collect the evidence, label the gap, and route the exception to the client owner."
     ],
     "serviceHandoff": {
+      "heading": "Service handoff",
       "href": "/services",
       "label": "See the related service",
-      "body": "Use the evidence and boundary language in the role brief."
+      "paragraphs": ["Use the evidence and boundary language in the role brief."]
     }
   }
 ];

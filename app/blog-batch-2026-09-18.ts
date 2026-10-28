@@ -49,9 +49,9 @@ const makePost = (x: Spec): BlogPost => ({
   internalLinks:[
     {href:'/resources/assistant-sop-handoff-checklist',label:'Build the assistant handoff checklist'},
     {href:'/services',label:'Review virtual assistant service options'},
-    {href:'/contact',label:'Discuss a role built around this workflow'}
+    {href:'/contact-us',label:'Discuss a role built around this workflow'}
   ],
-  cta:{href:'/contact',label:'Plan the assistant role'}
+  cta:{href:'/contact-us',label:'Plan the assistant role'}
 });
 
 export const dailyBlogBatch20260918: BlogPost[] = specs.map(makePost);

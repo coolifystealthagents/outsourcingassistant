@@ -12,7 +12,7 @@ export const researchBatch20261008 = [
       "url": "/assistant-collaboration.jpg",
       "alt": "Assistant and accountable owner reviewing a controlled work handoff"
     },
-    "headlineStat": "The useful unit is one queue interruption case with its denominator, chronology, decision owner, and verified outcome—not an isolated speed metric.",
+    "headlineStat": "The useful unit is one queue interruption case with its denominator, chronology, decision owner, and verified outcome - not an isolated speed metric.",
     "methodology": "A consecutive-case observational pilot records work-ready time, interruption source, restart evidence, elapsed handling, owner wait, correction, and accepted outcome. Cases are stratified by ordinary and adverse conditions, reviewed against a written codebook, and reconciled by an accountable owner. NIST, CISA, GAO, W3C, and BLS primary sources inform governance and measurement boundaries; none supplies a universal staffing target or outcome guarantee.",
     "keyStats": [
       "Unit: one queue interruption case from evidence-ready intake to accepted disposition.",
@@ -22,7 +22,7 @@ export const researchBatch20261008 = [
     "takeaways": [
       "Define evidence-ready time and decision authority before comparing speed.",
       "Preserve adverse cases and disagreements instead of averaging them away.",
-      "Use findings to change intake, access, capacity, or review rules—not to invent unsupported worker rankings."
+      "Use findings to change intake, access, capacity, or review rules - not to invent unsupported worker rankings."
     ],
     "sources": [
       {
@@ -155,7 +155,7 @@ export const researchBatch20261008 = [
       "url": "/assistant-collaboration.jpg",
       "alt": "Assistant and accountable owner reviewing a controlled work handoff"
     },
-    "headlineStat": "The useful unit is one task acceptance case with its denominator, chronology, decision owner, and verified outcome—not an isolated speed metric.",
+    "headlineStat": "The useful unit is one task acceptance case with its denominator, chronology, decision owner, and verified outcome - not an isolated speed metric.",
     "methodology": "A consecutive-case observational pilot records request version, acceptance statement, assumptions, missing evidence, owner response, rework, and outcome. Cases are stratified by ordinary and adverse conditions, reviewed against a written codebook, and reconciled by an accountable owner. NIST, CISA, GAO, W3C, and BLS primary sources inform governance and measurement boundaries; none supplies a universal staffing target or outcome guarantee.",
     "keyStats": [
       "Unit: one task acceptance case from evidence-ready intake to accepted disposition.",
@@ -165,7 +165,7 @@ export const researchBatch20261008 = [
     "takeaways": [
       "Define evidence-ready time and decision authority before comparing speed.",
       "Preserve adverse cases and disagreements instead of averaging them away.",
-      "Use findings to change intake, access, capacity, or review rules—not to invent unsupported worker rankings."
+      "Use findings to change intake, access, capacity, or review rules - not to invent unsupported worker rankings."
     ],
     "sources": [
       {
@@ -298,7 +298,7 @@ export const researchBatch20261008 = [
       "url": "/assistant-collaboration.jpg",
       "alt": "Assistant and accountable owner reviewing a controlled work handoff"
     },
-    "headlineStat": "The useful unit is one review window case with its denominator, chronology, decision owner, and verified outcome—not an isolated speed metric.",
+    "headlineStat": "The useful unit is one review window case with its denominator, chronology, decision owner, and verified outcome - not an isolated speed metric.",
     "methodology": "A consecutive-case observational pilot records ready timestamp, reviewer availability, local cutoff, question cycle, decision timestamp, exception, and release. Cases are stratified by ordinary and adverse conditions, reviewed against a written codebook, and reconciled by an accountable owner. NIST, CISA, GAO, W3C, and BLS primary sources inform governance and measurement boundaries; none supplies a universal staffing target or outcome guarantee.",
     "keyStats": [
       "Unit: one review window case from evidence-ready intake to accepted disposition.",
@@ -308,7 +308,7 @@ export const researchBatch20261008 = [
     "takeaways": [
       "Define evidence-ready time and decision authority before comparing speed.",
       "Preserve adverse cases and disagreements instead of averaging them away.",
-      "Use findings to change intake, access, capacity, or review rules—not to invent unsupported worker rankings."
+      "Use findings to change intake, access, capacity, or review rules - not to invent unsupported worker rankings."
     ],
     "sources": [
       {
@@ -441,7 +441,7 @@ export const researchBatch20261008 = [
       "url": "/assistant-collaboration.jpg",
       "alt": "Assistant and accountable owner reviewing a controlled work handoff"
     },
-    "headlineStat": "The useful unit is one evidence retrieval case with its denominator, chronology, decision owner, and verified outcome—not an isolated speed metric.",
+    "headlineStat": "The useful unit is one evidence retrieval case with its denominator, chronology, decision owner, and verified outcome - not an isolated speed metric.",
     "methodology": "A consecutive-case observational pilot records requested source, authorized location, search start, retrieval state, conflict, owner wait, and decision use. Cases are stratified by ordinary and adverse conditions, reviewed against a written codebook, and reconciled by an accountable owner. NIST, CISA, GAO, W3C, and BLS primary sources inform governance and measurement boundaries; none supplies a universal staffing target or outcome guarantee.",
     "keyStats": [
       "Unit: one evidence retrieval case from evidence-ready intake to accepted disposition.",
@@ -451,7 +451,7 @@ export const researchBatch20261008 = [
     "takeaways": [
       "Define evidence-ready time and decision authority before comparing speed.",
       "Preserve adverse cases and disagreements instead of averaging them away.",
-      "Use findings to change intake, access, capacity, or review rules—not to invent unsupported worker rankings."
+      "Use findings to change intake, access, capacity, or review rules - not to invent unsupported worker rankings."
     ],
     "sources": [
       {
@@ -584,7 +584,7 @@ export const researchBatch20261008 = [
       "url": "/assistant-collaboration.jpg",
       "alt": "Assistant and accountable owner reviewing a controlled work handoff"
     },
-    "headlineStat": "The useful unit is one exception escalation case with its denominator, chronology, decision owner, and verified outcome—not an isolated speed metric.",
+    "headlineStat": "The useful unit is one exception escalation case with its denominator, chronology, decision owner, and verified outcome - not an isolated speed metric.",
     "methodology": "A consecutive-case observational pilot records trigger, severity evidence, chosen route, acknowledgment, owner decision, correction, and verified closure. Cases are stratified by ordinary and adverse conditions, reviewed against a written codebook, and reconciled by an accountable owner. NIST, CISA, GAO, W3C, and BLS primary sources inform governance and measurement boundaries; none supplies a universal staffing target or outcome guarantee.",
     "keyStats": [
       "Unit: one exception escalation case from evidence-ready intake to accepted disposition.",
@@ -594,7 +594,7 @@ export const researchBatch20261008 = [
     "takeaways": [
       "Define evidence-ready time and decision authority before comparing speed.",
       "Preserve adverse cases and disagreements instead of averaging them away.",
-      "Use findings to change intake, access, capacity, or review rules—not to invent unsupported worker rankings."
+      "Use findings to change intake, access, capacity, or review rules - not to invent unsupported worker rankings."
     ],
     "sources": [
       {

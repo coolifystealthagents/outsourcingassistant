@@ -181,27 +181,33 @@ export const oct28ResearchBatch: ResearchPost[] = [
     "sources": [
       {
         "name": "NIST Cybersecurity Framework",
-        "url": "https://www.nist.gov/cyberframework"
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Official risk-management framework consulted for general research context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Official privacy risk-management framework consulted for general research context."
       },
       {
         "name": "Cybersecurity and Infrastructure Security Agency",
-        "url": "https://www.cisa.gov/"
+        "url": "https://www.cisa.gov/",
+        "note": "Official cybersecurity guidance consulted for general research context."
       },
       {
         "name": "International Labour Organization",
-        "url": "https://www.ilo.org/"
+        "url": "https://www.ilo.org/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Department of Labor",
-        "url": "https://www.dol.gov/"
+        "url": "https://www.dol.gov/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Small Business Administration",
-        "url": "https://www.sba.gov/"
+        "url": "https://www.sba.gov/",
+        "note": "Official small-business guidance consulted for general research context."
       }
     ],
     "related": [
@@ -284,9 +290,10 @@ export const oct28ResearchBatch: ResearchPost[] = [
       "When a reviewer finds a defect, ask whether the template allowed it. If the same field is missed twice, the form or the instruction is part of the cause. At the Outsourcing Assistant review, the client success manager compares this step with the task brief and handover note record before closing it."
     ],
     "serviceHandoff": {
+      "heading": "Service handoff",
       "href": "/services",
       "label": "See the related service",
-      "body": "Use the evidence and boundary language in the role brief."
+      "paragraphs": ["Use the evidence and boundary language in the role brief."]
     }
   },
   {
@@ -469,27 +476,33 @@ export const oct28ResearchBatch: ResearchPost[] = [
     "sources": [
       {
         "name": "U.S. Department of Labor",
-        "url": "https://www.dol.gov/"
+        "url": "https://www.dol.gov/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Small Business Administration",
-        "url": "https://www.sba.gov/"
+        "url": "https://www.sba.gov/",
+        "note": "Official small-business guidance consulted for general research context."
       },
       {
         "name": "NIST Cybersecurity Framework",
-        "url": "https://www.nist.gov/cyberframework"
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Official risk-management framework consulted for general research context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Official privacy risk-management framework consulted for general research context."
       },
       {
         "name": "Cybersecurity and Infrastructure Security Agency",
-        "url": "https://www.cisa.gov/"
+        "url": "https://www.cisa.gov/",
+        "note": "Official cybersecurity guidance consulted for general research context."
       },
       {
         "name": "International Labour Organization",
-        "url": "https://www.ilo.org/"
+        "url": "https://www.ilo.org/",
+        "note": "Official labor information consulted for general research context."
       }
     ],
     "related": [
@@ -572,9 +585,10 @@ export const oct28ResearchBatch: ResearchPost[] = [
       "When a reviewer finds a defect, ask whether the template allowed it. If the same field is missed twice, the form or the instruction is part of the cause. For the Outsourcing Assistant desk, this task brief and handover note check is dated and routed to the client success manager before the next handoff."
     ],
     "serviceHandoff": {
+      "heading": "Service handoff",
       "href": "/services",
       "label": "See the related service",
-      "body": "Use the evidence and boundary language in the role brief."
+      "paragraphs": ["Use the evidence and boundary language in the role brief."]
     }
   },
   {
@@ -756,27 +770,33 @@ export const oct28ResearchBatch: ResearchPost[] = [
     "sources": [
       {
         "name": "International Labour Organization",
-        "url": "https://www.ilo.org/"
+        "url": "https://www.ilo.org/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Department of Labor",
-        "url": "https://www.dol.gov/"
+        "url": "https://www.dol.gov/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Small Business Administration",
-        "url": "https://www.sba.gov/"
+        "url": "https://www.sba.gov/",
+        "note": "Official small-business guidance consulted for general research context."
       },
       {
         "name": "NIST Cybersecurity Framework",
-        "url": "https://www.nist.gov/cyberframework"
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Official risk-management framework consulted for general research context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Official privacy risk-management framework consulted for general research context."
       },
       {
         "name": "Cybersecurity and Infrastructure Security Agency",
-        "url": "https://www.cisa.gov/"
+        "url": "https://www.cisa.gov/",
+        "note": "Official cybersecurity guidance consulted for general research context."
       }
     ],
     "related": [
@@ -858,9 +878,10 @@ export const oct28ResearchBatch: ResearchPost[] = [
       "Record the exact source for the vendor invoice and the time it was observed. A later reviewer should be able to tell whether the value was current when the first action was taken, even if the record has changed since. For the Outsourcing Assistant desk, this task brief and handover note check is dated and routed to the client success manager before the next handoff."
     ],
     "serviceHandoff": {
+      "heading": "Service handoff",
       "href": "/services",
       "label": "See the related service",
-      "body": "Use the evidence and boundary language in the role brief."
+      "paragraphs": ["Use the evidence and boundary language in the role brief."]
     }
   },
   {
@@ -1043,27 +1064,33 @@ export const oct28ResearchBatch: ResearchPost[] = [
     "sources": [
       {
         "name": "U.S. Small Business Administration",
-        "url": "https://www.sba.gov/"
+        "url": "https://www.sba.gov/",
+        "note": "Official small-business guidance consulted for general research context."
       },
       {
         "name": "NIST Cybersecurity Framework",
-        "url": "https://www.nist.gov/cyberframework"
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Official risk-management framework consulted for general research context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Official privacy risk-management framework consulted for general research context."
       },
       {
         "name": "Cybersecurity and Infrastructure Security Agency",
-        "url": "https://www.cisa.gov/"
+        "url": "https://www.cisa.gov/",
+        "note": "Official cybersecurity guidance consulted for general research context."
       },
       {
         "name": "International Labour Organization",
-        "url": "https://www.ilo.org/"
+        "url": "https://www.ilo.org/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Department of Labor",
-        "url": "https://www.dol.gov/"
+        "url": "https://www.dol.gov/",
+        "note": "Official labor information consulted for general research context."
       }
     ],
     "related": [
@@ -1146,9 +1173,10 @@ export const oct28ResearchBatch: ResearchPost[] = [
       "Record the exact source for the quality sample and the time it was observed. A later reviewer should be able to tell whether the value was current when the first action was taken, even if the record has changed since. At the Outsourcing Assistant review, the client success manager compares this step with the task brief and handover note record before closing it."
     ],
     "serviceHandoff": {
+      "heading": "Service handoff",
       "href": "/services",
       "label": "See the related service",
-      "body": "Use the evidence and boundary language in the role brief."
+      "paragraphs": ["Use the evidence and boundary language in the role brief."]
     }
   },
   {
@@ -1330,27 +1358,33 @@ export const oct28ResearchBatch: ResearchPost[] = [
     "sources": [
       {
         "name": "Cybersecurity and Infrastructure Security Agency",
-        "url": "https://www.cisa.gov/"
+        "url": "https://www.cisa.gov/",
+        "note": "Official cybersecurity guidance consulted for general research context."
       },
       {
         "name": "International Labour Organization",
-        "url": "https://www.ilo.org/"
+        "url": "https://www.ilo.org/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Department of Labor",
-        "url": "https://www.dol.gov/"
+        "url": "https://www.dol.gov/",
+        "note": "Official labor information consulted for general research context."
       },
       {
         "name": "U.S. Small Business Administration",
-        "url": "https://www.sba.gov/"
+        "url": "https://www.sba.gov/",
+        "note": "Official small-business guidance consulted for general research context."
       },
       {
         "name": "NIST Cybersecurity Framework",
-        "url": "https://www.nist.gov/cyberframework"
+        "url": "https://www.nist.gov/cyberframework",
+        "note": "Official risk-management framework consulted for general research context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Official privacy risk-management framework consulted for general research context."
       }
     ],
     "related": [
@@ -1432,9 +1466,10 @@ export const oct28ResearchBatch: ResearchPost[] = [
       "Record the exact source for the backlog item and the time it was observed. A later reviewer should be able to tell whether the value was current when the first action was taken, even if the record has changed since. This task brief and handover note step is logged for the Outsourcing Assistant team and reviewed by the client success manager at the next checkpoint."
     ],
     "serviceHandoff": {
+      "heading": "Service handoff",
       "href": "/services",
       "label": "See the related service",
-      "body": "Use the evidence and boundary language in the role brief."
+      "paragraphs": ["Use the evidence and boundary language in the role brief."]
     }
   }
 ];

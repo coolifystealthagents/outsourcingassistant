@@ -1,7 +1,7 @@
 import type { BlogPost } from './data';
 
 const internalLinks = [{ href: '/resources/assistant-sop-handoff-checklist', label: 'Use the assistant SOP handoff checklist' }, { href: '/services', label: 'Review outsourcing support services' }];
-const cta = { href: '/contact', label: 'Discuss a bounded assistant workflow' };
+const cta = { href: '/contact-us', label: 'Discuss a bounded assistant workflow' };
 
 export const dailyBlogBatch20260823V8: BlogPost[] = [
   {

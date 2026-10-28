@@ -38,7 +38,7 @@ const specs: readonly ResearchDecisionSpec[] = [
     test: 'Apply the proposed authority matrix to a representative historical sample, compare independent reviewer dispositions, preserve false-safe classifications, and pilot only cases with stable evidence and a reachable escalation owner.',
     failure: 'using urgency as authority, treating an empathetic draft as approval, exposing account details before verification, closing on a sent reply instead of an accepted outcome, or excluding escalated cases from quality review',
     owner: 'the support service owner who controls policy, customer commitments, exception decisions, specialist routing, and access removal',
-    handoff: '/services/customer-support', label: 'scope a customer support lane',
+    handoff: '/services', label: 'scope a customer support lane',
     related: ['customer-support-escalation-matrix', 'outsourced-support-case-classification', 'support-queue-privacy-controls'],
   },
   {
@@ -53,7 +53,7 @@ const specs: readonly ResearchDecisionSpec[] = [
     test: 'Use a reversible copy of representative records, compare each source-to-proposal chain with the authorised reviewer’s independent disposition, and activate only steps with complete evidence, logging, and rollback.',
     failure: 'guessing a category from a merchant name, treating a missing receipt as zero evidence, clearing a reconciliation difference to make totals match, copying bank details from email, or using production payment permissions for data preparation',
     owner: 'the business finance owner and qualified accounting or tax professional responsible for the books, filings, payments, policies, and final judgments',
-    handoff: '/services/bookkeeping-preparation', label: 'review bookkeeping preparation support',
+    handoff: '/services', label: 'review bookkeeping preparation support',
     related: ['access-purpose-evidence', 'record-correction-confidence', 'reversible-action-boundaries'],
   },
   {
@@ -68,7 +68,7 @@ const specs: readonly ResearchDecisionSpec[] = [
     test: 'Have a reviewer reproduce a representative sample from the cited evidence without private explanation, retain contradictions and unknowns, and import only fields whose support and permitted use match the written acceptance rule.',
     failure: 'inferring a personal email address, treating a directory listing as current employment, filling required fields with guesses, ignoring suppression records, or presenting an algorithmic score as observed buying intent',
     owner: 'the sales operations and privacy owners who define the segment, lawful use, acceptance rule, system permissions, outreach authority, and removal process',
-    handoff: '/services/sales-support', label: 'define a sales support research lane',
+    handoff: '/services', label: 'define a sales support research lane',
     related: ['research-evidence-strength-ranking', 'crm-record-confidence-review', 'outsourced-crm-field-change-provenance'],
   },
   {

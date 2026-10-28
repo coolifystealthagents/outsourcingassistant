@@ -29,7 +29,7 @@ const makePost = (x:Spec): BlogPost => ({
   ],
   faqs:[{q:`What can the assistant own in ${x.lane}?`,a:`The assistant can own repeatable preparation, evidence capture, permitted updates, and routing inside the written ${x.artifact}.`},{q:'What should the owner retain?',a:'The owner retains commitments, policy decisions, access changes, sensitive judgments, money movement, and exceptions outside the approved lane.'},{q:'How should quality be checked?',a:'Sample routine work against its source record and review every consequential exception.'}],
   citations:[{name:'NIST Cybersecurity Framework 2.0',url:'https://www.nist.gov/cyberframework',note:'General governance and access-control context.'},{name:'U.S. Small Business Administration hiring guidance',url:'https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees',note:'General small-business management context.'}],
-  internalLinks:[{href:'/resources/assistant-sop-handoff-checklist',label:'Use the assistant SOP handoff checklist'},{href:'/services',label:'Review outsourcing support services'}],cta:{href:'/contact',label:'Discuss a bounded assistant workflow'}
+  internalLinks:[{href:'/resources/assistant-sop-handoff-checklist',label:'Use the assistant SOP handoff checklist'},{href:'/services',label:'Review outsourcing support services'}],cta:{href:'/contact-us',label:'Discuss a bounded assistant workflow'}
 });
 
 export const dailyBlogBatch20260904: BlogPost[] = specs.map(makePost);

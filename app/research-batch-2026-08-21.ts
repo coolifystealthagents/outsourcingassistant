@@ -120,7 +120,7 @@ const records: ResearchPost[] = [
     title: 'How should daily outsourced articles handle source freshness?',
     excerpt: 'Research on matching source recency to the claim, topic volatility, and the review decision rather than treating every newer page as stronger evidence.',
     published: '2026-08-21', updated: '2026-08-21', cluster: 'Evidence quality',
-    headlineStat: 'Freshness is a property of the claim, population, jurisdiction, and decision—not a substitute for source quality.',
+    headlineStat: 'Freshness is a property of the claim, population, jurisdiction, and decision - not a substitute for source quality.',
     methodology: 'Research question: how should a daily article routine decide whether a source is current enough for its claim? This desk review uses NIST governance guidance, OECD measurement definitions, the GPO Style Manual, and ILO remote-work research. It distinguishes a source’s publication or update date from the period it observed and applies the distinction to OutsourcingAssistant.com research articles. It does not give legal, regulatory, or market advice and does not claim that a newer source is always more reliable.',
     keyStats: ['Publication date and observation period answer different questions', 'Freshness should be matched to topic volatility and consequence', 'A current commentary page may still be weaker than an older primary source'],
     takeaways: ['Record source date, update date, observation period, and jurisdiction.', 'Ask whether the source is current enough for the exact sentence.', 'Keep a review trigger for claims that can change rather than implying permanent validity.'],

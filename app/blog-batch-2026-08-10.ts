@@ -55,7 +55,7 @@ function makePost(topic: Topic): BlogPost {
       { href: '/blog/secure-onboarding-filipino-virtual-assistant', label: 'Secure assistant onboarding' },
       { href: '/services', label: 'Filipino assistant services' }
     ],
-    cta: { href: '/contact', label: 'Plan the role and handoff' }
+    cta: { href: '/contact-us', label: 'Plan the role and handoff' }
   };
 }
 

@@ -58,7 +58,7 @@ export default function Home() {
 
             <div className="oa-visual" aria-label="Assistant handoff planning example">
               <div className="oa-image-frame">
-                <img src="/illustrations/getillustrations/goodle-team/assistant-handoff-collaboration.svg" alt="Illustration of an owner and Filipino assistant collaborating on a laptop handoff" />
+                <img src="/illustrations/getillustrations/goodle-team/assistant-handoff-collaboration.svg" alt="Illustration of an owner and Filipino assistant collaborating on a laptop handoff" width="750" height="750" />
               </div>
             </div>
           </div>
@@ -67,11 +67,11 @@ export default function Home() {
         <section className="oa-signal-strip" aria-label="Planning guidance">
           <div className="container oa-signal-grid">
             <p><span>Planning guidance</span> A sensible first handoff is small enough to review.</p>
-            <div><strong>5–10</strong><span>recurring tasks</span></div>
-            <div><strong>7–21</strong><span>days to ramp*</span></div>
-            <div><strong>1</strong><span>named reviewer</span></div>
+            <div><strong>Scope</strong><span>name the recurring work</span></div>
+            <div><strong>Access</strong><span>set permissions and limits</span></div>
+            <div><strong>Review</strong><span>assign a responsible owner</span></div>
           </div>
-          <p className="oa-guidance-note container">*A planning range, not a promised result. Timing depends on scope, tools, access, and how ready the examples are.</p>
+
         </section>
 
         <section className="container oa-section" id="role-board">
@@ -83,7 +83,7 @@ export default function Home() {
           <div className="oa-role-grid">
             {roles.map((role, index) => (
               <a className="oa-role-card" href={`/contact-us?role=${slugify(role.name)}`} key={role.name}>
-                <span className="oa-role-icon"><img src={roleIcons[index]} alt={`${role.name} task icon`} /></span>
+                <span className="oa-role-icon"><img src={roleIcons[index]} alt={`${role.name} task icon`} width="1000" height="1000" /></span>
                 <h3>{role.name}</h3>
                 <p>{role.tasks}.</p>
                 <div><small>Keep an eye on</small><strong>{role.risk}</strong></div>
@@ -102,7 +102,7 @@ export default function Home() {
               <a className="oa-button oa-button-lime" href="/resources/assistant-sop-handoff-checklist">Use the handoff checklist <span>↗</span></a>
             </div>
             <div className="oa-control-board">
-              <img className="oa-support-illustration" src="/illustrations/getillustrations/grain-teamwork/delegation-team-planning.webp" alt="Illustration of a team planning responsibilities and solving a work handoff" />
+              <img className="oa-support-illustration" src="/illustrations/getillustrations/grain-teamwork/delegation-team-planning.webp" alt="Illustration of a team planning responsibilities and solving a work handoff" width="1400" height="1400" />
               <div className="oa-control-top"><b>Operations / assistant lane</b><span>Owner review: Fridays</span></div>
               <div className="oa-lane-labels"><span>Work queue</span><span>Access</span><span>Done when</span></div>
               <div className="oa-control-row"><p><b>Customer replies</b><small>Use saved answers for common questions</small></p><span className="oa-pill">Draft only</span><em>Inbox at zero</em></div>

@@ -104,12 +104,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   },
@@ -216,12 +216,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   },
@@ -328,12 +328,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   },
@@ -440,12 +440,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   },
@@ -552,12 +552,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   },
@@ -664,12 +664,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   },
@@ -776,12 +776,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   },
@@ -888,12 +888,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   },
@@ -1000,12 +1000,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   },
@@ -1112,12 +1112,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   },
@@ -1224,12 +1224,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   },
@@ -1336,12 +1336,12 @@ export const dailyBlogBatch20261008 = [
         "label": "Review virtual assistant services"
       },
       {
-        "href": "/contact",
+        "href": "/contact-us",
         "label": "Discuss a controlled assistant role"
       }
     ],
     "cta": {
-      "href": "/contact",
+      "href": "/contact-us",
       "label": "Plan an evidence-led assistant workflow"
     }
   }

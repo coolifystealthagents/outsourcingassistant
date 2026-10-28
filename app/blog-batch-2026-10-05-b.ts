@@ -32,8 +32,8 @@ export const dailyBlogBatch20261005B: BlogPost[] = [
       { name: 'GS1 Global Traceability Standard', url: 'https://www.gs1.org/standards/gs1-global-traceability-standard/current-standard', note: 'Primary standard used for product, event, and traceability concepts.' },
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for ownership, access, and controlled system changes.' },
     ],
-    internalLinks: [{ href: '/services', label: 'Review ecommerce support services' }, { href: '/contact', label: 'Discuss a stockout support role' }],
-    cta: { href: '/contact', label: 'Plan a controlled substitution workflow' },
+    internalLinks: [{ href: '/services', label: 'Review ecommerce support services' }, { href: '/contact-us', label: 'Discuss a stockout support role' }],
+    cta: { href: '/contact-us', label: 'Plan a controlled substitution workflow' },
   },
   {
     slug: 'virtual-assistant-insurance-certificate-expiry-tracking',
@@ -66,7 +66,7 @@ export const dailyBlogBatch20261005B: BlogPost[] = [
       { name: 'U.S. Small Business Administration: Get business insurance', url: 'https://www.sba.gov/business-guide/launch-your-business/get-business-insurance', note: 'Primary federal small-business overview used for general insurance context.' },
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for governance, access, and evidence handling.' },
     ],
-    internalLinks: [{ href: '/services', label: 'Review administrative support services' }, { href: '/contact', label: 'Discuss vendor-document coordination' }],
-    cta: { href: '/contact', label: 'Scope a controlled expiry-tracking role' },
+    internalLinks: [{ href: '/services', label: 'Review administrative support services' }, { href: '/contact-us', label: 'Discuss vendor-document coordination' }],
+    cta: { href: '/contact-us', label: 'Scope a controlled expiry-tracking role' },
   },
 ];

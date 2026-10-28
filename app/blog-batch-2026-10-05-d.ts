@@ -32,8 +32,8 @@ export const dailyBlogBatch20261005D: BlogPost[] = [
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for supplier, governance, and access concepts.' },
       { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for handling sensitive supplier information.' },
     ],
-    internalLinks: [{ href: '/services', label: 'Review procurement support services' }, { href: '/contact', label: 'Discuss supplier onboarding support' }],
-    cta: { href: '/contact', label: 'Plan a controlled supplier intake role' },
+    internalLinks: [{ href: '/services', label: 'Review procurement support services' }, { href: '/contact-us', label: 'Discuss supplier onboarding support' }],
+    cta: { href: '/contact-us', label: 'Plan a controlled supplier intake role' },
   },
   {
     slug: 'virtual-assistant-customer-order-address-change-verification',
@@ -66,7 +66,7 @@ export const dailyBlogBatch20261005D: BlogPost[] = [
       { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for limiting exposure of customer and address information.' },
       { name: 'CISA Avoiding Social Engineering and Phishing Attacks', url: 'https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks', note: 'Primary government guidance consulted for verification and suspicious-request handling.' },
     ],
-    internalLinks: [{ href: '/services', label: 'Review ecommerce support services' }, { href: '/contact', label: 'Discuss an order-exception role' }],
-    cta: { href: '/contact', label: 'Design a safer address-change workflow' },
+    internalLinks: [{ href: '/services', label: 'Review ecommerce support services' }, { href: '/contact-us', label: 'Discuss an order-exception role' }],
+    cta: { href: '/contact-us', label: 'Design a safer address-change workflow' },
   },
 ];

@@ -49,9 +49,9 @@ export const makeDailyWorkflowPost = (x: DailyWorkflowSpec, published = '2026-09
   internalLinks:[
     {href:'/resources/assistant-sop-handoff-checklist',label:'Build the assistant handoff checklist'},
     {href:'/services',label:'Review virtual assistant service options'},
-    {href:'/contact',label:'Discuss a role built around this workflow'}
+    {href:'/contact-us',label:'Discuss a role built around this workflow'}
   ],
-  cta:{href:'/contact',label:'Plan the assistant role'}
+  cta:{href:'/contact-us',label:'Plan the assistant role'}
 });
 
 export const dailyBlogBatch20260922: BlogPost[] = specs.map((x) => makeDailyWorkflowPost(x));

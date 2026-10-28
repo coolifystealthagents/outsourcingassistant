@@ -31,8 +31,8 @@ export const dailyBlogBatch20261005A: BlogPost[] = [
       { name: 'U.S. General Services Administration foreign per diem rates', url: 'https://aoprals.state.gov/web920/per_diem.asp', note: 'Official reference illustrating date- and location-specific travel allowance data; company policy determines whether it applies.' },
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Primary framework used for access, governance, and evidence-handling principles.' },
     ],
-    internalLinks: [{ href: '/services', label: 'Review virtual assistant services' }, { href: '/contact', label: 'Discuss an expense support role' }],
-    cta: { href: '/contact', label: 'Plan an evidence-led finance support workflow' },
+    internalLinks: [{ href: '/services', label: 'Review virtual assistant services' }, { href: '/contact-us', label: 'Discuss an expense support role' }],
+    cta: { href: '/contact-us', label: 'Plan an evidence-led finance support workflow' },
   },
   {
     slug: 'virtual-assistant-podcast-guest-release-asset-tracking',
@@ -64,7 +64,7 @@ export const dailyBlogBatch20261005A: BlogPost[] = [
       { name: 'Federal Trade Commission Endorsement Guides', url: 'https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews', note: 'Primary guidance consulted when promotional guest material could function as an endorsement.' },
       { name: 'W3C Web Content Accessibility Guidelines', url: 'https://www.w3.org/TR/WCAG22/', note: 'Primary accessibility standard used for caption, transcript, text-alternative, and publishing considerations.' },
     ],
-    internalLinks: [{ href: '/services', label: 'Explore content support services' }, { href: '/contact', label: 'Discuss a podcast coordination role' }],
-    cta: { href: '/contact', label: 'Design a controlled guest-production workflow' },
+    internalLinks: [{ href: '/services', label: 'Explore content support services' }, { href: '/contact-us', label: 'Discuss a podcast coordination role' }],
+    cta: { href: '/contact-us', label: 'Design a controlled guest-production workflow' },
   },
 ];

@@ -223,6 +223,6 @@ export const dailyBlogBatch20261002: BlogPost[] = specs.map((x): BlogPost => ({
       {name:'U.S. Small Business Administration: Hire and manage employees',url:'https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees',note:'Primary small-business guidance used for role definition and staff management context.'},
       {name:'Federal Trade Commission: Protecting personal information',url:'https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information',note:'Primary guidance used for proportionate collection and protection of personal information.'}
     ],
-    internalLinks:[{href:'/resources/assistant-sop-handoff-checklist',label:'Build an assistant handoff checklist'},{href:'/services',label:'Review virtual assistant services'},{href:'/contact',label:'Discuss this operating role'}],
-    cta:{href:'/contact',label:'Plan the assistant role'}
+    internalLinks:[{href:'/resources/assistant-sop-handoff-checklist',label:'Build an assistant handoff checklist'},{href:'/services',label:'Review virtual assistant services'},{href:'/contact-us',label:'Discuss this operating role'}],
+    cta:{href:'/contact-us',label:'Plan the assistant role'}
   }));

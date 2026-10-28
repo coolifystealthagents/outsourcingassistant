@@ -33,8 +33,8 @@ export const dailyBlogBatch20261005F: BlogPost[] = [
       { name: 'Uniform Administrative Requirements, Cost Principles, and Audit Requirements', url: 'https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200', note: 'Primary U.S. regulation consulted for federal award and cost context.' },
       { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for sensitive evidence handling.' },
     ],
-    internalLinks: [{ href: '/services', label: 'Review research and administrative support' }, { href: '/contact', label: 'Discuss application coordination' }],
-    cta: { href: '/contact', label: 'Plan a source-led application workflow' },
+    internalLinks: [{ href: '/services', label: 'Review research and administrative support' }, { href: '/contact-us', label: 'Discuss application coordination' }],
+    cta: { href: '/contact-us', label: 'Plan a source-led application workflow' },
   },
   {
     slug: 'virtual-assistant-customer-complaint-remedy-approval-packet',
@@ -68,7 +68,7 @@ export const dailyBlogBatch20261005F: BlogPost[] = [
       { name: 'Consumer Financial Protection Bureau complaint process', url: 'https://www.consumerfinance.gov/complaint/process/', note: 'Primary federal example consulted for complaint intake, routing, response, and feedback stages.' },
       { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', note: 'Primary guidance used for handling customer and complaint information.' },
     ],
-    internalLinks: [{ href: '/services', label: 'Review customer support services' }, { href: '/contact', label: 'Discuss complaint coordination' }],
-    cta: { href: '/contact', label: 'Design a controlled remedy-review lane' },
+    internalLinks: [{ href: '/services', label: 'Review customer support services' }, { href: '/contact-us', label: 'Discuss complaint coordination' }],
+    cta: { href: '/contact-us', label: 'Design a controlled remedy-review lane' },
   },
 ];

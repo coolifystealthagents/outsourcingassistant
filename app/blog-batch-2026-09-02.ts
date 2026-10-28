@@ -42,6 +42,6 @@ const make = (s: Spec): BlogPost => ({
     {q:'How should this routine be reviewed?',a:'Review initial samples closely, retain evidence for corrections, and inspect every exception until the process is stable.'},
   ],citations,
   internalLinks:[{href:'/resources/assistant-sop-handoff-checklist',label:'Use the assistant SOP handoff checklist'},{href:'/services',label:'Review outsourcing support services'}],
-  cta:{href:'/contact',label:'Plan a controlled assistant workflow'},
+  cta:{href:'/contact-us',label:'Plan a controlled assistant workflow'},
 });
 export const dailyBlogBatch20260902: BlogPost[] = specs.map(make);

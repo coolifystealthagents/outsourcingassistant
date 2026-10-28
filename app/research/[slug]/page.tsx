@@ -27,6 +27,13 @@ function researchToc(post: ResearchPost): TocItem[] {
 const tocId = (items: TocItem[], label: string) => items.find(item => item.label === label)?.id;
 const Heading = ({ items, children }: { items: TocItem[]; children: string }) => <h2 id={tocId(items, children)} className="article-section-heading" style={{ scrollMarginTop: '7rem' }}>{children}</h2>;
 
+const relatedHref = (value: string) => {
+  if (value === '/research' || value === 'research') return '/research';
+  if (value === '/blog' || value === 'blog') return '/blog';
+  const slug = value.replace(/^\/research\//, '').replace(/^\//, '');
+  return researchPosts.some(item => item.slug === slug) ? `/research/${slug}` : null;
+};
+
 export function generateStaticParams() { return researchPosts.map(post => ({ slug: post.slug })); }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -34,7 +41,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = researchPosts.find(item => item.slug === slug);
   if (!post) return {};
   const hero = resolveResearchImage(post);
-  return { title: post.title, description: post.excerpt, alternates: { canonical: `${base}/research/${post.slug}` }, openGraph: { title: post.title, description: post.excerpt, type: 'article', url: `${base}/research/${post.slug}`, publishedTime: post.published, modifiedTime: post.updated, images: [{ url: hero.url, alt: hero.alt }] } };
+  const datedTitle = /(?:\d{4}-\d{2}-\d{2}|(?:january|february|march|april|may|june|july|august|september|october|november|december)-\d{1,2}-\d{4})$/i.test(post.slug)
+    ? `${post.title} (${post.published})`
+    : post.title;
+  const description = `${post.excerpt} Research: ${datedTitle}.`;
+  return { title: datedTitle, description, alternates: { canonical: `${base}/research/${post.slug}` }, openGraph: { title: datedTitle, description, type: 'article', url: `${base}/research/${post.slug}`, publishedTime: post.published, modifiedTime: post.updated, images: [{ url: hero.url, alt: hero.alt }] } };
 }
 
 export default async function ResearchArticle({ params }: { params: Promise<{ slug: string }> }) {
@@ -43,9 +54,11 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
   if (!post) notFound();
   const hero = resolveResearchImage(post);
   const items = researchToc(post);
-  const related = post.related.map(relatedSlug => {
-    const match = researchPosts.find(item => item.slug === relatedSlug);
-    return { href: `/research/${relatedSlug}`, label: match?.title ?? relatedSlug.replace(/-/g, ' ') };
+  const related = post.related.flatMap(value => {
+    const href = relatedHref(value);
+    if (!href) return [];
+    const match = href.startsWith('/research/') ? researchPosts.find(item => `/research/${item.slug}` === href) : null;
+    return [{ href, label: match?.title ?? (href === '/research' ? 'Research library' : 'Outsourcing guides') }];
   });
   const organization={'@id':`${base}/#organization`};
   const schema = [
@@ -53,7 +66,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
     { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: base }, { '@type': 'ListItem', position: 2, name: 'Research', item: `${base}/research` }, { '@type': 'ListItem', position: 3, name: post.title, item: `${base}/research/${post.slug}` }] },
   ];
 
-  return <><Header/><main id="main-content" className="section"><div className="container"><EditorialLayout items={items} family="research" related={related} contentClassName="article"><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}/><h1>{post.title}</h1><p className="lead">{post.excerpt}</p><img className="article-hero-image" src={hero.url} alt={hero.alt}/><p className="article-meta"><time dateTime={post.published}>Published: {formatPublicDate(post.published)}</time>{post.updated !== post.published && <> · <time dateTime={post.updated}>Updated {formatPublicDate(post.updated)}</time></>}</p>
+  return <><Header/><main id="main-content" className="section"><div className="container"><EditorialLayout items={items} family="research" related={related} contentClassName="article"><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}/><h1>{post.title}</h1><p className="lead">{post.excerpt}</p><img className="article-hero-image" src={hero.url} alt={hero.alt} width="1600" height="900"/><p className="article-meta"><time dateTime={post.published}>Published: {formatPublicDate(post.published)}</time>{post.updated !== post.published && <> | <time dateTime={post.updated}>Updated {formatPublicDate(post.updated)}</time></>}</p>
     <section className="card article-block"><Heading items={items}>Headline statistic</Heading><p>{post.headlineStat}</p><p><b>Methodology:</b> {post.methodology}</p></section>
     <section className="card article-block"><Heading items={items}>Key stats</Heading><ul className="list">{post.keyStats.map(stat => <li key={stat}>{stat}</li>)}</ul></section>
     <section className="card article-block"><Heading items={items}>Key takeaways</Heading><ul className="list">{post.takeaways.map(takeaway => <li key={takeaway}>{takeaway}</li>)}</ul></section>
@@ -62,6 +75,6 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
     {post.serviceHandoff ? <section className="card article-block"><Heading items={items}>{post.serviceHandoff.heading}</Heading>{post.serviceHandoff.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}<p><a href={post.serviceHandoff.href}>{post.serviceHandoff.label}</a></p></section> : null}
     <section className="card article-block"><Heading items={items}>Questions people ask</Heading>{post.faqs.map(faq => <div className="faq" key={faq.q}><h3 id={tocId(items, faq.q)} className="article-subsection-heading" style={{ scrollMarginTop: '7rem' }}>{faq.q}</h3><p>{faq.a}</p></div>)}</section>
     <section className="card article-block"><Heading items={items}>Sources</Heading><ol className="list">{post.sources.map(source => <li key={source.url}><a href={source.url}>{source.name}</a>: {source.note}</li>)}</ol></section>
-    {post.related.length ? <section className="card article-block"><Heading items={items}>Related research</Heading><ul className="list">{related.map(link => <li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul></section> : null}
+    {related.length ? <section className="card article-block"><Heading items={items}>Related research</Heading><ul className="list">{related.map(link => <li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul></section> : null}
   </EditorialLayout></div></main><Footer/></>;
 }
