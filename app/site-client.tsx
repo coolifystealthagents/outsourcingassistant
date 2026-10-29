@@ -6,6 +6,16 @@ import { usePathname } from 'next/navigation';
 const primaryLinks = [{ href: '/', label: 'Home' }, { href: '/services', label: 'Services' }, { href: '/contact-us', label: 'Contact Us' }];
 const isCurrentRoute = (pathname: string, href: string) => href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(`${href}/`);
 
+export function SkipLink() {
+  return <a className="skip-link" href="#main-content" onClick={event => {
+    const main = document.getElementById('main-content');
+    if (!main) return;
+    event.preventDefault();
+    main.focus({ preventScroll: true });
+    main.scrollIntoView({ block: 'start' });
+  }}>Skip to main content</a>;
+}
+
 export function PrimaryNavigation() {
   const pathname = usePathname();
   return <nav className="links fleet-links" aria-label="Main navigation">{primaryLinks.map(link => {
@@ -66,7 +76,11 @@ export function VisibleTextSanitizer() {
         const next = sanitizeVisibleText(node.data);
         if (next !== node.data) node.data = next;
       }
-      if (root === document) document.querySelector('main')?.setAttribute('id', 'main-content');
+      if (root === document) {
+        const main = document.querySelector('main');
+        main?.setAttribute('id', 'main-content');
+        main?.setAttribute('tabindex', '-1');
+      }
     };
     apply(document);
     const observer = new MutationObserver(records => records.forEach(record => record.addedNodes.forEach(apply)));
