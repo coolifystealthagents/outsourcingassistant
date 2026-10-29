@@ -164,3 +164,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 
 /* Oct 24 QA: overflow-x:hidden on body creates a scroll container and breaks sticky header/ToC in Chrome. clip keeps containment without a scroll container. */
 body{overflow-x:clip}
+
+/* Keep variable-length role copy and its destination in normal flow on narrow screens. */
+@media(max-width:700px){
+  .oa-role-card{display:flex;min-height:390px;flex-direction:column}
+  .oa-role-card .oa-card-link{position:static;margin-top:auto;padding-top:18px}
+}
