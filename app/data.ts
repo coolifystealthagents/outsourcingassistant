@@ -1,6 +1,7 @@
 import { oct25BlogBatch } from './oct25-blog';
 import { oct26BlogBatch } from './oct26-blog';
 import { oct28BlogBatch } from './oct28-blog';
+import { nov02BlogBatch } from './nov02-blog';
 import { oct27BlogBatch } from './oct27-blog';
 
 export const site = {
@@ -667,5 +668,5 @@ blogPosts.unshift(...dailyBlogBatch20261013);
 blogPosts.unshift(...dailyBlogBatch20261022);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
 blogPosts.push(...oct25BlogBatch);
-blogPosts.push(...oct28BlogBatch, ...oct27BlogBatch, ...oct26BlogBatch);
+blogPosts.push(...nov02BlogBatch, ...oct28BlogBatch, ...oct27BlogBatch, ...oct26BlogBatch);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
