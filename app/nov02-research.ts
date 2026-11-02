@@ -30,91 +30,104 @@ export const nov02ResearchBatch: ResearchPost[] = [
         "paragraphs": [
           "A task brief completeness case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Population and unit of analysis",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Definitions that make the measure reproducible",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Evidence standard and data dictionary",
         "paragraphs": [
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing.",
           "A task brief completeness case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Sampling and collection",
         "paragraphs": [
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record.",
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Analysis and reporting",
         "paragraphs": [
           "A task brief completeness case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Limitations and sources of error",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Review cadence and next action",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Data quality checks",
         "paragraphs": [
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing.",
           "A task brief completeness case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Privacy, access, and retention",
         "paragraphs": [
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record.",
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Worked example of the record",
         "paragraphs": [
           "A task brief completeness case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "What would change the answer",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Reporting package and handoff",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       }
     ],
     "faqs": [
@@ -249,91 +262,104 @@ export const nov02ResearchBatch: ResearchPost[] = [
         "paragraphs": [
           "A handover note reliability case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Population and unit of analysis",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Definitions that make the measure reproducible",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Evidence standard and data dictionary",
         "paragraphs": [
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing.",
           "A handover note reliability case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Sampling and collection",
         "paragraphs": [
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record.",
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Analysis and reporting",
         "paragraphs": [
           "A handover note reliability case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Limitations and sources of error",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Review cadence and next action",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Data quality checks",
         "paragraphs": [
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing.",
           "A handover note reliability case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Privacy, access, and retention",
         "paragraphs": [
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record.",
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Worked example of the record",
         "paragraphs": [
           "A handover note reliability case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "What would change the answer",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Reporting package and handoff",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       }
     ],
     "faqs": [
@@ -468,91 +494,104 @@ export const nov02ResearchBatch: ResearchPost[] = [
         "paragraphs": [
           "A access review coverage case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Population and unit of analysis",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Definitions that make the measure reproducible",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Evidence standard and data dictionary",
         "paragraphs": [
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing.",
           "A access review coverage case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Sampling and collection",
         "paragraphs": [
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record.",
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Analysis and reporting",
         "paragraphs": [
           "A access review coverage case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Limitations and sources of error",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Review cadence and next action",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Data quality checks",
         "paragraphs": [
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing.",
           "A access review coverage case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Privacy, access, and retention",
         "paragraphs": [
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record.",
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Worked example of the record",
         "paragraphs": [
           "A access review coverage case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "What would change the answer",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Reporting package and handoff",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       }
     ],
     "faqs": [
@@ -687,91 +726,104 @@ export const nov02ResearchBatch: ResearchPost[] = [
         "paragraphs": [
           "A quality sample signal case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Population and unit of analysis",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Definitions that make the measure reproducible",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Evidence standard and data dictionary",
         "paragraphs": [
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing.",
           "A quality sample signal case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Sampling and collection",
         "paragraphs": [
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record.",
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Analysis and reporting",
         "paragraphs": [
           "A quality sample signal case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Limitations and sources of error",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Review cadence and next action",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Data quality checks",
         "paragraphs": [
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing.",
           "A quality sample signal case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Privacy, access, and retention",
         "paragraphs": [
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record.",
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Worked example of the record",
         "paragraphs": [
           "A quality sample signal case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "What would change the answer",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Reporting package and handoff",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       }
     ],
     "faqs": [
@@ -906,91 +958,104 @@ export const nov02ResearchBatch: ResearchPost[] = [
         "paragraphs": [
           "A coverage continuity case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Population and unit of analysis",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Definitions that make the measure reproducible",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Evidence standard and data dictionary",
         "paragraphs": [
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing.",
           "A coverage continuity case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Sampling and collection",
         "paragraphs": [
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record.",
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Analysis and reporting",
         "paragraphs": [
           "A coverage continuity case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Limitations and sources of error",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Review cadence and next action",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Data quality checks",
         "paragraphs": [
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing.",
           "A coverage continuity case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Privacy, access, and retention",
         "paragraphs": [
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record.",
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Worked example of the record",
         "paragraphs": [
           "A coverage continuity case without a named owner can move through the queue while nobody can say what was checked. The the client success manager keeps the decision and any commitment that changes money, access, policy, or a client promise. The assistant may organize the record, compare sources, and route exceptions.",
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "What would change the answer",
         "paragraphs": [
           "The approved source is named before work starts. The record shows the source date, reviewer, next action, and evidence that closed the case. Keep restricted information in the approved system.",
           "Start with the oldest unresolved item. At handoff, name what moved, what is waiting, who owns the next check, and which evidence is missing."
-        ]
+        ],
+        "rows": []
       },
       {
         "heading": "Reporting package and handoff",
         "paragraphs": [
           "The stop condition is: the source is missing, records disagree, or the request changes access, pay, or a client commitment. When it appears, preserve the facts and route the exact missing item to the the client success manager.",
           "A sent message or uploaded file proves activity, not an approved task or client-visible result. Verification belongs in the destination record."
-        ]
+        ],
+        "rows": []
       }
     ],
     "faqs": [
