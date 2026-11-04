@@ -46,7 +46,7 @@ export const nov04BlogBatch: BlogPost[] = [
       {
         "heading": "The monthly review",
         "paragraphs": [
-          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date."
+          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date. Record the sample size and exclusions beside the result. Re-test the same rule after the change."
         ]
       }
     ],
@@ -162,7 +162,7 @@ export const nov04BlogBatch: BlogPost[] = [
       {
         "heading": "The monthly review",
         "paragraphs": [
-          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date."
+          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date. Record the sample size and exclusions beside the result. Re-test the same rule after the change."
         ]
       }
     ],
@@ -278,7 +278,7 @@ export const nov04BlogBatch: BlogPost[] = [
       {
         "heading": "The monthly review",
         "paragraphs": [
-          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date."
+          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date. Record the sample size and exclusions beside the result. Re-test the same rule after the change."
         ]
       }
     ],
@@ -394,7 +394,7 @@ export const nov04BlogBatch: BlogPost[] = [
       {
         "heading": "The monthly review",
         "paragraphs": [
-          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date."
+          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date. Record the sample size and exclusions beside the result. Re-test the same rule after the change."
         ]
       }
     ],
@@ -510,7 +510,7 @@ export const nov04BlogBatch: BlogPost[] = [
       {
         "heading": "The monthly review",
         "paragraphs": [
-          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date."
+          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date. Record the sample size and exclusions beside the result. Re-test the same rule after the change."
         ]
       }
     ],
@@ -626,7 +626,7 @@ export const nov04BlogBatch: BlogPost[] = [
       {
         "heading": "The monthly review",
         "paragraphs": [
-          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date."
+          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date. Record the sample size and exclusions beside the result. Re-test the same rule after the change."
         ]
       }
     ],
@@ -742,7 +742,7 @@ export const nov04BlogBatch: BlogPost[] = [
       {
         "heading": "The monthly review",
         "paragraphs": [
-          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date."
+          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date. Record the sample size and exclusions beside the result. Re-test the same rule after the change."
         ]
       }
     ],
@@ -858,7 +858,7 @@ export const nov04BlogBatch: BlogPost[] = [
       {
         "heading": "The monthly review",
         "paragraphs": [
-          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date."
+          "Sample normal, exception, and reopened records against the same rule. End with one process change, one owner, and one check date. Record the sample size and exclusions beside the result. Re-test the same rule after the change."
         ]
       }
     ],
