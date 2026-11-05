@@ -2,7 +2,7 @@ import type { BlogPost } from './data';
 
 export const nov05BlogBatch: BlogPost[] = [
   {
-    "slug": "outsourcingassistant-task-brief-01-for-the-november-review",
+    "slug": "keep-a-task-brief-tied-to-the-approved-request-for-the-november-review",
     "title": "Keep a task brief tied to the approved request for the November review",
     "excerpt": "A source-bounded outsourced assistant operations guide for executives and operations teams, focused on task briefs and bounded by honest evidence. November 4 edition.",
     "minutes": 6,
@@ -67,7 +67,7 @@ export const nov05BlogBatch: BlogPost[] = [
     "published": "2026-11-05",
     "updated": "2026-11-05",
     "image": {
-      "url": "/daily05/outsourcingassistant/outsourcingassistant-task-brief-01-for-the-november-review.png",
+      "url": "/daily05/outsourcingassistant/keep-a-task-brief-tied-to-the-approved-request-for-the-november-review.png",
       "alt": "Title-overlaid editorial thumbnail for Keep a task brief tied to the approved request for the November review"
     },
     "citations": [
@@ -118,7 +118,7 @@ export const nov05BlogBatch: BlogPost[] = [
     }
   },
   {
-    "slug": "outsourcingassistant-handover-note-02-for-the-november-review",
+    "slug": "write-a-handover-note-the-next-assistant-can-use-for-the-november-review",
     "title": "Write a handover note the next assistant can use for the November review",
     "excerpt": "A source-bounded outsourced assistant operations guide for executives and operations teams, focused on handover notes and bounded by honest evidence. November 4 edition.",
     "minutes": 6,
@@ -183,7 +183,7 @@ export const nov05BlogBatch: BlogPost[] = [
     "published": "2026-11-05",
     "updated": "2026-11-05",
     "image": {
-      "url": "/daily05/outsourcingassistant/outsourcingassistant-handover-note-02-for-the-november-review.png",
+      "url": "/daily05/outsourcingassistant/write-a-handover-note-the-next-assistant-can-use-for-the-november-review.png",
       "alt": "Title-overlaid editorial thumbnail for Write a handover note the next assistant can use for the November review"
     },
     "citations": [
@@ -234,7 +234,7 @@ export const nov05BlogBatch: BlogPost[] = [
     }
   },
   {
-    "slug": "outsourcingassistant-inbox-triage-03-for-the-november-review",
+    "slug": "triage-an-executive-inbox-with-bounded-access-for-the-november-review",
     "title": "Triage an executive inbox with bounded access for the November review",
     "excerpt": "A source-bounded outsourced assistant operations guide for executives and operations teams, focused on inbox triage and bounded by honest evidence. November 4 edition.",
     "minutes": 6,
@@ -299,7 +299,7 @@ export const nov05BlogBatch: BlogPost[] = [
     "published": "2026-11-05",
     "updated": "2026-11-05",
     "image": {
-      "url": "/daily05/outsourcingassistant/outsourcingassistant-inbox-triage-03-for-the-november-review.png",
+      "url": "/daily05/outsourcingassistant/triage-an-executive-inbox-with-bounded-access-for-the-november-review.png",
       "alt": "Title-overlaid editorial thumbnail for Triage an executive inbox with bounded access for the November review"
     },
     "citations": [
@@ -350,7 +350,7 @@ export const nov05BlogBatch: BlogPost[] = [
     }
   },
   {
-    "slug": "outsourcingassistant-calendar-04-for-the-november-review",
+    "slug": "resolve-a-calendar-conflict-without-taking-the-decision-for-the-november-review",
     "title": "Resolve a calendar conflict without taking the decision for the November review",
     "excerpt": "A source-bounded outsourced assistant operations guide for executives and operations teams, focused on calendar coordination and bounded by honest evidence. November 4 edition.",
     "minutes": 6,
@@ -415,7 +415,7 @@ export const nov05BlogBatch: BlogPost[] = [
     "published": "2026-11-05",
     "updated": "2026-11-05",
     "image": {
-      "url": "/daily05/outsourcingassistant/outsourcingassistant-calendar-04-for-the-november-review.png",
+      "url": "/daily05/outsourcingassistant/resolve-a-calendar-conflict-without-taking-the-decision-for-the-november-review.png",
       "alt": "Title-overlaid editorial thumbnail for Resolve a calendar conflict without taking the decision for the November review"
     },
     "citations": [
@@ -466,7 +466,7 @@ export const nov05BlogBatch: BlogPost[] = [
     }
   },
   {
-    "slug": "outsourcingassistant-meeting-notes-05-for-the-november-review",
+    "slug": "turn-meeting-notes-into-owned-actions-for-the-november-review",
     "title": "Turn meeting notes into owned actions for the November review",
     "excerpt": "A source-bounded outsourced assistant operations guide for executives and operations teams, focused on meeting notes and bounded by honest evidence. November 4 edition.",
     "minutes": 6,
@@ -531,7 +531,7 @@ export const nov05BlogBatch: BlogPost[] = [
     "published": "2026-11-05",
     "updated": "2026-11-05",
     "image": {
-      "url": "/daily05/outsourcingassistant/outsourcingassistant-meeting-notes-05-for-the-november-review.png",
+      "url": "/daily05/outsourcingassistant/turn-meeting-notes-into-owned-actions-for-the-november-review.png",
       "alt": "Title-overlaid editorial thumbnail for Turn meeting notes into owned actions for the November review"
     },
     "citations": [
@@ -582,7 +582,7 @@ export const nov05BlogBatch: BlogPost[] = [
     }
   },
   {
-    "slug": "outsourcingassistant-document-format-06-for-the-november-review",
+    "slug": "control-a-document-format-change-through-review-for-the-november-review",
     "title": "Control a document format change through review for the November review",
     "excerpt": "A source-bounded outsourced assistant operations guide for executives and operations teams, focused on document format changes and bounded by honest evidence. November 4 edition.",
     "minutes": 6,
@@ -647,7 +647,7 @@ export const nov05BlogBatch: BlogPost[] = [
     "published": "2026-11-05",
     "updated": "2026-11-05",
     "image": {
-      "url": "/daily05/outsourcingassistant/outsourcingassistant-document-format-06-for-the-november-review.png",
+      "url": "/daily05/outsourcingassistant/control-a-document-format-change-through-review-for-the-november-review.png",
       "alt": "Title-overlaid editorial thumbnail for Control a document format change through review for the November review"
     },
     "citations": [
@@ -698,7 +698,7 @@ export const nov05BlogBatch: BlogPost[] = [
     }
   },
   {
-    "slug": "outsourcingassistant-vendor-followup-07-for-the-november-review",
+    "slug": "track-a-vendor-follow-up-without-losing-the-promise-for-the-november-review",
     "title": "Track a vendor follow-up without losing the promise for the November review",
     "excerpt": "A source-bounded outsourced assistant operations guide for executives and operations teams, focused on vendor follow-up and bounded by honest evidence. November 4 edition.",
     "minutes": 6,
@@ -763,7 +763,7 @@ export const nov05BlogBatch: BlogPost[] = [
     "published": "2026-11-05",
     "updated": "2026-11-05",
     "image": {
-      "url": "/daily05/outsourcingassistant/outsourcingassistant-vendor-followup-07-for-the-november-review.png",
+      "url": "/daily05/outsourcingassistant/track-a-vendor-follow-up-without-losing-the-promise-for-the-november-review.png",
       "alt": "Title-overlaid editorial thumbnail for Track a vendor follow-up without losing the promise for the November review"
     },
     "citations": [
@@ -814,7 +814,7 @@ export const nov05BlogBatch: BlogPost[] = [
     }
   },
   {
-    "slug": "outsourcingassistant-travel-brief-08-for-the-november-review",
+    "slug": "prepare-a-travel-brief-with-a-named-fallback-for-the-november-review",
     "title": "Prepare a travel brief with a named fallback for the November review",
     "excerpt": "A source-bounded outsourced assistant operations guide for executives and operations teams, focused on travel briefs and bounded by honest evidence. November 4 edition.",
     "minutes": 6,
@@ -879,7 +879,7 @@ export const nov05BlogBatch: BlogPost[] = [
     "published": "2026-11-05",
     "updated": "2026-11-05",
     "image": {
-      "url": "/daily05/outsourcingassistant/outsourcingassistant-travel-brief-08-for-the-november-review.png",
+      "url": "/daily05/outsourcingassistant/prepare-a-travel-brief-with-a-named-fallback-for-the-november-review.png",
       "alt": "Title-overlaid editorial thumbnail for Prepare a travel brief with a named fallback for the November review"
     },
     "citations": [
