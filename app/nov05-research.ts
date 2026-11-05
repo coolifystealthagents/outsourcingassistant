@@ -3,7 +3,7 @@ import type { ResearchPost } from './fleet-content';
 export const nov05ResearchBatch: ResearchPost[] = [
   {
     "slug": "outsourcingassistant-how-complete-is-the-evidence-in-the-task-brief-completeness-record-for-the-november-review",
-    "title": "How complete is the evidence in the task brief completeness record?",
+    "title": "How complete is the evidence in the task brief completeness record, for the November review?",
     "excerpt": "A repeatable measurement protocol for task brief completeness in outsourced assistant operations, with definitions, sampling, limits, and reporting. November 4 edition.",
     "published": "2026-11-05",
     "updated": "2026-11-05",
@@ -235,7 +235,7 @@ export const nov05ResearchBatch: ResearchPost[] = [
   },
   {
     "slug": "outsourcingassistant-how-complete-is-the-evidence-in-the-handover-note-reliability-record-for-the-november-review",
-    "title": "How complete is the evidence in the handover note reliability record?",
+    "title": "How complete is the evidence in the handover note reliability record, for the November review?",
     "excerpt": "A repeatable measurement protocol for handover note reliability in outsourced assistant operations, with definitions, sampling, limits, and reporting. November 4 edition.",
     "published": "2026-11-05",
     "updated": "2026-11-05",
@@ -467,7 +467,7 @@ export const nov05ResearchBatch: ResearchPost[] = [
   },
   {
     "slug": "outsourcingassistant-how-complete-is-the-evidence-in-the-access-review-coverage-record-for-the-november-review",
-    "title": "How complete is the evidence in the access review coverage record?",
+    "title": "How complete is the evidence in the access review coverage record, for the November review?",
     "excerpt": "A repeatable measurement protocol for access review coverage in outsourced assistant operations, with definitions, sampling, limits, and reporting. November 4 edition.",
     "published": "2026-11-05",
     "updated": "2026-11-05",
@@ -699,7 +699,7 @@ export const nov05ResearchBatch: ResearchPost[] = [
   },
   {
     "slug": "outsourcingassistant-how-complete-is-the-evidence-in-the-quality-sample-signal-record-for-the-november-review",
-    "title": "How complete is the evidence in the quality sample signal record?",
+    "title": "How complete is the evidence in the quality sample signal record, for the November review?",
     "excerpt": "A repeatable measurement protocol for quality sample signal in outsourced assistant operations, with definitions, sampling, limits, and reporting. November 4 edition.",
     "published": "2026-11-05",
     "updated": "2026-11-05",
@@ -931,7 +931,7 @@ export const nov05ResearchBatch: ResearchPost[] = [
   },
   {
     "slug": "outsourcingassistant-how-complete-is-the-evidence-in-the-coverage-continuity-record-for-the-november-review",
-    "title": "How complete is the evidence in the coverage continuity record?",
+    "title": "How complete is the evidence in the coverage continuity record, for the November review?",
     "excerpt": "A repeatable measurement protocol for coverage continuity in outsourced assistant operations, with definitions, sampling, limits, and reporting. November 4 edition.",
     "published": "2026-11-05",
     "updated": "2026-11-05",
@@ -1163,7 +1163,7 @@ export const nov05ResearchBatch: ResearchPost[] = [
   },
   {
     "slug": "outsourcingassistant-how-complete-is-the-evidence-in-the-report-reproducibility-record-for-the-november-review",
-    "title": "How complete is the evidence in the report reproducibility record?",
+    "title": "How complete is the evidence in the report reproducibility record, for the November review?",
     "excerpt": "A repeatable measurement protocol for report reproducibility in outsourced assistant operations, with definitions, sampling, limits, and reporting. November 4 edition.",
     "published": "2026-11-05",
     "updated": "2026-11-05",
@@ -1395,7 +1395,7 @@ export const nov05ResearchBatch: ResearchPost[] = [
   },
   {
     "slug": "outsourcingassistant-how-complete-is-the-evidence-in-the-reversible-exception-record-record-for-the-november-review",
-    "title": "How complete is the evidence in the reversible exception record record?",
+    "title": "How complete is the evidence in the reversible exception record record, for the November review?",
     "excerpt": "A repeatable measurement protocol for reversible exception record in outsourced assistant operations, with definitions, sampling, limits, and reporting. November 4 edition.",
     "published": "2026-11-05",
     "updated": "2026-11-05",
