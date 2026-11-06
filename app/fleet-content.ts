@@ -369,6 +369,7 @@ import { researchBatch20261022 } from './research-batch-2026-10-22';
 import { oct25ResearchBatch } from './oct25-research';
 import { oct26ResearchBatch } from './oct26-research';
 import { oct28ResearchBatch } from './oct28-research';
+import { nov06ResearchBatch } from './nov06-research';
 import { nov05ResearchBatch } from './nov05-research';
 import { nov04ResearchBatch } from './nov04-research';
 import { nov03ResearchBatch } from './nov03-research';
@@ -380,6 +381,7 @@ export const researchPosts: readonly ResearchPost[] = [
   ...nov02ResearchBatch,
   ...nov03ResearchBatch,
   ...nov04ResearchBatch,
+  ...nov06ResearchBatch,
   ...nov05ResearchBatch,
   ...oct28ResearchBatch,
   ...oct26ResearchBatch,
