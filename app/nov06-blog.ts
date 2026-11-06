@@ -11,7 +11,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The control this executive inbox rule needs",
         "paragraphs": [
-          "A executive inbox rule control earns its place when the team can apply it on a busy night without asking for context. Start with the owner, because a executive inbox rule item without one cannot be escalated cleanly across a time zone. The point of the inbox is to make the next decision obvious, not to collect activity. In the the control this executive inbox rule needs step, the written action is to record the rule, the sender class, and the approved action.",
+          "A executive inbox rule control earns its place when the team can apply it on a busy night without asking for context. Start with the owner, because a executive inbox rule item without one cannot be escalated cleanly across a time zone. The point of the inbox is to make the next decision obvious, not to collect activity. For this step, the written action is to record the rule, the sender class, and the approved action.",
           "For executives and operations teams, the useful control is short enough to repeat and specific enough to challenge. A written executive inbox rule rule beats a verbal habit once two shifts share the same queue. The inbox should show what arrived, what was checked, and what happens next.",
           "A executive inbox rule process that depends on one person remembering a detail is not yet a control. The first design question is which decision the executive inbox rule note exists to support."
         ]
@@ -35,7 +35,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The daily executive inbox rule routine",
         "paragraphs": [
-          "The assistant should leave each inbox rule with a date and a next step. Review the executive inbox rule list before accepting a new request, not after. A consistent daily start time makes the queue easier to trust. In the the daily executive inbox rule routine step, the written action is to route any message outside the rule set to the executive.",
+          "The assistant should leave each inbox rule with a date and a next step. Review the executive inbox rule list before accepting a new request, not after. A consistent daily start time makes the queue easier to trust. For this step, the written action is to route any message outside the rule set to the executive.",
           "The daily executive inbox rule routine is short: open the list, confirm the origin, log the exception, and leave a named next action. Start with the oldest unresolved item, because age turns a small gap into an escalation. Small habits carry executive inbox rule: date the origin, initial the check, state the next action, and never copy a familiar value. A later reviewer can confirm the same detail on the calendar entry and the approved rule.",
           "Keep the inbox small enough to finish, because a healthy average can hide one item that sat for weeks. End each shift with a dated note that names what moved, what stalled, and who checks next."
         ]
@@ -121,7 +121,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The control this travel change needs",
         "paragraphs": [
-          "The travel queue should show what arrived, what was checked, and what happens next. A travel change process that depends on one person remembering a detail is not yet a control. The first design question is which decision the travel change note exists to support. In the the control this travel change needs step, the written action is to record the original itinerary, the change reason, and the new booking.",
+          "The travel queue should show what arrived, what was checked, and what happens next. A travel change process that depends on one person remembering a detail is not yet a control. The first design question is which decision the travel change note exists to support. For this step, the written action is to record the original itinerary, the change reason, and the new booking.",
           "Good travel change controls reduce the number of times the same question is answered differently. The travel queue works when a new reviewer can pick up an item without reopening a chat thread. A control that survives staff turnover is worth more than a longer form that gets skipped. For executive support, the queue item and the briefing note must agree before review.",
           "The travel change brief should name the decision, the proof, and the person accountable for it. A small, dated travel change rule is easier to defend than a policy nobody reads."
         ]
@@ -145,7 +145,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The daily travel change routine",
         "paragraphs": [
-          "Small habits carry travel change: date the origin, initial the check, state the next action, and never copy a familiar value. Keep the travel queue small enough to finish, because a healthy average can hide one item that sat for weeks. End each shift with a dated note that names what moved, what stalled, and who checks next. In the the daily travel change routine step, the written action is to confirm the executive approved the cost difference before rebooking.",
+          "Small habits carry travel change: date the origin, initial the check, state the next action, and never copy a familiar value. Keep the travel queue small enough to finish, because a healthy average can hide one item that sat for weeks. End each shift with a dated note that names what moved, what stalled, and who checks next. For this step, the written action is to confirm the executive approved the cost difference before rebooking.",
           "Write the travel change rule where the work happens, not in a document nobody opens. The routine should make the next reviewer faster, not just busier. A daily list with ten open items is easier to trust than a dashboard with a hundred. Judgment stays with the executive; the assistant records only what was checked and when.",
           "The travel change check begins with the origin version and ends with a confirmable change. A same-day note about a blocked item saves a week of quiet drift."
         ]
@@ -231,7 +231,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The control this document signature needs",
         "paragraphs": [
-          "A control that survives staff turnover is worth more than a longer form that gets skipped. The document signature brief should name the decision, the proof, and the person accountable for it. A small, dated document signature rule is easier to defend than a policy nobody reads. In the the control this document signature needs step, the written action is to record the document, the requested signer, and the send date.",
+          "A control that survives staff turnover is worth more than a longer form that gets skipped. The document signature brief should name the decision, the proof, and the person accountable for it. A small, dated document signature rule is easier to defend than a policy nobody reads. For this step, the written action is to record the document, the requested signer, and the send date.",
           "The control should make exceptions visible rather than forcing them into a normal item. For executives and operations teams, the test is whether the same document signature item can be explained twice the same way. The signature queue earns trust when every resolution points at something confirmable.",
           "Design the document signature control around the decision that repeats, not the exception that frightens everyone. A document signature rule should be testable by someone who joined this week."
         ]
@@ -255,7 +255,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The daily document signature routine",
         "paragraphs": [
-          "A daily list with ten open items is easier to trust than a dashboard with a hundred. The signature request check begins with the origin version and ends with a confirmable change. A same-day note about a blocked item saves a week of quiet drift. In the the daily document signature routine step, the written action is to escalate to the named owner after the second reminder.",
+          "A daily list with ten open items is easier to trust than a dashboard with a hundred. The signature request check begins with the origin version and ends with a confirmable change. A same-day note about a blocked item saves a week of quiet drift. For this step, the written action is to escalate to the named owner after the second reminder.",
           "The signature queue should be read before new work is accepted, not after. Each document signature resolution needs a timestamp and a named confirmer. A routine that skips the exception log will spend the next week rediscovering the same exceptions. The executive can trace the item to the source document and the date it was confirmed.",
           "The assistant should be able to say what changed since the last review without guessing. Keep the document signature handoff in one place so the next person does not have to reconcile two versions."
         ]
@@ -341,7 +341,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The control this meeting decision log needs",
         "paragraphs": [
-          "The decision log earns trust when every resolution points at something confirmable. Design the meeting decision log control around the decision that repeats, not the exception that frightens everyone. A meeting decision log rule should be testable by someone who joined this week. In the the control this meeting decision log needs step, the written action is to record the decision, the owner, and the next check date.",
+          "The decision log earns trust when every resolution points at something confirmable. Design the meeting decision log control around the decision that repeats, not the exception that frightens everyone. A meeting decision log rule should be testable by someone who joined this week. For this step, the written action is to record the decision, the owner, and the next check date.",
           "The decision log should make it hard to resolution an item without proof. For executives and operations teams, the control is only as good as the origin it points at. Review the meeting decision log control once a quarter and retire steps that no longer match the work.",
           "A control that fits on one page is more likely to survive a busy week. The meeting decision log rule should say who may change it and how the change is announced."
         ]
@@ -365,7 +365,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The daily meeting decision log routine",
         "paragraphs": [
-          "A routine that skips the exception log will spend the next week rediscovering the same exceptions. The assistant should be able to say what changed since the last review without guessing. Keep the meeting decision log handoff in one place so the next person does not have to reconcile two versions. In the the daily meeting decision log routine step, the written action is to confirm the owner accepted the action after the meeting.",
+          "A routine that skips the exception log will spend the next week rediscovering the same exceptions. The assistant should be able to say what changed since the last review without guessing. Keep the meeting decision log handoff in one place so the next person does not have to reconcile two versions. For this step, the written action is to confirm the owner accepted the action after the meeting.",
           "A short daily check beats a monthly cleanup that nobody has time for. Begin the meeting decision log check with the oldest item and the most recent change. A five-minute end-of-shift note prevents most next-morning confusion. This is how the desk keeps a priority conflict visible after the briefing is sent.",
           "The decision log should be cleared of duplicate entries before new work starts. Log the exception where the next person will look, not in a private note."
         ]
@@ -451,7 +451,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The control this delegated expense needs",
         "paragraphs": [
-          "Review the delegated expense control once a quarter and retire steps that no longer match the work. A control that fits on one page is more likely to survive a busy week. The delegated expense rule should say who may change it and how the change is announced. In the the control this delegated expense needs step, the written action is to record the expense, the receipt, and the policy category.",
+          "Review the delegated expense control once a quarter and retire steps that no longer match the work. A control that fits on one page is more likely to survive a busy week. The delegated expense rule should say who may change it and how the change is announced. For this step, the written action is to record the expense, the receipt, and the policy category.",
           "The expense queue should separate a new request from a correction to an earlier one. A delegated expense control earns its place when the team can apply it on a busy night without asking for context. Start with the owner, because a delegated expense item without one cannot be escalated cleanly across a time zone.",
           "The point of the expense queue is to make the next decision obvious, not to collect activity. For executives and operations teams, the useful control is short enough to repeat and specific enough to challenge."
         ]
@@ -475,7 +475,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The daily delegated expense routine",
         "paragraphs": [
-          "A five-minute end-of-shift note prevents most next-morning confusion. The expense queue should be cleared of duplicate entries before new work starts. Log the exception where the next person will look, not in a private note. In the the daily delegated expense routine step, the written action is to route the item to the named approver without changing the amount.",
+          "A five-minute end-of-shift note prevents most next-morning confusion. The expense queue should be cleared of duplicate entries before new work starts. Log the exception where the next person will look, not in a private note. For this step, the written action is to route the item to the named approver without changing the amount.",
           "A routine that fits on one page is more likely to survive a busy week. The assistant should leave each expense item with a date and a next step. Review the delegated expense list before accepting a new request, not after.",
           "A consistent daily start time makes the queue easier to trust. The daily delegated expense routine is short: open the list, confirm the origin, log the exception, and leave a named next action."
         ]
@@ -561,7 +561,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The control this weekly briefing needs",
         "paragraphs": [
-          "Start with the owner, because a weekly briefing item without one cannot be escalated cleanly across a time zone. The point of the briefing queue is to make the next decision obvious, not to collect activity. For executives and operations teams, the useful control is short enough to repeat and specific enough to challenge. In the the control this weekly briefing needs step, the written action is to mark each item as a decision, a risk, or an update.",
+          "Start with the owner, because a weekly briefing item without one cannot be escalated cleanly across a time zone. The point of the briefing queue is to make the next decision obvious, not to collect activity. For executives and operations teams, the useful control is short enough to repeat and specific enough to challenge. For this step, the written action is to mark each item as a decision, a risk, or an update.",
           "A written weekly briefing rule beats a verbal habit once two shifts share the same queue. The briefing queue should show what arrived, what was checked, and what happens next. A weekly briefing process that depends on one person remembering a detail is not yet a control. The board pack compares the number with the source owner and the review date.",
           "The first design question is which decision the weekly briefing note exists to support. Good weekly briefing controls reduce the number of times the same question is answered differently."
         ]
@@ -585,7 +585,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The daily weekly briefing routine",
         "paragraphs": [
-          "Review the weekly briefing list before accepting a new request, not after. A consistent daily start time makes the queue easier to trust. The daily weekly briefing routine is short: open the list, confirm the origin, log the exception, and leave a named next action. In the the daily weekly briefing routine step, the written action is to name the owner and the date for every decision item.",
+          "Review the weekly briefing list before accepting a new request, not after. A consistent daily start time makes the queue easier to trust. The daily weekly briefing routine is short: open the list, confirm the origin, log the exception, and leave a named next action. For this step, the written action is to name the owner and the date for every decision item.",
           "Start with the oldest unresolved item, because age turns a small gap into an escalation. Small habits carry weekly briefing: date the origin, initial the check, state the next action, and never copy a familiar value. Keep the briefing queue small enough to finish, because a healthy average can hide one item that sat for weeks. The expense queue links the receipt to the policy line and the approver.",
           "End each shift with a dated note that names what moved, what stalled, and who checks next. Write the weekly briefing rule where the work happens, not in a document nobody opens."
         ]
@@ -671,7 +671,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The control this assistant request needs",
         "paragraphs": [
-          "A assistant request process that depends on one person remembering a detail is not yet a control. The first design question is which decision the assistant request note exists to support. Good assistant request controls reduce the number of times the same question is answered differently. In the the control this assistant request needs step, the written action is to record the request, the requester, and the requested date.",
+          "A assistant request process that depends on one person remembering a detail is not yet a control. The first design question is which decision the assistant request note exists to support. Good assistant request controls reduce the number of times the same question is answered differently. For this step, the written action is to record the request, the requester, and the requested date.",
           "The request list works when a new reviewer can pick up an item without reopening a chat thread. A control that survives staff turnover is worth more than a longer form that gets skipped. The assistant request brief should name the decision, the proof, and the person accountable for it. The travel change note carries the original booking, the reason, and the approval.",
           "A small, dated assistant request rule is easier to defend than a policy nobody reads. The control should make exceptions visible rather than forcing them into a normal item."
         ]
@@ -695,7 +695,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The daily assistant request routine",
         "paragraphs": [
-          "Keep the request list small enough to finish, because a healthy average can hide one item that sat for weeks. End each shift with a dated note that names what moved, what stalled, and who checks next. Write the assistant request rule where the work happens, not in a document nobody opens. In the the daily assistant request routine step, the written action is to route priority conflicts to the executive assistant lead.",
+          "Keep the request list small enough to finish, because a healthy average can hide one item that sat for weeks. End each shift with a dated note that names what moved, what stalled, and who checks next. Write the assistant request rule where the work happens, not in a document nobody opens. For this step, the written action is to route priority conflicts to the executive assistant lead.",
           "The routine should make the next reviewer faster, not just busier. A daily list with ten open items is easier to trust than a dashboard with a hundred. The request record check begins with the origin version and ends with a confirmable change. The request list shows both the ask date and the assistant who accepted it.",
           "A same-day note about a blocked item saves a week of quiet drift. The request list should be read before new work is accepted, not after."
         ]
@@ -781,7 +781,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The control this board pack needs",
         "paragraphs": [
-          "The board pack brief should name the decision, the proof, and the person accountable for it. A small, dated board pack rule is easier to defend than a policy nobody reads. The control should make exceptions visible rather than forcing them into a normal item. In the the control this board pack needs step, the written action is to record each figure, its source, and the owner who supplied it.",
+          "The board pack brief should name the decision, the proof, and the person accountable for it. A small, dated board pack rule is easier to defend than a policy nobody reads. The control should make exceptions visible rather than forcing them into a normal item. For this step, the written action is to record each figure, its source, and the owner who supplied it.",
           "For executives and operations teams, the test is whether the same board pack item can be explained twice the same way. The board pack earns trust when every resolution points at something confirmable. Design the board pack control around the decision that repeats, not the exception that frightens everyone.",
           "A board pack rule should be testable by someone who joined this week. The board pack should make it hard to resolution an item without proof."
         ]
@@ -805,7 +805,7 @@ export const nov06BlogBatch: BlogPost[] = [
       {
         "heading": "The daily board pack routine",
         "paragraphs": [
-          "The board pack section check begins with the origin version and ends with a confirmable change. A same-day note about a blocked item saves a week of quiet drift. The board pack should be read before new work is accepted, not after. In the the daily board pack routine step, the written action is to flag any number that changed after the prior pack without an explanation.",
+          "The board pack section check begins with the origin version and ends with a confirmable change. A same-day note about a blocked item saves a week of quiet drift. The board pack should be read before new work is accepted, not after. For this step, the written action is to flag any number that changed after the prior pack without an explanation.",
           "Each board pack resolution needs a timestamp and a named confirmer. A routine that skips the exception log will spend the next week rediscovering the same exceptions. The assistant should be able to say what changed since the last review without guessing.",
           "Keep the board pack handoff in one place so the next person does not have to reconcile two versions. A short daily check beats a monthly cleanup that nobody has time for."
         ]
