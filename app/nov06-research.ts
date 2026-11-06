@@ -104,7 +104,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Sampling and collection",
         "paragraphs": [
-          "For the sampling and collection step of the executive inbox rule review, The aim is to let the executive review executive inbox rule against the same definitions each time. For the sampling and collection step of the executive inbox rule review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks. For the sampling and collection step of the executive inbox rule review, A item where the executive intervened is useful because it shows which field the routine did not settle.",
+          "For the sampling and collection step of the executive inbox rule review, The aim is to let the executive review executive inbox rule against the same definitions each time. For the sampling and collection step of the executive inbox rule review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks. For the sampling and collection step of the executive inbox rule review, A item where the executive intervened is useful because it shows which field the routine did not settle. The request list shows both the ask date and the assistant who accepted it.",
           "For the sampling and collection step of the executive inbox rule review, Write the next check date before the review ends. For the sampling and collection step of the executive inbox rule review, The result is a description the executive can review, not a verdict about the team. The handoff note stays with the request file and the next checkpoint date. The request list shows both the ask date and the assistant who accepted it."
         ],
         "rows": [
@@ -142,7 +142,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Limits and sources of error",
         "paragraphs": [
-          "For the limits and sources of error step of the executive inbox rule review, The review should name which executive inbox rule steps create proof and which ones can lose it. For the limits and sources of error step of the executive inbox rule review, A finding about missing proof is still useful when the missing field is named precisely. For the limits and sources of error step of the executive inbox rule review, The question is narrow: what can the inbox rule show about proof, timing, and closure without relying on memory?",
+          "For the limits and sources of error step of the executive inbox rule review, The review should name which executive inbox rule steps create proof and which ones can lose it. For the limits and sources of error step of the executive inbox rule review, A finding about missing proof is still useful when the missing field is named precisely. For the limits and sources of error step of the executive inbox rule review, The question is narrow: what can the inbox rule show about proof, timing, and closure without relying on memory? A later reviewer can confirm the same detail on the calendar entry and the approved rule.",
           "For the limits and sources of error step of the executive inbox rule review, State the executive inbox rule population before collection so the denominator cannot drift toward easy items. For the limits and sources of error step of the executive inbox rule review, Fix the start event, stop event, pause rule, and treatment of missing proof before collecting data. The next shift can act on the entry without calling the assistant who prepared it."
         ],
         "rows": [
@@ -269,7 +269,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Population and unit of analysis",
         "paragraphs": [
-          "For the population and unit of analysis step of the travel change review, The primary measure needs a denominator and a window; without both, a percentage is only a mood. For the population and unit of analysis step of the travel change review, The protocol should state what it does not measure, including judgment quality and outcomes outside the note. For the population and unit of analysis step of the travel change review, Report the limit beside the finding so the reader can judge both.",
+          "For the population and unit of analysis step of the travel change review, The primary measure needs a denominator and a window; without both, a percentage is only a mood. For the population and unit of analysis step of the travel change review, The protocol should state what it does not measure, including judgment quality and outcomes outside the note. For the population and unit of analysis step of the travel change review, Report the limit beside the finding so the reader can judge both. For executive support, the queue item and the briefing note must agree before review.",
           "For the population and unit of analysis step of the travel change review, Each item carries an opening count, additions, withdrawals, resolutions, and unresolved items. For the population and unit of analysis step of the travel change review, If the report cannot be reproduced from its origins, treat that as a finding about the note. The expense queue links the receipt to the policy line and the approver."
         ],
         "rows": [
@@ -288,7 +288,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Definitions and measures",
         "paragraphs": [
-          "For the definitions and measures step of the travel change review, Set a disposal date for the research file and log access, because an archive without an end date is a liability. For the definitions and measures step of the travel change review, Use a pseudonymous item key and keep the crosswalk in an approved system with restricted access. For the definitions and measures step of the travel change review, When the sample is challenged, the defense is the collection log, the exclusions, and the definitions.",
+          "For the definitions and measures step of the travel change review, Set a disposal date for the research file and log access, because an archive without an end date is a liability. For the definitions and measures step of the travel change review, Use a pseudonymous item key and keep the crosswalk in an approved system with restricted access. For the definitions and measures step of the travel change review, When the sample is challenged, the defense is the collection log, the exclusions, and the definitions. The handoff note stays with the request file and the next checkpoint date.",
           "For the definitions and measures step of the travel change review, The aim is to let the executive review travel change against the same definitions each time. For the definitions and measures step of the travel change review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks. The decision log shows the owner, the next check date, and the acceptance."
         ],
         "rows": [
@@ -345,7 +345,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Analysis and reporting",
         "paragraphs": [
-          "For the analysis and reporting step of the travel change review, The question is narrow: what can the travel change show about proof, timing, and closure without relying on memory? For the analysis and reporting step of the travel change review, State the travel change population before collection so the denominator cannot drift toward easy items. For the analysis and reporting step of the travel change review, Fix the start event, stop event, pause rule, and treatment of missing proof before collecting data.",
+          "For the analysis and reporting step of the travel change review, The question is narrow: what can the travel change show about proof, timing, and closure without relying on memory? For the analysis and reporting step of the travel change review, State the travel change population before collection so the denominator cannot drift toward easy items. For the analysis and reporting step of the travel change review, Fix the start event, stop event, pause rule, and treatment of missing proof before collecting data. Judgment stays with the executive; the assistant records only what was checked and when.",
           "For the analysis and reporting step of the travel change review, The unit is one travel change, from opening event to noteed resolution, with linked events counted separately. For the analysis and reporting step of the travel change review, A dry run on one travel change item is cheaper than finding a definition error after full collection. The executive keeps the decision, and the assistant records only the dated evidence."
         ],
         "rows": [
@@ -383,7 +383,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Review cadence",
         "paragraphs": [
-          "For the review cadence step of the travel change review, A current screenshot cannot prove what the travel change said earlier, so note the version or observation date. For the review cadence step of the travel change review, Mark missing, unavailable, and confirmed negative values separately. For the review cadence step of the travel change review, The primary measure needs a denominator and a window; without both, a percentage is only a mood.",
+          "For the review cadence step of the travel change review, A current screenshot cannot prove what the travel change said earlier, so note the version or observation date. For the review cadence step of the travel change review, Mark missing, unavailable, and confirmed negative values separately. For the review cadence step of the travel change review, The primary measure needs a denominator and a window; without both, a percentage is only a mood. The next shift can act on the entry without calling the assistant who prepared it.",
           "For the review cadence step of the travel change review, The protocol should state what it does not measure, including judgment quality and outcomes outside the note. For the review cadence step of the travel change review, Report the limit beside the finding so the reader can judge both. The request list shows both the ask date and the assistant who accepted it."
         ],
         "rows": [
@@ -491,7 +491,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Population and unit of analysis",
         "paragraphs": [
-          "For the population and unit of analysis step of the signature request review, When the sample is challenged, the defense is the collection log, the exclusions, and the definitions. For the population and unit of analysis step of the signature request review, The aim is to let the executive review signature request against the same definitions each time. For the population and unit of analysis step of the signature request review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks.",
+          "For the population and unit of analysis step of the signature request review, When the sample is challenged, the defense is the collection log, the exclusions, and the definitions. For the population and unit of analysis step of the signature request review, The aim is to let the executive review signature request against the same definitions each time. For the population and unit of analysis step of the signature request review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks. The executive can trace the item to the source document and the date it was confirmed.",
           "For the population and unit of analysis step of the signature request review, A item where the executive intervened is useful because it shows which field the routine did not settle. For the population and unit of analysis step of the signature request review, Write the next check date before the review ends. Each exception carries the request key, the meeting date, and the named owner who decided it."
         ],
         "rows": [
@@ -529,7 +529,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Evidence standard",
         "paragraphs": [
-          "For the evidence standard step of the signature request review, Keep the method small enough to repeat and explicit enough to challenge. For the evidence standard step of the signature request review, The review should name which signature request steps create proof and which ones can lose it. For the evidence standard step of the signature request review, A finding about missing proof is still useful when the missing field is named precisely.",
+          "For the evidence standard step of the signature request review, Keep the method small enough to repeat and explicit enough to challenge. For the evidence standard step of the signature request review, The review should name which signature request steps create proof and which ones can lose it. For the evidence standard step of the signature request review, A finding about missing proof is still useful when the missing field is named precisely. Each exception carries the request key, the meeting date, and the named owner who decided it.",
           "For the evidence standard step of the signature request review, The question is narrow: what can the signature request show about proof, timing, and closure without relying on memory? For the evidence standard step of the signature request review, State the signature request population before collection so the denominator cannot drift toward easy items. The signature queue keeps the signer, the reminder date, and the owner in the same entry."
         ],
         "rows": [
@@ -586,7 +586,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Limits and sources of error",
         "paragraphs": [
-          "For the limits and sources of error step of the signature request review, The primary measure needs a denominator and a window; without both, a percentage is only a mood. For the limits and sources of error step of the signature request review, The protocol should state what it does not measure, including judgment quality and outcomes outside the note. For the limits and sources of error step of the signature request review, Report the limit beside the finding so the reader can judge both.",
+          "For the limits and sources of error step of the signature request review, The primary measure needs a denominator and a window; without both, a percentage is only a mood. For the limits and sources of error step of the signature request review, The protocol should state what it does not measure, including judgment quality and outcomes outside the note. For the limits and sources of error step of the signature request review, Report the limit beside the finding so the reader can judge both. The signature queue keeps the signer, the reminder date, and the owner in the same entry.",
           "For the limits and sources of error step of the signature request review, Each item carries an opening count, additions, withdrawals, resolutions, and unresolved items. For the limits and sources of error step of the signature request review, If the report cannot be reproduced from its origins, treat that as a finding about the note. The expense queue links the receipt to the policy line and the approver."
         ],
         "rows": [
@@ -605,7 +605,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Review cadence",
         "paragraphs": [
-          "For the review cadence step of the signature request review, Set a disposal date for the research file and log access, because an archive without an end date is a liability. For the review cadence step of the signature request review, Use a pseudonymous item key and keep the crosswalk in an approved system with restricted access. For the review cadence step of the signature request review, When the sample is challenged, the defense is the collection log, the exclusions, and the definitions.",
+          "For the review cadence step of the signature request review, Set a disposal date for the research file and log access, because an archive without an end date is a liability. For the review cadence step of the signature request review, Use a pseudonymous item key and keep the crosswalk in an approved system with restricted access. For the review cadence step of the signature request review, When the sample is challenged, the defense is the collection log, the exclusions, and the definitions. This is how the desk keeps a priority conflict visible after the briefing is sent.",
           "For the review cadence step of the signature request review, The aim is to let the executive review signature request against the same definitions each time. For the review cadence step of the signature request review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks. The decision log shows the owner, the next check date, and the acceptance. A later reviewer can confirm the same detail on the calendar entry and the approved rule."
         ],
         "rows": [
@@ -694,7 +694,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Question and scope",
         "paragraphs": [
-          "For the question and scope step of the meeting decision log review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks. For the question and scope step of the meeting decision log review, A item where the executive intervened is useful because it shows which field the routine did not settle. For the question and scope step of the meeting decision log review, Write the next check date before the review ends.",
+          "For the question and scope step of the meeting decision log review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks. For the question and scope step of the meeting decision log review, A item where the executive intervened is useful because it shows which field the routine did not settle. For the question and scope step of the meeting decision log review, Write the next check date before the review ends. The board pack compares the number with the source owner and the review date.",
           "For the question and scope step of the meeting decision log review, The result is a description the executive can review, not a verdict about the team. For the question and scope step of the meeting decision log review, Supporting measures should cover missing fields, exception age, and resolutions confirmed on a destination note. The next shift can act on the entry without calling the assistant who prepared it."
         ],
         "rows": [
@@ -808,7 +808,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Limits and sources of error",
         "paragraphs": [
-          "For the limits and sources of error step of the meeting decision log review, When the sample is challenged, the defense is the collection log, the exclusions, and the definitions. For the limits and sources of error step of the meeting decision log review, The aim is to let the executive review meeting decision log against the same definitions each time. For the limits and sources of error step of the meeting decision log review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks.",
+          "For the limits and sources of error step of the meeting decision log review, When the sample is challenged, the defense is the collection log, the exclusions, and the definitions. For the limits and sources of error step of the meeting decision log review, The aim is to let the executive review meeting decision log against the same definitions each time. For the limits and sources of error step of the meeting decision log review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks. The expense queue links the receipt to the policy line and the approver.",
           "For the limits and sources of error step of the meeting decision log review, A item where the executive intervened is useful because it shows which field the routine did not settle. For the limits and sources of error step of the meeting decision log review, Write the next check date before the review ends. The signature queue keeps the signer, the reminder date, and the owner in the same entry."
         ],
         "rows": [
@@ -973,7 +973,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Evidence standard",
         "paragraphs": [
-          "For the evidence standard step of the delegated expense review, Mark missing, unavailable, and confirmed negative values separately. For the evidence standard step of the delegated expense review, The primary measure needs a denominator and a window; without both, a percentage is only a mood. For the evidence standard step of the delegated expense review, The protocol should state what it does not measure, including judgment quality and outcomes outside the note.",
+          "For the evidence standard step of the delegated expense review, Mark missing, unavailable, and confirmed negative values separately. For the evidence standard step of the delegated expense review, The primary measure needs a denominator and a window; without both, a percentage is only a mood. For the evidence standard step of the delegated expense review, The protocol should state what it does not measure, including judgment quality and outcomes outside the note. The decision log shows the owner, the next check date, and the acceptance.",
           "For the evidence standard step of the delegated expense review, Report the limit beside the finding so the reader can judge both. For the evidence standard step of the delegated expense review, Each item carries an opening count, additions, withdrawals, resolutions, and unresolved items. The request list shows both the ask date and the assistant who accepted it."
         ],
         "rows": [
@@ -1158,7 +1158,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
         "heading": "Population and unit of analysis",
         "paragraphs": [
           "For the population and unit of analysis step of the weekly briefing review, The briefing queue offers natural strata: new items, carried items, and items returned by a reviewer. For the population and unit of analysis step of the weekly briefing review, Every item needs the origin, observation time, field supported, and the reviewer who checked it.",
-          "For the population and unit of analysis step of the weekly briefing review, A current screenshot cannot prove what the briefing item said earlier, so note the version or observation date. For the population and unit of analysis step of the weekly briefing review, Mark missing, unavailable, and confirmed negative values separately. For the population and unit of analysis step of the weekly briefing review, The primary measure needs a denominator and a window; without both, a percentage is only a mood."
+          "For the population and unit of analysis step of the weekly briefing review, A current screenshot cannot prove what the briefing item said earlier, so note the version or observation date. For the population and unit of analysis step of the weekly briefing review, Mark missing, unavailable, and confirmed negative values separately. For the population and unit of analysis step of the weekly briefing review, The primary measure needs a denominator and a window; without both, a percentage is only a mood. The travel change note carries the original booking, the reason, and the approval."
         ],
         "rows": [
           {
@@ -1176,7 +1176,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Definitions and measures",
         "paragraphs": [
-          "For the definitions and measures step of the weekly briefing review, The protocol should state what it does not measure, including judgment quality and outcomes outside the note. For the definitions and measures step of the weekly briefing review, Report the limit beside the finding so the reader can judge both. For the definitions and measures step of the weekly briefing review, Each item carries an opening count, additions, withdrawals, resolutions, and unresolved items.",
+          "For the definitions and measures step of the weekly briefing review, The protocol should state what it does not measure, including judgment quality and outcomes outside the note. For the definitions and measures step of the weekly briefing review, Report the limit beside the finding so the reader can judge both. For the definitions and measures step of the weekly briefing review, Each item carries an opening count, additions, withdrawals, resolutions, and unresolved items. The executive keeps the decision, and the assistant records only the dated evidence.",
           "For the definitions and measures step of the weekly briefing review, If the report cannot be reproduced from its origins, treat that as a finding about the note. For the definitions and measures step of the weekly briefing review, Set a disposal date for the research file and log access, because an archive without an end date is a liability. Each exception carries the request key, the meeting date, and the named owner who decided it."
         ],
         "rows": [
@@ -1379,7 +1379,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Population and unit of analysis",
         "paragraphs": [
-          "For the population and unit of analysis step of the board pack review, Each item carries an opening count, additions, withdrawals, resolutions, and unresolved items. For the population and unit of analysis step of the board pack review, If the report cannot be reproduced from its origins, treat that as a finding about the note. For the population and unit of analysis step of the board pack review, Set a disposal date for the research file and log access, because an archive without an end date is a liability.",
+          "For the population and unit of analysis step of the board pack review, Each item carries an opening count, additions, withdrawals, resolutions, and unresolved items. For the population and unit of analysis step of the board pack review, If the report cannot be reproduced from its origins, treat that as a finding about the note. For the population and unit of analysis step of the board pack review, Set a disposal date for the research file and log access, because an archive without an end date is a liability. The request list shows both the ask date and the assistant who accepted it.",
           "For the population and unit of analysis step of the board pack review, Use a pseudonymous item key and keep the crosswalk in an approved system with restricted access. For the population and unit of analysis step of the board pack review, When the sample is challenged, the defense is the collection log, the exclusions, and the definitions. The travel change note carries the original booking, the reason, and the approval."
         ],
         "rows": [
@@ -1398,7 +1398,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Definitions and measures",
         "paragraphs": [
-          "For the definitions and measures step of the board pack review, The aim is to let the executive review board pack against the same definitions each time. For the definitions and measures step of the board pack review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks. For the definitions and measures step of the board pack review, A item where the executive intervened is useful because it shows which field the routine did not settle.",
+          "For the definitions and measures step of the board pack review, The aim is to let the executive review board pack against the same definitions each time. For the definitions and measures step of the board pack review, Track the age of the oldest open item alongside the count, because averages hide a item that sat for weeks. For the definitions and measures step of the board pack review, A item where the executive intervened is useful because it shows which field the routine did not settle. A later reviewer can confirm the same detail on the calendar entry and the approved rule.",
           "For the definitions and measures step of the board pack review, Write the next check date before the review ends. For the definitions and measures step of the board pack review, The result is a description the executive can review, not a verdict about the team. The executive keeps the decision, and the assistant records only the dated evidence."
         ],
         "rows": [
@@ -1436,7 +1436,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Sampling and collection",
         "paragraphs": [
-          "For the sampling and collection step of the board pack review, The review should name which board pack steps create proof and which ones can lose it. For the sampling and collection step of the board pack review, A finding about missing proof is still useful when the missing field is named precisely. For the sampling and collection step of the board pack review, The question is narrow: what can the board pack section show about proof, timing, and closure without relying on memory?",
+          "For the sampling and collection step of the board pack review, The review should name which board pack steps create proof and which ones can lose it. For the sampling and collection step of the board pack review, A finding about missing proof is still useful when the missing field is named precisely. For the sampling and collection step of the board pack review, The question is narrow: what can the board pack section show about proof, timing, and closure without relying on memory? For executive support, the queue item and the briefing note must agree before review.",
           "For the sampling and collection step of the board pack review, State the board pack population before collection so the denominator cannot drift toward easy items. For the sampling and collection step of the board pack review, Fix the start event, stop event, pause rule, and treatment of missing proof before collecting data. A later reviewer can confirm the same detail on the calendar entry and the approved rule."
         ],
         "rows": [
@@ -1493,7 +1493,7 @@ export const nov06ResearchBatch: ResearchPost[] = [
       {
         "heading": "Review cadence",
         "paragraphs": [
-          "For the review cadence step of the board pack review, The protocol should state what it does not measure, including judgment quality and outcomes outside the note. For the review cadence step of the board pack review, Report the limit beside the finding so the reader can judge both. For the review cadence step of the board pack review, Each item carries an opening count, additions, withdrawals, resolutions, and unresolved items.",
+          "For the review cadence step of the board pack review, The protocol should state what it does not measure, including judgment quality and outcomes outside the note. For the review cadence step of the board pack review, Report the limit beside the finding so the reader can judge both. For the review cadence step of the board pack review, Each item carries an opening count, additions, withdrawals, resolutions, and unresolved items. The handoff note stays with the request file and the next checkpoint date.",
           "For the review cadence step of the board pack review, If the report cannot be reproduced from its origins, treat that as a finding about the note. For the review cadence step of the board pack review, Set a disposal date for the research file and log access, because an archive without an end date is a liability. For executive support, the queue item and the briefing note must agree before review."
         ],
         "rows": [
