@@ -347,8 +347,8 @@ export const nov07ResearchBatch: ResearchPost[] = [
       }
     ],
     "related": [
-      "/services",
-      "/contact-us"
+      "/research",
+      "/blog"
     ],
     "body": [
       "## Question and scope",
@@ -757,8 +757,8 @@ export const nov07ResearchBatch: ResearchPost[] = [
       }
     ],
     "related": [
-      "/services",
-      "/contact-us"
+      "/research",
+      "/blog"
     ],
     "body": [
       "## Question and scope",
@@ -1167,8 +1167,8 @@ export const nov07ResearchBatch: ResearchPost[] = [
       }
     ],
     "related": [
-      "/services",
-      "/contact-us"
+      "/research",
+      "/blog"
     ],
     "body": [
       "## Question and scope",
@@ -1577,8 +1577,8 @@ export const nov07ResearchBatch: ResearchPost[] = [
       }
     ],
     "related": [
-      "/services",
-      "/contact-us"
+      "/research",
+      "/blog"
     ],
     "body": [
       "## Question and scope",
@@ -1987,8 +1987,8 @@ export const nov07ResearchBatch: ResearchPost[] = [
       }
     ],
     "related": [
-      "/services",
-      "/contact-us"
+      "/research",
+      "/blog"
     ],
     "body": [
       "## Question and scope",
@@ -2397,8 +2397,8 @@ export const nov07ResearchBatch: ResearchPost[] = [
       }
     ],
     "related": [
-      "/services",
-      "/contact-us"
+      "/research",
+      "/blog"
     ],
     "body": [
       "## Question and scope",
@@ -2807,8 +2807,8 @@ export const nov07ResearchBatch: ResearchPost[] = [
       }
     ],
     "related": [
-      "/services",
-      "/contact-us"
+      "/research",
+      "/blog"
     ],
     "body": [
       "## Question and scope",
