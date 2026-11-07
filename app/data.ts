@@ -1,6 +1,7 @@
 import { oct25BlogBatch } from './oct25-blog';
 import { oct26BlogBatch } from './oct26-blog';
 import { oct28BlogBatch } from './oct28-blog';
+import { nov07BlogBatch } from './nov07-blog';
 import { nov06BlogBatch } from './nov06-blog';
 import { nov05BlogBatch } from './nov05-blog';
 import { nov04BlogBatch } from './nov04-blog';
@@ -672,5 +673,5 @@ blogPosts.unshift(...dailyBlogBatch20261013);
 blogPosts.unshift(...dailyBlogBatch20261022);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
 blogPosts.push(...oct25BlogBatch);
-blogPosts.push(...nov06BlogBatch, ...nov05BlogBatch, ...nov04BlogBatch, ...nov03BlogBatch, ...nov02BlogBatch, ...oct28BlogBatch, ...oct27BlogBatch, ...oct26BlogBatch);
+blogPosts.push(...nov07BlogBatch, ...nov06BlogBatch, ...nov05BlogBatch, ...nov04BlogBatch, ...nov03BlogBatch, ...nov02BlogBatch, ...oct28BlogBatch, ...oct27BlogBatch, ...oct26BlogBatch);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
