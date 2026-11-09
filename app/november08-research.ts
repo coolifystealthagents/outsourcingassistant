@@ -27,64 +27,64 @@ export const november08ResearchPosts: ResearchPost[] = [
     {
       "heading": "Question and scope",
       "paragraphs": [
-        "This is a proposed research protocol, not a report of completed findings. It asks how complete the assistant task brief is before work starts. The result would describe the brief, not the assistant. Name the owner in the same line as the action.",
-        "The protocol does not measure whether the task was the right one to delegate. It measures whether the instructions were usable. Test the rule on one real request before applying it to the queue. Separate what was observed from what was assumed."
+        "This is a proposed research protocol, not a report of completed findings. It asks how complete the assistant task brief is before work starts. The result would describe the brief, not the assistant. Name the owner in the same line as the action. The handoff should let the next person act without a meeting. The assistant should record the owner and the date before the next shift.",
+        "The protocol does not measure whether the task was the right one to delegate. It measures whether the instructions were usable. Test the rule on one real request before applying it to the queue. Separate what was observed from what was assumed. A control that depends on memory is not yet a control."
       ],
       "rows": []
     },
     {
       "heading": "Population and unit of analysis",
       "paragraphs": [
-        "Define the population as task briefs created during a stated window. The unit is one brief, with the outcome, source, boundary, owner, and deadline recorded. Record the date and the source so the next reviewer can repeat the check. Test the rule on one real request before applying it to the queue.",
-        "Link the brief to the task so the same work is not counted twice. Keep the evidence with the record rather than in a separate log. A control that depends on memory is not yet a control. If the source is unclear, route the question instead of guessing."
+        "Define the population as task briefs created during a stated window. The unit is one brief, with the outcome, source, boundary, owner, and deadline recorded. Record the date and the source so the next reviewer can repeat the check. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. The evidence should stay with the record, not in a private note.",
+        "Link the brief to the task so the same work is not counted twice. Keep the evidence with the record rather than in a separate log. A control that depends on memory is not yet a control. If the source is unclear, route the question instead of guessing. The review should leave one owner and one date. The handoff should let the next person act without a meeting."
       ],
       "rows": []
     },
     {
       "heading": "Definitions and measures",
       "paragraphs": [
-        "Define completeness as the presence of the required fields. Define usability as whether the assistant can start without a question. Keep the evidence with the record rather than in a separate log. If the source is unclear, route the question instead of guessing.",
-        "Report completeness and usability separately. Keep the original note beside the corrected version. Keep the boundary visible in the place where the work is assigned. Name the owner in the same line as the action."
+        "Define completeness as the presence of the required fields. Define usability as whether the assistant can start without a question. Keep the evidence with the record rather than in a separate log. If the source is unclear, route the question instead of guessing. The review should leave one owner and one date. A control that depends on memory is not yet a control.",
+        "Report completeness and usability separately. Keep the original note beside the corrected version. Keep the boundary visible in the place where the work is assigned. Name the owner in the same line as the action. A control that depends on memory is not yet a control. The review should leave one owner and one date."
       ],
       "rows": []
     },
     {
       "heading": "Evidence standard",
       "paragraphs": [
-        "Link each field to the brief or the source. A field added in a later message should record the date and sender. A short note with four fields is easier to use than a long narrative. A control that depends on memory is not yet a control.",
-        "Keep the original brief and the change note. A short note with four fields is easier to use than a long narrative. Keep the boundary visible in the place where the work is assigned. Ask whether a new reviewer could act on the record without a conversation."
+        "Link each field to the brief or the source. A field added in a later message should record the date and sender. A short note with four fields is easier to use than a long narrative. A control that depends on memory is not yet a control. The brief should name what is approved and what needs a question. The handoff should let the next person act without a meeting.",
+        "Keep the original brief and the change note. A short note with four fields is easier to use than a long narrative. Keep the boundary visible in the place where the work is assigned. Ask whether a new reviewer could act on the record without a conversation. The brief should name what is approved and what needs a question. The handoff should let the next person act without a meeting."
       ],
       "rows": []
     },
     {
       "heading": "Sampling and collection",
       "paragraphs": [
-        "Use a census of the briefs if the volume is manageable. If sampling is necessary, stratify by task type. Keep the original note beside the corrected version. Ask whether a new reviewer could act on the record without a conversation.",
-        "Pilot the classification on a few briefs and compare the reviewers. Clarify what counts as a boundary. Update the template when the same question appears twice. Record the exception and the person who approved it."
+        "Use a census of the briefs if the volume is manageable. If sampling is necessary, stratify by task type. Keep the original note beside the corrected version. Ask whether a new reviewer could act on the record without a conversation. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+        "Pilot the classification on a few briefs and compare the reviewers. Clarify what counts as a boundary. Update the template when the same question appears twice. Record the exception and the person who approved it. The brief should name what is approved and what needs a question."
       ],
       "rows": []
     },
     {
       "heading": "Analysis and reporting",
       "paragraphs": [
-        "Report completeness and usability by task type. Show the briefs that required a follow-up question. A control that depends on memory is not yet a control. Keep the original note beside the corrected version.",
-        "Present the results as a description of the brief, not a judgment about the requester. Test the rule on one real request before applying it to the queue. Update the template when the same question appears twice. Review the first few notes together before the process expands."
+        "Report completeness and usability by task type. Show the briefs that required a follow-up question. A control that depends on memory is not yet a control. Keep the original note beside the corrected version. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+        "Present the results as a description of the brief, not a judgment about the requester. Test the rule on one real request before applying it to the queue. Update the template when the same question appears twice. Review the first few notes together before the process expands. The review should leave one owner and one date. The brief should name what is approved and what needs a question."
       ],
       "rows": []
     },
     {
       "heading": "Limits and sources of error",
       "paragraphs": [
-        "The brief may be complete but hard to interpret. The assistant's experience can affect the judgment. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it.",
-        "The study may miss briefs given verbally. Use a second source to estimate the gap. Ask whether a new reviewer could act on the record without a conversation. Keep the original note beside the corrected version."
+        "The brief may be complete but hard to interpret. The assistant's experience can affect the judgment. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note.",
+        "The study may miss briefs given verbally. Use a second source to estimate the gap. Ask whether a new reviewer could act on the record without a conversation. Keep the original note beside the corrected version. The review should leave one owner and one date. The assistant should record the owner and the date before the next shift."
       ],
       "rows": []
     },
     {
       "heading": "Review cadence",
       "paragraphs": [
-        "Repeat the review after a template change or at the same interval each quarter. Compare the same task types. Keep the evidence with the record rather than in a separate log. Review the first few notes together before the process expands.",
-        "Assign the follow-up to the delegation lead and set a date. The protocol should produce a specific decision about the brief template. Separate what was observed from what was assumed. Update the template when the same question appears twice."
+        "Repeat the review after a template change or at the same interval each quarter. Compare the same task types. Keep the evidence with the record rather than in a separate log. Review the first few notes together before the process expands. The handoff should let the next person act without a meeting. The evidence should stay with the record, not in a private note.",
+        "Assign the follow-up to the delegation lead and set a date. The protocol should produce a specific decision about the brief template. Separate what was observed from what was assumed. Update the template when the same question appears twice. The handoff should let the next person act without a meeting. The assistant should record the owner and the date before the next shift."
       ],
       "rows": []
     }
@@ -109,22 +109,22 @@ export const november08ResearchPosts: ResearchPost[] = [
   ],
   "related": [],
   "body": [
-    "This is a proposed research protocol, not a report of completed findings. It asks how complete the assistant task brief is before work starts. The result would describe the brief, not the assistant. Name the owner in the same line as the action.",
-    "The protocol does not measure whether the task was the right one to delegate. It measures whether the instructions were usable. Test the rule on one real request before applying it to the queue. Separate what was observed from what was assumed.",
-    "Define the population as task briefs created during a stated window. The unit is one brief, with the outcome, source, boundary, owner, and deadline recorded. Record the date and the source so the next reviewer can repeat the check. Test the rule on one real request before applying it to the queue.",
-    "Link the brief to the task so the same work is not counted twice. Keep the evidence with the record rather than in a separate log. A control that depends on memory is not yet a control. If the source is unclear, route the question instead of guessing.",
-    "Define completeness as the presence of the required fields. Define usability as whether the assistant can start without a question. Keep the evidence with the record rather than in a separate log. If the source is unclear, route the question instead of guessing.",
-    "Report completeness and usability separately. Keep the original note beside the corrected version. Keep the boundary visible in the place where the work is assigned. Name the owner in the same line as the action.",
-    "Link each field to the brief or the source. A field added in a later message should record the date and sender. A short note with four fields is easier to use than a long narrative. A control that depends on memory is not yet a control.",
-    "Keep the original brief and the change note. A short note with four fields is easier to use than a long narrative. Keep the boundary visible in the place where the work is assigned. Ask whether a new reviewer could act on the record without a conversation.",
-    "Use a census of the briefs if the volume is manageable. If sampling is necessary, stratify by task type. Keep the original note beside the corrected version. Ask whether a new reviewer could act on the record without a conversation.",
-    "Pilot the classification on a few briefs and compare the reviewers. Clarify what counts as a boundary. Update the template when the same question appears twice. Record the exception and the person who approved it.",
-    "Report completeness and usability by task type. Show the briefs that required a follow-up question. A control that depends on memory is not yet a control. Keep the original note beside the corrected version.",
-    "Present the results as a description of the brief, not a judgment about the requester. Test the rule on one real request before applying it to the queue. Update the template when the same question appears twice. Review the first few notes together before the process expands.",
-    "The brief may be complete but hard to interpret. The assistant's experience can affect the judgment. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it.",
-    "The study may miss briefs given verbally. Use a second source to estimate the gap. Ask whether a new reviewer could act on the record without a conversation. Keep the original note beside the corrected version.",
-    "Repeat the review after a template change or at the same interval each quarter. Compare the same task types. Keep the evidence with the record rather than in a separate log. Review the first few notes together before the process expands.",
-    "Assign the follow-up to the delegation lead and set a date. The protocol should produce a specific decision about the brief template. Separate what was observed from what was assumed. Update the template when the same question appears twice."
+    "This is a proposed research protocol, not a report of completed findings. It asks how complete the assistant task brief is before work starts. The result would describe the brief, not the assistant. Name the owner in the same line as the action. The handoff should let the next person act without a meeting. The assistant should record the owner and the date before the next shift.",
+    "The protocol does not measure whether the task was the right one to delegate. It measures whether the instructions were usable. Test the rule on one real request before applying it to the queue. Separate what was observed from what was assumed. A control that depends on memory is not yet a control.",
+    "Define the population as task briefs created during a stated window. The unit is one brief, with the outcome, source, boundary, owner, and deadline recorded. Record the date and the source so the next reviewer can repeat the check. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. The evidence should stay with the record, not in a private note.",
+    "Link the brief to the task so the same work is not counted twice. Keep the evidence with the record rather than in a separate log. A control that depends on memory is not yet a control. If the source is unclear, route the question instead of guessing. The review should leave one owner and one date. The handoff should let the next person act without a meeting.",
+    "Define completeness as the presence of the required fields. Define usability as whether the assistant can start without a question. Keep the evidence with the record rather than in a separate log. If the source is unclear, route the question instead of guessing. The review should leave one owner and one date. A control that depends on memory is not yet a control.",
+    "Report completeness and usability separately. Keep the original note beside the corrected version. Keep the boundary visible in the place where the work is assigned. Name the owner in the same line as the action. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+    "Link each field to the brief or the source. A field added in a later message should record the date and sender. A short note with four fields is easier to use than a long narrative. A control that depends on memory is not yet a control. The brief should name what is approved and what needs a question. The handoff should let the next person act without a meeting.",
+    "Keep the original brief and the change note. A short note with four fields is easier to use than a long narrative. Keep the boundary visible in the place where the work is assigned. Ask whether a new reviewer could act on the record without a conversation. The brief should name what is approved and what needs a question. The handoff should let the next person act without a meeting.",
+    "Use a census of the briefs if the volume is manageable. If sampling is necessary, stratify by task type. Keep the original note beside the corrected version. Ask whether a new reviewer could act on the record without a conversation. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+    "Pilot the classification on a few briefs and compare the reviewers. Clarify what counts as a boundary. Update the template when the same question appears twice. Record the exception and the person who approved it. The brief should name what is approved and what needs a question.",
+    "Report completeness and usability by task type. Show the briefs that required a follow-up question. A control that depends on memory is not yet a control. Keep the original note beside the corrected version. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+    "Present the results as a description of the brief, not a judgment about the requester. Test the rule on one real request before applying it to the queue. Update the template when the same question appears twice. Review the first few notes together before the process expands. The review should leave one owner and one date. The brief should name what is approved and what needs a question.",
+    "The brief may be complete but hard to interpret. The assistant's experience can affect the judgment. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note.",
+    "The study may miss briefs given verbally. Use a second source to estimate the gap. Ask whether a new reviewer could act on the record without a conversation. Keep the original note beside the corrected version. The review should leave one owner and one date. The assistant should record the owner and the date before the next shift.",
+    "Repeat the review after a template change or at the same interval each quarter. Compare the same task types. Keep the evidence with the record rather than in a separate log. Review the first few notes together before the process expands. The handoff should let the next person act without a meeting. The evidence should stay with the record, not in a private note.",
+    "Assign the follow-up to the delegation lead and set a date. The protocol should produce a specific decision about the brief template. Separate what was observed from what was assumed. Update the template when the same question appears twice. The handoff should let the next person act without a meeting. The assistant should record the owner and the date before the next shift."
   ]
 },
 {
@@ -153,64 +153,64 @@ export const november08ResearchPosts: ResearchPost[] = [
     {
       "heading": "Question and scope",
       "paragraphs": [
-        "This is a proposed research protocol, not a report of completed findings. It asks how often an inbox handoff names the next action. The result would describe the handoff, not the inbox. Record the exception and the person who approved it.",
-        "The protocol does not measure whether the reply was good. It measures whether the next action was documented. Ask whether a new reviewer could act on the record without a conversation. Name the owner in the same line as the action."
+        "This is a proposed research protocol, not a report of completed findings. It asks how often an inbox handoff names the next action. The result would describe the handoff, not the inbox. Record the exception and the person who approved it. The evidence should stay with the record, not in a private note. The handoff should let the next person act without a meeting.",
+        "The protocol does not measure whether the reply was good. It measures whether the next action was documented. Ask whether a new reviewer could act on the record without a conversation. Name the owner in the same line as the action. The assistant should record the owner and the date before the next shift. The review should leave one owner and one date."
       ],
       "rows": []
     },
     {
       "heading": "Population and unit of analysis",
       "paragraphs": [
-        "Define the population as inbox handoffs created during a stated window. The unit is one open thread, with the owner, the next action, and the deadline recorded. A short note with four fields is easier to use than a long narrative. Update the template when the same question appears twice.",
-        "Link the thread to the handoff so the same thread is not counted twice. Keep the boundary visible in the place where the work is assigned. A short note with four fields is easier to use than a long narrative. If the source is unclear, route the question instead of guessing."
+        "Define the population as inbox handoffs created during a stated window. The unit is one open thread, with the owner, the next action, and the deadline recorded. A short note with four fields is easier to use than a long narrative. Update the template when the same question appears twice. The review should leave one owner and one date.",
+        "Link the thread to the handoff so the same thread is not counted twice. Keep the boundary visible in the place where the work is assigned. A short note with four fields is easier to use than a long narrative. If the source is unclear, route the question instead of guessing. The brief should name what is approved and what needs a question. The review should leave one owner and one date."
       ],
       "rows": []
     },
     {
       "heading": "Definitions and measures",
       "paragraphs": [
-        "Define completeness as the presence of the owner, the next action, and the deadline. Define usability as whether the next assistant can act without asking. Update the template when the same question appears twice. Keep the boundary visible in the place where the work is assigned.",
-        "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it."
+        "Define completeness as the presence of the owner, the next action, and the deadline. Define usability as whether the next assistant can act without asking. Update the template when the same question appears twice. Keep the boundary visible in the place where the work is assigned. A control that depends on memory is not yet a control. The handoff should let the next person act without a meeting.",
+        "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it. The assistant should record the owner and the date before the next shift. The brief should name what is approved and what needs a question."
       ],
       "rows": []
     },
     {
       "heading": "Evidence standard",
       "paragraphs": [
-        "Link each thread to the handoff and the message record. A note that says pending without an action is weak evidence. Write the deadline as a date and a local time. Keep the original note beside the corrected version.",
-        "Record the date and the shift. Separate what was observed from what was assumed. Update the template when the same question appears twice. A control that depends on memory is not yet a control."
+        "Link each thread to the handoff and the message record. A note that says pending without an action is weak evidence. Write the deadline as a date and a local time. Keep the original note beside the corrected version. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+        "Record the date and the shift. Separate what was observed from what was assumed. Update the template when the same question appears twice. A control that depends on memory is not yet a control. The assistant should record the owner and the date before the next shift."
       ],
       "rows": []
     },
     {
       "heading": "Sampling and collection",
       "paragraphs": [
-        "Use a census of the handoffs if the volume is manageable. If sampling is necessary, stratify by shift and thread type. Test the rule on one real request before applying it to the queue. Keep the original note beside the corrected version.",
-        "Pilot the classification on a few handoffs and compare the reviewers. Clarify what counts as an action. Review the first few notes together before the process expands. Write the deadline as a date and a local time."
+        "Use a census of the handoffs if the volume is manageable. If sampling is necessary, stratify by shift and thread type. Test the rule on one real request before applying it to the queue. Keep the original note beside the corrected version. The evidence should stay with the record, not in a private note. A control that depends on memory is not yet a control.",
+        "Pilot the classification on a few handoffs and compare the reviewers. Clarify what counts as an action. Review the first few notes together before the process expands. Write the deadline as a date and a local time. The handoff should let the next person act without a meeting. The evidence should stay with the record, not in a private note."
       ],
       "rows": []
     },
     {
       "heading": "Analysis and reporting",
       "paragraphs": [
-        "Report completeness and usability by shift. Show the threads that required a follow-up question. Keep the original note beside the corrected version. Write the deadline as a date and a local time.",
-        "Present the results as a description of the handoff, not a judgment about the assistant. Keep the original note beside the corrected version. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time."
+        "Report completeness and usability by shift. Show the threads that required a follow-up question. Keep the original note beside the corrected version. Write the deadline as a date and a local time. The handoff should let the next person act without a meeting.",
+        "Present the results as a description of the handoff, not a judgment about the assistant. Keep the original note beside the corrected version. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time. The review should leave one owner and one date. The assistant should record the owner and the date before the next shift."
       ],
       "rows": []
     },
     {
       "heading": "Limits and sources of error",
       "paragraphs": [
-        "The handoff may be complete but hard to read. The next assistant's experience can affect the judgment. If the source is unclear, route the question instead of guessing. Ask whether a new reviewer could act on the record without a conversation.",
-        "The study may miss handoffs given verbally. Keep the boundary visible in the place where the work is assigned. Use the same format for every handover so the next reader can scan it. If the source is unclear, route the question instead of guessing."
+        "The handoff may be complete but hard to read. The next assistant's experience can affect the judgment. If the source is unclear, route the question instead of guessing. Ask whether a new reviewer could act on the record without a conversation. The handoff should let the next person act without a meeting.",
+        "The study may miss handoffs given verbally. Keep the boundary visible in the place where the work is assigned. Use the same format for every handover so the next reader can scan it. If the source is unclear, route the question instead of guessing. The brief should name what is approved and what needs a question. The handoff should let the next person act without a meeting."
       ],
       "rows": []
     },
     {
       "heading": "Review cadence",
       "paragraphs": [
-        "Repeat the review after a template change or at the same interval each quarter. Compare the same shifts. Ask whether a new reviewer could act on the record without a conversation. Keep the original note beside the corrected version.",
-        "Assign the follow-up to the team lead and set a date. The protocol should produce a specific decision about the handoff template. Use the same format for every handover so the next reader can scan it. Write the deadline as a date and a local time."
+        "Repeat the review after a template change or at the same interval each quarter. Compare the same shifts. Ask whether a new reviewer could act on the record without a conversation. Keep the original note beside the corrected version. A control that depends on memory is not yet a control.",
+        "Assign the follow-up to the team lead and set a date. The protocol should produce a specific decision about the handoff template. Use the same format for every handover so the next reader can scan it. Write the deadline as a date and a local time. The handoff should let the next person act without a meeting. A control that depends on memory is not yet a control."
       ],
       "rows": []
     }
@@ -235,22 +235,22 @@ export const november08ResearchPosts: ResearchPost[] = [
   ],
   "related": [],
   "body": [
-    "This is a proposed research protocol, not a report of completed findings. It asks how often an inbox handoff names the next action. The result would describe the handoff, not the inbox. Record the exception and the person who approved it.",
-    "The protocol does not measure whether the reply was good. It measures whether the next action was documented. Ask whether a new reviewer could act on the record without a conversation. Name the owner in the same line as the action.",
-    "Define the population as inbox handoffs created during a stated window. The unit is one open thread, with the owner, the next action, and the deadline recorded. A short note with four fields is easier to use than a long narrative. Update the template when the same question appears twice.",
-    "Link the thread to the handoff so the same thread is not counted twice. Keep the boundary visible in the place where the work is assigned. A short note with four fields is easier to use than a long narrative. If the source is unclear, route the question instead of guessing.",
-    "Define completeness as the presence of the owner, the next action, and the deadline. Define usability as whether the next assistant can act without asking. Update the template when the same question appears twice. Keep the boundary visible in the place where the work is assigned.",
-    "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it.",
-    "Link each thread to the handoff and the message record. A note that says pending without an action is weak evidence. Write the deadline as a date and a local time. Keep the original note beside the corrected version.",
-    "Record the date and the shift. Separate what was observed from what was assumed. Update the template when the same question appears twice. A control that depends on memory is not yet a control.",
-    "Use a census of the handoffs if the volume is manageable. If sampling is necessary, stratify by shift and thread type. Test the rule on one real request before applying it to the queue. Keep the original note beside the corrected version.",
-    "Pilot the classification on a few handoffs and compare the reviewers. Clarify what counts as an action. Review the first few notes together before the process expands. Write the deadline as a date and a local time.",
-    "Report completeness and usability by shift. Show the threads that required a follow-up question. Keep the original note beside the corrected version. Write the deadline as a date and a local time.",
-    "Present the results as a description of the handoff, not a judgment about the assistant. Keep the original note beside the corrected version. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time.",
-    "The handoff may be complete but hard to read. The next assistant's experience can affect the judgment. If the source is unclear, route the question instead of guessing. Ask whether a new reviewer could act on the record without a conversation.",
-    "The study may miss handoffs given verbally. Keep the boundary visible in the place where the work is assigned. Use the same format for every handover so the next reader can scan it. If the source is unclear, route the question instead of guessing.",
-    "Repeat the review after a template change or at the same interval each quarter. Compare the same shifts. Ask whether a new reviewer could act on the record without a conversation. Keep the original note beside the corrected version.",
-    "Assign the follow-up to the team lead and set a date. The protocol should produce a specific decision about the handoff template. Use the same format for every handover so the next reader can scan it. Write the deadline as a date and a local time."
+    "This is a proposed research protocol, not a report of completed findings. It asks how often an inbox handoff names the next action. The result would describe the handoff, not the inbox. Record the exception and the person who approved it. The evidence should stay with the record, not in a private note. The handoff should let the next person act without a meeting.",
+    "The protocol does not measure whether the reply was good. It measures whether the next action was documented. Ask whether a new reviewer could act on the record without a conversation. Name the owner in the same line as the action. The assistant should record the owner and the date before the next shift. The review should leave one owner and one date.",
+    "Define the population as inbox handoffs created during a stated window. The unit is one open thread, with the owner, the next action, and the deadline recorded. A short note with four fields is easier to use than a long narrative. Update the template when the same question appears twice. The review should leave one owner and one date.",
+    "Link the thread to the handoff so the same thread is not counted twice. Keep the boundary visible in the place where the work is assigned. A short note with four fields is easier to use than a long narrative. If the source is unclear, route the question instead of guessing. The brief should name what is approved and what needs a question. The review should leave one owner and one date.",
+    "Define completeness as the presence of the owner, the next action, and the deadline. Define usability as whether the next assistant can act without asking. Update the template when the same question appears twice. Keep the boundary visible in the place where the work is assigned. A control that depends on memory is not yet a control. The handoff should let the next person act without a meeting.",
+    "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it. The assistant should record the owner and the date before the next shift. The brief should name what is approved and what needs a question.",
+    "Link each thread to the handoff and the message record. A note that says pending without an action is weak evidence. Write the deadline as a date and a local time. Keep the original note beside the corrected version. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+    "Record the date and the shift. Separate what was observed from what was assumed. Update the template when the same question appears twice. A control that depends on memory is not yet a control. The assistant should record the owner and the date before the next shift.",
+    "Use a census of the handoffs if the volume is manageable. If sampling is necessary, stratify by shift and thread type. Test the rule on one real request before applying it to the queue. Keep the original note beside the corrected version. The evidence should stay with the record, not in a private note. A control that depends on memory is not yet a control.",
+    "Pilot the classification on a few handoffs and compare the reviewers. Clarify what counts as an action. Review the first few notes together before the process expands. Write the deadline as a date and a local time. The handoff should let the next person act without a meeting. The evidence should stay with the record, not in a private note.",
+    "Report completeness and usability by shift. Show the threads that required a follow-up question. Keep the original note beside the corrected version. Write the deadline as a date and a local time. The handoff should let the next person act without a meeting.",
+    "Present the results as a description of the handoff, not a judgment about the assistant. Keep the original note beside the corrected version. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time. The review should leave one owner and one date. The assistant should record the owner and the date before the next shift.",
+    "The handoff may be complete but hard to read. The next assistant's experience can affect the judgment. If the source is unclear, route the question instead of guessing. Ask whether a new reviewer could act on the record without a conversation. The handoff should let the next person act without a meeting.",
+    "The study may miss handoffs given verbally. Keep the boundary visible in the place where the work is assigned. Use the same format for every handover so the next reader can scan it. If the source is unclear, route the question instead of guessing. The brief should name what is approved and what needs a question. The handoff should let the next person act without a meeting.",
+    "Repeat the review after a template change or at the same interval each quarter. Compare the same shifts. Ask whether a new reviewer could act on the record without a conversation. Keep the original note beside the corrected version. A control that depends on memory is not yet a control.",
+    "Assign the follow-up to the team lead and set a date. The protocol should produce a specific decision about the handoff template. Use the same format for every handover so the next reader can scan it. Write the deadline as a date and a local time. The handoff should let the next person act without a meeting. A control that depends on memory is not yet a control."
   ]
 },
 {
@@ -279,64 +279,64 @@ export const november08ResearchPosts: ResearchPost[] = [
     {
       "heading": "Question and scope",
       "paragraphs": [
-        "This is a proposed research protocol, not a report of completed findings. It asks what share of meetings have a dated follow-up note with an owner and a decision. The result would describe the note, not the meeting. If the source is unclear, route the question instead of guessing.",
-        "The protocol does not measure whether the meeting was useful. It measures whether the record supports the next step. A short note with four fields is easier to use than a long narrative. Ask whether a new reviewer could act on the record without a conversation."
+        "This is a proposed research protocol, not a report of completed findings. It asks what share of meetings have a dated follow-up note with an owner and a decision. The result would describe the note, not the meeting. If the source is unclear, route the question instead of guessing. The brief should name what is approved and what needs a question. A control that depends on memory is not yet a control.",
+        "The protocol does not measure whether the meeting was useful. It measures whether the record supports the next step. A short note with four fields is easier to use than a long narrative. Ask whether a new reviewer could act on the record without a conversation. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note."
       ],
       "rows": []
     },
     {
       "heading": "Population and unit of analysis",
       "paragraphs": [
-        "Define the population as meetings held during a stated window. The unit is one meeting, with the decision, the owner, the due date, and the note date recorded. A short note with four fields is easier to use than a long narrative. Review the first few notes together before the process expands.",
-        "Link the note to the meeting so the same meeting is not counted twice. Record the exception and the person who approved it. Test the rule on one real request before applying it to the queue. Name the owner in the same line as the action."
+        "Define the population as meetings held during a stated window. The unit is one meeting, with the decision, the owner, the due date, and the note date recorded. A short note with four fields is easier to use than a long narrative. Review the first few notes together before the process expands. A control that depends on memory is not yet a control.",
+        "Link the note to the meeting so the same meeting is not counted twice. Record the exception and the person who approved it. Test the rule on one real request before applying it to the queue. Name the owner in the same line as the action. A control that depends on memory is not yet a control."
       ],
       "rows": []
     },
     {
       "heading": "Definitions and measures",
       "paragraphs": [
-        "Define completeness as the presence of the decision, the owner, and the due date. Define timeliness as the note being created within the agreed window. Review the first few notes together before the process expands. Keep the original note beside the corrected version.",
-        "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it."
+        "Define completeness as the presence of the decision, the owner, and the due date. Define timeliness as the note being created within the agreed window. Review the first few notes together before the process expands. Keep the original note beside the corrected version. The assistant should record the owner and the date before the next shift. A control that depends on memory is not yet a control.",
+        "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it. The handoff should let the next person act without a meeting."
       ],
       "rows": []
     },
     {
       "heading": "Evidence standard",
       "paragraphs": [
-        "Use the note and the calendar record. A note that says discussed without a decision is weak evidence. Keep the boundary visible in the place where the work is assigned. Name the owner in the same line as the action.",
-        "Record the date the note was created. Use the same format for every handover so the next reader can scan it. Keep the boundary visible in the place where the work is assigned. Keep the evidence with the record rather than in a separate log."
+        "Use the note and the calendar record. A note that says discussed without a decision is weak evidence. Keep the boundary visible in the place where the work is assigned. Name the owner in the same line as the action. The handoff should let the next person act without a meeting.",
+        "Record the date the note was created. Use the same format for every handover so the next reader can scan it. Keep the boundary visible in the place where the work is assigned. Keep the evidence with the record rather than in a separate log. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note."
       ],
       "rows": []
     },
     {
       "heading": "Sampling and collection",
       "paragraphs": [
-        "Use a census of the meetings if the volume is manageable. If sampling is necessary, stratify by meeting type. Use the same format for every handover so the next reader can scan it. Ask whether a new reviewer could act on the record without a conversation.",
-        "Pilot the classification on a few notes and compare the reviewers. Clarify what counts as a decision. If the source is unclear, route the question instead of guessing. Separate what was observed from what was assumed."
+        "Use a census of the meetings if the volume is manageable. If sampling is necessary, stratify by meeting type. Use the same format for every handover so the next reader can scan it. Ask whether a new reviewer could act on the record without a conversation. The brief should name what is approved and what needs a question. The handoff should let the next person act without a meeting.",
+        "Pilot the classification on a few notes and compare the reviewers. Clarify what counts as a decision. If the source is unclear, route the question instead of guessing. Separate what was observed from what was assumed. The review should leave one owner and one date. The evidence should stay with the record, not in a private note."
       ],
       "rows": []
     },
     {
       "heading": "Analysis and reporting",
       "paragraphs": [
-        "Report completeness and timeliness by meeting type. Show the meetings without a dated note. Keep the original note beside the corrected version. Record the date and the source so the next reviewer can repeat the check.",
-        "Present the results as a description of the record, not a judgment about the chair. Keep the boundary visible in the place where the work is assigned. Write the deadline as a date and a local time. A short note with four fields is easier to use than a long narrative."
+        "Report completeness and timeliness by meeting type. Show the meetings without a dated note. Keep the original note beside the corrected version. Record the date and the source so the next reviewer can repeat the check. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+        "Present the results as a description of the record, not a judgment about the chair. Keep the boundary visible in the place where the work is assigned. Write the deadline as a date and a local time. A short note with four fields is easier to use than a long narrative. The handoff should let the next person act without a meeting."
       ],
       "rows": []
     },
     {
       "heading": "Limits and sources of error",
       "paragraphs": [
-        "The note may be in a different system. State the systems included. Test the rule on one real request before applying it to the queue. Record the date and the source so the next reviewer can repeat the check.",
-        "The meeting may not have needed a decision. Record the exception. Record the exception and the person who approved it. Test the rule on one real request before applying it to the queue."
+        "The note may be in a different system. State the systems included. Test the rule on one real request before applying it to the queue. Record the date and the source so the next reviewer can repeat the check. A control that depends on memory is not yet a control. The brief should name what is approved and what needs a question.",
+        "The meeting may not have needed a decision. Record the exception. Record the exception and the person who approved it. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. The handoff should let the next person act without a meeting."
       ],
       "rows": []
     },
     {
       "heading": "Review cadence",
       "paragraphs": [
-        "Repeat the review after a template change or at the same interval each quarter. Compare the same meeting types. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it.",
-        "Assign the follow-up to the operations lead and set a date. The protocol should produce a specific decision about the note template. Write the deadline as a date and a local time. Keep the evidence with the record rather than in a separate log."
+        "Repeat the review after a template change or at the same interval each quarter. Compare the same meeting types. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+        "Assign the follow-up to the operations lead and set a date. The protocol should produce a specific decision about the note template. Write the deadline as a date and a local time. Keep the evidence with the record rather than in a separate log. A control that depends on memory is not yet a control. The review should leave one owner and one date."
       ],
       "rows": []
     }
@@ -361,22 +361,22 @@ export const november08ResearchPosts: ResearchPost[] = [
   ],
   "related": [],
   "body": [
-    "This is a proposed research protocol, not a report of completed findings. It asks what share of meetings have a dated follow-up note with an owner and a decision. The result would describe the note, not the meeting. If the source is unclear, route the question instead of guessing.",
-    "The protocol does not measure whether the meeting was useful. It measures whether the record supports the next step. A short note with four fields is easier to use than a long narrative. Ask whether a new reviewer could act on the record without a conversation.",
-    "Define the population as meetings held during a stated window. The unit is one meeting, with the decision, the owner, the due date, and the note date recorded. A short note with four fields is easier to use than a long narrative. Review the first few notes together before the process expands.",
-    "Link the note to the meeting so the same meeting is not counted twice. Record the exception and the person who approved it. Test the rule on one real request before applying it to the queue. Name the owner in the same line as the action.",
-    "Define completeness as the presence of the decision, the owner, and the due date. Define timeliness as the note being created within the agreed window. Review the first few notes together before the process expands. Keep the original note beside the corrected version.",
-    "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it.",
-    "Use the note and the calendar record. A note that says discussed without a decision is weak evidence. Keep the boundary visible in the place where the work is assigned. Name the owner in the same line as the action.",
-    "Record the date the note was created. Use the same format for every handover so the next reader can scan it. Keep the boundary visible in the place where the work is assigned. Keep the evidence with the record rather than in a separate log.",
-    "Use a census of the meetings if the volume is manageable. If sampling is necessary, stratify by meeting type. Use the same format for every handover so the next reader can scan it. Ask whether a new reviewer could act on the record without a conversation.",
-    "Pilot the classification on a few notes and compare the reviewers. Clarify what counts as a decision. If the source is unclear, route the question instead of guessing. Separate what was observed from what was assumed.",
-    "Report completeness and timeliness by meeting type. Show the meetings without a dated note. Keep the original note beside the corrected version. Record the date and the source so the next reviewer can repeat the check.",
-    "Present the results as a description of the record, not a judgment about the chair. Keep the boundary visible in the place where the work is assigned. Write the deadline as a date and a local time. A short note with four fields is easier to use than a long narrative.",
-    "The note may be in a different system. State the systems included. Test the rule on one real request before applying it to the queue. Record the date and the source so the next reviewer can repeat the check.",
-    "The meeting may not have needed a decision. Record the exception. Record the exception and the person who approved it. Test the rule on one real request before applying it to the queue.",
-    "Repeat the review after a template change or at the same interval each quarter. Compare the same meeting types. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it.",
-    "Assign the follow-up to the operations lead and set a date. The protocol should produce a specific decision about the note template. Write the deadline as a date and a local time. Keep the evidence with the record rather than in a separate log."
+    "This is a proposed research protocol, not a report of completed findings. It asks what share of meetings have a dated follow-up note with an owner and a decision. The result would describe the note, not the meeting. If the source is unclear, route the question instead of guessing. The brief should name what is approved and what needs a question. A control that depends on memory is not yet a control.",
+    "The protocol does not measure whether the meeting was useful. It measures whether the record supports the next step. A short note with four fields is easier to use than a long narrative. Ask whether a new reviewer could act on the record without a conversation. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note.",
+    "Define the population as meetings held during a stated window. The unit is one meeting, with the decision, the owner, the due date, and the note date recorded. A short note with four fields is easier to use than a long narrative. Review the first few notes together before the process expands. A control that depends on memory is not yet a control.",
+    "Link the note to the meeting so the same meeting is not counted twice. Record the exception and the person who approved it. Test the rule on one real request before applying it to the queue. Name the owner in the same line as the action. A control that depends on memory is not yet a control.",
+    "Define completeness as the presence of the decision, the owner, and the due date. Define timeliness as the note being created within the agreed window. Review the first few notes together before the process expands. Keep the original note beside the corrected version. The assistant should record the owner and the date before the next shift. A control that depends on memory is not yet a control.",
+    "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it. The handoff should let the next person act without a meeting.",
+    "Use the note and the calendar record. A note that says discussed without a decision is weak evidence. Keep the boundary visible in the place where the work is assigned. Name the owner in the same line as the action. The handoff should let the next person act without a meeting.",
+    "Record the date the note was created. Use the same format for every handover so the next reader can scan it. Keep the boundary visible in the place where the work is assigned. Keep the evidence with the record rather than in a separate log. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note.",
+    "Use a census of the meetings if the volume is manageable. If sampling is necessary, stratify by meeting type. Use the same format for every handover so the next reader can scan it. Ask whether a new reviewer could act on the record without a conversation. The brief should name what is approved and what needs a question. The handoff should let the next person act without a meeting.",
+    "Pilot the classification on a few notes and compare the reviewers. Clarify what counts as a decision. If the source is unclear, route the question instead of guessing. Separate what was observed from what was assumed. The review should leave one owner and one date. The evidence should stay with the record, not in a private note.",
+    "Report completeness and timeliness by meeting type. Show the meetings without a dated note. Keep the original note beside the corrected version. Record the date and the source so the next reviewer can repeat the check. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+    "Present the results as a description of the record, not a judgment about the chair. Keep the boundary visible in the place where the work is assigned. Write the deadline as a date and a local time. A short note with four fields is easier to use than a long narrative. The handoff should let the next person act without a meeting.",
+    "The note may be in a different system. State the systems included. Test the rule on one real request before applying it to the queue. Record the date and the source so the next reviewer can repeat the check. A control that depends on memory is not yet a control. The brief should name what is approved and what needs a question.",
+    "The meeting may not have needed a decision. Record the exception. Record the exception and the person who approved it. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. The handoff should let the next person act without a meeting.",
+    "Repeat the review after a template change or at the same interval each quarter. Compare the same meeting types. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+    "Assign the follow-up to the operations lead and set a date. The protocol should produce a specific decision about the note template. Write the deadline as a date and a local time. Keep the evidence with the record rather than in a separate log. A control that depends on memory is not yet a control. The review should leave one owner and one date."
   ]
 },
 {
@@ -405,64 +405,64 @@ export const november08ResearchPosts: ResearchPost[] = [
     {
       "heading": "Question and scope",
       "paragraphs": [
-        "This is a proposed research protocol, not a report of completed findings. It asks how old open research requests are at week end. The result would describe the queue. Write the deadline as a date and a local time.",
-        "The protocol does not measure whether the research was good. It measures whether the request was owned and moving. Ask whether a new reviewer could act on the record without a conversation. Review the first few notes together before the process expands."
+        "This is a proposed research protocol, not a report of completed findings. It asks how old open research requests are at week end. The result would describe the queue. Write the deadline as a date and a local time. A control that depends on memory is not yet a control. The brief should name what is approved and what needs a question.",
+        "The protocol does not measure whether the research was good. It measures whether the request was owned and moving. Ask whether a new reviewer could act on the record without a conversation. Review the first few notes together before the process expands. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note."
       ],
       "rows": []
     },
     {
       "heading": "Population and unit of analysis",
       "paragraphs": [
-        "Define the population as research requests open on a stated date. The unit is one request, with the requester, the question, the owner, and the last action recorded. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing.",
-        "Link the request to the brief so the same request is not counted twice. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. Record the date and the source so the next reviewer can repeat the check."
+        "Define the population as research requests open on a stated date. The unit is one request, with the requester, the question, the owner, and the last action recorded. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing. The handoff should let the next person act without a meeting. The review should leave one owner and one date.",
+        "Link the request to the brief so the same request is not counted twice. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. Record the date and the source so the next reviewer can repeat the check. The handoff should let the next person act without a meeting."
       ],
       "rows": []
     },
     {
       "heading": "Definitions and measures",
       "paragraphs": [
-        "Define age as the time between the request and the review date. Define ownership as a named person and a next action. Keep the original note beside the corrected version. Review the first few notes together before the process expands.",
-        "Report the age distribution and the share without an owner. Review the first few notes together before the process expands. Record the exception and the person who approved it. Keep the original note beside the corrected version."
+        "Define age as the time between the request and the review date. Define ownership as a named person and a next action. Keep the original note beside the corrected version. Review the first few notes together before the process expands. The review should leave one owner and one date.",
+        "Report the age distribution and the share without an owner. Review the first few notes together before the process expands. Record the exception and the person who approved it. Keep the original note beside the corrected version. The review should leave one owner and one date. The handoff should let the next person act without a meeting."
       ],
       "rows": []
     },
     {
       "heading": "Evidence standard",
       "paragraphs": [
-        "Link each request to the requester and the last action. A note that says researching without a date is weak evidence. Record the exception and the person who approved it. Keep the evidence with the record rather than in a separate log.",
-        "Record the date of the last client contact. Name the owner in the same line as the action. If the source is unclear, route the question instead of guessing. Use the same format for every handover so the next reader can scan it."
+        "Link each request to the requester and the last action. A note that says researching without a date is weak evidence. Record the exception and the person who approved it. Keep the evidence with the record rather than in a separate log. The review should leave one owner and one date.",
+        "Record the date of the last client contact. Name the owner in the same line as the action. If the source is unclear, route the question instead of guessing. Use the same format for every handover so the next reader can scan it. A control that depends on memory is not yet a control. The review should leave one owner and one date."
       ],
       "rows": []
     },
     {
       "heading": "Sampling and collection",
       "paragraphs": [
-        "Use a census of the open requests. If sampling is necessary, stratify by requester and topic. A short note with four fields is easier to use than a long narrative. If the source is unclear, route the question instead of guessing.",
-        "Pilot the review on a few requests and compare the reviewers. Clarify how a paused request is treated. If the source is unclear, route the question instead of guessing. Keep the evidence with the record rather than in a separate log."
+        "Use a census of the open requests. If sampling is necessary, stratify by requester and topic. A short note with four fields is easier to use than a long narrative. If the source is unclear, route the question instead of guessing. The evidence should stay with the record, not in a private note. The review should leave one owner and one date.",
+        "Pilot the review on a few requests and compare the reviewers. Clarify how a paused request is treated. If the source is unclear, route the question instead of guessing. Keep the evidence with the record rather than in a separate log. A control that depends on memory is not yet a control. The brief should name what is approved and what needs a question."
       ],
       "rows": []
     },
     {
       "heading": "Analysis and reporting",
       "paragraphs": [
-        "Report the age distribution by requester and owner. Show the requests without a next date. Review the first few notes together before the process expands. Test the rule on one real request before applying it to the queue.",
-        "Present the results as a description of the queue, not a judgment about the requester. Ask whether a new reviewer could act on the record without a conversation. Record the date and the source so the next reviewer can repeat the check. Record the exception and the person who approved it."
+        "Report the age distribution by requester and owner. Show the requests without a next date. Review the first few notes together before the process expands. Test the rule on one real request before applying it to the queue. The evidence should stay with the record, not in a private note. The review should leave one owner and one date.",
+        "Present the results as a description of the queue, not a judgment about the requester. Ask whether a new reviewer could act on the record without a conversation. Record the date and the source so the next reviewer can repeat the check. Record the exception and the person who approved it. A control that depends on memory is not yet a control."
       ],
       "rows": []
     },
     {
       "heading": "Limits and sources of error",
       "paragraphs": [
-        "The request may have been answered but not recorded. State the evidence used. Use the same format for every handover so the next reader can scan it. A short note with four fields is easier to use than a long narrative.",
-        "The review date may be after the week end. Record the date. Ask whether a new reviewer could act on the record without a conversation. Review the first few notes together before the process expands."
+        "The request may have been answered but not recorded. State the evidence used. Use the same format for every handover so the next reader can scan it. A short note with four fields is easier to use than a long narrative. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+        "The review date may be after the week end. Record the date. Ask whether a new reviewer could act on the record without a conversation. Review the first few notes together before the process expands. The handoff should let the next person act without a meeting. The review should leave one owner and one date."
       ],
       "rows": []
     },
     {
       "heading": "Review cadence",
       "paragraphs": [
-        "Repeat the review after a process change or at the same interval each month. Compare the same age bands. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time.",
-        "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the research queue. Review the first few notes together before the process expands. A short note with four fields is easier to use than a long narrative."
+        "Repeat the review after a process change or at the same interval each month. Compare the same age bands. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time. The review should leave one owner and one date. The handoff should let the next person act without a meeting.",
+        "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the research queue. Review the first few notes together before the process expands. A short note with four fields is easier to use than a long narrative. The handoff should let the next person act without a meeting. The review should leave one owner and one date."
       ],
       "rows": []
     }
@@ -487,22 +487,22 @@ export const november08ResearchPosts: ResearchPost[] = [
   ],
   "related": [],
   "body": [
-    "This is a proposed research protocol, not a report of completed findings. It asks how old open research requests are at week end. The result would describe the queue. Write the deadline as a date and a local time.",
-    "The protocol does not measure whether the research was good. It measures whether the request was owned and moving. Ask whether a new reviewer could act on the record without a conversation. Review the first few notes together before the process expands.",
-    "Define the population as research requests open on a stated date. The unit is one request, with the requester, the question, the owner, and the last action recorded. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing.",
-    "Link the request to the brief so the same request is not counted twice. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. Record the date and the source so the next reviewer can repeat the check.",
-    "Define age as the time between the request and the review date. Define ownership as a named person and a next action. Keep the original note beside the corrected version. Review the first few notes together before the process expands.",
-    "Report the age distribution and the share without an owner. Review the first few notes together before the process expands. Record the exception and the person who approved it. Keep the original note beside the corrected version.",
-    "Link each request to the requester and the last action. A note that says researching without a date is weak evidence. Record the exception and the person who approved it. Keep the evidence with the record rather than in a separate log.",
-    "Record the date of the last client contact. Name the owner in the same line as the action. If the source is unclear, route the question instead of guessing. Use the same format for every handover so the next reader can scan it.",
-    "Use a census of the open requests. If sampling is necessary, stratify by requester and topic. A short note with four fields is easier to use than a long narrative. If the source is unclear, route the question instead of guessing.",
-    "Pilot the review on a few requests and compare the reviewers. Clarify how a paused request is treated. If the source is unclear, route the question instead of guessing. Keep the evidence with the record rather than in a separate log.",
-    "Report the age distribution by requester and owner. Show the requests without a next date. Review the first few notes together before the process expands. Test the rule on one real request before applying it to the queue.",
-    "Present the results as a description of the queue, not a judgment about the requester. Ask whether a new reviewer could act on the record without a conversation. Record the date and the source so the next reviewer can repeat the check. Record the exception and the person who approved it.",
-    "The request may have been answered but not recorded. State the evidence used. Use the same format for every handover so the next reader can scan it. A short note with four fields is easier to use than a long narrative.",
-    "The review date may be after the week end. Record the date. Ask whether a new reviewer could act on the record without a conversation. Review the first few notes together before the process expands.",
-    "Repeat the review after a process change or at the same interval each month. Compare the same age bands. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time.",
-    "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the research queue. Review the first few notes together before the process expands. A short note with four fields is easier to use than a long narrative."
+    "This is a proposed research protocol, not a report of completed findings. It asks how old open research requests are at week end. The result would describe the queue. Write the deadline as a date and a local time. A control that depends on memory is not yet a control. The brief should name what is approved and what needs a question.",
+    "The protocol does not measure whether the research was good. It measures whether the request was owned and moving. Ask whether a new reviewer could act on the record without a conversation. Review the first few notes together before the process expands. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note.",
+    "Define the population as research requests open on a stated date. The unit is one request, with the requester, the question, the owner, and the last action recorded. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing. The handoff should let the next person act without a meeting. The review should leave one owner and one date.",
+    "Link the request to the brief so the same request is not counted twice. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. Record the date and the source so the next reviewer can repeat the check. The handoff should let the next person act without a meeting.",
+    "Define age as the time between the request and the review date. Define ownership as a named person and a next action. Keep the original note beside the corrected version. Review the first few notes together before the process expands. The review should leave one owner and one date.",
+    "Report the age distribution and the share without an owner. Review the first few notes together before the process expands. Record the exception and the person who approved it. Keep the original note beside the corrected version. The review should leave one owner and one date. The handoff should let the next person act without a meeting.",
+    "Link each request to the requester and the last action. A note that says researching without a date is weak evidence. Record the exception and the person who approved it. Keep the evidence with the record rather than in a separate log. The review should leave one owner and one date.",
+    "Record the date of the last client contact. Name the owner in the same line as the action. If the source is unclear, route the question instead of guessing. Use the same format for every handover so the next reader can scan it. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+    "Use a census of the open requests. If sampling is necessary, stratify by requester and topic. A short note with four fields is easier to use than a long narrative. If the source is unclear, route the question instead of guessing. The evidence should stay with the record, not in a private note. The review should leave one owner and one date.",
+    "Pilot the review on a few requests and compare the reviewers. Clarify how a paused request is treated. If the source is unclear, route the question instead of guessing. Keep the evidence with the record rather than in a separate log. A control that depends on memory is not yet a control. The brief should name what is approved and what needs a question.",
+    "Report the age distribution by requester and owner. Show the requests without a next date. Review the first few notes together before the process expands. Test the rule on one real request before applying it to the queue. The evidence should stay with the record, not in a private note. The review should leave one owner and one date.",
+    "Present the results as a description of the queue, not a judgment about the requester. Ask whether a new reviewer could act on the record without a conversation. Record the date and the source so the next reviewer can repeat the check. Record the exception and the person who approved it. A control that depends on memory is not yet a control.",
+    "The request may have been answered but not recorded. State the evidence used. Use the same format for every handover so the next reader can scan it. A short note with four fields is easier to use than a long narrative. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+    "The review date may be after the week end. Record the date. Ask whether a new reviewer could act on the record without a conversation. Review the first few notes together before the process expands. The handoff should let the next person act without a meeting. The review should leave one owner and one date.",
+    "Repeat the review after a process change or at the same interval each month. Compare the same age bands. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time. The review should leave one owner and one date. The handoff should let the next person act without a meeting.",
+    "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the research queue. Review the first few notes together before the process expands. A short note with four fields is easier to use than a long narrative. The handoff should let the next person act without a meeting. The review should leave one owner and one date."
   ]
 },
 {
@@ -531,64 +531,64 @@ export const november08ResearchPosts: ResearchPost[] = [
     {
       "heading": "Question and scope",
       "paragraphs": [
-        "This is a proposed research protocol, not a report of completed findings. It asks whether an assistant handoff can be reconstructed from its sources. The result would describe the record. Keep the boundary visible in the place where the work is assigned.",
-        "The protocol does not measure whether the handoff was necessary. It measures whether the next assistant can continue. Use the same format for every handover so the next reader can scan it. If the source is unclear, route the question instead of guessing."
+        "This is a proposed research protocol, not a report of completed findings. It asks whether an assistant handoff can be reconstructed from its sources. The result would describe the record. Keep the boundary visible in the place where the work is assigned. The handoff should let the next person act without a meeting. The evidence should stay with the record, not in a private note.",
+        "The protocol does not measure whether the handoff was necessary. It measures whether the next assistant can continue. Use the same format for every handover so the next reader can scan it. If the source is unclear, route the question instead of guessing. The evidence should stay with the record, not in a private note. A control that depends on memory is not yet a control."
       ],
       "rows": []
     },
     {
       "heading": "Population and unit of analysis",
       "paragraphs": [
-        "Define the population as handoffs completed during a stated window. The unit is one handoff, with the task, the source, the next action, and the receiver recorded. Name the owner in the same line as the action. A short note with four fields is easier to use than a long narrative.",
-        "Link the handoff to the task so the same work is not counted twice. Review the first few notes together before the process expands. A short note with four fields is easier to use than a long narrative. Use the same format for every handover so the next reader can scan it."
+        "Define the population as handoffs completed during a stated window. The unit is one handoff, with the task, the source, the next action, and the receiver recorded. Name the owner in the same line as the action. A short note with four fields is easier to use than a long narrative. The review should leave one owner and one date. The assistant should record the owner and the date before the next shift.",
+        "Link the handoff to the task so the same work is not counted twice. Review the first few notes together before the process expands. A short note with four fields is easier to use than a long narrative. Use the same format for every handover so the next reader can scan it. The evidence should stay with the record, not in a private note. The brief should name what is approved and what needs a question."
       ],
       "rows": []
     },
     {
       "heading": "Definitions and measures",
       "paragraphs": [
-        "Define reconstruction as the ability of a new assistant to state the task and the next action using only the handoff. Define completeness as the presence of the required fields. Review the first few notes together before the process expands. Ask whether a new reviewer could act on the record without a conversation.",
-        "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it."
+        "Define reconstruction as the ability of a new assistant to state the task and the next action using only the handoff. Define completeness as the presence of the required fields. Review the first few notes together before the process expands. Ask whether a new reviewer could act on the record without a conversation. The brief should name what is approved and what needs a question. A control that depends on memory is not yet a control.",
+        "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it. The evidence should stay with the record, not in a private note."
       ],
       "rows": []
     },
     {
       "heading": "Evidence standard",
       "paragraphs": [
-        "Use a reviewer who did not create the handoff. Compare the reconstruction with the actual next action. A short note with four fields is easier to use than a long narrative. Record the exception and the person who approved it.",
-        "Keep the original handoff and the reconstruction side by side. A control that depends on memory is not yet a control. Write the deadline as a date and a local time. Review the first few notes together before the process expands."
+        "Use a reviewer who did not create the handoff. Compare the reconstruction with the actual next action. A short note with four fields is easier to use than a long narrative. Record the exception and the person who approved it. The handoff should let the next person act without a meeting. The assistant should record the owner and the date before the next shift.",
+        "Keep the original handoff and the reconstruction side by side. A control that depends on memory is not yet a control. Write the deadline as a date and a local time. Review the first few notes together before the process expands. The handoff should let the next person act without a meeting. The evidence should stay with the record, not in a private note."
       ],
       "rows": []
     },
     {
       "heading": "Sampling and collection",
       "paragraphs": [
-        "Use a census of the handoffs if the volume is manageable. If sampling is necessary, stratify by task type. Name the owner in the same line as the action. Keep the evidence with the record rather than in a separate log.",
-        "Pilot the reconstruction on a few handoffs and compare the reviewers. Clarify how a missing document is scored. Record the date and the source so the next reviewer can repeat the check. Name the owner in the same line as the action."
+        "Use a census of the handoffs if the volume is manageable. If sampling is necessary, stratify by task type. Name the owner in the same line as the action. Keep the evidence with the record rather than in a separate log. The brief should name what is approved and what needs a question. The assistant should record the owner and the date before the next shift.",
+        "Pilot the reconstruction on a few handoffs and compare the reviewers. Clarify how a missing document is scored. Record the date and the source so the next reviewer can repeat the check. Name the owner in the same line as the action. The review should leave one owner and one date. The evidence should stay with the record, not in a private note."
       ],
       "rows": []
     },
     {
       "heading": "Analysis and reporting",
       "paragraphs": [
-        "Report reconstruction and completeness by task type. Show the handoffs that could not be reconstructed. If the source is unclear, route the question instead of guessing. Separate what was observed from what was assumed.",
-        "Present the results as a description of the records, not a judgment about the sender. Keep the original note beside the corrected version. Review the first few notes together before the process expands. A control that depends on memory is not yet a control."
+        "Report reconstruction and completeness by task type. Show the handoffs that could not be reconstructed. If the source is unclear, route the question instead of guessing. Separate what was observed from what was assumed. The evidence should stay with the record, not in a private note. The review should leave one owner and one date.",
+        "Present the results as a description of the records, not a judgment about the sender. Keep the original note beside the corrected version. Review the first few notes together before the process expands. A control that depends on memory is not yet a control. The review should leave one owner and one date."
       ],
       "rows": []
     },
     {
       "heading": "Limits and sources of error",
       "paragraphs": [
-        "The reviewer's familiarity with the task can inflate reconstruction. Separate what was observed from what was assumed. If the source is unclear, route the question instead of guessing. Name the owner in the same line as the action.",
-        "The actual next action may have changed after the handoff. Separate what was observed from what was assumed. A control that depends on memory is not yet a control. Name the owner in the same line as the action."
+        "The reviewer's familiarity with the task can inflate reconstruction. Separate what was observed from what was assumed. If the source is unclear, route the question instead of guessing. Name the owner in the same line as the action. The evidence should stay with the record, not in a private note. The assistant should record the owner and the date before the next shift.",
+        "The actual next action may have changed after the handoff. Separate what was observed from what was assumed. A control that depends on memory is not yet a control. Name the owner in the same line as the action. The evidence should stay with the record, not in a private note. The review should leave one owner and one date."
       ],
       "rows": []
     },
     {
       "heading": "Review cadence",
       "paragraphs": [
-        "Repeat the review after a checklist change or at the same interval each quarter. Compare the same task types. Separate what was observed from what was assumed. A control that depends on memory is not yet a control.",
-        "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the handoff template. Review the first few notes together before the process expands. Keep the boundary visible in the place where the work is assigned."
+        "Repeat the review after a checklist change or at the same interval each quarter. Compare the same task types. Separate what was observed from what was assumed. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+        "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the handoff template. Review the first few notes together before the process expands. Keep the boundary visible in the place where the work is assigned. The evidence should stay with the record, not in a private note. The handoff should let the next person act without a meeting."
       ],
       "rows": []
     }
@@ -613,22 +613,22 @@ export const november08ResearchPosts: ResearchPost[] = [
   ],
   "related": [],
   "body": [
-    "This is a proposed research protocol, not a report of completed findings. It asks whether an assistant handoff can be reconstructed from its sources. The result would describe the record. Keep the boundary visible in the place where the work is assigned.",
-    "The protocol does not measure whether the handoff was necessary. It measures whether the next assistant can continue. Use the same format for every handover so the next reader can scan it. If the source is unclear, route the question instead of guessing.",
-    "Define the population as handoffs completed during a stated window. The unit is one handoff, with the task, the source, the next action, and the receiver recorded. Name the owner in the same line as the action. A short note with four fields is easier to use than a long narrative.",
-    "Link the handoff to the task so the same work is not counted twice. Review the first few notes together before the process expands. A short note with four fields is easier to use than a long narrative. Use the same format for every handover so the next reader can scan it.",
-    "Define reconstruction as the ability of a new assistant to state the task and the next action using only the handoff. Define completeness as the presence of the required fields. Review the first few notes together before the process expands. Ask whether a new reviewer could act on the record without a conversation.",
-    "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it.",
-    "Use a reviewer who did not create the handoff. Compare the reconstruction with the actual next action. A short note with four fields is easier to use than a long narrative. Record the exception and the person who approved it.",
-    "Keep the original handoff and the reconstruction side by side. A control that depends on memory is not yet a control. Write the deadline as a date and a local time. Review the first few notes together before the process expands.",
-    "Use a census of the handoffs if the volume is manageable. If sampling is necessary, stratify by task type. Name the owner in the same line as the action. Keep the evidence with the record rather than in a separate log.",
-    "Pilot the reconstruction on a few handoffs and compare the reviewers. Clarify how a missing document is scored. Record the date and the source so the next reviewer can repeat the check. Name the owner in the same line as the action.",
-    "Report reconstruction and completeness by task type. Show the handoffs that could not be reconstructed. If the source is unclear, route the question instead of guessing. Separate what was observed from what was assumed.",
-    "Present the results as a description of the records, not a judgment about the sender. Keep the original note beside the corrected version. Review the first few notes together before the process expands. A control that depends on memory is not yet a control.",
-    "The reviewer's familiarity with the task can inflate reconstruction. Separate what was observed from what was assumed. If the source is unclear, route the question instead of guessing. Name the owner in the same line as the action.",
-    "The actual next action may have changed after the handoff. Separate what was observed from what was assumed. A control that depends on memory is not yet a control. Name the owner in the same line as the action.",
-    "Repeat the review after a checklist change or at the same interval each quarter. Compare the same task types. Separate what was observed from what was assumed. A control that depends on memory is not yet a control.",
-    "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the handoff template. Review the first few notes together before the process expands. Keep the boundary visible in the place where the work is assigned."
+    "This is a proposed research protocol, not a report of completed findings. It asks whether an assistant handoff can be reconstructed from its sources. The result would describe the record. Keep the boundary visible in the place where the work is assigned. The handoff should let the next person act without a meeting. The evidence should stay with the record, not in a private note.",
+    "The protocol does not measure whether the handoff was necessary. It measures whether the next assistant can continue. Use the same format for every handover so the next reader can scan it. If the source is unclear, route the question instead of guessing. The evidence should stay with the record, not in a private note. A control that depends on memory is not yet a control.",
+    "Define the population as handoffs completed during a stated window. The unit is one handoff, with the task, the source, the next action, and the receiver recorded. Name the owner in the same line as the action. A short note with four fields is easier to use than a long narrative. The review should leave one owner and one date. The assistant should record the owner and the date before the next shift.",
+    "Link the handoff to the task so the same work is not counted twice. Review the first few notes together before the process expands. A short note with four fields is easier to use than a long narrative. Use the same format for every handover so the next reader can scan it. The evidence should stay with the record, not in a private note. The brief should name what is approved and what needs a question.",
+    "Define reconstruction as the ability of a new assistant to state the task and the next action using only the handoff. Define completeness as the presence of the required fields. Review the first few notes together before the process expands. Ask whether a new reviewer could act on the record without a conversation. The brief should name what is approved and what needs a question. A control that depends on memory is not yet a control.",
+    "Report both separately. Name the owner in the same line as the action. A control that depends on memory is not yet a control. Use the same format for every handover so the next reader can scan it. The evidence should stay with the record, not in a private note.",
+    "Use a reviewer who did not create the handoff. Compare the reconstruction with the actual next action. A short note with four fields is easier to use than a long narrative. Record the exception and the person who approved it. The handoff should let the next person act without a meeting. The assistant should record the owner and the date before the next shift.",
+    "Keep the original handoff and the reconstruction side by side. A control that depends on memory is not yet a control. Write the deadline as a date and a local time. Review the first few notes together before the process expands. The handoff should let the next person act without a meeting. The evidence should stay with the record, not in a private note.",
+    "Use a census of the handoffs if the volume is manageable. If sampling is necessary, stratify by task type. Name the owner in the same line as the action. Keep the evidence with the record rather than in a separate log. The brief should name what is approved and what needs a question. The assistant should record the owner and the date before the next shift.",
+    "Pilot the reconstruction on a few handoffs and compare the reviewers. Clarify how a missing document is scored. Record the date and the source so the next reviewer can repeat the check. Name the owner in the same line as the action. The review should leave one owner and one date. The evidence should stay with the record, not in a private note.",
+    "Report reconstruction and completeness by task type. Show the handoffs that could not be reconstructed. If the source is unclear, route the question instead of guessing. Separate what was observed from what was assumed. The evidence should stay with the record, not in a private note. The review should leave one owner and one date.",
+    "Present the results as a description of the records, not a judgment about the sender. Keep the original note beside the corrected version. Review the first few notes together before the process expands. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+    "The reviewer's familiarity with the task can inflate reconstruction. Separate what was observed from what was assumed. If the source is unclear, route the question instead of guessing. Name the owner in the same line as the action. The evidence should stay with the record, not in a private note. The assistant should record the owner and the date before the next shift.",
+    "The actual next action may have changed after the handoff. Separate what was observed from what was assumed. A control that depends on memory is not yet a control. Name the owner in the same line as the action. The evidence should stay with the record, not in a private note. The review should leave one owner and one date.",
+    "Repeat the review after a checklist change or at the same interval each quarter. Compare the same task types. Separate what was observed from what was assumed. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+    "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the handoff template. Review the first few notes together before the process expands. Keep the boundary visible in the place where the work is assigned. The evidence should stay with the record, not in a private note. The handoff should let the next person act without a meeting."
   ]
 },
 {
@@ -657,64 +657,64 @@ export const november08ResearchPosts: ResearchPost[] = [
     {
       "heading": "Question and scope",
       "paragraphs": [
-        "This is a proposed research protocol, not a report of completed findings. It asks how consistently assistants protect the same focus blocks. The result would describe the rule, not the assistant. A control that depends on memory is not yet a control.",
-        "The protocol does not measure whether the executive used the time well. It measures whether the calendar reflected the rule. Keep the evidence with the record rather than in a separate log. Review the first few notes together before the process expands."
+        "This is a proposed research protocol, not a report of completed findings. It asks how consistently assistants protect the same focus blocks. The result would describe the rule, not the assistant. A control that depends on memory is not yet a control. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+        "The protocol does not measure whether the executive used the time well. It measures whether the calendar reflected the rule. Keep the evidence with the record rather than in a separate log. Review the first few notes together before the process expands. The evidence should stay with the record, not in a private note. The brief should name what is approved and what needs a question."
       ],
       "rows": []
     },
     {
       "heading": "Population and unit of analysis",
       "paragraphs": [
-        "Define the population as calendar conflicts during a stated window. The unit is one conflict, with the block, the request, the decision, and the assistant recorded. Separate what was observed from what was assumed. Use the same format for every handover so the next reader can scan it.",
-        "Link the conflict to the calendar so the same block is not counted twice. A short note with four fields is easier to use than a long narrative. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log."
+        "Define the population as calendar conflicts during a stated window. The unit is one conflict, with the block, the request, the decision, and the assistant recorded. Separate what was observed from what was assumed. Use the same format for every handover so the next reader can scan it. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note.",
+        "Link the conflict to the calendar so the same block is not counted twice. A short note with four fields is easier to use than a long narrative. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log. The assistant should record the owner and the date before the next shift."
       ],
       "rows": []
     },
     {
       "heading": "Definitions and measures",
       "paragraphs": [
-        "Define protection as the block remaining on the calendar. Define consistency as the same decision for the same conflict type. Separate what was observed from what was assumed. Keep the evidence with the record rather than in a separate log.",
-        "Report the protection rate and the consistency rate separately. Record the date and the source so the next reviewer can repeat the check. Separate what was observed from what was assumed. Keep the evidence with the record rather than in a separate log."
+        "Define protection as the block remaining on the calendar. Define consistency as the same decision for the same conflict type. Separate what was observed from what was assumed. Keep the evidence with the record rather than in a separate log. The review should leave one owner and one date. A control that depends on memory is not yet a control.",
+        "Report the protection rate and the consistency rate separately. Record the date and the source so the next reviewer can repeat the check. Separate what was observed from what was assumed. Keep the evidence with the record rather than in a separate log. The evidence should stay with the record, not in a private note. The brief should name what is approved and what needs a question."
       ],
       "rows": []
     },
     {
       "heading": "Evidence standard",
       "paragraphs": [
-        "Use the calendar record and the request log. A note that says protected without the block is weak evidence. Test the rule on one real request before applying it to the queue. Keep the evidence with the record rather than in a separate log.",
-        "Record the date and the assistant. Record the date and the source so the next reviewer can repeat the check. A short note with four fields is easier to use than a long narrative. Use the same format for every handover so the next reader can scan it."
+        "Use the calendar record and the request log. A note that says protected without the block is weak evidence. Test the rule on one real request before applying it to the queue. Keep the evidence with the record rather than in a separate log. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+        "Record the date and the assistant. Record the date and the source so the next reviewer can repeat the check. A short note with four fields is easier to use than a long narrative. Use the same format for every handover so the next reader can scan it. The assistant should record the owner and the date before the next shift. The brief should name what is approved and what needs a question."
       ],
       "rows": []
     },
     {
       "heading": "Sampling and collection",
       "paragraphs": [
-        "Use a census of the conflicts if the volume is manageable. If sampling is necessary, stratify by conflict type. Name the owner in the same line as the action. Separate what was observed from what was assumed.",
-        "Pilot the classification on a few conflicts and compare the reviewers. Clarify what counts as a conflict. Keep the evidence with the record rather than in a separate log. A short note with four fields is easier to use than a long narrative."
+        "Use a census of the conflicts if the volume is manageable. If sampling is necessary, stratify by conflict type. Name the owner in the same line as the action. Separate what was observed from what was assumed. The assistant should record the owner and the date before the next shift. The brief should name what is approved and what needs a question.",
+        "Pilot the classification on a few conflicts and compare the reviewers. Clarify what counts as a conflict. Keep the evidence with the record rather than in a separate log. A short note with four fields is easier to use than a long narrative. The evidence should stay with the record, not in a private note. The brief should name what is approved and what needs a question."
       ],
       "rows": []
     },
     {
       "heading": "Analysis and reporting",
       "paragraphs": [
-        "Report protection and consistency by conflict type. Show the conflicts where the rule was not applied. Record the exception and the person who approved it. Keep the boundary visible in the place where the work is assigned.",
-        "Present the results as a description of the rule, not a ranking of assistants. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it."
+        "Report protection and consistency by conflict type. Show the conflicts where the rule was not applied. Record the exception and the person who approved it. Keep the boundary visible in the place where the work is assigned. The review should leave one owner and one date. A control that depends on memory is not yet a control.",
+        "Present the results as a description of the rule, not a ranking of assistants. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it. The handoff should let the next person act without a meeting. The assistant should record the owner and the date before the next shift."
       ],
       "rows": []
     },
     {
       "heading": "Limits and sources of error",
       "paragraphs": [
-        "The calendar may not capture informal moves. State the systems included. Record the date and the source so the next reviewer can repeat the check. A short note with four fields is easier to use than a long narrative.",
-        "The executive may have approved an exception. Record the approval. Keep the original note beside the corrected version. Update the template when the same question appears twice."
+        "The calendar may not capture informal moves. State the systems included. Record the date and the source so the next reviewer can repeat the check. A short note with four fields is easier to use than a long narrative. The handoff should let the next person act without a meeting. A control that depends on memory is not yet a control.",
+        "The executive may have approved an exception. Record the approval. Keep the original note beside the corrected version. Update the template when the same question appears twice. A control that depends on memory is not yet a control."
       ],
       "rows": []
     },
     {
       "heading": "Review cadence",
       "paragraphs": [
-        "Repeat the review after a rule change or at the same interval each quarter. Compare the same conflict types. Keep the boundary visible in the place where the work is assigned. Test the rule on one real request before applying it to the queue.",
-        "Assign the follow-up to the executive office lead and set a date. The protocol should produce a specific decision about the calendar rule. Name the owner in the same line as the action. Test the rule on one real request before applying it to the queue."
+        "Repeat the review after a rule change or at the same interval each quarter. Compare the same conflict types. Keep the boundary visible in the place where the work is assigned. Test the rule on one real request before applying it to the queue. The evidence should stay with the record, not in a private note. The review should leave one owner and one date.",
+        "Assign the follow-up to the executive office lead and set a date. The protocol should produce a specific decision about the calendar rule. Name the owner in the same line as the action. Test the rule on one real request before applying it to the queue. The evidence should stay with the record, not in a private note. The review should leave one owner and one date."
       ],
       "rows": []
     }
@@ -739,22 +739,22 @@ export const november08ResearchPosts: ResearchPost[] = [
   ],
   "related": [],
   "body": [
-    "This is a proposed research protocol, not a report of completed findings. It asks how consistently assistants protect the same focus blocks. The result would describe the rule, not the assistant. A control that depends on memory is not yet a control.",
-    "The protocol does not measure whether the executive used the time well. It measures whether the calendar reflected the rule. Keep the evidence with the record rather than in a separate log. Review the first few notes together before the process expands.",
-    "Define the population as calendar conflicts during a stated window. The unit is one conflict, with the block, the request, the decision, and the assistant recorded. Separate what was observed from what was assumed. Use the same format for every handover so the next reader can scan it.",
-    "Link the conflict to the calendar so the same block is not counted twice. A short note with four fields is easier to use than a long narrative. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log.",
-    "Define protection as the block remaining on the calendar. Define consistency as the same decision for the same conflict type. Separate what was observed from what was assumed. Keep the evidence with the record rather than in a separate log.",
-    "Report the protection rate and the consistency rate separately. Record the date and the source so the next reviewer can repeat the check. Separate what was observed from what was assumed. Keep the evidence with the record rather than in a separate log.",
-    "Use the calendar record and the request log. A note that says protected without the block is weak evidence. Test the rule on one real request before applying it to the queue. Keep the evidence with the record rather than in a separate log.",
-    "Record the date and the assistant. Record the date and the source so the next reviewer can repeat the check. A short note with four fields is easier to use than a long narrative. Use the same format for every handover so the next reader can scan it.",
-    "Use a census of the conflicts if the volume is manageable. If sampling is necessary, stratify by conflict type. Name the owner in the same line as the action. Separate what was observed from what was assumed.",
-    "Pilot the classification on a few conflicts and compare the reviewers. Clarify what counts as a conflict. Keep the evidence with the record rather than in a separate log. A short note with four fields is easier to use than a long narrative.",
-    "Report protection and consistency by conflict type. Show the conflicts where the rule was not applied. Record the exception and the person who approved it. Keep the boundary visible in the place where the work is assigned.",
-    "Present the results as a description of the rule, not a ranking of assistants. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it.",
-    "The calendar may not capture informal moves. State the systems included. Record the date and the source so the next reviewer can repeat the check. A short note with four fields is easier to use than a long narrative.",
-    "The executive may have approved an exception. Record the approval. Keep the original note beside the corrected version. Update the template when the same question appears twice.",
-    "Repeat the review after a rule change or at the same interval each quarter. Compare the same conflict types. Keep the boundary visible in the place where the work is assigned. Test the rule on one real request before applying it to the queue.",
-    "Assign the follow-up to the executive office lead and set a date. The protocol should produce a specific decision about the calendar rule. Name the owner in the same line as the action. Test the rule on one real request before applying it to the queue."
+    "This is a proposed research protocol, not a report of completed findings. It asks how consistently assistants protect the same focus blocks. The result would describe the rule, not the assistant. A control that depends on memory is not yet a control. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+    "The protocol does not measure whether the executive used the time well. It measures whether the calendar reflected the rule. Keep the evidence with the record rather than in a separate log. Review the first few notes together before the process expands. The evidence should stay with the record, not in a private note. The brief should name what is approved and what needs a question.",
+    "Define the population as calendar conflicts during a stated window. The unit is one conflict, with the block, the request, the decision, and the assistant recorded. Separate what was observed from what was assumed. Use the same format for every handover so the next reader can scan it. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note.",
+    "Link the conflict to the calendar so the same block is not counted twice. A short note with four fields is easier to use than a long narrative. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log. The assistant should record the owner and the date before the next shift.",
+    "Define protection as the block remaining on the calendar. Define consistency as the same decision for the same conflict type. Separate what was observed from what was assumed. Keep the evidence with the record rather than in a separate log. The review should leave one owner and one date. A control that depends on memory is not yet a control.",
+    "Report the protection rate and the consistency rate separately. Record the date and the source so the next reviewer can repeat the check. Separate what was observed from what was assumed. Keep the evidence with the record rather than in a separate log. The evidence should stay with the record, not in a private note. The brief should name what is approved and what needs a question.",
+    "Use the calendar record and the request log. A note that says protected without the block is weak evidence. Test the rule on one real request before applying it to the queue. Keep the evidence with the record rather than in a separate log. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+    "Record the date and the assistant. Record the date and the source so the next reviewer can repeat the check. A short note with four fields is easier to use than a long narrative. Use the same format for every handover so the next reader can scan it. The assistant should record the owner and the date before the next shift. The brief should name what is approved and what needs a question.",
+    "Use a census of the conflicts if the volume is manageable. If sampling is necessary, stratify by conflict type. Name the owner in the same line as the action. Separate what was observed from what was assumed. The assistant should record the owner and the date before the next shift. The brief should name what is approved and what needs a question.",
+    "Pilot the classification on a few conflicts and compare the reviewers. Clarify what counts as a conflict. Keep the evidence with the record rather than in a separate log. A short note with four fields is easier to use than a long narrative. The evidence should stay with the record, not in a private note. The brief should name what is approved and what needs a question.",
+    "Report protection and consistency by conflict type. Show the conflicts where the rule was not applied. Record the exception and the person who approved it. Keep the boundary visible in the place where the work is assigned. The review should leave one owner and one date. A control that depends on memory is not yet a control.",
+    "Present the results as a description of the rule, not a ranking of assistants. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing. Record the exception and the person who approved it. The handoff should let the next person act without a meeting. The assistant should record the owner and the date before the next shift.",
+    "The calendar may not capture informal moves. State the systems included. Record the date and the source so the next reviewer can repeat the check. A short note with four fields is easier to use than a long narrative. The handoff should let the next person act without a meeting. A control that depends on memory is not yet a control.",
+    "The executive may have approved an exception. Record the approval. Keep the original note beside the corrected version. Update the template when the same question appears twice. A control that depends on memory is not yet a control.",
+    "Repeat the review after a rule change or at the same interval each quarter. Compare the same conflict types. Keep the boundary visible in the place where the work is assigned. Test the rule on one real request before applying it to the queue. The evidence should stay with the record, not in a private note. The review should leave one owner and one date.",
+    "Assign the follow-up to the executive office lead and set a date. The protocol should produce a specific decision about the calendar rule. Name the owner in the same line as the action. Test the rule on one real request before applying it to the queue. The evidence should stay with the record, not in a private note. The review should leave one owner and one date."
   ]
 },
 {
@@ -783,64 +783,64 @@ export const november08ResearchPosts: ResearchPost[] = [
     {
       "heading": "Question and scope",
       "paragraphs": [
-        "This is a proposed research protocol, not a report of completed findings. It asks where delay accumulates in an assistant request. The result would separate the intake wait, the decision wait, and the rework. Ask whether a new reviewer could act on the record without a conversation.",
-        "The protocol does not measure whether the request was important. It measures the time spent at each stage. Name the owner in the same line as the action. If the source is unclear, route the question instead of guessing."
+        "This is a proposed research protocol, not a report of completed findings. It asks where delay accumulates in an assistant request. The result would separate the intake wait, the decision wait, and the rework. Ask whether a new reviewer could act on the record without a conversation. The evidence should stay with the record, not in a private note. A control that depends on memory is not yet a control.",
+        "The protocol does not measure whether the request was important. It measures the time spent at each stage. Name the owner in the same line as the action. If the source is unclear, route the question instead of guessing. The review should leave one owner and one date. The handoff should let the next person act without a meeting."
       ],
       "rows": []
     },
     {
       "heading": "Population and unit of analysis",
       "paragraphs": [
-        "Define the population as assistant requests completed during a stated window. The unit is one request, with the intake, the decision, and the completion recorded. Record the exception and the person who approved it. Keep the evidence with the record rather than in a separate log.",
-        "Link the request to the task so the same work is not counted twice. Review the first few notes together before the process expands. Update the template when the same question appears twice. Keep the evidence with the record rather than in a separate log."
+        "Define the population as assistant requests completed during a stated window. The unit is one request, with the intake, the decision, and the completion recorded. Record the exception and the person who approved it. Keep the evidence with the record rather than in a separate log. A control that depends on memory is not yet a control. The handoff should let the next person act without a meeting.",
+        "Link the request to the task so the same work is not counted twice. Review the first few notes together before the process expands. Update the template when the same question appears twice. The review should leave one owner and one date. A control that depends on memory is not yet a control."
       ],
       "rows": []
     },
     {
       "heading": "Definitions and measures",
       "paragraphs": [
-        "Define intake wait as the time between the request and a complete brief. Define decision wait as the time between the complete brief and the owner's decision. Keep the original note beside the corrected version. Separate what was observed from what was assumed.",
-        "Report each stage separately. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time. Record the date and the source so the next reviewer can repeat the check."
+        "Define intake wait as the time between the request and a complete brief. Define decision wait as the time between the complete brief and the owner's decision. Keep the original note beside the corrected version. Separate what was observed from what was assumed. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+        "Report each stage separately. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time. Record the date and the source so the next reviewer can repeat the check. The brief should name what is approved and what needs a question."
       ],
       "rows": []
     },
     {
       "heading": "Evidence standard",
       "paragraphs": [
-        "Use the request record and the task timestamps. A decision made in a meeting should record the date. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing.",
-        "Mark reconstructed times as estimates. Keep the boundary visible in the place where the work is assigned. Review the first few notes together before the process expands. Separate what was observed from what was assumed."
+        "Use the request record and the task timestamps. A decision made in a meeting should record the date. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing. The brief should name what is approved and what needs a question. The review should leave one owner and one date.",
+        "Mark reconstructed times as estimates. Keep the boundary visible in the place where the work is assigned. Review the first few notes together before the process expands. Separate what was observed from what was assumed. The assistant should record the owner and the date before the next shift. The review should leave one owner and one date."
       ],
       "rows": []
     },
     {
       "heading": "Sampling and collection",
       "paragraphs": [
-        "Use a census of the requests if the volume is manageable. If sampling is necessary, stratify by request type. If the source is unclear, route the question instead of guessing. Record the date and the source so the next reviewer can repeat the check.",
-        "Pilot the collection on a few requests and compare the reviewers. Clarify how a weekend is treated. Keep the original note beside the corrected version. Separate what was observed from what was assumed."
+        "Use a census of the requests if the volume is manageable. If sampling is necessary, stratify by request type. If the source is unclear, route the question instead of guessing. Record the date and the source so the next reviewer can repeat the check. The handoff should let the next person act without a meeting. The assistant should record the owner and the date before the next shift.",
+        "Pilot the collection on a few requests and compare the reviewers. Clarify how a weekend is treated. Keep the original note beside the corrected version. Separate what was observed from what was assumed. A control that depends on memory is not yet a control. The review should leave one owner and one date."
       ],
       "rows": []
     },
     {
       "heading": "Analysis and reporting",
       "paragraphs": [
-        "Report the delay distribution for each stage. Show the requests where the intake was the largest component. Record the exception and the person who approved it. Separate what was observed from what was assumed.",
-        "Present the results as a description of the process, not a judgment about the requester. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log."
+        "Report the delay distribution for each stage. Show the requests where the intake was the largest component. Record the exception and the person who approved it. Separate what was observed from what was assumed. The review should leave one owner and one date. The handoff should let the next person act without a meeting.",
+        "Present the results as a description of the process, not a judgment about the requester. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log. The evidence should stay with the record, not in a private note. The handoff should let the next person act without a meeting."
       ],
       "rows": []
     },
     {
       "heading": "Limits and sources of error",
       "paragraphs": [
-        "The brief may have been completed verbally. Record the date. Test the rule on one real request before applying it to the queue. A short note with four fields is easier to use than a long narrative.",
-        "The decision may have been made before it was documented. Record the date and the source so the next reviewer can repeat the check. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log."
+        "The brief may have been completed verbally. Record the date. Test the rule on one real request before applying it to the queue. A short note with four fields is easier to use than a long narrative. The brief should name what is approved and what needs a question. The review should leave one owner and one date.",
+        "The decision may have been made before it was documented. Record the date and the source so the next reviewer can repeat the check. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note."
       ],
       "rows": []
     },
     {
       "heading": "Review cadence",
       "paragraphs": [
-        "Repeat the review after a process change or at the same interval each quarter. Compare the same stages. A control that depends on memory is not yet a control. Write the deadline as a date and a local time.",
-        "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the intake step. Keep the original note beside the corrected version. If the source is unclear, route the question instead of guessing."
+        "Repeat the review after a process change or at the same interval each quarter. Compare the same stages. A control that depends on memory is not yet a control. Write the deadline as a date and a local time. The brief should name what is approved and what needs a question. The review should leave one owner and one date.",
+        "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the intake step. Keep the original note beside the corrected version. If the source is unclear, route the question instead of guessing. The assistant should record the owner and the date before the next shift."
       ],
       "rows": []
     }
@@ -865,22 +865,22 @@ export const november08ResearchPosts: ResearchPost[] = [
   ],
   "related": [],
   "body": [
-    "This is a proposed research protocol, not a report of completed findings. It asks where delay accumulates in an assistant request. The result would separate the intake wait, the decision wait, and the rework. Ask whether a new reviewer could act on the record without a conversation.",
-    "The protocol does not measure whether the request was important. It measures the time spent at each stage. Name the owner in the same line as the action. If the source is unclear, route the question instead of guessing.",
-    "Define the population as assistant requests completed during a stated window. The unit is one request, with the intake, the decision, and the completion recorded. Record the exception and the person who approved it. Keep the evidence with the record rather than in a separate log.",
-    "Link the request to the task so the same work is not counted twice. Review the first few notes together before the process expands. Update the template when the same question appears twice. Keep the evidence with the record rather than in a separate log.",
-    "Define intake wait as the time between the request and a complete brief. Define decision wait as the time between the complete brief and the owner's decision. Keep the original note beside the corrected version. Separate what was observed from what was assumed.",
-    "Report each stage separately. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time. Record the date and the source so the next reviewer can repeat the check.",
-    "Use the request record and the task timestamps. A decision made in a meeting should record the date. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing.",
-    "Mark reconstructed times as estimates. Keep the boundary visible in the place where the work is assigned. Review the first few notes together before the process expands. Separate what was observed from what was assumed.",
-    "Use a census of the requests if the volume is manageable. If sampling is necessary, stratify by request type. If the source is unclear, route the question instead of guessing. Record the date and the source so the next reviewer can repeat the check.",
-    "Pilot the collection on a few requests and compare the reviewers. Clarify how a weekend is treated. Keep the original note beside the corrected version. Separate what was observed from what was assumed.",
-    "Report the delay distribution for each stage. Show the requests where the intake was the largest component. Record the exception and the person who approved it. Separate what was observed from what was assumed.",
-    "Present the results as a description of the process, not a judgment about the requester. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log.",
-    "The brief may have been completed verbally. Record the date. Test the rule on one real request before applying it to the queue. A short note with four fields is easier to use than a long narrative.",
-    "The decision may have been made before it was documented. Record the date and the source so the next reviewer can repeat the check. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log.",
-    "Repeat the review after a process change or at the same interval each quarter. Compare the same stages. A control that depends on memory is not yet a control. Write the deadline as a date and a local time.",
-    "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the intake step. Keep the original note beside the corrected version. If the source is unclear, route the question instead of guessing."
+    "This is a proposed research protocol, not a report of completed findings. It asks where delay accumulates in an assistant request. The result would separate the intake wait, the decision wait, and the rework. Ask whether a new reviewer could act on the record without a conversation. The evidence should stay with the record, not in a private note. A control that depends on memory is not yet a control.",
+    "The protocol does not measure whether the request was important. It measures the time spent at each stage. Name the owner in the same line as the action. If the source is unclear, route the question instead of guessing. The review should leave one owner and one date. The handoff should let the next person act without a meeting.",
+    "Define the population as assistant requests completed during a stated window. The unit is one request, with the intake, the decision, and the completion recorded. Record the exception and the person who approved it. Keep the evidence with the record rather than in a separate log. A control that depends on memory is not yet a control. The handoff should let the next person act without a meeting.",
+    "Link the request to the task so the same work is not counted twice. Review the first few notes together before the process expands. Update the template when the same question appears twice. The review should leave one owner and one date. A control that depends on memory is not yet a control.",
+    "Define intake wait as the time between the request and a complete brief. Define decision wait as the time between the complete brief and the owner's decision. Keep the original note beside the corrected version. Separate what was observed from what was assumed. The handoff should let the next person act without a meeting. The brief should name what is approved and what needs a question.",
+    "Report each stage separately. Keep the evidence with the record rather than in a separate log. Write the deadline as a date and a local time. Record the date and the source so the next reviewer can repeat the check. The brief should name what is approved and what needs a question.",
+    "Use the request record and the task timestamps. A decision made in a meeting should record the date. Test the rule on one real request before applying it to the queue. If the source is unclear, route the question instead of guessing. The brief should name what is approved and what needs a question. The review should leave one owner and one date.",
+    "Mark reconstructed times as estimates. Keep the boundary visible in the place where the work is assigned. Review the first few notes together before the process expands. Separate what was observed from what was assumed. The assistant should record the owner and the date before the next shift. The review should leave one owner and one date.",
+    "Use a census of the requests if the volume is manageable. If sampling is necessary, stratify by request type. If the source is unclear, route the question instead of guessing. Record the date and the source so the next reviewer can repeat the check. The handoff should let the next person act without a meeting. The assistant should record the owner and the date before the next shift.",
+    "Pilot the collection on a few requests and compare the reviewers. Clarify how a weekend is treated. Keep the original note beside the corrected version. Separate what was observed from what was assumed. A control that depends on memory is not yet a control. The review should leave one owner and one date.",
+    "Report the delay distribution for each stage. Show the requests where the intake was the largest component. Record the exception and the person who approved it. Separate what was observed from what was assumed. The review should leave one owner and one date. The handoff should let the next person act without a meeting.",
+    "Present the results as a description of the process, not a judgment about the requester. Test the rule on one real request before applying it to the queue. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log. The evidence should stay with the record, not in a private note. The handoff should let the next person act without a meeting.",
+    "The brief may have been completed verbally. Record the date. Test the rule on one real request before applying it to the queue. A short note with four fields is easier to use than a long narrative. The brief should name what is approved and what needs a question. The review should leave one owner and one date.",
+    "The decision may have been made before it was documented. Record the date and the source so the next reviewer can repeat the check. A control that depends on memory is not yet a control. Keep the evidence with the record rather than in a separate log. The brief should name what is approved and what needs a question. The evidence should stay with the record, not in a private note.",
+    "Repeat the review after a process change or at the same interval each quarter. Compare the same stages. A control that depends on memory is not yet a control. Write the deadline as a date and a local time. The brief should name what is approved and what needs a question. The review should leave one owner and one date.",
+    "Assign the follow-up to the assistant lead and set a date. The protocol should produce a specific decision about the intake step. Keep the original note beside the corrected version. If the source is unclear, route the question instead of guessing. The assistant should record the owner and the date before the next shift."
   ]
 }
 ];
