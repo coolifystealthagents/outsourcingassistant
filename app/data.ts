@@ -675,5 +675,5 @@ blogPosts.unshift(...dailyBlogBatch20261013);
 blogPosts.unshift(...dailyBlogBatch20261022);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
 blogPosts.push(...oct25BlogBatch);
-blogPosts.push(...november08BlogPosts, ...nov07BlogBatch, ...nov06BlogBatch, ...nov05BlogBatch, ...nov04BlogBatch, ...nov03BlogBatch, ...nov02BlogBatch, ...oct28BlogBatch, ...oct27BlogBatch, ...oct26BlogBatch);
+blogPosts.push(...november09BlogPosts, ...november08BlogPosts, ...nov07BlogBatch, ...nov06BlogBatch, ...nov05BlogBatch, ...nov04BlogBatch, ...nov03BlogBatch, ...nov02BlogBatch, ...oct28BlogBatch, ...oct27BlogBatch, ...oct26BlogBatch);
 blogPosts.sort((a, b) => (b.published ?? '').localeCompare(a.published ?? ''));
