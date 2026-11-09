@@ -1172,14 +1172,14 @@ export const november09ResearchPosts: readonly ResearchPost[] = [
   "body": []
 },
 {
-  "slug": "where-does-delay-accumulate-in-an-assistant-request",
-  "title": "Where does delay accumulate in an assistant request?",
+  "slug": "where-does-delay-accumulate-in-an-assistant-request-in-the-first-week",
+  "title": "Where does delay accumulate in an assistant request in the first week?",
   "excerpt": "A proposed protocol for separating the request wait, the decision wait, and the rework in an assistant task.",
   "published": "2026-11-09",
   "updated": "2026-11-09",
   "cluster": "task support",
   "image": {
-    "url": "/thumbnails/november-09/where-does-delay-accumulate-in-an-assistant-request.webp",
+    "url": "/thumbnails/november-09/where-does-delay-accumulate-in-an-assistant-request-in-the-first-week.webp",
     "alt": "Title-overlaid research graphic for Where does delay accumulate in an assistant request?"
   },
   "headlineStat": "9 named sources and 8 protocol sections.",
