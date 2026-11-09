@@ -2,6 +2,7 @@ import { oct25BlogBatch } from './oct25-blog';
 import { oct26BlogBatch } from './oct26-blog';
 import { oct28BlogBatch } from './oct28-blog';
 import { november08BlogPosts } from './november08-blog';
+import { november09BlogPosts } from './november09-blog';
 import { nov07BlogBatch } from './nov07-blog';
 import { nov06BlogBatch } from './nov06-blog';
 import { nov05BlogBatch } from './nov05-blog';
