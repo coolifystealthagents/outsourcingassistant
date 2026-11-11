@@ -53,11 +53,11 @@ export default function StandardContactForm({ endpoint = "/api/contact", encodin
     setError("");
     try {
       const request = encoding === "form"
-        ? { method: "POST", body: new URLSearchParams(payload) }
+        ? { method: "POST", headers: { Accept: "application/json" }, body: new URLSearchParams(payload) }
         : { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) };
       const response = await fetch(endpoint, request);
       if (!response.ok) throw new Error("Lead endpoint rejected the request");
-      try { (window as TrackerWindow).acrTracker?.trackLead?.(payload); } catch {}
+      try { /* ACR captures the native submit event once. */ } catch {}
       window.location.assign("/thank-you");
     } catch {
       setError("We could not confirm your submission. Please wait before trying again or contact us directly.");
