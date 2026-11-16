@@ -180,7 +180,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <JsonLd data={schema} />
       <section className="fleet-hero service-hero-rich"><div className="container service-hero-grid">
         <div><p className="eyebrow">Filipino assistant service</p><h1>{service.title}</h1><p className="lead">{service.summary}</p><p className="service-audience"><strong>Best for:</strong> {profile.audience}</p><a className="btn primary" href={`/contact-us?role=${service.slug}`}>Discuss this service</a></div>
-        <figure className="service-hero-image"><img src={hero.src} alt={hero.alt} /><figcaption>{hero.caption}</figcaption></figure>
+        <figure className="service-hero-image"><img src={hero.src} alt={hero.alt} />{hero.caption && <figcaption>{hero.caption}</figcaption>}</figure>
       </div></section>
 
       <section className="section service-problem"><div className="container service-reading-width"><p className="eyebrow">The operating problem</p><h2>What this service is designed to take off your plate</h2><p>{profile.problem}</p><p>This is an operational support lane, not a transfer of executive accountability. Start with repeatable preparation and make exceptions visible before increasing access or volume.</p></div></section>
