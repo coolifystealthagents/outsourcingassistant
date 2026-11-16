@@ -20,8 +20,8 @@
       "slug": "executive-calendar-management",
       "title": "Executive Calendar Management",
       "summary": "Keep meetings, focus time and scheduling requests organized.",
-      "image": "/refresh/executive-calendar-management.webp",
-      "imageAlt": "Office professional coordinating work with a headset and binder",
+      "image": "/refresh/executive-calendar-management-20261117.jpg",
+      "imageAlt": "Office professional checking a folder beside her laptop",
       "tasks": [
         "Review new meeting requests against working hours, focus blocks, and travel time",
         "Draft calendar updates with the right title, guests, links, notes, and time zone",
@@ -44,10 +44,9 @@
       "title": "Inbox Triage",
       "summary": "Turn a crowded inbox into prioritized messages and prepared replies.",
       "tasks": [
-        "inbox triage queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Sort messages by urgency, sender and the action required",
+        "Draft routine replies using your approved tone and information",
+        "Keep unanswered requests and promised follow-ups visible"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -59,18 +58,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/inbox-triage.webp",
-      "imageAlt": "Professional using a laptop and headset at a desk"
+      "image": "/refresh/inbox-triage-20261117.jpg",
+      "imageAlt": "Professional reviewing correspondence and documents at his desk"
     },
     {
       "slug": "travel-coordination",
       "title": "Travel Coordination",
       "summary": "Bring itineraries, bookings and travel options into one clear plan.",
       "tasks": [
-        "travel coordination queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Compare routes and accommodation against your travel policy",
+        "Prepare itineraries with local times, transfers and booking references",
+        "Flag schedule changes and purchases that need your approval"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -82,18 +80,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/travel-coordination.webp",
-      "imageAlt": "Business traveler walking through an airport with luggage"
+      "image": "/refresh/travel-coordination-20261117.jpg",
+      "imageAlt": "Business traveller carrying a laptop bag and suitcase"
     },
     {
       "slug": "meeting-administration",
       "title": "Meeting Administration",
       "summary": "Prepare agendas, capture actions and follow up after the meeting.",
       "tasks": [
-        "meeting administration queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Collect agenda items and circulate the approved meeting pack",
+        "Record decisions, owners and due dates from meeting notes",
+        "Follow up on outstanding actions before the next meeting"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -105,18 +102,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/meeting-administration.webp",
-      "imageAlt": "Colleagues preparing documents around a meeting table"
+      "image": "/refresh/meeting-administration-20261117.jpg",
+      "imageAlt": "A team reviewing meeting documents around a table"
     },
     {
       "slug": "crm-administration",
       "title": "CRM Administration",
       "summary": "Keep customer records current and flag missing or conflicting details.",
       "tasks": [
-        "crm administration queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Update contact records and deal notes from approved sources",
+        "Identify duplicate records and missing information",
+        "Prepare clean activity and follow-up lists for your team"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -128,18 +124,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/crm-administration.webp",
-      "imageAlt": "Colleagues reviewing information on a laptop"
+      "image": "/refresh/crm-administration-20261117.jpg",
+      "imageAlt": "Professional reviewing information on a laptop"
     },
     {
       "slug": "research-briefing",
       "title": "Research Briefing",
       "summary": "Get source-linked research ready for your next decision.",
       "tasks": [
-        "research briefing queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Agree the question, sources and deadline before researching",
+        "Collect relevant facts with source links and publication dates",
+        "Prepare a concise brief that separates evidence from open questions"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -151,18 +146,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/research-briefing.webp",
-      "imageAlt": "Documents and laptops arranged for a team discussion"
+      "image": "/refresh/research-briefing-20261117.jpg",
+      "imageAlt": "Colleagues preparing a research report with charts"
     },
     {
       "slug": "document-production",
       "title": "Document Production",
       "summary": "Turn approved content into polished documents and presentations.",
       "tasks": [
-        "document production queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Format reports and presentations using your brand templates",
+        "Check headings, links, tables and version labels",
+        "Prepare review copies and track requested revisions"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -174,18 +168,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/document-production.webp",
-      "imageAlt": "Colleagues reviewing documents together at a laptop"
+      "image": "/refresh/document-production-20261117.jpg",
+      "imageAlt": "Documents and stationery being organized at an office desk"
     },
     {
       "slug": "vendor-follow-up",
       "title": "Vendor Follow-Up",
       "summary": "Keep supplier updates, outstanding requests and due dates visible.",
       "tasks": [
-        "vendor follow-up queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Request quotes, availability and delivery updates",
+        "Maintain a record of open questions and supplier commitments",
+        "Route pricing changes and purchase decisions to your approver"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -197,18 +190,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/vendor-follow-up.webp",
-      "imageAlt": "Office professional coordinating work with a headset and binder"
+      "image": "/refresh/vendor-follow-up-20261117.jpg",
+      "imageAlt": "Colleagues reviewing a document beside a laptop"
     },
     {
       "slug": "project-administration",
       "title": "Project Administration",
       "summary": "Bring project updates, dependencies and meeting notes together.",
       "tasks": [
-        "project administration queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Keep task boards current with owners and due dates",
+        "Gather progress updates and flag overdue dependencies",
+        "Prepare meeting notes and a clear weekly status summary"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -220,18 +212,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/project-administration.webp",
-      "imageAlt": "Colleagues reviewing information on a laptop"
+      "image": "/refresh/project-administration-20261117.jpg",
+      "imageAlt": "Team planning tasks on a whiteboard"
     },
     {
       "slug": "personal-executive-support",
       "title": "Personal Executive Support",
       "summary": "Coordinate recurring personal administration within your preferences.",
       "tasks": [
-        "personal executive support queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Coordinate approved personal appointments around the work calendar",
+        "Research options for errands, reservations and household requests",
+        "Keep personal information private and spending subject to approval"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -243,10 +234,12 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/personal-executive-support.webp",
-      "imageAlt": "A candidate and interviewer discussing a role"
+      "image": "/refresh/personal-executive-support-20261117.jpg",
+      "imageAlt": "Professional reviewing paperwork in a bright office"
     }
   ],
   "heroImage": "/refresh/hero.webp",
-  "heroAlt": "Colleagues preparing documents around a meeting table"
+  "heroAlt": "Colleagues preparing documents around a meeting table",
+  "servicesHeroImage": "/refresh/services-overview-20261117.jpg",
+  "servicesHeroAlt": "Colleagues discussing a plan during an office presentation"
 }

@@ -1,3 +1,3 @@
-import Experience from "../_refresh/Experience";
-export const metadata = {"title": "A little support. A lot off your plate.", "description": "A capable assistant for the calendar, inbox, documents and follow-ups that fill your day. Build a practical role around the work you need off your desk.", "alternates": {"canonical": "/services"}};
-export default function Page(){return <Experience services/>}
+import ServiceOverview from "../_refresh/ServiceOverview";
+export const metadata = {"title": "Choose what comes off your desk.", "description": "From a crowded calendar to documents waiting for review, the right support starts with a clearly defined responsibility. Explore the work below and build a role around the tasks that interrupt your day most often.", "alternates": {"canonical": "/services"}};
+export default function Page(){return <ServiceOverview/>}

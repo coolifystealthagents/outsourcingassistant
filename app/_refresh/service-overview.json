@@ -1,0 +1,19 @@
+{
+  "title": "Choose what comes off your desk.",
+  "intro": "From a crowded calendar to documents waiting for review, the right support starts with a clearly defined responsibility. Explore the work below and build a role around the tasks that interrupt your day most often.",
+  "caption": "Practical support, shaped around your working week.",
+  "groups": [
+    [
+      "Protect focused time",
+      "Bring a typical week, meeting priorities and the messages that need your attention. Set rules for scheduling and sorting before asking an assistant to act on your behalf."
+    ],
+    [
+      "Keep work moving between people",
+      "Identify the projects, vendors and internal owners that need regular follow-up. Agree how progress is recorded and when a late response needs your intervention."
+    ],
+    [
+      "Make review easier",
+      "Share examples of an acceptable brief, document or update. A consistent format lets you review the decisions that matter without reconstructing the work."
+    ]
+  ]
+}
