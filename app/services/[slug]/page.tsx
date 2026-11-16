@@ -1,3 +1,4 @@
+import refreshContent from '../../_refresh/content.json';
 import { notFound } from 'next/navigation';
 import { Header, Footer, JsonLd } from '../../components';
 import { fleetServices } from '../../fleet-content';
@@ -160,7 +161,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   if (!service) notFound();
 
   const profile = serviceProfiles[service.slug];
-  const hero = serviceImages[service.slug] ?? fallbackImage;
+  const matchedPhoto=refreshContent.services.find(s=>s.slug===service.slug)!; const hero={src:matchedPhoto.image,alt:matchedPhoto.imageAlt,caption:''};
   const url = `${site.url}/services/${service.slug}`;
   const related = fleetServices.filter((item) => item.slug !== service.slug).slice(0, 3);
   const schema = {

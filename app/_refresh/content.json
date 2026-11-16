@@ -1,0 +1,252 @@
+{
+  "brand": "Outsourcing Assistant",
+  "theme": "editorial",
+  "font": "Cabinet Grotesk",
+  "heading": "Make room for your best work.",
+  "intro": "A capable assistant for the calendar, inbox, documents and follow-ups that fill your day. Build a practical role around the work you need off your desk.",
+  "serviceHeading": "More help. Less on your plate.",
+  "statement": "Your time belongs to the work only you can do.",
+  "body": "The rescheduled meeting. The unanswered supplier. The document that still needs finishing. Together, the small things become a full-time job. Give them a dedicated person, clear instructions and a reliable place to land.",
+  "contactTitle": "What would make your week easier?",
+  "hero": "executive-meeting-support",
+  "bands": [
+    "Calendar & inbox",
+    "Research & documents",
+    "Projects & follow-through"
+  ],
+  "domain": "outsourcingassistant.com",
+  "services": [
+    {
+      "slug": "executive-calendar-management",
+      "title": "Executive Calendar Management",
+      "summary": "Keep meetings, focus time and scheduling requests organized.",
+      "image": "/refresh/executive-calendar-management.webp",
+      "imageAlt": "Office professional coordinating work with a headset and binder",
+      "tasks": [
+        "Review new meeting requests against working hours, focus blocks, and travel time",
+        "Draft calendar updates with the right title, guests, links, notes, and time zone",
+        "Prepare a short conflict list for the executive or manager to decide",
+        "Send approved reminders and keep a daily note of open scheduling questions"
+      ],
+      "controls": [
+        "Use delegated calendar access instead of sharing the executive's password",
+        "Keep board, legal, medical, investor, and personal meetings private unless access is approved",
+        "Require owner approval before declining requests, moving priority meetings, or promising availability"
+      ],
+      "launch": [
+        "Share the current calendar, preferred meeting hours, focus blocks, and three examples of a good invite",
+        "Have the assistant prepare changes in a review list without moving or declining meetings",
+        "Review conflicts together, approve the safe changes, and write down every new exception rule"
+      ]
+    },
+    {
+      "slug": "inbox-triage",
+      "title": "Inbox Triage",
+      "summary": "Turn a crowded inbox into prioritized messages and prepared replies.",
+      "tasks": [
+        "inbox triage queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/inbox-triage.webp",
+      "imageAlt": "Professional using a laptop and headset at a desk"
+    },
+    {
+      "slug": "travel-coordination",
+      "title": "Travel Coordination",
+      "summary": "Bring itineraries, bookings and travel options into one clear plan.",
+      "tasks": [
+        "travel coordination queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/travel-coordination.webp",
+      "imageAlt": "Business traveler walking through an airport with luggage"
+    },
+    {
+      "slug": "meeting-administration",
+      "title": "Meeting Administration",
+      "summary": "Prepare agendas, capture actions and follow up after the meeting.",
+      "tasks": [
+        "meeting administration queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/meeting-administration.webp",
+      "imageAlt": "Colleagues preparing documents around a meeting table"
+    },
+    {
+      "slug": "crm-administration",
+      "title": "CRM Administration",
+      "summary": "Keep customer records current and flag missing or conflicting details.",
+      "tasks": [
+        "crm administration queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/crm-administration.webp",
+      "imageAlt": "Colleagues reviewing information on a laptop"
+    },
+    {
+      "slug": "research-briefing",
+      "title": "Research Briefing",
+      "summary": "Get source-linked research ready for your next decision.",
+      "tasks": [
+        "research briefing queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/research-briefing.webp",
+      "imageAlt": "Documents and laptops arranged for a team discussion"
+    },
+    {
+      "slug": "document-production",
+      "title": "Document Production",
+      "summary": "Turn approved content into polished documents and presentations.",
+      "tasks": [
+        "document production queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/document-production.webp",
+      "imageAlt": "Colleagues reviewing documents together at a laptop"
+    },
+    {
+      "slug": "vendor-follow-up",
+      "title": "Vendor Follow-Up",
+      "summary": "Keep supplier updates, outstanding requests and due dates visible.",
+      "tasks": [
+        "vendor follow-up queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/vendor-follow-up.webp",
+      "imageAlt": "Office professional coordinating work with a headset and binder"
+    },
+    {
+      "slug": "project-administration",
+      "title": "Project Administration",
+      "summary": "Bring project updates, dependencies and meeting notes together.",
+      "tasks": [
+        "project administration queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/project-administration.webp",
+      "imageAlt": "Colleagues reviewing information on a laptop"
+    },
+    {
+      "slug": "personal-executive-support",
+      "title": "Personal Executive Support",
+      "summary": "Coordinate recurring personal administration within your preferences.",
+      "tasks": [
+        "personal executive support queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/personal-executive-support.webp",
+      "imageAlt": "A candidate and interviewer discussing a role"
+    }
+  ],
+  "heroImage": "/refresh/hero.webp",
+  "heroAlt": "Colleagues preparing documents around a meeting table"
+}
