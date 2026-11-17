@@ -38,7 +38,7 @@
 .oa-detail-scope-side{display:grid;gap:28px}
 .oa-detail-scope-side>div{padding:24px 26px;background:#fff;border:1px solid #d6d1c6}
 .oa-detail-scope-side li{position:relative;padding-left:17px;margin-top:8px;color:#414a42}
-.oa-detail-scope-side li:before{content:'â€¢';position:absolute;left:0;color:var(--rf-accent)}
+.oa-detail-scope-side li:before{content:'\2022';position:absolute;left:0;color:var(--rf-accent)}
 .oa-detail-example{padding:70px 0;background:#293128;color:#fff}
 .oa-detail-example .eyebrow{color:#e9b59f}
 .oa-detail-example-grid{display:grid;grid-template-columns:1fr .93fr;gap:clamp(40px,6vw,90px)}
