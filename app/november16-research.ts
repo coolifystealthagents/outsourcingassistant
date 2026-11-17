@@ -1,14 +1,14 @@
 export const november16ResearchPosts = [
   {
-    "slug": "how-often-does-an-assistant-task-brief-need-a-follow-up-question",
-    "title": "How often does an assistant task brief need a follow-up question?",
+    "slug": "how-often-does-an-assistant-task-brief-need-a-follow-up-question-from-the-owner",
+    "title": "How often does an assistant task brief need a follow-up question from the owner?",
     "excerpt": "A proposed protocol for measuring whether a task brief lets the assistant start without clarification The following cycle adds a review checkpoint and a clearer exception path.",
     "published": "2026-11-16",
     "updated": "2026-11-16",
     "cluster": "task support",
     "image": {
-      "url": "/thumbnails/november-16/how-often-does-an-assistant-task-brief-need-a-follow-up-question.webp",
-      "alt": "Title-overlaid research graphic for How often does an assistant task brief need a follow-up question?"
+      "url": "/thumbnails/november-16/how-often-does-an-assistant-task-brief-need-a-follow-up-question-from-the-owner.webp",
+      "alt": "Title-overlaid research graphic for How often does an assistant task brief need a follow-up question from the owner?"
     },
     "headlineStat": "9 named sources and 8 protocol sections.",
     "methodology": "A desk review of public guidance translated into a repeatable measurement protocol for task support.",
@@ -193,18 +193,18 @@ export const november16ResearchPosts = [
     ],
     "related": [],
     "body": [],
-    "thumbnail": "/thumbnails/november-16/how-often-does-an-assistant-task-brief-need-a-follow-up-question.webp"
+    "thumbnail": "/thumbnails/november-16/how-often-does-an-assistant-task-brief-need-a-follow-up-question-from-the-owner.webp"
   },
   {
-    "slug": "what-share-of-assistant-meeting-notes-name-an-owner-and-a-date",
-    "title": "What share of assistant meeting notes name an owner and a date?",
+    "slug": "what-share-of-assistant-meeting-notes-name-an-owner-and-a-due-date",
+    "title": "What share of assistant meeting notes name an owner and a due date?",
     "excerpt": "A proposed protocol for measuring whether meeting notes carry an owner and a date for every action The following cycle adds a review checkpoint and a clearer exception path.",
     "published": "2026-11-16",
     "updated": "2026-11-16",
     "cluster": "meeting support",
     "image": {
-      "url": "/thumbnails/november-16/what-share-of-assistant-meeting-notes-name-an-owner-and-a-date.webp",
-      "alt": "Title-overlaid research graphic for What share of assistant meeting notes name an owner and a date?"
+      "url": "/thumbnails/november-16/what-share-of-assistant-meeting-notes-name-an-owner-and-a-due-date.webp",
+      "alt": "Title-overlaid research graphic for What share of assistant meeting notes name an owner and a due date?"
     },
     "headlineStat": "9 named sources and 8 protocol sections.",
     "methodology": "A desk review of public guidance translated into a repeatable measurement protocol for meeting support.",
@@ -389,18 +389,18 @@ export const november16ResearchPosts = [
     ],
     "related": [],
     "body": [],
-    "thumbnail": "/thumbnails/november-16/what-share-of-assistant-meeting-notes-name-an-owner-and-a-date.webp"
+    "thumbnail": "/thumbnails/november-16/what-share-of-assistant-meeting-notes-name-an-owner-and-a-due-date.webp"
   },
   {
-    "slug": "how-much-time-does-inbox-triage-take-without-a-rule",
-    "title": "How much time does inbox triage take without a rule?",
+    "slug": "how-much-time-does-inbox-triage-take-before-a-written-rule-exists",
+    "title": "How much time does inbox triage take before a written rule exists?",
     "excerpt": "A proposed protocol for comparing triage time and misroute rate with and without a written rule The following cycle adds a review checkpoint and a clearer exception path.",
     "published": "2026-11-16",
     "updated": "2026-11-16",
     "cluster": "inbox support",
     "image": {
-      "url": "/thumbnails/november-16/how-much-time-does-inbox-triage-take-without-a-rule.webp",
-      "alt": "Title-overlaid research graphic for How much time does inbox triage take without a rule?"
+      "url": "/thumbnails/november-16/how-much-time-does-inbox-triage-take-before-a-written-rule-exists.webp",
+      "alt": "Title-overlaid research graphic for How much time does inbox triage take before a written rule exists?"
     },
     "headlineStat": "9 named sources and 8 protocol sections.",
     "methodology": "A desk review of public guidance translated into a repeatable measurement protocol for inbox support.",
@@ -585,18 +585,18 @@ export const november16ResearchPosts = [
     ],
     "related": [],
     "body": [],
-    "thumbnail": "/thumbnails/november-16/how-much-time-does-inbox-triage-take-without-a-rule.webp"
+    "thumbnail": "/thumbnails/november-16/how-much-time-does-inbox-triage-take-before-a-written-rule-exists.webp"
   },
   {
-    "slug": "how-often-does-a-calendar-buffer-survive-the-week",
-    "title": "How often does a calendar buffer survive the week?",
+    "slug": "how-often-does-a-calendar-buffer-survive-a-full-working-week",
+    "title": "How often does a calendar buffer survive a full working week?",
     "excerpt": "A proposed protocol for measuring how much protected buffer time remains at the end of the week The following cycle adds a review checkpoint and a clearer exception path.",
     "published": "2026-11-16",
     "updated": "2026-11-16",
     "cluster": "calendar support",
     "image": {
-      "url": "/thumbnails/november-16/how-often-does-a-calendar-buffer-survive-the-week.webp",
-      "alt": "Title-overlaid research graphic for How often does a calendar buffer survive the week?"
+      "url": "/thumbnails/november-16/how-often-does-a-calendar-buffer-survive-a-full-working-week.webp",
+      "alt": "Title-overlaid research graphic for How often does a calendar buffer survive a full working week?"
     },
     "headlineStat": "9 named sources and 8 protocol sections.",
     "methodology": "A desk review of public guidance translated into a repeatable measurement protocol for calendar support.",
@@ -781,18 +781,18 @@ export const november16ResearchPosts = [
     ],
     "related": [],
     "body": [],
-    "thumbnail": "/thumbnails/november-16/how-often-does-a-calendar-buffer-survive-the-week.webp"
+    "thumbnail": "/thumbnails/november-16/how-often-does-a-calendar-buffer-survive-a-full-working-week.webp"
   },
   {
-    "slug": "can-a-vendor-recommendation-be-reproduced-from-the-research-note",
-    "title": "Can a vendor recommendation be reproduced from the research note?",
+    "slug": "can-a-vendor-recommendation-be-rebuilt-from-the-research-note-alone",
+    "title": "Can a vendor recommendation be rebuilt from the research note alone?",
     "excerpt": "A proposed protocol for testing whether a vendor note shows the criteria, the evidence, and the recommendation The following cycle adds a review checkpoint and a clearer exception path.",
     "published": "2026-11-16",
     "updated": "2026-11-16",
     "cluster": "research support",
     "image": {
-      "url": "/thumbnails/november-16/can-a-vendor-recommendation-be-reproduced-from-the-research-note.webp",
-      "alt": "Title-overlaid research graphic for Can a vendor recommendation be reproduced from the research note?"
+      "url": "/thumbnails/november-16/can-a-vendor-recommendation-be-rebuilt-from-the-research-note-alone.webp",
+      "alt": "Title-overlaid research graphic for Can a vendor recommendation be rebuilt from the research note alone?"
     },
     "headlineStat": "9 named sources and 8 protocol sections.",
     "methodology": "A desk review of public guidance translated into a repeatable measurement protocol for research support.",
@@ -977,18 +977,18 @@ export const november16ResearchPosts = [
     ],
     "related": [],
     "body": [],
-    "thumbnail": "/thumbnails/november-16/can-a-vendor-recommendation-be-reproduced-from-the-research-note.webp"
+    "thumbnail": "/thumbnails/november-16/can-a-vendor-recommendation-be-rebuilt-from-the-research-note-alone.webp"
   },
   {
-    "slug": "how-old-is-the-oldest-unanswered-request-in-the-assistant-queue",
-    "title": "How old is the oldest unanswered request in the assistant queue?",
+    "slug": "how-old-is-the-oldest-unanswered-request-in-an-assistant-queue",
+    "title": "How old is the oldest unanswered request in an assistant queue?",
     "excerpt": "A proposed protocol for measuring the age and ownership of open assistant requests The following cycle adds a review checkpoint and a clearer exception path.",
     "published": "2026-11-16",
     "updated": "2026-11-16",
     "cluster": "task support",
     "image": {
-      "url": "/thumbnails/november-16/how-old-is-the-oldest-unanswered-request-in-the-assistant-queue.webp",
-      "alt": "Title-overlaid research graphic for How old is the oldest unanswered request in the assistant queue?"
+      "url": "/thumbnails/november-16/how-old-is-the-oldest-unanswered-request-in-an-assistant-queue.webp",
+      "alt": "Title-overlaid research graphic for How old is the oldest unanswered request in an assistant queue?"
     },
     "headlineStat": "9 named sources and 8 protocol sections.",
     "methodology": "A desk review of public guidance translated into a repeatable measurement protocol for task support.",
@@ -1173,18 +1173,18 @@ export const november16ResearchPosts = [
     ],
     "related": [],
     "body": [],
-    "thumbnail": "/thumbnails/november-16/how-old-is-the-oldest-unanswered-request-in-the-assistant-queue.webp"
+    "thumbnail": "/thumbnails/november-16/how-old-is-the-oldest-unanswered-request-in-an-assistant-queue.webp"
   },
   {
-    "slug": "where-does-delay-accumulate-in-an-assistant-request",
-    "title": "Where does delay accumulate in an assistant request?",
+    "slug": "where-does-delay-accumulate-inside-one-assistant-request",
+    "title": "Where does delay accumulate inside one assistant request?",
     "excerpt": "A proposed protocol for separating the request wait, the decision wait, and the rework in an assistant task The following cycle adds a review checkpoint and a clearer exception path.",
     "published": "2026-11-16",
     "updated": "2026-11-16",
     "cluster": "task support",
     "image": {
-      "url": "/thumbnails/november-16/where-does-delay-accumulate-in-an-assistant-request.webp",
-      "alt": "Title-overlaid research graphic for Where does delay accumulate in an assistant request?"
+      "url": "/thumbnails/november-16/where-does-delay-accumulate-inside-one-assistant-request.webp",
+      "alt": "Title-overlaid research graphic for Where does delay accumulate inside one assistant request?"
     },
     "headlineStat": "9 named sources and 8 protocol sections.",
     "methodology": "A desk review of public guidance translated into a repeatable measurement protocol for task support.",
@@ -1369,6 +1369,6 @@ export const november16ResearchPosts = [
     ],
     "related": [],
     "body": [],
-    "thumbnail": "/thumbnails/november-16/where-does-delay-accumulate-in-an-assistant-request.webp"
+    "thumbnail": "/thumbnails/november-16/where-does-delay-accumulate-inside-one-assistant-request.webp"
   }
 ];
