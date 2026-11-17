@@ -192,7 +192,8 @@ export const november16ResearchPosts = [
       }
     ],
     "related": [],
-    "body": []
+    "body": [],
+    "thumbnail": "/thumbnails/november-16/how-often-does-an-assistant-task-brief-need-a-follow-up-question.webp"
   },
   {
     "slug": "what-share-of-assistant-meeting-notes-name-an-owner-and-a-date",
@@ -387,7 +388,8 @@ export const november16ResearchPosts = [
       }
     ],
     "related": [],
-    "body": []
+    "body": [],
+    "thumbnail": "/thumbnails/november-16/what-share-of-assistant-meeting-notes-name-an-owner-and-a-date.webp"
   },
   {
     "slug": "how-much-time-does-inbox-triage-take-without-a-rule",
@@ -582,7 +584,8 @@ export const november16ResearchPosts = [
       }
     ],
     "related": [],
-    "body": []
+    "body": [],
+    "thumbnail": "/thumbnails/november-16/how-much-time-does-inbox-triage-take-without-a-rule.webp"
   },
   {
     "slug": "how-often-does-a-calendar-buffer-survive-the-week",
@@ -777,7 +780,8 @@ export const november16ResearchPosts = [
       }
     ],
     "related": [],
-    "body": []
+    "body": [],
+    "thumbnail": "/thumbnails/november-16/how-often-does-a-calendar-buffer-survive-the-week.webp"
   },
   {
     "slug": "can-a-vendor-recommendation-be-reproduced-from-the-research-note",
@@ -972,7 +976,8 @@ export const november16ResearchPosts = [
       }
     ],
     "related": [],
-    "body": []
+    "body": [],
+    "thumbnail": "/thumbnails/november-16/can-a-vendor-recommendation-be-reproduced-from-the-research-note.webp"
   },
   {
     "slug": "how-old-is-the-oldest-unanswered-request-in-the-assistant-queue",
@@ -1167,7 +1172,8 @@ export const november16ResearchPosts = [
       }
     ],
     "related": [],
-    "body": []
+    "body": [],
+    "thumbnail": "/thumbnails/november-16/how-old-is-the-oldest-unanswered-request-in-the-assistant-queue.webp"
   },
   {
     "slug": "where-does-delay-accumulate-in-an-assistant-request",
@@ -1362,6 +1368,7 @@ export const november16ResearchPosts = [
       }
     ],
     "related": [],
-    "body": []
+    "body": [],
+    "thumbnail": "/thumbnails/november-16/where-does-delay-accumulate-in-an-assistant-request.webp"
   }
 ];
