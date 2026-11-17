@@ -1,10 +1,11 @@
 import refreshContent from '../../_refresh/content.json';
 import { notFound } from 'next/navigation';
 import { Header, Footer, JsonLd } from '../../components';
-import { fleetServices } from '../../fleet-content';
 import { site } from '../../data';
+import { serviceStories } from './service-stories';
+import './service-detail.css';
 
-type ServiceSlug = (typeof fleetServices)[number]['slug'];
+type ServiceSlug = (typeof refreshContent.services)[number]['slug'];
 type ServiceProfile = {
   audience: string;
   problem: string;
@@ -124,32 +125,13 @@ const serviceProfiles: Record<ServiceSlug, ServiceProfile> = {
   },
 };
 
-const serviceImages: Partial<Record<ServiceSlug, { src: string; alt: string; caption: string }>> = {
-  'executive-calendar-management': { src: '/images/blog-2026-08-20/remote-meeting-preparation-brief.png', alt: 'Illustrated executive meeting preparation brief with schedule and review fields', caption: 'Calendar preparation starts with constraints and ends at a named approval point.' },
-  'inbox-triage': { src: '/oct12/executive-inbox-delegation-receipt.png', alt: 'Illustrated executive inbox delegation receipt and review queue', caption: 'Classification, drafting, and authority stay visibly separate.' },
-  'travel-coordination': { src: '/oct12/travel-option-hold-expiry.png', alt: 'Illustrated travel option comparison with hold expiry details', caption: 'Travel options remain time-stamped proposals until an authorised traveller approves.' },
-  'meeting-administration': { src: '/oct13/meeting-action-item-ownership-reconciliation.png', alt: 'Illustrated meeting action register with owners and due points', caption: 'A useful meeting record preserves the decision, owner, due point, and uncertainty.' },
-  'crm-administration': { src: '/oct13/crm-lead-territory-exception-reconciliation.png', alt: 'Illustrated CRM exception reconciliation workflow', caption: 'Source evidence accompanies proposed CRM changes.' },
-  'research-briefing': { src: '/oct12/stakeholder-briefing-source-pack.png', alt: 'Illustrated stakeholder briefing source pack with linked evidence', caption: 'Sources, findings, gaps, and interpretation are kept distinct.' },
-  'document-production': { src: '/oct13/multilingual-document-translation-review-handoff.png', alt: 'Illustrated document production review handoff', caption: 'Approved source material moves through a visible version and review path.' },
-  'vendor-follow-up': { src: '/oct13/vendor-insurance-certificate-renewal-route.png', alt: 'Illustrated vendor follow-up and certificate renewal route', caption: 'Routine chasing stops before commercial or compliance decisions.' },
-  'project-administration': { src: '/oct13/temporary-project-workspace-access-closure.png', alt: 'Illustrated project workspace task and access closure workflow', caption: 'Project records surface ownership and dependencies without replacing project leadership.' },
-  'personal-executive-support': { src: '/oct13/executive-gift-address-confirmation.png', alt: 'Illustrated executive support address confirmation workflow', caption: 'Personal support begins with narrow access and explicit approval.' },
-};
-
-const fallbackImage = {
-  src: '/illustrations/getillustrations/goodle-team/assistant-handoff-collaboration.svg',
-  alt: 'Owner and assistant reviewing a structured work handoff together',
-  caption: 'Start with a small queue, visible evidence, and a named decision owner.',
-};
-
 export function generateStaticParams() {
-  return fleetServices.map((service) => ({ slug: service.slug }));
+  return refreshContent.services.map((service) => ({ slug: service.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const service = fleetServices.find((item) => item.slug === slug);
+  const service = refreshContent.services.find((item) => item.slug === slug);
   if (!service) return {};
   const url = `${site.url}/services/${service.slug}`;
   return { title: service.title, description: service.summary, alternates: { canonical: url }, openGraph: { title: service.title, description: service.summary, url, type: 'website' } };
@@ -157,18 +139,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const service = fleetServices.find((item) => item.slug === slug);
+  const service = refreshContent.services.find((item) => item.slug === slug);
   if (!service) notFound();
+  const profile = serviceProfiles[slug];
+  const story = serviceStories[slug];
+  if (!profile || !story) notFound();
 
-  const profile = serviceProfiles[service.slug];
-  const matchedPhoto=refreshContent.services.find(s=>s.slug===service.slug)!; const hero={src:matchedPhoto.image,alt:matchedPhoto.imageAlt,caption:''};
-  const url = `${site.url}/services/${service.slug}`;
-  const related = fleetServices.filter((item) => item.slug !== service.slug).slice(0, 3);
+  const url = `${site.url}/services/${slug}`;
+  const index = refreshContent.services.findIndex((item) => item.slug === slug);
+  const related = [...refreshContent.services.slice(index + 1), ...refreshContent.services.slice(0, index)].slice(0, 3);
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
       { '@type': 'Service', '@id': `${url}#service`, name: service.title, description: service.summary, url, serviceOutput: profile.deliverables.join('; '), hasPart: { '@id': `${url}#launch-plan` } },
-      { '@type': 'HowTo', '@id': `${url}#launch-plan`, name: `How to launch ${service.title.toLowerCase()} support`, step: service.launch.map((step, index) => ({ '@type': 'HowToStep', position: index + 1, name: step, text: step })) },
+      { '@type': 'HowTo', '@id': `${url}#launch-plan`, name: `How to launch ${service.title.toLowerCase()} support`, step: story.launch.map((step, position) => ({ '@type': 'HowToStep', position: position + 1, name: ['Agree the boundaries', 'Start with a small scope', 'Review the work'][position], text: step })) },
       { '@type': 'FAQPage', mainEntity: profile.faqs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) },
       { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: site.url }, { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` }, { '@type': 'ListItem', position: 3, name: service.title, item: url }] },
     ],
@@ -176,39 +160,62 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
   return <>
     <Header />
-    <main id="main-content" className="fleet-main service-detail" data-service-detail={service.slug}>
+    <main id="main-content" className="oa-detail" data-service-detail={slug}>
       <JsonLd data={schema} />
-      <section className="fleet-hero service-hero-rich"><div className="container service-hero-grid">
-        <div><p className="eyebrow">Filipino assistant service</p><h1>{service.title}</h1><p className="lead">{service.summary}</p><p className="service-audience"><strong>Best for:</strong> {profile.audience}</p><a className="btn primary" href={`/contact-us?role=${service.slug}`}>Discuss this service</a></div>
-        <figure className="service-hero-image"><img src={hero.src} alt={hero.alt} />{hero.caption && <figcaption>{hero.caption}</figcaption>}</figure>
-      </div></section>
+      <section className="oa-detail-hero">
+        <div className="container oa-detail-hero-grid">
+          <div className="oa-detail-hero-copy">
+            <a className="oa-detail-back" href="/services">â† All services</a>
+            <p className="eyebrow">Outsourcing Assistant / Services</p>
+            <h1>{service.title}</h1>
+            <p className="oa-detail-lead">{service.summary}</p>
+            <p className="oa-detail-audience"><strong>Who this fits</strong>{profile.audience}</p>
+            <a className="oa-detail-button" href={`/contact-us?role=${slug}`}>Discuss this service <span aria-hidden="true">â†—</span></a>
+          </div>
+          <figure className="oa-detail-hero-photo"><img src={service.image} alt={service.imageAlt} width="1000" height="667" fetchPriority="high" /></figure>
+        </div>
+      </section>
 
-      <section className="section service-problem"><div className="container service-reading-width"><p className="eyebrow">The operating problem</p><h2>What this service is designed to take off your plate</h2><p>{profile.problem}</p><p>This is an operational support lane, not a transfer of executive accountability. Start with repeatable preparation and make exceptions visible before increasing access or volume.</p></div></section>
+      <section className="oa-detail-intro">
+        <div className="container oa-detail-intro-grid">
+          <div><p className="eyebrow">Where it helps</p><h2>Clear space for the work that needs you.</h2></div>
+          <div><p className="oa-detail-problem">{profile.problem}</p><p>Start with work that has clear inputs, a visible finish line and a person who can decide exceptions.</p></div>
+        </div>
+      </section>
 
-      <section className="section service-scope"><div className="container fleet-detail-grid">
-        <article><h2>Scope and recurring tasks</h2><ul>{service.tasks.map((item) => <li key={item}>{item}</li>)}</ul></article>
-        <article><h2>Inputs required from you</h2><ul>{profile.inputs.map((item) => <li key={item}>{item}</li>)}</ul></article>
-        <article><h2>Deliverables you can review</h2><ul>{profile.deliverables.map((item) => <li key={item}>{item}</li>)}</ul></article>
-      </div></section>
+      <section className="oa-detail-scope" id="the-work">
+        <div className="container">
+          <div className="oa-detail-section-head"><p className="eyebrow">The service, in practice</p><h2>What gets handled. What you can review.</h2></div>
+          <div className="oa-detail-scope-grid">
+            <div className="oa-detail-task-list"><h3>Recurring work</h3><ul>{service.tasks.map((item) => <li key={item}>{item}</li>)}</ul></div>
+            <div className="oa-detail-scope-side"><div><h3>What you provide</h3><ul>{profile.inputs.map((item) => <li key={item}>{item}</li>)}</ul></div><div><h3>What comes back</h3><ul>{profile.deliverables.map((item) => <li key={item}>{item}</li>)}</ul></div></div>
+          </div>
+        </div>
+      </section>
 
-      <section className="section service-workflow" id="launch-plan"><div className="container"><div className="service-section-heading"><p className="eyebrow">Workflow</p><h2>A controlled path from intake to steady-state support</h2></div><ol className="service-workflow-list">{service.launch.map((item) => <li key={item}><h3>{item}</h3><p>Record the source, responsible reviewer, and unresolved exceptions before the work advances.</p></li>)}</ol></div></section>
+      <section className="oa-detail-example">
+        <div className="container oa-detail-example-grid">
+          <div><p className="eyebrow">A working example</p><h2>{story.title}</h2><p>{story.request}</p></div>
+          <div className="oa-detail-example-steps"><div><h3>The assistant prepares</h3><p>{story.preparation}</p></div><div><h3>The owner decides</h3><p>{story.handoff}</p></div></div>
+        </div>
+      </section>
 
-      <section className="section service-boundaries"><div className="container service-boundary-grid">
-        <div><p className="eyebrow">Decision boundary</p><h2>What the assistant prepares, and what a human keeps</h2><p>Tool access never creates authority. The named business owner remains accountable for consequential decisions and changes to the operating rule.</p></div>
-        <div><h3>Controls to set first</h3><ul>{service.controls.map((item) => <li key={item}>{item}</li>)}</ul><h3>Human decisions and hard stops</h3><ul>{profile.boundaries.map((item) => <li key={item}>{item}</li>)}</ul></div>
-      </div></section>
+      <section className="oa-detail-launch" id="launch-plan">
+        <div className="container"><div className="oa-detail-section-head"><p className="eyebrow">Getting started</p><h2>Begin with a scope you can check.</h2></div>
+          <div className="oa-detail-launch-grid">{story.launch.map((step, position) => <article key={step}><h3>{['Agree the boundaries', 'Start with a small scope', 'Review the work'][position]}</h3><p>{step}</p></article>)}</div>
+        </div>
+      </section>
 
-      <section className="section service-quality"><div className="container fleet-detail-grid">
-        <article><h2>Quality controls</h2><ul>{profile.quality.map((item) => <li key={item}>{item}</li>)}</ul></article>
-        <article><h2>Useful first scenarios</h2><ul>{profile.scenarios.map((item) => <li key={item}>{item}</li>)}</ul></article>
-        <article><h2>A practical definition of done</h2><p>The item matches the approved source, required fields are complete, evidence is linked, the status and next owner are visible, and every exception is routed rather than guessed.</p></article>
-      </div></section>
+      <section className="oa-detail-standards">
+        <div className="container oa-detail-standards-grid">
+          <div><p className="eyebrow">Ownership stays clear</p><h2>The lines to keep visible.</h2><p>Delegated access lets an assistant prepare and complete approved work. It does not move sensitive decisions or new commitments away from the named owner.</p><ul>{profile.boundaries.map((item) => <li key={item}>{item}</li>)}</ul></div>
+          <div className="oa-detail-quality"><h3>How to check the result</h3><ul>{profile.quality.map((item) => <li key={item}>{item}</li>)}</ul><p className="oa-detail-quality-note">A useful handoff shows the current status, source, next owner and unresolved questions.</p></div>
+        </div>
+      </section>
 
-      <section className="section service-faq"><div className="container service-reading-width"><p className="eyebrow">Questions before launch</p><h2>Frequently asked questions</h2>{profile.faqs.map((faq) => <details key={faq.question}><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div></section>
-
-      <section className="section service-related"><div className="container"><div className="service-section-heading"><p className="eyebrow">Related services</p><h2>Build the next lane only when the first one is reviewable</h2></div><div className="fleet-card-grid">{related.map((item) => <a className="fleet-card" href={`/services/${item.slug}`} key={item.slug}><h3>{item.title}</h3><p>{item.summary}</p><b>View service →</b></a>)}</div></div></section>
-
-      <section className="final-cta service-detail-cta"><p className="eyebrow">Plan the handoff</p><h2>Bring one recurring queue. Leave with a clearer starting scope.</h2><p>Tell us the work, tools, examples, review owner, and decisions that must stay with your team. We will use them to shape a practical Philippines staffing request.</p><a className="btn primary" href={`/contact-us?role=${service.slug}`}>Contact Us about {service.title}</a></section>
+      <section className="oa-detail-faq"><div className="container oa-detail-faq-grid"><div><p className="eyebrow">Before you begin</p><h2>Common questions.</h2></div><div>{profile.faqs.map((faq) => <details key={faq.question}><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div></div></section>
+      <section className="oa-detail-related"><div className="container"><div className="oa-detail-section-head"><p className="eyebrow">Related support</p><h2>Other work you can hand over.</h2></div><div className="oa-detail-related-grid">{related.map((item) => <a href={`/services/${item.slug}`} key={item.slug}><img src={item.image} alt={item.imageAlt} width="500" height="333" loading="lazy" /><span>{item.title} <b aria-hidden="true">â†—</b></span><p>{item.summary}</p></a>)}</div></div></section>
+      <section className="oa-detail-cta"><div className="container"><p className="eyebrow">Plan the handoff</p><h2>Tell us what would make your week easier.</h2><p>Share the recurring work, tools, schedule and approvals involved. We will help shape a practical role around them.</p><a className="oa-detail-button" href={`/contact-us?role=${slug}`}>Contact Us about {service.title} <span aria-hidden="true">â†—</span></a></div></section>
     </main>
     <Footer />
   </>;
