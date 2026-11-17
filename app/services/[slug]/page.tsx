@@ -170,7 +170,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <h1>{service.title}</h1>
             <p className="oa-detail-lead">{service.summary}</p>
             <p className="oa-detail-audience"><strong>Who this fits</strong>{profile.audience}</p>
-            <a className="oa-detail-button" href={`/contact-us?role=${slug}`}>Discuss this service <span aria-hidden="true">&nearr;</span></a>
+            <a className="oa-detail-button" href={`/contact-us?role=${slug}`}>Discuss this service <span aria-hidden="true">{'\u2197'}</span></a>
           </div>
           <figure className="oa-detail-hero-photo"><img src={service.image} alt={service.imageAlt} width="1000" height="667" fetchPriority="high" /></figure>
         </div>
@@ -214,8 +214,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       </section>
 
       <section className="oa-detail-faq"><div className="container oa-detail-faq-grid"><div><p className="eyebrow">Before you begin</p><h2>Common questions.</h2></div><div>{profile.faqs.map((faq) => <details key={faq.question}><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div></div></section>
-      <section className="oa-detail-related"><div className="container"><div className="oa-detail-section-head"><p className="eyebrow">Related support</p><h2>Other work you can hand over.</h2></div><div className="oa-detail-related-grid">{related.map((item) => <a href={`/services/${item.slug}`} key={item.slug}><img src={item.image} alt={item.imageAlt} width="500" height="333" loading="lazy" /><span>{item.title} <b aria-hidden="true">&nearr;</b></span><p>{item.summary}</p></a>)}</div></div></section>
-      <section className="oa-detail-cta"><div className="container"><p className="eyebrow">Plan the handoff</p><h2>Tell us what would make your week easier.</h2><p>Share the recurring work, tools, schedule and approvals involved. We will help shape a practical role around them.</p><a className="oa-detail-button" href={`/contact-us?role=${slug}`}>Contact Us about {service.title} <span aria-hidden="true">&nearr;</span></a></div></section>
+      <section className="oa-detail-related"><div className="container"><div className="oa-detail-section-head"><p className="eyebrow">Related support</p><h2>Other work you can hand over.</h2></div><div className="oa-detail-related-grid">{related.map((item) => <a href={`/services/${item.slug}`} key={item.slug}><img src={item.image} alt={item.imageAlt} width="500" height="333" loading="lazy" /><span>{item.title} <b aria-hidden="true">{'\u2197'}</b></span><p>{item.summary}</p></a>)}</div></div></section>
+      <section className="oa-detail-cta"><div className="container"><p className="eyebrow">Plan the handoff</p><h2>Tell us what would make your week easier.</h2><p>Share the recurring work, tools, schedule and approvals involved. We will help shape a practical role around them.</p><a className="oa-detail-button" href={`/contact-us?role=${slug}`}>Contact Us about {service.title} <span aria-hidden="true">{'\u2197'}</span></a></div></section>
     </main>
     <Footer />
   </>;
