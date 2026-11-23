@@ -19,6 +19,8 @@ featuredImage: "/aug19-heroes/virtual-assistant-work-queue-ownership.webp"
 
 Virtual Assistant Operations: Work Queue Ownership begins with a practical question: can a trained person understand the work, locate the authoritative input, take the permitted action, and show what happened without relying on private memory? For Outsourcing Assistant, the answer should be visible in the operating record. A useful virtual assistant operations work queue ownership connects queue states, named owners, blockers, aging signals, and completion criteria. It does not replace management judgment. It gives managers a consistent place to review facts, assign decisions, and confirm closure.
 
+If you would rather hand this off, the [virtual assistant directory](https://virtualassistantdirectories.com) lists vetted agencies and specialists you can compare.
+
 ## Why the record matters
 
 Distributed work creates distance between the request, the action, and the reviewer. That distance is manageable when the record names the request, source, owner, status, and evidence. It becomes risky when a message says only that something is done. The virtual assistant operations work queue ownership should therefore preserve the business context, identify the source used, distinguish observation from decision, and make unresolved items easy to see. This design supports Philippines-based team members and onshore reviewers without pretending every case follows one universal script.
