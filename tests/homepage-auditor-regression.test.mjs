@@ -1,37 +1,37 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
-const page = readFileSync(new URL('../app/page.tsx', import.meta.url), 'utf8');
-const chrome = readFileSync(new URL('../app/components.tsx', import.meta.url), 'utf8');
+const home = readFileSync(new URL('../app/_refresh/Experience.tsx', import.meta.url), 'utf8');
+const motion = readFileSync(new URL('../app/_refresh/Motion.tsx', import.meta.url), 'utf8');
+const shell = readFileSync(new URL('../app/_refresh/Shell.tsx', import.meta.url), 'utf8');
 const layout = readFileSync(new URL('../app/layout.tsx', import.meta.url), 'utf8');
-const styles = readFileSync(new URL('../app/globals.css', import.meta.url), 'utf8');
-const services = readFileSync(new URL('../app/services/page.tsx', import.meta.url), 'utf8');
+const styles = readFileSync(new URL('../app/_refresh/redesign.css', import.meta.url), 'utf8');
+const services = readFileSync(new URL('../app/_refresh/ServiceOverview.tsx', import.meta.url), 'utf8');
+const content = readFileSync(new URL('../app/_refresh/content.json', import.meta.url), 'utf8');
 const booking = readFileSync(new URL('../app/booking-components.tsx', import.meta.url), 'utf8');
 
-test('homepage auditor contract', () => {
-  assert.equal((page.match(/<h1\b/g) || []).length, 1);
-  assert.doesNotMatch(page, /alt=["']\s*["']/);
-  assert.doesNotMatch(chrome, /alt=["']\s*["']/);
-  assert.match(page, /alt=\{`\$\{role\.name\} task icon`\}/);
-  assert.doesNotMatch(page, /alt=\{`\$\{role\} task icon`\}/);
-  assert.doesNotMatch(page, /oa-desk-card|oa-image-label|Handoff board/);
-  assert.match(styles, /\.oa-image-frame\{position:absolute;inset:0;overflow:visible;border-radius:0;background:transparent\}/);
-  assert.match(styles, /\.oa-image-frame img\{object-fit:contain;object-position:center;background:transparent;padding:0;filter:none\}/);
-  assert.doesNotMatch(styles, /\.oa-image-frame img\{[^}]*background:#e9f1ff/);
-  assert.doesNotMatch(styles, /\.oa-image-frame:after/);
-  assert.match(styles, /@media\(max-width:480px\)\{\.logo-name\{display:none\}\}/);
-  assert.match(styles, /@media\(min-width:981px\) and \(max-height:820px\)[^{]*\{[^}]*\.nav-inner\{min-height:70px\}[^}]*\.oa-hero\{padding-top:24px;padding-bottom:28px\}/);
-  assert.match(styles, /@media\(min-width:981px\) and \(max-height:820px\)\{\:root\{--header-height:70px\}\}\s*$/);
+test('homepage contrast and service-card refresh contract', () => {
+  assert.equal((home.match(/<h1\b/g) || []).length, 1);
+  assert.match(home, /alt=\{c\.heroAlt\}/);
+  assert.match(content, /"heroImage": "\/assistant-collaboration\.jpg"/);
+  assert.ok(existsSync(new URL('../public/assistant-collaboration.jpg', import.meta.url)));
+  assert.match(shell, /rf-powered-plate/);
+  assert.match(shell, /stealth-agents-parent\.png/);
+  assert.match(motion, /className="rf-service-index"/);
+  assert.match(styles, /\.rf-powered-plate\{[^}]*background:#fff/);
+  assert.match(styles, /\.rf-service-card:nth-child\(2\):before\{background:#fb923c\}/);
+  assert.match(styles, /\.rf-page:not\(\.sv-page\):not\(\.rf-contact\) \.rf-hero\{[^}]*background:/);
   const title = layout.match(/default:\s*'([^']+)'/)?.[1] ?? '';
   assert.ok(title.length >= 30 && title.length <= 60, `title length was ${title.length}`);
 });
 
-test('service heroes stay sharp and the testimonial rail keeps subpixel motion', () => {
-  assert.match(services, /src="\/assistant-collaboration\.jpg"/);
-  assert.doesNotMatch(services, /delegation-team-planning\.webp/);
-  assert.match(styles, /\.service-hero-image img\{[^}]*height:auto[^}]*aspect-ratio:16\/9[^}]*object-fit:cover/);
-  assert.doesNotMatch(styles, /\.service-hero-image img\{[^}]*height:430px/);
+test('service directory is dense, image-led, and testimonial rail keeps subpixel motion', () => {
+  assert.match(services, /className="sv-card-index"/);
+  assert.match(services, /width="1000" height="667" loading="lazy"/);
+  assert.match(content, /"servicesHeroImage": "\/refresh\/services-overview-20261117\.jpg"/);
+  assert.match(styles, /\.sv-editorial \.sv-catalog\{grid-template-columns:repeat\(2,minmax\(0,1fr\)\)/);
+  assert.match(styles, /\.sv-page \.sv-directory\{[^}]*background:#071f3b/);
   assert.match(booking, /let position = element\.scrollLeft/);
   assert.match(booking, /position \+= pixelsPerSecond \* elapsed \/ 1000/);
   assert.match(booking, /element\.scrollLeft = position/);

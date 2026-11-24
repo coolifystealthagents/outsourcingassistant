@@ -1,0 +1,50 @@
+/* Nov 2026 production refresh: contrast, service density, and responsive polish. */
+body .rf-header{border-bottom:1px solid rgba(147,197,253,.18);background:#071a33!important;color:#fff;box-shadow:0 8px 24px rgba(2,10,24,.16)}
+.rf-header .rf-header-inner{min-height:86px}
+.rf-header .rf-brand-name,.rf-header .rf-nav a{color:#fff}
+.rf-brand-mark{display:grid;place-items:center;width:46px;height:46px;border:1px solid rgba(255,255,255,.2);border-radius:13px;background:#fff}
+.rf-brand-mark img{width:33px!important;height:33px!important}
+.rf-powered{display:flex!important;align-items:center;gap:7px;margin-top:5px!important;color:#bfdbfe!important;font-size:9px!important;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.rf-powered-plate{display:grid;place-items:center;padding:3px 7px;border-radius:6px;background:#fff;box-shadow:0 4px 12px rgba(0,0,0,.22)}
+.rf-powered-plate img{display:block;width:82px!important;height:auto!important}
+.rf-header .rf-nav a:last-child{border-radius:8px;background:#f97316;color:#fff}
+
+.rf-page:not(.sv-page):not(.rf-contact) .rf-hero{padding:64px 0;background:radial-gradient(circle at 80% 12%,rgba(37,99,235,.3),transparent 34%),linear-gradient(135deg,#071a33 0%,#0b2748 62%,#123d5f 100%);color:#fff}
+.rf-page:not(.sv-page):not(.rf-contact) .rf-hero h1,.rf-page:not(.sv-page):not(.rf-contact) .rf-hero .rf-lead,.rf-page:not(.sv-page):not(.rf-contact) .rf-hero .rf-link{color:#fff}
+.rf-page:not(.sv-page):not(.rf-contact) .rf-hero .rf-eyebrow{color:#93c5fd}
+.rf-page:not(.sv-page):not(.rf-contact) .rf-hero-photo{padding:14px;border:1px solid rgba(255,255,255,.24);border-radius:30px;background:rgba(255,255,255,.1);box-shadow:0 30px 70px rgba(2,10,24,.42)}
+.rf-page:not(.sv-page):not(.rf-contact) .rf-hero-photo img{height:500px;border-radius:21px;object-position:58% center}
+.rf-page:not(.sv-page):not(.rf-contact) .rf-hero-photo figcaption{color:#dbeafe}
+
+.rf-service-grid{gap:20px!important}
+.rf-service-card{position:relative;overflow:hidden;border:1px solid #d9e2ec!important;border-radius:20px;background:#fff;box-shadow:0 14px 36px rgba(11,23,42,.07)}
+.rf-service-card:before{content:"";position:absolute;z-index:2;top:0;right:0;left:0;height:5px;background:#60a5fa}
+.rf-service-card:nth-child(2):before{background:#fb923c}.rf-service-card:nth-child(3):before{background:#2dd4bf}.rf-service-card:nth-child(4):before{background:#c084fc}.rf-service-card:nth-child(5):before{background:#fb7185}.rf-service-card:nth-child(6):before{background:#facc15}
+.rf-service-card>div{display:flex;min-width:0;flex-direction:column}
+.rf-service-card h3{margin-top:14px}
+.rf-service-index{align-self:flex-start;display:inline-grid;place-items:center;min-width:42px;height:32px;padding:0 11px;border-radius:10px;background:#dbeafe;color:#123d5f;font-size:12px;font-weight:700;letter-spacing:.08em}
+.rf-service-card:nth-child(2) .rf-service-index{background:#ffedd5}.rf-service-card:nth-child(3) .rf-service-index{background:#ccfbf1}.rf-service-card:nth-child(4) .rf-service-index{background:#f3e8ff}.rf-service-photo img{filter:saturate(.94) contrast(1.03)}
+
+.sv-page .sv-hero{padding:64px 0;background:radial-gradient(circle at 8% 0,rgba(249,115,22,.16),transparent 32%),linear-gradient(135deg,#fff8ef,#eaf3ff)}
+.sv-page .sv-hero-photo{padding:10px;border:1px solid #d5e0ea;border-radius:24px;background:#fff;box-shadow:0 24px 56px rgba(11,23,42,.16)}
+.sv-page .sv-hero-photo img{height:390px;border-radius:16px}
+.sv-page .sv-choose{padding:52px 0;background:#fff}
+.sv-choices article{padding:22px;border:1px solid #dce4eb;border-top:4px solid #60a5fa;border-radius:16px;background:#f8fbff}.sv-choices article:nth-child(2){border-top-color:#fb923c}.sv-choices article:nth-child(3){border-top-color:#2dd4bf}
+.sv-page .sv-directory{padding:72px 0;background:#071f3b;color:#fff}
+.sv-directory .sv-section-heading>p{color:#c9d8e9}
+.sv-editorial .sv-catalog{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.sv-editorial .sv-card{display:grid;grid-template-columns:1fr;overflow:hidden;border:1px solid rgba(147,197,253,.25);border-radius:20px;background:#fff;color:#14263e;box-shadow:0 18px 42px rgba(0,0,0,.15)}
+.sv-editorial .sv-card-photo{position:relative;min-height:190px}
+.sv-editorial .sv-card-photo img{position:absolute;inset:0;width:100%;height:100%;min-height:0;object-fit:cover}
+.sv-card-copy{padding:22px 24px 14px}.sv-card-copy h3{margin-top:10px}.sv-card-scope{padding:0 24px 22px;border:0!important}.sv-card-scope ul{margin-top:8px}.sv-card-index{display:inline-block;color:#b8470c;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.sv-card:nth-child(4n+1){border-top:5px solid #60a5fa}.sv-card:nth-child(4n+2){border-top:5px solid #fb923c}.sv-card:nth-child(4n+3){border-top:5px solid #2dd4bf}.sv-card:nth-child(4n+4){border-top:5px solid #c084fc}
+
+.rf-contact-visual{padding:72px 0;background:linear-gradient(135deg,#eaf3ff,#fff8ef)}
+.rf-contact-visual-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr);gap:clamp(40px,7vw,90px);align-items:center}
+.rf-contact-visual figure{overflow:hidden;margin:0;border-radius:24px;background:#fff;box-shadow:0 24px 55px rgba(11,23,42,.14)}
+.rf-contact-visual img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.rf-contact-visual figcaption{padding:12px 16px;color:#506176;font-size:12px}
+.rf-contact-visual h2{max-width:560px}.rf-contact-visual div>p:not(.rf-eyebrow){margin:20px 0;color:#4b5c6c}.rf-contact-visual .rf-link{color:#a84b2a}
+
+@media(max-width:1000px){.sv-editorial .sv-catalog{grid-template-columns:repeat(2,minmax(0,1fr))}.rf-powered>span:first-child{display:none}}
+@media(max-width:720px){.rf-header .rf-header-inner{min-height:116px}.rf-brand{align-items:center}.rf-brand-mark{width:39px;height:39px}.rf-powered-plate img{width:70px!important}.rf-header .rf-nav{margin-top:12px}.rf-page:not(.sv-page):not(.rf-contact) .rf-hero{padding:34px 0!important}.rf-page:not(.sv-page):not(.rf-contact) .rf-hero-photo{padding:8px;border-radius:20px}.rf-page:not(.sv-page):not(.rf-contact) .rf-hero-photo img{height:320px!important;border-radius:14px}.sv-editorial .sv-catalog{grid-template-columns:1fr}.sv-page .sv-hero{padding:36px 0}.sv-page .sv-hero-photo{padding:7px;border-radius:18px}.rf-contact-visual{padding:48px 0}.rf-contact-visual-grid{grid-template-columns:1fr;gap:28px}.rf-contact-visual-grid>div{grid-row:1}.rf-contact-visual figure{border-radius:18px}}

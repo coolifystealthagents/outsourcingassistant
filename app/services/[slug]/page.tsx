@@ -170,6 +170,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <h1>{service.title}</h1>
             <p className="oa-detail-lead">{service.summary}</p>
             <p className="oa-detail-audience"><strong>Who this fits</strong>{profile.audience}</p>
+            <div className="oa-detail-facts" aria-label="Service planning facts"><span><b>{service.tasks.length}</b> recurring tasks</span><span><b>{profile.deliverables.length}</b> reviewable outputs</span><span><b>1</b> named owner</span></div>
             <a className="oa-detail-button" href={`/contact-us?role=${slug}`}>Discuss this service <span aria-hidden="true">{'\u2197'}</span></a>
           </div>
           <figure className="oa-detail-hero-photo"><img src={service.image} alt={service.imageAlt} width="1000" height="667" fetchPriority="high" /></figure>

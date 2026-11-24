@@ -64,7 +64,7 @@ export function resolveResearchImage(post: { title: string; slug: string; image?
 }
 
 export const indexImages = {
-  blog: BLOG_IMAGES[13],
+  blog: BLOG_IMAGES[9],
   research: RESEARCH_IMAGES[0],
   alternatives: { url: '/images/blog-2026-08-21/outsourced-assistant-role-reset.png', alt: 'A team comparing assistant role and delivery options' },
   comparison: { url: '/illustrations/getillustrations/grain-teamwork/delegation-team-planning.webp', alt: 'A manager comparing virtual assistant outsourcing options' },

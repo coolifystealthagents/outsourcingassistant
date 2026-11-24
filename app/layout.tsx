@@ -2,6 +2,7 @@ import { AcrClient } from './acr-client';
 import Script from 'next/script';
 import './globals.css';
 import './_refresh/refresh.css';
+import './_refresh/redesign.css';
 import type { Metadata } from 'next';
 import { site } from './data';
 import { VisibleTextSanitizer } from './site-client';

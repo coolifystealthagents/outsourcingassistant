@@ -5,12 +5,11 @@ import test from 'node:test';
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
 
 test('header visibly attributes the parent and uses the exact three-link navigation', async () => {
-  const source = await read('app/components.tsx');
-  const client = await read('app/site-client.tsx');
-  assert.match(source, /Powered by StealthAgents/);
-  assert.match(source, /PrimaryNavigation/);
-  assert.match(client, /aria-current=\{current \? 'page'/);
-  assert.match(client, /\{ href: '\/', label: 'Home' \}.*\{ href: '\/services', label: 'Services' \}.*\{ href: '\/contact-us', label: 'Contact Us' \}/s);
+  const source = await read('app/_refresh/Shell.tsx');
+  assert.match(source, /rf-powered-plate/);
+  assert.match(source, /alt="StealthAgents"/);
+  assert.match(source, /aria-label="Primary navigation"/);
+  assert.match(source, /href="\/">Home<\/a><a href="\/services">Services<\/a><a href="\/contact-us">Contact Us<\/a>/);
 });
 
 test('current desktop and mobile navigation states are visibly distinct', async () => {
@@ -24,12 +23,12 @@ test('current desktop and mobile navigation states are visibly distinct', async 
 test('every rendered main template provides the shared skip-link target', async () => {
   const templates = [
     'app/not-found.tsx', 'app/thanks-whats-next/page.tsx', 'app/terms/page.tsx',
-    'app/research/[slug]/page.tsx', 'app/research/page.tsx', 'app/contact-us/page.tsx',
-    'app/services/[slug]/page.tsx', 'app/services/page.tsx', 'app/thank-you/page.tsx',
+    'app/research/[slug]/page.tsx', 'app/research/page.tsx', 'app/_refresh/Contact.tsx',
+    'app/services/[slug]/page.tsx', 'app/_refresh/ServiceOverview.tsx', 'app/thank-you/page.tsx',
     'app/resources/assistant-sop-handoff-checklist/page.tsx', 'app/privacy/page.tsx',
     'app/alternatives/page.tsx', 'app/blog/[slug]/page.tsx',
     'app/blog/top-30-virtual-assistant-outsourcing-companies/page.tsx',
-    'app/blog/blog-listing.tsx', 'app/page.tsx', 'app/aug19-content.tsx',
+    'app/blog/blog-listing.tsx', 'app/_refresh/Experience.tsx', 'app/aug19-content.tsx',
     'app/cancellation-policy/page.tsx',
   ];
   for (const template of templates) {
@@ -39,19 +38,22 @@ test('every rendered main template provides the shared skip-link target', async 
 });
 
 test('contact copy is claims-safe and mobile parent attribution stays readable', async () => {
-  const contact = await read('app/contact-us/page.tsx');
-  const css = await read('app/globals.css');
+  const contact = await read('app/_refresh/Contact.tsx');
+  const shell = await read('app/_refresh/Shell.tsx');
+  const css = await read('app/_refresh/redesign.css');
   assert.doesNotMatch(contact, /35\+|Forbes|top rated/i);
-  assert.match(contact, /recruiting, account management, training, and ongoing service operations/);
-  assert.doesNotMatch(css, /parent-brand-compact[^}]*font-size:(?:7|8|9)px/);
-  assert.match(css, /parent-brand-compact\{[^}]*font-size:11px/);
-  assert.match(css, /parent-brand-compact span\{[^}]*font-size:10px/);
+  assert.match(shell, /StealthAgents recruits, employs and supports the remote professionals/);
+  assert.match(shell, /rf-powered-plate/);
+  assert.match(css, /@media\(max-width:720px\).*\.rf-powered-plate img\{width:70px!important\}/s);
 });
 
-test('homepage role icon alternatives use the role name rather than object coercion', async () => {
-  const source = await read('app/page.tsx');
-  assert.match(source, /alt=\{`\$\{role\.name\} task icon`\}/);
-  assert.doesNotMatch(source, /alt=\{`\$\{role\} task icon`\}/);
+test('homepage service cards have visible media and numbered color cues', async () => {
+  const source = await read('app/_refresh/Motion.tsx');
+  const css = await read('app/_refresh/redesign.css');
+  assert.match(source, /className="rf-service-photo"/);
+  assert.match(source, /className="rf-service-index"/);
+  assert.match(source, /String\(index\+1\)\.padStart\(2,'0'\)/);
+  assert.match(css, /\.rf-service-card:nth-child\(2\):before\{background:#fb923c\}/);
 });
 
 test('review rail has exactly 14 unique reviews and no playback controls', async () => {
