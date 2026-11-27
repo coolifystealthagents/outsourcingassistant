@@ -6,6 +6,8 @@ import type { Metadata } from 'next';
 import { site } from './data';
 import { VisibleTextSanitizer } from './site-client';
 
+import "./site-chrome-fixes.css";
+
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: 'Outsourcing Assistant | Filipino Talent Staffing', template: '%s | Outsourcing Assistant' },
